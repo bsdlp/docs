@@ -17,7 +17,7 @@ with other developers.
 If you're an admin of a Pulumi organization, you have the
 ability to:
 
-* [Add users]({{< relref "../collaboration/organization-roles/#organization-membership" >}})
+* [Invite users]({{< relref "../collaboration/organization-roles/#organization-membership" >}})
 * Manage default stack permissions for the organization
 * Create [teams]({{< relref "../collaboration/teams" >}}) and manage their permissions
 * Assign [organization roles]({{< relref "../collaboration/organization-roles" >}}) for role-based access control (RBAC)
