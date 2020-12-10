@@ -390,7 +390,7 @@ const example = new aws.dynamodb.Table("example", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#Table">Table</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#TableArgs">TableArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#Table">Table</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#TableArgs">TableArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -398,11 +398,11 @@ const example = new aws.dynamodb.Table("example", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#Table">NewTable</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#TableArgs">TableArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#Table">Table</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#Table">NewTable</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#TableArgs">TableArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#Table">Table</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.Table.html">Table</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.TableArgs.html">TableArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.Table.html">Table</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.TableArgs.html">TableArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -413,7 +413,7 @@ const example = new aws.dynamodb.Table("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -482,7 +482,7 @@ const example = new aws.dynamodb.Table("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -521,7 +521,7 @@ const example = new aws.dynamodb.Table("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -583,7 +583,7 @@ The Table resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#hashkey_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -595,7 +595,7 @@ defined as an attribute in the resource.
 <a href="#billingmode_csharp" style="color: inherit; text-decoration: inherit;">Billing<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -632,7 +632,7 @@ definition after you have created the resource.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -654,7 +654,7 @@ definition after you have created the resource.
 <a href="#rangekey_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -665,7 +665,7 @@ definition after you have created the resource.
 <a href="#readcapacity_csharp" style="color: inherit; text-decoration: inherit;">Read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -698,7 +698,7 @@ definition after you have created the resource.
 <a href="#streamenabled_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -709,7 +709,7 @@ definition after you have created the resource.
 <a href="#streamviewtype_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>View<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -742,7 +742,7 @@ definition after you have created the resource.
 <a href="#writecapacity_csharp" style="color: inherit; text-decoration: inherit;">Write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -771,7 +771,7 @@ definition after you have created the resource.
 <a href="#hashkey_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -783,7 +783,7 @@ defined as an attribute in the resource.
 <a href="#billingmode_go" style="color: inherit; text-decoration: inherit;">Billing<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -820,7 +820,7 @@ definition after you have created the resource.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -842,7 +842,7 @@ definition after you have created the resource.
 <a href="#rangekey_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -853,7 +853,7 @@ definition after you have created the resource.
 <a href="#readcapacity_go" style="color: inherit; text-decoration: inherit;">Read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -886,7 +886,7 @@ definition after you have created the resource.
 <a href="#streamenabled_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -897,7 +897,7 @@ definition after you have created the resource.
 <a href="#streamviewtype_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>View<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -930,7 +930,7 @@ definition after you have created the resource.
 <a href="#writecapacity_go" style="color: inherit; text-decoration: inherit;">Write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -959,7 +959,7 @@ definition after you have created the resource.
 <a href="#hashkey_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -971,7 +971,7 @@ defined as an attribute in the resource.
 <a href="#billingmode_nodejs" style="color: inherit; text-decoration: inherit;">billing<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -1008,7 +1008,7 @@ definition after you have created the resource.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -1030,7 +1030,7 @@ definition after you have created the resource.
 <a href="#rangekey_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -1041,7 +1041,7 @@ definition after you have created the resource.
 <a href="#readcapacity_nodejs" style="color: inherit; text-decoration: inherit;">read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -1074,7 +1074,7 @@ definition after you have created the resource.
 <a href="#streamenabled_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -1085,7 +1085,7 @@ definition after you have created the resource.
 <a href="#streamviewtype_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>View<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -1118,7 +1118,7 @@ definition after you have created the resource.
 <a href="#writecapacity_nodejs" style="color: inherit; text-decoration: inherit;">write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -1147,7 +1147,7 @@ definition after you have created the resource.
 <a href="#hash_key_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -1159,7 +1159,7 @@ defined as an attribute in the resource.
 <a href="#billing_mode_python" style="color: inherit; text-decoration: inherit;">billing_<wbr>mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -1196,7 +1196,7 @@ definition after you have created the resource.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -1218,7 +1218,7 @@ definition after you have created the resource.
 <a href="#range_key_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -1229,7 +1229,7 @@ definition after you have created the resource.
 <a href="#read_capacity_python" style="color: inherit; text-decoration: inherit;">read_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -1262,7 +1262,7 @@ definition after you have created the resource.
 <a href="#stream_enabled_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -1273,7 +1273,7 @@ definition after you have created the resource.
 <a href="#stream_view_type_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>view_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -1306,7 +1306,7 @@ definition after you have created the resource.
 <a href="#write_capacity_python" style="color: inherit; text-decoration: inherit;">write_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -1335,7 +1335,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -1346,7 +1346,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1356,7 +1356,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#streamarn_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -1367,7 +1367,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#streamlabel_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -1388,7 +1388,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -1399,7 +1399,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1409,7 +1409,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#streamarn_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -1420,7 +1420,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#streamlabel_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -1441,7 +1441,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -1452,7 +1452,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1462,7 +1462,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#streamarn_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -1473,7 +1473,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#streamlabel_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -1494,7 +1494,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -1505,7 +1505,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1515,7 +1515,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#stream_arn_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -1526,7 +1526,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#stream_label_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -1549,7 +1549,7 @@ Get an existing Table resource's state with the given name, ID, and optional ext
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#TableState">TableState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#Table">Table</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#TableState">TableState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/dynamodb/#Table">Table</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1558,11 +1558,11 @@ Get an existing Table resource's state with the given name, ID, and optional ext
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetTable<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#TableState">TableState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#Table">Table</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetTable<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#TableState">TableState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/dynamodb?tab=doc#Table">Table</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.Table.html">Table</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.TableState.html">TableState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.Table.html">Table</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.DynamoDB.TableState.html">TableState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1674,7 +1674,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -1696,7 +1696,7 @@ The following state arguments are supported:
 <a href="#state_billingmode_csharp" style="color: inherit; text-decoration: inherit;">Billing<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -1720,7 +1720,7 @@ attributes, etc.
 <a href="#state_hashkey_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -1745,7 +1745,7 @@ definition after you have created the resource.
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -1767,7 +1767,7 @@ definition after you have created the resource.
 <a href="#state_rangekey_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -1778,7 +1778,7 @@ definition after you have created the resource.
 <a href="#state_readcapacity_csharp" style="color: inherit; text-decoration: inherit;">Read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -1811,7 +1811,7 @@ definition after you have created the resource.
 <a href="#state_streamarn_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -1822,7 +1822,7 @@ definition after you have created the resource.
 <a href="#state_streamenabled_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -1833,7 +1833,7 @@ definition after you have created the resource.
 <a href="#state_streamlabel_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -1847,7 +1847,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_streamviewtype_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>View<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -1880,7 +1880,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_writecapacity_csharp" style="color: inherit; text-decoration: inherit;">Write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -1898,7 +1898,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -1920,7 +1920,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_billingmode_go" style="color: inherit; text-decoration: inherit;">Billing<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -1944,7 +1944,7 @@ attributes, etc.
 <a href="#state_hashkey_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -1969,7 +1969,7 @@ definition after you have created the resource.
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -1991,7 +1991,7 @@ definition after you have created the resource.
 <a href="#state_rangekey_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -2002,7 +2002,7 @@ definition after you have created the resource.
 <a href="#state_readcapacity_go" style="color: inherit; text-decoration: inherit;">Read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2035,7 +2035,7 @@ definition after you have created the resource.
 <a href="#state_streamarn_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -2046,7 +2046,7 @@ definition after you have created the resource.
 <a href="#state_streamenabled_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -2057,7 +2057,7 @@ definition after you have created the resource.
 <a href="#state_streamlabel_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -2071,7 +2071,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_streamviewtype_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>View<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -2104,7 +2104,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_writecapacity_go" style="color: inherit; text-decoration: inherit;">Write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2122,7 +2122,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -2144,7 +2144,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_billingmode_nodejs" style="color: inherit; text-decoration: inherit;">billing<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -2168,7 +2168,7 @@ attributes, etc.
 <a href="#state_hashkey_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -2193,7 +2193,7 @@ definition after you have created the resource.
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2215,7 +2215,7 @@ definition after you have created the resource.
 <a href="#state_rangekey_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -2226,7 +2226,7 @@ definition after you have created the resource.
 <a href="#state_readcapacity_nodejs" style="color: inherit; text-decoration: inherit;">read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2259,7 +2259,7 @@ definition after you have created the resource.
 <a href="#state_streamarn_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -2270,7 +2270,7 @@ definition after you have created the resource.
 <a href="#state_streamenabled_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -2281,7 +2281,7 @@ definition after you have created the resource.
 <a href="#state_streamlabel_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -2295,7 +2295,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_streamviewtype_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>View<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -2328,7 +2328,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_writecapacity_nodejs" style="color: inherit; text-decoration: inherit;">write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2346,7 +2346,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The arn of the table
 {{% /md %}}</dd>
@@ -2368,7 +2368,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_billing_mode_python" style="color: inherit; text-decoration: inherit;">billing_<wbr>mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
 {{% /md %}}</dd>
@@ -2392,7 +2392,7 @@ attributes, etc.
 <a href="#state_hash_key_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -2417,7 +2417,7 @@ definition after you have created the resource.
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2439,7 +2439,7 @@ definition after you have created the resource.
 <a href="#state_range_key_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -2450,7 +2450,7 @@ definition after you have created the resource.
 <a href="#state_read_capacity_python" style="color: inherit; text-decoration: inherit;">read_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2483,7 +2483,7 @@ definition after you have created the resource.
 <a href="#state_stream_arn_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Table Stream. Only available when `stream_enabled = true`
 {{% /md %}}</dd>
@@ -2494,7 +2494,7 @@ definition after you have created the resource.
 <a href="#state_stream_enabled_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Streams are to be enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -2505,7 +2505,7 @@ definition after you have created the resource.
 <a href="#state_stream_label_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>label</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A timestamp, in ISO 8601 format, for this stream. Note that this timestamp is not
 a unique identifier for the stream on its own. However, the combination of AWS customer ID,
@@ -2519,7 +2519,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_stream_view_type_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>view_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
 {{% /md %}}</dd>
@@ -2552,7 +2552,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#state_write_capacity_python" style="color: inherit; text-decoration: inherit;">write_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2596,7 +2596,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2607,7 +2607,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Attribute type, which must be a scalar type: `S`, `N`, or `B` for (S)tring, (N)umber or (B)inary data
 {{% /md %}}</dd>
@@ -2625,7 +2625,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2636,7 +2636,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Attribute type, which must be a scalar type: `S`, `N`, or `B` for (S)tring, (N)umber or (B)inary data
 {{% /md %}}</dd>
@@ -2654,7 +2654,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2665,7 +2665,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Attribute type, which must be a scalar type: `S`, `N`, or `B` for (S)tring, (N)umber or (B)inary data
 {{% /md %}}</dd>
@@ -2683,7 +2683,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2694,7 +2694,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Attribute type, which must be a scalar type: `S`, `N`, or `B` for (S)tring, (N)umber or (B)inary data
 {{% /md %}}</dd>
@@ -2730,7 +2730,7 @@ It can be used for creating CloudWatch Alarms. Only available when `stream_enabl
 <a href="#hashkey_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -2742,7 +2742,7 @@ defined as an attribute in the resource.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2753,7 +2753,7 @@ defined as an attribute in the resource.
 <a href="#projectiontype_csharp" style="color: inherit; text-decoration: inherit;">Projection<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -2768,7 +2768,7 @@ parameter.
 <a href="#nonkeyattributes_csharp" style="color: inherit; text-decoration: inherit;">Non<wbr>Key<wbr>Attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -2781,7 +2781,7 @@ do not need to be defined as attributes on the table.
 <a href="#rangekey_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -2792,7 +2792,7 @@ do not need to be defined as attributes on the table.
 <a href="#readcapacity_csharp" style="color: inherit; text-decoration: inherit;">Read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2803,7 +2803,7 @@ do not need to be defined as attributes on the table.
 <a href="#writecapacity_csharp" style="color: inherit; text-decoration: inherit;">Write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2821,7 +2821,7 @@ do not need to be defined as attributes on the table.
 <a href="#hashkey_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -2833,7 +2833,7 @@ defined as an attribute in the resource.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2844,7 +2844,7 @@ defined as an attribute in the resource.
 <a href="#projectiontype_go" style="color: inherit; text-decoration: inherit;">Projection<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -2859,7 +2859,7 @@ parameter.
 <a href="#nonkeyattributes_go" style="color: inherit; text-decoration: inherit;">Non<wbr>Key<wbr>Attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -2872,7 +2872,7 @@ do not need to be defined as attributes on the table.
 <a href="#rangekey_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -2883,7 +2883,7 @@ do not need to be defined as attributes on the table.
 <a href="#readcapacity_go" style="color: inherit; text-decoration: inherit;">Read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2894,7 +2894,7 @@ do not need to be defined as attributes on the table.
 <a href="#writecapacity_go" style="color: inherit; text-decoration: inherit;">Write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2912,7 +2912,7 @@ do not need to be defined as attributes on the table.
 <a href="#hashkey_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -2924,7 +2924,7 @@ defined as an attribute in the resource.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -2935,7 +2935,7 @@ defined as an attribute in the resource.
 <a href="#projectiontype_nodejs" style="color: inherit; text-decoration: inherit;">projection<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -2950,7 +2950,7 @@ parameter.
 <a href="#nonkeyattributes_nodejs" style="color: inherit; text-decoration: inherit;">non<wbr>Key<wbr>Attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -2963,7 +2963,7 @@ do not need to be defined as attributes on the table.
 <a href="#rangekey_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -2974,7 +2974,7 @@ do not need to be defined as attributes on the table.
 <a href="#readcapacity_nodejs" style="color: inherit; text-decoration: inherit;">read<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -2985,7 +2985,7 @@ do not need to be defined as attributes on the table.
 <a href="#writecapacity_nodejs" style="color: inherit; text-decoration: inherit;">write<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -3003,7 +3003,7 @@ do not need to be defined as attributes on the table.
 <a href="#hash_key_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the hash key in the index; must be
 defined as an attribute in the resource.
@@ -3015,7 +3015,7 @@ defined as an attribute in the resource.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -3026,7 +3026,7 @@ defined as an attribute in the resource.
 <a href="#projection_type_python" style="color: inherit; text-decoration: inherit;">projection_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -3041,7 +3041,7 @@ parameter.
 <a href="#non_key_attributes_python" style="color: inherit; text-decoration: inherit;">non_<wbr>key_<wbr>attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -3054,7 +3054,7 @@ do not need to be defined as attributes on the table.
 <a href="#range_key_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -3065,7 +3065,7 @@ do not need to be defined as attributes on the table.
 <a href="#read_capacity_python" style="color: inherit; text-decoration: inherit;">read_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of read units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -3076,7 +3076,7 @@ do not need to be defined as attributes on the table.
 <a href="#write_capacity_python" style="color: inherit; text-decoration: inherit;">write_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of write units for this index. Must be set if billing_mode is set to PROVISIONED.
 {{% /md %}}</dd>
@@ -3112,7 +3112,7 @@ do not need to be defined as attributes on the table.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -3123,7 +3123,7 @@ do not need to be defined as attributes on the table.
 <a href="#projectiontype_csharp" style="color: inherit; text-decoration: inherit;">Projection<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -3138,7 +3138,7 @@ parameter.
 <a href="#rangekey_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -3149,7 +3149,7 @@ parameter.
 <a href="#nonkeyattributes_csharp" style="color: inherit; text-decoration: inherit;">Non<wbr>Key<wbr>Attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -3169,7 +3169,7 @@ do not need to be defined as attributes on the table.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -3180,7 +3180,7 @@ do not need to be defined as attributes on the table.
 <a href="#projectiontype_go" style="color: inherit; text-decoration: inherit;">Projection<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -3195,7 +3195,7 @@ parameter.
 <a href="#rangekey_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -3206,7 +3206,7 @@ parameter.
 <a href="#nonkeyattributes_go" style="color: inherit; text-decoration: inherit;">Non<wbr>Key<wbr>Attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -3226,7 +3226,7 @@ do not need to be defined as attributes on the table.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -3237,7 +3237,7 @@ do not need to be defined as attributes on the table.
 <a href="#projectiontype_nodejs" style="color: inherit; text-decoration: inherit;">projection<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -3252,7 +3252,7 @@ parameter.
 <a href="#rangekey_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -3263,7 +3263,7 @@ parameter.
 <a href="#nonkeyattributes_nodejs" style="color: inherit; text-decoration: inherit;">non<wbr>Key<wbr>Attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -3283,7 +3283,7 @@ do not need to be defined as attributes on the table.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the index
 {{% /md %}}</dd>
@@ -3294,7 +3294,7 @@ do not need to be defined as attributes on the table.
 <a href="#projection_type_python" style="color: inherit; text-decoration: inherit;">projection_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}One of `ALL`, `INCLUDE` or `KEYS_ONLY`
 where `ALL` projects every attribute into the index, `KEYS_ONLY`
@@ -3309,7 +3309,7 @@ parameter.
 <a href="#range_key_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the range key; must be defined
 {{% /md %}}</dd>
@@ -3320,7 +3320,7 @@ parameter.
 <a href="#non_key_attributes_python" style="color: inherit; text-decoration: inherit;">non_<wbr>key_<wbr>attributes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Only required with `INCLUDE` as a
 projection type; a list of attributes to project into the index. These
@@ -3358,7 +3358,7 @@ do not need to be defined as attributes on the table.
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3376,7 +3376,7 @@ do not need to be defined as attributes on the table.
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3394,7 +3394,7 @@ do not need to be defined as attributes on the table.
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3412,7 +3412,7 @@ do not need to be defined as attributes on the table.
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3448,7 +3448,7 @@ do not need to be defined as attributes on the table.
 <a href="#regionname_csharp" style="color: inherit; text-decoration: inherit;">Region<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region name of the replica.
 {{% /md %}}</dd>
@@ -3466,7 +3466,7 @@ do not need to be defined as attributes on the table.
 <a href="#regionname_go" style="color: inherit; text-decoration: inherit;">Region<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region name of the replica.
 {{% /md %}}</dd>
@@ -3484,7 +3484,7 @@ do not need to be defined as attributes on the table.
 <a href="#regionname_nodejs" style="color: inherit; text-decoration: inherit;">region<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region name of the replica.
 {{% /md %}}</dd>
@@ -3502,7 +3502,7 @@ do not need to be defined as attributes on the table.
 <a href="#region_name_python" style="color: inherit; text-decoration: inherit;">region_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Region name of the replica.
 {{% /md %}}</dd>
@@ -3538,7 +3538,7 @@ do not need to be defined as attributes on the table.
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3549,7 +3549,7 @@ do not need to be defined as attributes on the table.
 <a href="#kmskeyarn_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CMK that should be used for the AWS KMS encryption.
 This attribute should only be specified if the key is different from the default DynamoDB CMK, `alias/aws/dynamodb`.
@@ -3568,7 +3568,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3579,7 +3579,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#kmskeyarn_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CMK that should be used for the AWS KMS encryption.
 This attribute should only be specified if the key is different from the default DynamoDB CMK, `alias/aws/dynamodb`.
@@ -3598,7 +3598,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3609,7 +3609,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#kmskeyarn_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CMK that should be used for the AWS KMS encryption.
 This attribute should only be specified if the key is different from the default DynamoDB CMK, `alias/aws/dynamodb`.
@@ -3628,7 +3628,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3639,7 +3639,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#kms_key_arn_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the CMK that should be used for the AWS KMS encryption.
 This attribute should only be specified if the key is different from the default DynamoDB CMK, `alias/aws/dynamodb`.
@@ -3676,7 +3676,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#attributename_csharp" style="color: inherit; text-decoration: inherit;">Attribute<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the table attribute to store the TTL timestamp in.
 {{% /md %}}</dd>
@@ -3687,7 +3687,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3705,7 +3705,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#attributename_go" style="color: inherit; text-decoration: inherit;">Attribute<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the table attribute to store the TTL timestamp in.
 {{% /md %}}</dd>
@@ -3716,7 +3716,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3734,7 +3734,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#attributename_nodejs" style="color: inherit; text-decoration: inherit;">attribute<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the table attribute to store the TTL timestamp in.
 {{% /md %}}</dd>
@@ -3745,7 +3745,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>
@@ -3763,7 +3763,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#attribute_name_python" style="color: inherit; text-decoration: inherit;">attribute_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the table attribute to store the TTL timestamp in.
 {{% /md %}}</dd>
@@ -3774,7 +3774,7 @@ This attribute should only be specified if the key is different from the default
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether ttl is enabled (true) or disabled (false).
 {{% /md %}}</dd>

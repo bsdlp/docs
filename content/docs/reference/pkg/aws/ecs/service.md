@@ -418,7 +418,7 @@ const example = new aws.ecs.Service("example", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#Service">Service</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#ServiceArgs">ServiceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#Service">Service</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#ServiceArgs">ServiceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -426,11 +426,11 @@ const example = new aws.ecs.Service("example", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#Service">NewService</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#ServiceArgs">ServiceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#Service">Service</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#Service">NewService</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#ServiceArgs">ServiceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#Service">Service</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.Service.html">Service</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.ServiceArgs.html">ServiceArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.Service.html">Service</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.ServiceArgs.html">ServiceArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -441,7 +441,7 @@ const example = new aws.ecs.Service("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -510,7 +510,7 @@ const example = new aws.ecs.Service("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -549,7 +549,7 @@ const example = new aws.ecs.Service("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -611,7 +611,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_csharp" style="color: inherit; text-decoration: inherit;">Cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -633,7 +633,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deploymentmaximumpercent_csharp" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Maximum<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -644,7 +644,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deploymentminimumhealthypercent_csharp" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Minimum<wbr>Healthy<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -655,7 +655,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#desiredcount_csharp" style="color: inherit; text-decoration: inherit;">Desired<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -666,7 +666,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enableecsmanagedtags_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Ecs<wbr>Managed<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -677,7 +677,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#forcenewdeployment_csharp" style="color: inherit; text-decoration: inherit;">Force<wbr>New<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -688,7 +688,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#healthcheckgraceperiodseconds_csharp" style="color: inherit; text-decoration: inherit;">Health<wbr>Check<wbr>Grace<wbr>Period<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -699,7 +699,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamrole_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -710,7 +710,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#launchtype_csharp" style="color: inherit; text-decoration: inherit;">Launch<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -732,7 +732,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -776,7 +776,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#platformversion_csharp" style="color: inherit; text-decoration: inherit;">Platform<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -787,7 +787,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#propagatetags_csharp" style="color: inherit; text-decoration: inherit;">Propagate<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -798,7 +798,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#schedulingstrategy_csharp" style="color: inherit; text-decoration: inherit;">Scheduling<wbr>Strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -831,7 +831,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#taskdefinition_csharp" style="color: inherit; text-decoration: inherit;">Task<wbr>Definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -842,7 +842,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#waitforsteadystate_csharp" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Steady<wbr>State</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -870,7 +870,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_go" style="color: inherit; text-decoration: inherit;">Cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -892,7 +892,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deploymentmaximumpercent_go" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Maximum<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -903,7 +903,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deploymentminimumhealthypercent_go" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Minimum<wbr>Healthy<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -914,7 +914,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#desiredcount_go" style="color: inherit; text-decoration: inherit;">Desired<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -925,7 +925,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enableecsmanagedtags_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Ecs<wbr>Managed<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -936,7 +936,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#forcenewdeployment_go" style="color: inherit; text-decoration: inherit;">Force<wbr>New<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -947,7 +947,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#healthcheckgraceperiodseconds_go" style="color: inherit; text-decoration: inherit;">Health<wbr>Check<wbr>Grace<wbr>Period<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -958,7 +958,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamrole_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -969,7 +969,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#launchtype_go" style="color: inherit; text-decoration: inherit;">Launch<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -991,7 +991,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -1035,7 +1035,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#platformversion_go" style="color: inherit; text-decoration: inherit;">Platform<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -1046,7 +1046,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#propagatetags_go" style="color: inherit; text-decoration: inherit;">Propagate<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -1057,7 +1057,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#schedulingstrategy_go" style="color: inherit; text-decoration: inherit;">Scheduling<wbr>Strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -1090,7 +1090,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#taskdefinition_go" style="color: inherit; text-decoration: inherit;">Task<wbr>Definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -1101,7 +1101,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#waitforsteadystate_go" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Steady<wbr>State</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1129,7 +1129,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_nodejs" style="color: inherit; text-decoration: inherit;">cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -1151,7 +1151,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deploymentmaximumpercent_nodejs" style="color: inherit; text-decoration: inherit;">deployment<wbr>Maximum<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -1162,7 +1162,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deploymentminimumhealthypercent_nodejs" style="color: inherit; text-decoration: inherit;">deployment<wbr>Minimum<wbr>Healthy<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -1173,7 +1173,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#desiredcount_nodejs" style="color: inherit; text-decoration: inherit;">desired<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -1184,7 +1184,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enableecsmanagedtags_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Ecs<wbr>Managed<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -1195,7 +1195,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#forcenewdeployment_nodejs" style="color: inherit; text-decoration: inherit;">force<wbr>New<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -1206,7 +1206,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#healthcheckgraceperiodseconds_nodejs" style="color: inherit; text-decoration: inherit;">health<wbr>Check<wbr>Grace<wbr>Period<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -1217,7 +1217,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamrole_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -1228,7 +1228,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#launchtype_nodejs" style="color: inherit; text-decoration: inherit;">launch<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -1250,7 +1250,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -1294,7 +1294,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#platformversion_nodejs" style="color: inherit; text-decoration: inherit;">platform<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -1305,7 +1305,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#propagatetags_nodejs" style="color: inherit; text-decoration: inherit;">propagate<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -1316,7 +1316,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#schedulingstrategy_nodejs" style="color: inherit; text-decoration: inherit;">scheduling<wbr>Strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -1349,7 +1349,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#taskdefinition_nodejs" style="color: inherit; text-decoration: inherit;">task<wbr>Definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -1360,7 +1360,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#waitforsteadystate_nodejs" style="color: inherit; text-decoration: inherit;">wait<wbr>For<wbr>Steady<wbr>State</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1388,7 +1388,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_python" style="color: inherit; text-decoration: inherit;">cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -1410,7 +1410,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deployment_maximum_percent_python" style="color: inherit; text-decoration: inherit;">deployment_<wbr>maximum_<wbr>percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -1421,7 +1421,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deployment_minimum_healthy_percent_python" style="color: inherit; text-decoration: inherit;">deployment_<wbr>minimum_<wbr>healthy_<wbr>percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -1432,7 +1432,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#desired_count_python" style="color: inherit; text-decoration: inherit;">desired_<wbr>count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -1443,7 +1443,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enable_ecs_managed_tags_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>ecs_<wbr>managed_<wbr>tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -1454,7 +1454,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#force_new_deployment_python" style="color: inherit; text-decoration: inherit;">force_<wbr>new_<wbr>deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -1465,7 +1465,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#health_check_grace_period_seconds_python" style="color: inherit; text-decoration: inherit;">health_<wbr>check_<wbr>grace_<wbr>period_<wbr>seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -1476,7 +1476,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iam_role_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -1487,7 +1487,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#launch_type_python" style="color: inherit; text-decoration: inherit;">launch_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -1509,7 +1509,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -1553,7 +1553,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#platform_version_python" style="color: inherit; text-decoration: inherit;">platform_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -1564,7 +1564,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#propagate_tags_python" style="color: inherit; text-decoration: inherit;">propagate_<wbr>tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -1575,7 +1575,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#scheduling_strategy_python" style="color: inherit; text-decoration: inherit;">scheduling_<wbr>strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -1608,7 +1608,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#task_definition_python" style="color: inherit; text-decoration: inherit;">task_<wbr>definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -1619,7 +1619,7 @@ The Service resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#wait_for_steady_state_python" style="color: inherit; text-decoration: inherit;">wait_<wbr>for_<wbr>steady_<wbr>state</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1647,7 +1647,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1664,7 +1664,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1681,7 +1681,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1698,7 +1698,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1717,7 +1717,7 @@ Get an existing Service resource's state with the given name, ID, and optional e
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#ServiceState">ServiceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#Service">Service</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#ServiceState">ServiceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ecs/#Service">Service</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1726,11 +1726,11 @@ Get an existing Service resource's state with the given name, ID, and optional e
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetService<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#ServiceState">ServiceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#Service">Service</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetService<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#ServiceState">ServiceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ecs?tab=doc#Service">Service</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.Service.html">Service</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.ServiceState.html">ServiceState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.Service.html">Service</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ecs.ServiceState.html">ServiceState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1853,7 +1853,7 @@ The following state arguments are supported:
 <a href="#state_cluster_csharp" style="color: inherit; text-decoration: inherit;">Cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -1875,7 +1875,7 @@ The following state arguments are supported:
 <a href="#state_deploymentmaximumpercent_csharp" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Maximum<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -1886,7 +1886,7 @@ The following state arguments are supported:
 <a href="#state_deploymentminimumhealthypercent_csharp" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Minimum<wbr>Healthy<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -1897,7 +1897,7 @@ The following state arguments are supported:
 <a href="#state_desiredcount_csharp" style="color: inherit; text-decoration: inherit;">Desired<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -1908,7 +1908,7 @@ The following state arguments are supported:
 <a href="#state_enableecsmanagedtags_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Ecs<wbr>Managed<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -1919,7 +1919,7 @@ The following state arguments are supported:
 <a href="#state_forcenewdeployment_csharp" style="color: inherit; text-decoration: inherit;">Force<wbr>New<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -1930,7 +1930,7 @@ The following state arguments are supported:
 <a href="#state_healthcheckgraceperiodseconds_csharp" style="color: inherit; text-decoration: inherit;">Health<wbr>Check<wbr>Grace<wbr>Period<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -1941,7 +1941,7 @@ The following state arguments are supported:
 <a href="#state_iamrole_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -1952,7 +1952,7 @@ The following state arguments are supported:
 <a href="#state_launchtype_csharp" style="color: inherit; text-decoration: inherit;">Launch<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -1974,7 +1974,7 @@ The following state arguments are supported:
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -2018,7 +2018,7 @@ The following state arguments are supported:
 <a href="#state_platformversion_csharp" style="color: inherit; text-decoration: inherit;">Platform<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -2029,7 +2029,7 @@ The following state arguments are supported:
 <a href="#state_propagatetags_csharp" style="color: inherit; text-decoration: inherit;">Propagate<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -2040,7 +2040,7 @@ The following state arguments are supported:
 <a href="#state_schedulingstrategy_csharp" style="color: inherit; text-decoration: inherit;">Scheduling<wbr>Strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -2073,7 +2073,7 @@ The following state arguments are supported:
 <a href="#state_taskdefinition_csharp" style="color: inherit; text-decoration: inherit;">Task<wbr>Definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -2084,7 +2084,7 @@ The following state arguments are supported:
 <a href="#state_waitforsteadystate_csharp" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Steady<wbr>State</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2112,7 +2112,7 @@ The following state arguments are supported:
 <a href="#state_cluster_go" style="color: inherit; text-decoration: inherit;">Cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -2134,7 +2134,7 @@ The following state arguments are supported:
 <a href="#state_deploymentmaximumpercent_go" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Maximum<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -2145,7 +2145,7 @@ The following state arguments are supported:
 <a href="#state_deploymentminimumhealthypercent_go" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Minimum<wbr>Healthy<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -2156,7 +2156,7 @@ The following state arguments are supported:
 <a href="#state_desiredcount_go" style="color: inherit; text-decoration: inherit;">Desired<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -2167,7 +2167,7 @@ The following state arguments are supported:
 <a href="#state_enableecsmanagedtags_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Ecs<wbr>Managed<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -2178,7 +2178,7 @@ The following state arguments are supported:
 <a href="#state_forcenewdeployment_go" style="color: inherit; text-decoration: inherit;">Force<wbr>New<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -2189,7 +2189,7 @@ The following state arguments are supported:
 <a href="#state_healthcheckgraceperiodseconds_go" style="color: inherit; text-decoration: inherit;">Health<wbr>Check<wbr>Grace<wbr>Period<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -2200,7 +2200,7 @@ The following state arguments are supported:
 <a href="#state_iamrole_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -2211,7 +2211,7 @@ The following state arguments are supported:
 <a href="#state_launchtype_go" style="color: inherit; text-decoration: inherit;">Launch<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -2233,7 +2233,7 @@ The following state arguments are supported:
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -2277,7 +2277,7 @@ The following state arguments are supported:
 <a href="#state_platformversion_go" style="color: inherit; text-decoration: inherit;">Platform<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -2288,7 +2288,7 @@ The following state arguments are supported:
 <a href="#state_propagatetags_go" style="color: inherit; text-decoration: inherit;">Propagate<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -2299,7 +2299,7 @@ The following state arguments are supported:
 <a href="#state_schedulingstrategy_go" style="color: inherit; text-decoration: inherit;">Scheduling<wbr>Strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -2332,7 +2332,7 @@ The following state arguments are supported:
 <a href="#state_taskdefinition_go" style="color: inherit; text-decoration: inherit;">Task<wbr>Definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -2343,7 +2343,7 @@ The following state arguments are supported:
 <a href="#state_waitforsteadystate_go" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Steady<wbr>State</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2371,7 +2371,7 @@ The following state arguments are supported:
 <a href="#state_cluster_nodejs" style="color: inherit; text-decoration: inherit;">cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -2393,7 +2393,7 @@ The following state arguments are supported:
 <a href="#state_deploymentmaximumpercent_nodejs" style="color: inherit; text-decoration: inherit;">deployment<wbr>Maximum<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -2404,7 +2404,7 @@ The following state arguments are supported:
 <a href="#state_deploymentminimumhealthypercent_nodejs" style="color: inherit; text-decoration: inherit;">deployment<wbr>Minimum<wbr>Healthy<wbr>Percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -2415,7 +2415,7 @@ The following state arguments are supported:
 <a href="#state_desiredcount_nodejs" style="color: inherit; text-decoration: inherit;">desired<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -2426,7 +2426,7 @@ The following state arguments are supported:
 <a href="#state_enableecsmanagedtags_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Ecs<wbr>Managed<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -2437,7 +2437,7 @@ The following state arguments are supported:
 <a href="#state_forcenewdeployment_nodejs" style="color: inherit; text-decoration: inherit;">force<wbr>New<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -2448,7 +2448,7 @@ The following state arguments are supported:
 <a href="#state_healthcheckgraceperiodseconds_nodejs" style="color: inherit; text-decoration: inherit;">health<wbr>Check<wbr>Grace<wbr>Period<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -2459,7 +2459,7 @@ The following state arguments are supported:
 <a href="#state_iamrole_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -2470,7 +2470,7 @@ The following state arguments are supported:
 <a href="#state_launchtype_nodejs" style="color: inherit; text-decoration: inherit;">launch<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -2492,7 +2492,7 @@ The following state arguments are supported:
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -2536,7 +2536,7 @@ The following state arguments are supported:
 <a href="#state_platformversion_nodejs" style="color: inherit; text-decoration: inherit;">platform<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -2547,7 +2547,7 @@ The following state arguments are supported:
 <a href="#state_propagatetags_nodejs" style="color: inherit; text-decoration: inherit;">propagate<wbr>Tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -2558,7 +2558,7 @@ The following state arguments are supported:
 <a href="#state_schedulingstrategy_nodejs" style="color: inherit; text-decoration: inherit;">scheduling<wbr>Strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -2591,7 +2591,7 @@ The following state arguments are supported:
 <a href="#state_taskdefinition_nodejs" style="color: inherit; text-decoration: inherit;">task<wbr>Definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -2602,7 +2602,7 @@ The following state arguments are supported:
 <a href="#state_waitforsteadystate_nodejs" style="color: inherit; text-decoration: inherit;">wait<wbr>For<wbr>Steady<wbr>State</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2630,7 +2630,7 @@ The following state arguments are supported:
 <a href="#state_cluster_python" style="color: inherit; text-decoration: inherit;">cluster</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of an ECS cluster
 {{% /md %}}</dd>
@@ -2652,7 +2652,7 @@ The following state arguments are supported:
 <a href="#state_deployment_maximum_percent_python" style="color: inherit; text-decoration: inherit;">deployment_<wbr>maximum_<wbr>percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The upper limit (as a percentage of the service's desiredCount) of the number of running tasks that can be running in a service during a deployment. Not valid when using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -2663,7 +2663,7 @@ The following state arguments are supported:
 <a href="#state_deployment_minimum_healthy_percent_python" style="color: inherit; text-decoration: inherit;">deployment_<wbr>minimum_<wbr>healthy_<wbr>percent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The lower limit (as a percentage of the service's desiredCount) of the number of running tasks that must remain running and healthy in a service during a deployment.
 {{% /md %}}</dd>
@@ -2674,7 +2674,7 @@ The following state arguments are supported:
 <a href="#state_desired_count_python" style="color: inherit; text-decoration: inherit;">desired_<wbr>count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances of the task definition to place and keep running. Defaults to 0. Do not specify if using the `DAEMON` scheduling strategy.
 {{% /md %}}</dd>
@@ -2685,7 +2685,7 @@ The following state arguments are supported:
 <a href="#state_enable_ecs_managed_tags_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>ecs_<wbr>managed_<wbr>tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to enable Amazon ECS managed tags for the tasks within the service.
 {{% /md %}}</dd>
@@ -2696,7 +2696,7 @@ The following state arguments are supported:
 <a href="#state_force_new_deployment_python" style="color: inherit; text-decoration: inherit;">force_<wbr>new_<wbr>deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to force a new task deployment of the service. This can be used to update tasks to use a newer Docker image with same image/tag combination (e.g. `myimage:latest`), roll Fargate tasks onto a newer platform version, or immediately deploy `ordered_placement_strategy` and `placement_constraints` updates.
 {{% /md %}}</dd>
@@ -2707,7 +2707,7 @@ The following state arguments are supported:
 <a href="#state_health_check_grace_period_seconds_python" style="color: inherit; text-decoration: inherit;">health_<wbr>check_<wbr>grace_<wbr>period_<wbr>seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Seconds to ignore failing load balancer health checks on newly instantiated tasks to prevent premature shutdown, up to 2147483647. Only valid for services configured to use load balancers.
 {{% /md %}}</dd>
@@ -2718,7 +2718,7 @@ The following state arguments are supported:
 <a href="#state_iam_role_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of the IAM role that allows Amazon ECS to make calls to your load balancer on your behalf. This parameter is required if you are using a load balancer with your service, but only if your task definition does not use the `awsvpc` network mode. If using `awsvpc` network mode, do not specify this role. If your account has already created the Amazon ECS service-linked role, that role is used by default for your service unless you specify a role here.
 {{% /md %}}</dd>
@@ -2729,7 +2729,7 @@ The following state arguments are supported:
 <a href="#state_launch_type_python" style="color: inherit; text-decoration: inherit;">launch_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The launch type on which to run your service. The valid values are `EC2` and `FARGATE`. Defaults to `EC2`.
 {{% /md %}}</dd>
@@ -2751,7 +2751,7 @@ The following state arguments are supported:
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the service (up to 255 letters, numbers, hyphens, and underscores)
 {{% /md %}}</dd>
@@ -2795,7 +2795,7 @@ The following state arguments are supported:
 <a href="#state_platform_version_python" style="color: inherit; text-decoration: inherit;">platform_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The platform version on which to run your service. Only applicable for `launch_type` set to `FARGATE`. Defaults to `LATEST`. More information about Fargate platform versions can be found in the [AWS ECS User Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/platform_versions.html).
 {{% /md %}}</dd>
@@ -2806,7 +2806,7 @@ The following state arguments are supported:
 <a href="#state_propagate_tags_python" style="color: inherit; text-decoration: inherit;">propagate_<wbr>tags</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether to propagate the tags from the task definition or the service to the tasks. The valid values are `SERVICE` and `TASK_DEFINITION`.
 {{% /md %}}</dd>
@@ -2817,7 +2817,7 @@ The following state arguments are supported:
 <a href="#state_scheduling_strategy_python" style="color: inherit; text-decoration: inherit;">scheduling_<wbr>strategy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The scheduling strategy to use for the service. The valid values are `REPLICA` and `DAEMON`. Defaults to `REPLICA`. Note that [*Tasks using the Fargate launch type or the `CODE_DEPLOY` or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy*](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_CreateService.html).
 {{% /md %}}</dd>
@@ -2850,7 +2850,7 @@ The following state arguments are supported:
 <a href="#state_task_definition_python" style="color: inherit; text-decoration: inherit;">task_<wbr>definition</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The family and revision (`family:revision`) or full ARN of the task definition that you want to run in your service. Required unless using the `EXTERNAL` deployment controller. If a revision is not specified, the latest `ACTIVE` revision is used.
 {{% /md %}}</dd>
@@ -2861,7 +2861,7 @@ The following state arguments are supported:
 <a href="#state_wait_for_steady_state_python" style="color: inherit; text-decoration: inherit;">wait_<wbr>for_<wbr>steady_<wbr>state</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2904,7 +2904,7 @@ The following state arguments are supported:
 <a href="#capacityprovider_csharp" style="color: inherit; text-decoration: inherit;">Capacity<wbr>Provider</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The short name of the capacity provider.
 {{% /md %}}</dd>
@@ -2915,7 +2915,7 @@ The following state arguments are supported:
 <a href="#base_csharp" style="color: inherit; text-decoration: inherit;">Base</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of tasks, at a minimum, to run on the specified capacity provider. Only one capacity provider in a capacity provider strategy can have a base defined.
 {{% /md %}}</dd>
@@ -2926,7 +2926,7 @@ The following state arguments are supported:
 <a href="#weight_csharp" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative percentage of the total number of launched tasks that should use the specified capacity provider.
 {{% /md %}}</dd>
@@ -2944,7 +2944,7 @@ The following state arguments are supported:
 <a href="#capacityprovider_go" style="color: inherit; text-decoration: inherit;">Capacity<wbr>Provider</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The short name of the capacity provider.
 {{% /md %}}</dd>
@@ -2955,7 +2955,7 @@ The following state arguments are supported:
 <a href="#base_go" style="color: inherit; text-decoration: inherit;">Base</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of tasks, at a minimum, to run on the specified capacity provider. Only one capacity provider in a capacity provider strategy can have a base defined.
 {{% /md %}}</dd>
@@ -2966,7 +2966,7 @@ The following state arguments are supported:
 <a href="#weight_go" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative percentage of the total number of launched tasks that should use the specified capacity provider.
 {{% /md %}}</dd>
@@ -2984,7 +2984,7 @@ The following state arguments are supported:
 <a href="#capacityprovider_nodejs" style="color: inherit; text-decoration: inherit;">capacity<wbr>Provider</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The short name of the capacity provider.
 {{% /md %}}</dd>
@@ -2995,7 +2995,7 @@ The following state arguments are supported:
 <a href="#base_nodejs" style="color: inherit; text-decoration: inherit;">base</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of tasks, at a minimum, to run on the specified capacity provider. Only one capacity provider in a capacity provider strategy can have a base defined.
 {{% /md %}}</dd>
@@ -3006,7 +3006,7 @@ The following state arguments are supported:
 <a href="#weight_nodejs" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The relative percentage of the total number of launched tasks that should use the specified capacity provider.
 {{% /md %}}</dd>
@@ -3024,7 +3024,7 @@ The following state arguments are supported:
 <a href="#capacity_provider_python" style="color: inherit; text-decoration: inherit;">capacity_<wbr>provider</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The short name of the capacity provider.
 {{% /md %}}</dd>
@@ -3035,7 +3035,7 @@ The following state arguments are supported:
 <a href="#base_python" style="color: inherit; text-decoration: inherit;">base</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of tasks, at a minimum, to run on the specified capacity provider. Only one capacity provider in a capacity provider strategy can have a base defined.
 {{% /md %}}</dd>
@@ -3046,7 +3046,7 @@ The following state arguments are supported:
 <a href="#weight_python" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative percentage of the total number of launched tasks that should use the specified capacity provider.
 {{% /md %}}</dd>
@@ -3082,7 +3082,7 @@ The following state arguments are supported:
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Type of deployment controller. Valid values: `CODE_DEPLOY`, `ECS`, `EXTERNAL`. Default: `ECS`.
 {{% /md %}}</dd>
@@ -3100,7 +3100,7 @@ The following state arguments are supported:
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Type of deployment controller. Valid values: `CODE_DEPLOY`, `ECS`, `EXTERNAL`. Default: `ECS`.
 {{% /md %}}</dd>
@@ -3118,7 +3118,7 @@ The following state arguments are supported:
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Type of deployment controller. Valid values: `CODE_DEPLOY`, `ECS`, `EXTERNAL`. Default: `ECS`.
 {{% /md %}}</dd>
@@ -3136,7 +3136,7 @@ The following state arguments are supported:
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Type of deployment controller. Valid values: `CODE_DEPLOY`, `ECS`, `EXTERNAL`. Default: `ECS`.
 {{% /md %}}</dd>
@@ -3172,7 +3172,7 @@ The following state arguments are supported:
 <a href="#containername_csharp" style="color: inherit; text-decoration: inherit;">Container<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the container to associate with the load balancer (as it appears in a container definition).
 {{% /md %}}</dd>
@@ -3183,7 +3183,7 @@ The following state arguments are supported:
 <a href="#containerport_csharp" style="color: inherit; text-decoration: inherit;">Container<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on the container to associate with the load balancer.
 {{% /md %}}</dd>
@@ -3194,7 +3194,7 @@ The following state arguments are supported:
 <a href="#elbname_csharp" style="color: inherit; text-decoration: inherit;">Elb<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB (Classic) to associate with the service.
 {{% /md %}}</dd>
@@ -3205,7 +3205,7 @@ The following state arguments are supported:
 <a href="#targetgrouparn_csharp" style="color: inherit; text-decoration: inherit;">Target<wbr>Group<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Load Balancer target group to associate with the service.
 {{% /md %}}</dd>
@@ -3223,7 +3223,7 @@ The following state arguments are supported:
 <a href="#containername_go" style="color: inherit; text-decoration: inherit;">Container<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the container to associate with the load balancer (as it appears in a container definition).
 {{% /md %}}</dd>
@@ -3234,7 +3234,7 @@ The following state arguments are supported:
 <a href="#containerport_go" style="color: inherit; text-decoration: inherit;">Container<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on the container to associate with the load balancer.
 {{% /md %}}</dd>
@@ -3245,7 +3245,7 @@ The following state arguments are supported:
 <a href="#elbname_go" style="color: inherit; text-decoration: inherit;">Elb<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB (Classic) to associate with the service.
 {{% /md %}}</dd>
@@ -3256,7 +3256,7 @@ The following state arguments are supported:
 <a href="#targetgrouparn_go" style="color: inherit; text-decoration: inherit;">Target<wbr>Group<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Load Balancer target group to associate with the service.
 {{% /md %}}</dd>
@@ -3274,7 +3274,7 @@ The following state arguments are supported:
 <a href="#containername_nodejs" style="color: inherit; text-decoration: inherit;">container<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the container to associate with the load balancer (as it appears in a container definition).
 {{% /md %}}</dd>
@@ -3285,7 +3285,7 @@ The following state arguments are supported:
 <a href="#containerport_nodejs" style="color: inherit; text-decoration: inherit;">container<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on the container to associate with the load balancer.
 {{% /md %}}</dd>
@@ -3296,7 +3296,7 @@ The following state arguments are supported:
 <a href="#elbname_nodejs" style="color: inherit; text-decoration: inherit;">elb<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB (Classic) to associate with the service.
 {{% /md %}}</dd>
@@ -3307,7 +3307,7 @@ The following state arguments are supported:
 <a href="#targetgrouparn_nodejs" style="color: inherit; text-decoration: inherit;">target<wbr>Group<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Load Balancer target group to associate with the service.
 {{% /md %}}</dd>
@@ -3325,7 +3325,7 @@ The following state arguments are supported:
 <a href="#container_name_python" style="color: inherit; text-decoration: inherit;">container_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the container to associate with the load balancer (as it appears in a container definition).
 {{% /md %}}</dd>
@@ -3336,7 +3336,7 @@ The following state arguments are supported:
 <a href="#container_port_python" style="color: inherit; text-decoration: inherit;">container_<wbr>port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on the container to associate with the load balancer.
 {{% /md %}}</dd>
@@ -3347,7 +3347,7 @@ The following state arguments are supported:
 <a href="#elb_name_python" style="color: inherit; text-decoration: inherit;">elb_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the ELB (Classic) to associate with the service.
 {{% /md %}}</dd>
@@ -3358,7 +3358,7 @@ The following state arguments are supported:
 <a href="#target_group_arn_python" style="color: inherit; text-decoration: inherit;">target_<wbr>group_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Load Balancer target group to associate with the service.
 {{% /md %}}</dd>
@@ -3394,7 +3394,7 @@ The following state arguments are supported:
 <a href="#subnets_csharp" style="color: inherit; text-decoration: inherit;">Subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The subnets associated with the task or service.
 {{% /md %}}</dd>
@@ -3405,7 +3405,7 @@ The following state arguments are supported:
 <a href="#assignpublicip_csharp" style="color: inherit; text-decoration: inherit;">Assign<wbr>Public<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Assign a public IP address to the ENI (Fargate launch type only). Valid values are `true` or `false`. Default `false`.
 {{% /md %}}</dd>
@@ -3416,7 +3416,7 @@ The following state arguments are supported:
 <a href="#securitygroups_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The security groups associated with the task or service. If you do not specify a security group, the default security group for the VPC is used.
 {{% /md %}}</dd>
@@ -3434,7 +3434,7 @@ The following state arguments are supported:
 <a href="#subnets_go" style="color: inherit; text-decoration: inherit;">Subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The subnets associated with the task or service.
 {{% /md %}}</dd>
@@ -3445,7 +3445,7 @@ The following state arguments are supported:
 <a href="#assignpublicip_go" style="color: inherit; text-decoration: inherit;">Assign<wbr>Public<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Assign a public IP address to the ENI (Fargate launch type only). Valid values are `true` or `false`. Default `false`.
 {{% /md %}}</dd>
@@ -3456,7 +3456,7 @@ The following state arguments are supported:
 <a href="#securitygroups_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The security groups associated with the task or service. If you do not specify a security group, the default security group for the VPC is used.
 {{% /md %}}</dd>
@@ -3474,7 +3474,7 @@ The following state arguments are supported:
 <a href="#subnets_nodejs" style="color: inherit; text-decoration: inherit;">subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The subnets associated with the task or service.
 {{% /md %}}</dd>
@@ -3485,7 +3485,7 @@ The following state arguments are supported:
 <a href="#assignpublicip_nodejs" style="color: inherit; text-decoration: inherit;">assign<wbr>Public<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Assign a public IP address to the ENI (Fargate launch type only). Valid values are `true` or `false`. Default `false`.
 {{% /md %}}</dd>
@@ -3496,7 +3496,7 @@ The following state arguments are supported:
 <a href="#securitygroups_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The security groups associated with the task or service. If you do not specify a security group, the default security group for the VPC is used.
 {{% /md %}}</dd>
@@ -3514,7 +3514,7 @@ The following state arguments are supported:
 <a href="#subnets_python" style="color: inherit; text-decoration: inherit;">subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The subnets associated with the task or service.
 {{% /md %}}</dd>
@@ -3525,7 +3525,7 @@ The following state arguments are supported:
 <a href="#assign_public_ip_python" style="color: inherit; text-decoration: inherit;">assign_<wbr>public_<wbr>ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Assign a public IP address to the ENI (Fargate launch type only). Valid values are `true` or `false`. Default `false`.
 {{% /md %}}</dd>
@@ -3536,7 +3536,7 @@ The following state arguments are supported:
 <a href="#security_groups_python" style="color: inherit; text-decoration: inherit;">security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The security groups associated with the task or service. If you do not specify a security group, the default security group for the VPC is used.
 {{% /md %}}</dd>
@@ -3572,7 +3572,7 @@ The following state arguments are supported:
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of placement strategy. Must be one of: `binpack`, `random`, or `spread`
 {{% /md %}}</dd>
@@ -3583,7 +3583,7 @@ The following state arguments are supported:
 <a href="#field_csharp" style="color: inherit; text-decoration: inherit;">Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For the `spread` placement strategy, valid values are `instanceId` (or `host`,
 which has the same effect), or any platform or custom attribute that is applied to a container instance.
@@ -3604,7 +3604,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of placement strategy. Must be one of: `binpack`, `random`, or `spread`
 {{% /md %}}</dd>
@@ -3615,7 +3615,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#field_go" style="color: inherit; text-decoration: inherit;">Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For the `spread` placement strategy, valid values are `instanceId` (or `host`,
 which has the same effect), or any platform or custom attribute that is applied to a container instance.
@@ -3636,7 +3636,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of placement strategy. Must be one of: `binpack`, `random`, or `spread`
 {{% /md %}}</dd>
@@ -3647,7 +3647,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#field_nodejs" style="color: inherit; text-decoration: inherit;">field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For the `spread` placement strategy, valid values are `instanceId` (or `host`,
 which has the same effect), or any platform or custom attribute that is applied to a container instance.
@@ -3668,7 +3668,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of placement strategy. Must be one of: `binpack`, `random`, or `spread`
 {{% /md %}}</dd>
@@ -3679,7 +3679,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#field_python" style="color: inherit; text-decoration: inherit;">field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}For the `spread` placement strategy, valid values are `instanceId` (or `host`,
 which has the same effect), or any platform or custom attribute that is applied to a container instance.
@@ -3718,7 +3718,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of constraint. The only valid values at this time are `memberOf` and `distinctInstance`.
 {{% /md %}}</dd>
@@ -3729,7 +3729,7 @@ needed. For more information, see [Placement Strategy](https://docs.aws.amazon.c
 <a href="#expression_csharp" style="color: inherit; text-decoration: inherit;">Expression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Cluster Query Language expression to apply to the constraint. Does not need to be specified
 for the `distinctInstance` type.
@@ -3751,7 +3751,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of constraint. The only valid values at this time are `memberOf` and `distinctInstance`.
 {{% /md %}}</dd>
@@ -3762,7 +3762,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#expression_go" style="color: inherit; text-decoration: inherit;">Expression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Cluster Query Language expression to apply to the constraint. Does not need to be specified
 for the `distinctInstance` type.
@@ -3784,7 +3784,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of constraint. The only valid values at this time are `memberOf` and `distinctInstance`.
 {{% /md %}}</dd>
@@ -3795,7 +3795,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#expression_nodejs" style="color: inherit; text-decoration: inherit;">expression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Cluster Query Language expression to apply to the constraint. Does not need to be specified
 for the `distinctInstance` type.
@@ -3817,7 +3817,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of constraint. The only valid values at this time are `memberOf` and `distinctInstance`.
 {{% /md %}}</dd>
@@ -3828,7 +3828,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#expression_python" style="color: inherit; text-decoration: inherit;">expression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Cluster Query Language expression to apply to the constraint. Does not need to be specified
 for the `distinctInstance` type.
@@ -3868,7 +3868,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#registryarn_csharp" style="color: inherit; text-decoration: inherit;">Registry<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Service Registry. The currently supported service registry is Amazon Route 53 Auto Naming Service(`aws.servicediscovery.Service`). For more information, see [Service](https://docs.aws.amazon.com/Route53/latest/APIReference/API_autonaming_Service.html)
 {{% /md %}}</dd>
@@ -3879,7 +3879,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#containername_csharp" style="color: inherit; text-decoration: inherit;">Container<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The container name value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -3890,7 +3890,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#containerport_csharp" style="color: inherit; text-decoration: inherit;">Container<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -3901,7 +3901,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port value used if your Service Discovery service specified an SRV record.
 {{% /md %}}</dd>
@@ -3919,7 +3919,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#registryarn_go" style="color: inherit; text-decoration: inherit;">Registry<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Service Registry. The currently supported service registry is Amazon Route 53 Auto Naming Service(`aws.servicediscovery.Service`). For more information, see [Service](https://docs.aws.amazon.com/Route53/latest/APIReference/API_autonaming_Service.html)
 {{% /md %}}</dd>
@@ -3930,7 +3930,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#containername_go" style="color: inherit; text-decoration: inherit;">Container<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The container name value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -3941,7 +3941,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#containerport_go" style="color: inherit; text-decoration: inherit;">Container<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -3952,7 +3952,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port value used if your Service Discovery service specified an SRV record.
 {{% /md %}}</dd>
@@ -3970,7 +3970,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#registryarn_nodejs" style="color: inherit; text-decoration: inherit;">registry<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Service Registry. The currently supported service registry is Amazon Route 53 Auto Naming Service(`aws.servicediscovery.Service`). For more information, see [Service](https://docs.aws.amazon.com/Route53/latest/APIReference/API_autonaming_Service.html)
 {{% /md %}}</dd>
@@ -3981,7 +3981,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#containername_nodejs" style="color: inherit; text-decoration: inherit;">container<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The container name value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -3992,7 +3992,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#containerport_nodejs" style="color: inherit; text-decoration: inherit;">container<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -4003,7 +4003,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port value used if your Service Discovery service specified an SRV record.
 {{% /md %}}</dd>
@@ -4021,7 +4021,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#registry_arn_python" style="color: inherit; text-decoration: inherit;">registry_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Service Registry. The currently supported service registry is Amazon Route 53 Auto Naming Service(`aws.servicediscovery.Service`). For more information, see [Service](https://docs.aws.amazon.com/Route53/latest/APIReference/API_autonaming_Service.html)
 {{% /md %}}</dd>
@@ -4032,7 +4032,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#container_name_python" style="color: inherit; text-decoration: inherit;">container_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The container name value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -4043,7 +4043,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#container_port_python" style="color: inherit; text-decoration: inherit;">container_<wbr>port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port value, already specified in the task definition, to be used for your service discovery service.
 {{% /md %}}</dd>
@@ -4054,7 +4054,7 @@ Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port value used if your Service Discovery service specified an SRV record.
 {{% /md %}}</dd>

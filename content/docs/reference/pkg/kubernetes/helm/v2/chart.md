@@ -639,7 +639,7 @@ const nginxIngress = new k8s.helm.v2.Chart("nginx-ingress", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/kubernetes/helm/v2/#Chart">Chart</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/kubernetes/helm/v2/#ChartOpts">ChartOpts</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ComponentResourceOptions">ComponentResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/kubernetes/helm/v2/#Chart">Chart</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/kubernetes/helm/v2/#ChartOpts">ChartOpts</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ComponentResourceOptions">ComponentResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -647,11 +647,11 @@ const nginxIngress = new k8s.helm.v2.Chart("nginx-ingress", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-kubernetes/sdk/v2/go/kubernetes/helm/v2?tab=doc#Chart">NewChart</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-kubernetes/sdk/v2/go/kubernetes/helm/v2?tab=doc#ChartArgs">ChartArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-kubernetes/sdk/v2/go/kubernetes/helm/v2?tab=doc#Chart">Chart</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-kubernetes/sdk/v2/go/kubernetes/helm/v2?tab=doc#Chart">NewChart</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-kubernetes/sdk/v2/go/kubernetes/helm/v2?tab=doc#ChartArgs">ChartArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-kubernetes/sdk/v2/go/kubernetes/helm/v2?tab=doc#Chart">Chart</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Kubernetes/Pulumi.Kubernetes.Helm.V2.Chart.html">Chart</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Kubernetes/Pulumi.Kubernetes.Helm.ChartArgs.html">ChartArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.ComponentResourceOptions.html">ComponentResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Kubernetes/Pulumi.Kubernetes.Helm.V2.Chart.html">Chart</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Kubernetes/Pulumi.Kubernetes.Helm.ChartArgs.html">ChartArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.ComponentResourceOptions.html">ComponentResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -662,7 +662,7 @@ const nginxIngress = new k8s.helm.v2.Chart("nginx-ingress", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -731,7 +731,7 @@ const nginxIngress = new k8s.helm.v2.Chart("nginx-ingress", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -770,7 +770,7 @@ const nginxIngress = new k8s.helm.v2.Chart("nginx-ingress", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -821,7 +821,7 @@ The Chart resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#chart_csharp" style="color: inherit; text-decoration: inherit;">Chart</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the chart to deploy. If [repo] is provided, this chart name will be prefixed by the repo name. Example: repo: "stable", chart: "nginx-ingress" -> "stable/nginx-ingress" Example: chart: "stable/nginx-ingress" -> "stable/nginx-ingress"
 
@@ -843,7 +843,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#namespace_csharp" style="color: inherit; text-decoration: inherit;">Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The optional namespace to install chart resources into.{{% /md %}}</dd>
 
@@ -853,7 +853,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#path_csharp" style="color: inherit; text-decoration: inherit;">Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the chart directory which contains the `Chart.yaml` file.
 
@@ -865,7 +865,7 @@ Required if specifying `LocalChartOpts`.{{% /md %}}</dd>
 <a href="#repo_csharp" style="color: inherit; text-decoration: inherit;">Repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The repository name of the chart to deploy. Example: "stable".
 
@@ -877,7 +877,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#resourceprefix_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional prefix for the auto-generated resource names. Example: A resource created with resourcePrefix="foo" would produce a resource named "foo-resourceName".{{% /md %}}</dd>
 
@@ -887,7 +887,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#transformations_csharp" style="color: inherit; text-decoration: inherit;">Transformations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;object&gt;</a></span>
+        <span class="property-type">List&lt;object&gt;</span>
     </dt>
     <dd>{{% md %}}Optional array of transformations to apply to resources that will be created by this chart prior to creation. Allows customization of the chart behaviour without directly modifying the chart itself.{{% /md %}}</dd>
 
@@ -907,7 +907,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the chart to deploy. If not provided, the latest version will be deployed.{{% /md %}}</dd>
 
@@ -924,7 +924,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#chart_go" style="color: inherit; text-decoration: inherit;">Chart</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the chart to deploy. If [repo] is provided, this chart name will be prefixed by the repo name. Example: repo: "stable", chart: "nginx-ingress" -> "stable/nginx-ingress" Example: chart: "stable/nginx-ingress" -> "stable/nginx-ingress"
 
@@ -946,7 +946,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#namespace_go" style="color: inherit; text-decoration: inherit;">Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The optional namespace to install chart resources into.{{% /md %}}</dd>
 
@@ -956,7 +956,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#path_go" style="color: inherit; text-decoration: inherit;">Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the chart directory which contains the `Chart.yaml` file.
 
@@ -968,7 +968,7 @@ Required if specifying `LocalChartOpts`.{{% /md %}}</dd>
 <a href="#repo_go" style="color: inherit; text-decoration: inherit;">Repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The repository name of the chart to deploy. Example: "stable".
 
@@ -980,7 +980,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#resourceprefix_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional prefix for the auto-generated resource names. Example: A resource created with resourcePrefix="foo" would produce a resource named "foo-resourceName".{{% /md %}}</dd>
 
@@ -990,7 +990,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#transformations_go" style="color: inherit; text-decoration: inherit;">Transformations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#pulumi:pulumi:Any">[]interface{}</a></span>
+        <span class="property-type">[]interface{}</span>
     </dt>
     <dd>{{% md %}}Optional array of transformations to apply to resources that will be created by this chart prior to creation. Allows customization of the chart behaviour without directly modifying the chart itself.{{% /md %}}</dd>
 
@@ -1010,7 +1010,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the chart to deploy. If not provided, the latest version will be deployed.{{% /md %}}</dd>
 
@@ -1027,7 +1027,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#chart_nodejs" style="color: inherit; text-decoration: inherit;">chart</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the chart to deploy. If [repo] is provided, this chart name will be prefixed by the repo name. Example: repo: "stable", chart: "nginx-ingress" -> "stable/nginx-ingress" Example: chart: "stable/nginx-ingress" -> "stable/nginx-ingress"
 
@@ -1049,7 +1049,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#namespace_nodejs" style="color: inherit; text-decoration: inherit;">namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The optional namespace to install chart resources into.{{% /md %}}</dd>
 
@@ -1059,7 +1059,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#path_nodejs" style="color: inherit; text-decoration: inherit;">path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the chart directory which contains the `Chart.yaml` file.
 
@@ -1071,7 +1071,7 @@ Required if specifying `LocalChartOpts`.{{% /md %}}</dd>
 <a href="#repo_nodejs" style="color: inherit; text-decoration: inherit;">repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The repository name of the chart to deploy. Example: "stable".
 
@@ -1083,7 +1083,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#resourceprefix_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional prefix for the auto-generated resource names. Example: A resource created with resourcePrefix="foo" would produce a resource named "foo-resourceName".{{% /md %}}</dd>
 
@@ -1093,7 +1093,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#transformations_nodejs" style="color: inherit; text-decoration: inherit;">transformations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/pulumi:pulumi:Any">any[]</a></span>
+        <span class="property-type">any[]</span>
     </dt>
     <dd>{{% md %}}Optional array of transformations to apply to resources that will be created by this chart prior to creation. Allows customization of the chart behaviour without directly modifying the chart itself.{{% /md %}}</dd>
 
@@ -1113,7 +1113,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the chart to deploy. If not provided, the latest version will be deployed.{{% /md %}}</dd>
 
@@ -1130,7 +1130,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#chart_python" style="color: inherit; text-decoration: inherit;">chart</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the chart to deploy. If [repo] is provided, this chart name will be prefixed by the repo name. Example: repo: "stable", chart: "nginx-ingress" -> "stable/nginx-ingress" Example: chart: "stable/nginx-ingress" -> "stable/nginx-ingress"
 
@@ -1142,7 +1142,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#fetch_opts_python" style="color: inherit; text-decoration: inherit;">fetch_<wbr>opts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="#fetchopts">Fetch<wbr>Opts<wbr>Args]</a></span>
+        <span class="property-type"><a href="#fetchopts">Fetch<wbr>Opts<wbr>Args</a></span>
     </dt>
     <dd>{{% md %}}Additional options to customize the fetching of the Helm chart.{{% /md %}}</dd>
 
@@ -1152,7 +1152,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#namespace_python" style="color: inherit; text-decoration: inherit;">namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The optional namespace to install chart resources into.{{% /md %}}</dd>
 
@@ -1162,7 +1162,7 @@ Required if specifying `ChartOpts` for a remote chart.{{% /md %}}</dd>
 <a href="#path_python" style="color: inherit; text-decoration: inherit;">path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path to the chart directory which contains the `Chart.yaml` file.
 
@@ -1174,7 +1174,7 @@ Required if specifying `LocalChartOpts`.{{% /md %}}</dd>
 <a href="#repo_python" style="color: inherit; text-decoration: inherit;">repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The repository name of the chart to deploy. Example: "stable".
 
@@ -1186,7 +1186,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#resource_prefix_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}An optional prefix for the auto-generated resource names. Example: A resource created with resourcePrefix="foo" would produce a resource named "foo-resourceName".{{% /md %}}</dd>
 
@@ -1196,7 +1196,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#transformations_python" style="color: inherit; text-decoration: inherit;">transformations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[Any]</a></span>
+        <span class="property-type">Sequence[Any]</span>
     </dt>
     <dd>{{% md %}}Optional array of transformations to apply to resources that will be created by this chart prior to creation. Allows customization of the chart behaviour without directly modifying the chart itself.{{% /md %}}</dd>
 
@@ -1216,7 +1216,7 @@ Used only when specifying options for a remote chart.{{% /md %}}</dd>
 <a href="#version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the chart to deploy. If not provided, the latest version will be deployed.{{% /md %}}</dd>
 
@@ -1244,7 +1244,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1254,7 +1254,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resources_csharp" style="color: inherit; text-decoration: inherit;">Resources</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1264,7 +1264,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#urn_csharp" style="color: inherit; text-decoration: inherit;">Urn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}urn is the stable logical URN used to distinctly address a resource, both before and after deployments.{{% /md %}}</dd>
 
@@ -1281,7 +1281,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1291,7 +1291,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resources_go" style="color: inherit; text-decoration: inherit;">Resources</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1301,7 +1301,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#urn_go" style="color: inherit; text-decoration: inherit;">Urn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}urn is the stable logical URN used to distinctly address a resource, both before and after deployments.{{% /md %}}</dd>
 
@@ -1318,7 +1318,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1328,7 +1328,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resources_nodejs" style="color: inherit; text-decoration: inherit;">resources</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1338,7 +1338,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#urn_nodejs" style="color: inherit; text-decoration: inherit;">urn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}urn is the stable logical URN used to distinctly address a resource, both before and after deployments.{{% /md %}}</dd>
 
@@ -1355,7 +1355,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1365,7 +1365,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resources_python" style="color: inherit; text-decoration: inherit;">resources</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1375,7 +1375,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#urn_python" style="color: inherit; text-decoration: inherit;">urn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}urn is the stable logical URN used to distinctly address a resource, both before and after deployments.{{% /md %}}</dd>
 
@@ -1416,7 +1416,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#cafile_csharp" style="color: inherit; text-decoration: inherit;">Ca<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Verify certificates of HTTPS-enabled servers using this CA bundle.{{% /md %}}</dd>
 
@@ -1426,7 +1426,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#certfile_csharp" style="color: inherit; text-decoration: inherit;">Cert<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL certificate file.{{% /md %}}</dd>
 
@@ -1436,7 +1436,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#destination_csharp" style="color: inherit; text-decoration: inherit;">Destination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Location to write the chart. If this and tardir are specified, tardir is appended to this (default ".").{{% /md %}}</dd>
 
@@ -1446,7 +1446,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#devel_csharp" style="color: inherit; text-decoration: inherit;">Devel</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Use development versions, too. Equivalent to version '>0.0.0-0'. If –version is set, this is ignored.{{% /md %}}</dd>
 
@@ -1456,7 +1456,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#home_csharp" style="color: inherit; text-decoration: inherit;">Home</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Location of your Helm config. Overrides $HELM_HOME (default "/Users/abc/.helm").{{% /md %}}</dd>
 
@@ -1466,7 +1466,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyfile_csharp" style="color: inherit; text-decoration: inherit;">Key<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL key file.{{% /md %}}</dd>
 
@@ -1476,7 +1476,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyring_csharp" style="color: inherit; text-decoration: inherit;">Keyring</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyring containing public keys (default “/Users/abc/.gnupg/pubring.gpg”).{{% /md %}}</dd>
 
@@ -1486,7 +1486,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#password_csharp" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository password.{{% /md %}}</dd>
 
@@ -1496,7 +1496,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#prov_csharp" style="color: inherit; text-decoration: inherit;">Prov</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Fetch the provenance file, but don’t perform verification.{{% /md %}}</dd>
 
@@ -1506,7 +1506,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#repo_csharp" style="color: inherit; text-decoration: inherit;">Repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository url where to locate the requested chart.{{% /md %}}</dd>
 
@@ -1516,7 +1516,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untar_csharp" style="color: inherit; text-decoration: inherit;">Untar</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If set to false, will leave the chart as a tarball after downloading.{{% /md %}}</dd>
 
@@ -1526,7 +1526,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untardir_csharp" style="color: inherit; text-decoration: inherit;">Untardir</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If untar is specified, this flag specifies the name of the directory into which the chart is expanded (default ".").{{% /md %}}</dd>
 
@@ -1536,7 +1536,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#username_csharp" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository username.{{% /md %}}</dd>
 
@@ -1546,7 +1546,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#verify_csharp" style="color: inherit; text-decoration: inherit;">Verify</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Verify the package against its signature.{{% /md %}}</dd>
 
@@ -1556,7 +1556,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specific version of a chart. Without this, the latest version is fetched.{{% /md %}}</dd>
 
@@ -1573,7 +1573,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#cafile_go" style="color: inherit; text-decoration: inherit;">Ca<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Verify certificates of HTTPS-enabled servers using this CA bundle.{{% /md %}}</dd>
 
@@ -1583,7 +1583,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#certfile_go" style="color: inherit; text-decoration: inherit;">Cert<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL certificate file.{{% /md %}}</dd>
 
@@ -1593,7 +1593,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#destination_go" style="color: inherit; text-decoration: inherit;">Destination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Location to write the chart. If this and tardir are specified, tardir is appended to this (default ".").{{% /md %}}</dd>
 
@@ -1603,7 +1603,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#devel_go" style="color: inherit; text-decoration: inherit;">Devel</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Use development versions, too. Equivalent to version '>0.0.0-0'. If –version is set, this is ignored.{{% /md %}}</dd>
 
@@ -1613,7 +1613,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#home_go" style="color: inherit; text-decoration: inherit;">Home</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Location of your Helm config. Overrides $HELM_HOME (default "/Users/abc/.helm").{{% /md %}}</dd>
 
@@ -1623,7 +1623,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyfile_go" style="color: inherit; text-decoration: inherit;">Key<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL key file.{{% /md %}}</dd>
 
@@ -1633,7 +1633,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyring_go" style="color: inherit; text-decoration: inherit;">Keyring</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyring containing public keys (default “/Users/abc/.gnupg/pubring.gpg”).{{% /md %}}</dd>
 
@@ -1643,7 +1643,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#password_go" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository password.{{% /md %}}</dd>
 
@@ -1653,7 +1653,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#prov_go" style="color: inherit; text-decoration: inherit;">Prov</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Fetch the provenance file, but don’t perform verification.{{% /md %}}</dd>
 
@@ -1663,7 +1663,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#repo_go" style="color: inherit; text-decoration: inherit;">Repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository url where to locate the requested chart.{{% /md %}}</dd>
 
@@ -1673,7 +1673,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untar_go" style="color: inherit; text-decoration: inherit;">Untar</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If set to false, will leave the chart as a tarball after downloading.{{% /md %}}</dd>
 
@@ -1683,7 +1683,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untardir_go" style="color: inherit; text-decoration: inherit;">Untardir</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If untar is specified, this flag specifies the name of the directory into which the chart is expanded (default ".").{{% /md %}}</dd>
 
@@ -1693,7 +1693,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#username_go" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository username.{{% /md %}}</dd>
 
@@ -1703,7 +1703,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#verify_go" style="color: inherit; text-decoration: inherit;">Verify</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Verify the package against its signature.{{% /md %}}</dd>
 
@@ -1713,7 +1713,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specific version of a chart. Without this, the latest version is fetched.{{% /md %}}</dd>
 
@@ -1730,7 +1730,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#cafile_nodejs" style="color: inherit; text-decoration: inherit;">ca<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Verify certificates of HTTPS-enabled servers using this CA bundle.{{% /md %}}</dd>
 
@@ -1740,7 +1740,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#certfile_nodejs" style="color: inherit; text-decoration: inherit;">cert<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL certificate file.{{% /md %}}</dd>
 
@@ -1750,7 +1750,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#destination_nodejs" style="color: inherit; text-decoration: inherit;">destination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Location to write the chart. If this and tardir are specified, tardir is appended to this (default ".").{{% /md %}}</dd>
 
@@ -1760,7 +1760,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#devel_nodejs" style="color: inherit; text-decoration: inherit;">devel</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Use development versions, too. Equivalent to version '>0.0.0-0'. If –version is set, this is ignored.{{% /md %}}</dd>
 
@@ -1770,7 +1770,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#home_nodejs" style="color: inherit; text-decoration: inherit;">home</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Location of your Helm config. Overrides $HELM_HOME (default "/Users/abc/.helm").{{% /md %}}</dd>
 
@@ -1780,7 +1780,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyfile_nodejs" style="color: inherit; text-decoration: inherit;">key<wbr>File</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL key file.{{% /md %}}</dd>
 
@@ -1790,7 +1790,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyring_nodejs" style="color: inherit; text-decoration: inherit;">keyring</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyring containing public keys (default “/Users/abc/.gnupg/pubring.gpg”).{{% /md %}}</dd>
 
@@ -1800,7 +1800,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#password_nodejs" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository password.{{% /md %}}</dd>
 
@@ -1810,7 +1810,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#prov_nodejs" style="color: inherit; text-decoration: inherit;">prov</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Fetch the provenance file, but don’t perform verification.{{% /md %}}</dd>
 
@@ -1820,7 +1820,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#repo_nodejs" style="color: inherit; text-decoration: inherit;">repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository url where to locate the requested chart.{{% /md %}}</dd>
 
@@ -1830,7 +1830,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untar_nodejs" style="color: inherit; text-decoration: inherit;">untar</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If set to false, will leave the chart as a tarball after downloading.{{% /md %}}</dd>
 
@@ -1840,7 +1840,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untardir_nodejs" style="color: inherit; text-decoration: inherit;">untardir</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If untar is specified, this flag specifies the name of the directory into which the chart is expanded (default ".").{{% /md %}}</dd>
 
@@ -1850,7 +1850,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#username_nodejs" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Chart repository username.{{% /md %}}</dd>
 
@@ -1860,7 +1860,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#verify_nodejs" style="color: inherit; text-decoration: inherit;">verify</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Verify the package against its signature.{{% /md %}}</dd>
 
@@ -1870,7 +1870,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specific version of a chart. Without this, the latest version is fetched.{{% /md %}}</dd>
 
@@ -1887,7 +1887,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#ca_file_python" style="color: inherit; text-decoration: inherit;">ca_<wbr>file</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Verify certificates of HTTPS-enabled servers using this CA bundle.{{% /md %}}</dd>
 
@@ -1897,7 +1897,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#cert_file_python" style="color: inherit; text-decoration: inherit;">cert_<wbr>file</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL certificate file.{{% /md %}}</dd>
 
@@ -1907,7 +1907,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#destination_python" style="color: inherit; text-decoration: inherit;">destination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Location to write the chart. If this and tardir are specified, tardir is appended to this (default ".").{{% /md %}}</dd>
 
@@ -1917,7 +1917,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#devel_python" style="color: inherit; text-decoration: inherit;">devel</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Use development versions, too. Equivalent to version '>0.0.0-0'. If –version is set, this is ignored.{{% /md %}}</dd>
 
@@ -1927,7 +1927,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#home_python" style="color: inherit; text-decoration: inherit;">home</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Location of your Helm config. Overrides $HELM_HOME (default "/Users/abc/.helm").{{% /md %}}</dd>
 
@@ -1937,7 +1937,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#key_file_python" style="color: inherit; text-decoration: inherit;">key_<wbr>file</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Identify HTTPS client using this SSL key file.{{% /md %}}</dd>
 
@@ -1947,7 +1947,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#keyring_python" style="color: inherit; text-decoration: inherit;">keyring</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Keyring containing public keys (default “/Users/abc/.gnupg/pubring.gpg”).{{% /md %}}</dd>
 
@@ -1957,7 +1957,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#password_python" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Chart repository password.{{% /md %}}</dd>
 
@@ -1967,7 +1967,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#prov_python" style="color: inherit; text-decoration: inherit;">prov</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Fetch the provenance file, but don’t perform verification.{{% /md %}}</dd>
 
@@ -1977,7 +1977,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#repo_python" style="color: inherit; text-decoration: inherit;">repo</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Chart repository url where to locate the requested chart.{{% /md %}}</dd>
 
@@ -1987,7 +1987,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untar_python" style="color: inherit; text-decoration: inherit;">untar</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If set to false, will leave the chart as a tarball after downloading.{{% /md %}}</dd>
 
@@ -1997,7 +1997,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#untardir_python" style="color: inherit; text-decoration: inherit;">untardir</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If untar is specified, this flag specifies the name of the directory into which the chart is expanded (default ".").{{% /md %}}</dd>
 
@@ -2007,7 +2007,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#username_python" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Chart repository username.{{% /md %}}</dd>
 
@@ -2017,7 +2017,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#verify_python" style="color: inherit; text-decoration: inherit;">verify</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Verify the package against its signature.{{% /md %}}</dd>
 
@@ -2027,7 +2027,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specific version of a chart. Without this, the latest version is fetched.{{% /md %}}</dd>
 

@@ -240,7 +240,7 @@ const example = new aws.fsx.WindowsFileSystem("example", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystem">WindowsFileSystem</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystemArgs">WindowsFileSystemArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystem">WindowsFileSystem</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystemArgs">WindowsFileSystemArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -248,11 +248,11 @@ const example = new aws.fsx.WindowsFileSystem("example", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystem">NewWindowsFileSystem</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystemArgs">WindowsFileSystemArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystem">WindowsFileSystem</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystem">NewWindowsFileSystem</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystemArgs">WindowsFileSystemArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystem">WindowsFileSystem</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystem.html">WindowsFileSystem</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystemArgs.html">WindowsFileSystemArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystem.html">WindowsFileSystem</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystemArgs.html">WindowsFileSystemArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -263,7 +263,7 @@ const example = new aws.fsx.WindowsFileSystem("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -332,7 +332,7 @@ const example = new aws.fsx.WindowsFileSystem("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -371,7 +371,7 @@ const example = new aws.fsx.WindowsFileSystem("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -422,7 +422,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storagecapacity_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -433,7 +433,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#subnetids_csharp" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -444,7 +444,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#throughputcapacity_csharp" style="color: inherit; text-decoration: inherit;">Throughput<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -455,7 +455,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#activedirectoryid_csharp" style="color: inherit; text-decoration: inherit;">Active<wbr>Directory<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -466,7 +466,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#automaticbackupretentiondays_csharp" style="color: inherit; text-decoration: inherit;">Automatic<wbr>Backup<wbr>Retention<wbr>Days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -477,7 +477,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#copytagstobackups_csharp" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -488,7 +488,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#dailyautomaticbackupstarttime_csharp" style="color: inherit; text-decoration: inherit;">Daily<wbr>Automatic<wbr>Backup<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -499,7 +499,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#deploymenttype_csharp" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -510,7 +510,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -521,7 +521,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#preferredsubnetid_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -532,7 +532,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#securitygroupids_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -554,7 +554,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#skipfinalbackup_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -565,7 +565,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storagetype_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -587,7 +587,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#weeklymaintenancestarttime_csharp" style="color: inherit; text-decoration: inherit;">Weekly<wbr>Maintenance<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -605,7 +605,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storagecapacity_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -616,7 +616,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#subnetids_go" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -627,7 +627,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#throughputcapacity_go" style="color: inherit; text-decoration: inherit;">Throughput<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -638,7 +638,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#activedirectoryid_go" style="color: inherit; text-decoration: inherit;">Active<wbr>Directory<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -649,7 +649,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#automaticbackupretentiondays_go" style="color: inherit; text-decoration: inherit;">Automatic<wbr>Backup<wbr>Retention<wbr>Days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -660,7 +660,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#copytagstobackups_go" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -671,7 +671,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#dailyautomaticbackupstarttime_go" style="color: inherit; text-decoration: inherit;">Daily<wbr>Automatic<wbr>Backup<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -682,7 +682,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#deploymenttype_go" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -693,7 +693,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -704,7 +704,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#preferredsubnetid_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -715,7 +715,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#securitygroupids_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -737,7 +737,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#skipfinalbackup_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -748,7 +748,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storagetype_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -770,7 +770,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#weeklymaintenancestarttime_go" style="color: inherit; text-decoration: inherit;">Weekly<wbr>Maintenance<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -788,7 +788,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storagecapacity_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -799,7 +799,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#subnetids_nodejs" style="color: inherit; text-decoration: inherit;">subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -810,7 +810,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#throughputcapacity_nodejs" style="color: inherit; text-decoration: inherit;">throughput<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -821,7 +821,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#activedirectoryid_nodejs" style="color: inherit; text-decoration: inherit;">active<wbr>Directory<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -832,7 +832,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#automaticbackupretentiondays_nodejs" style="color: inherit; text-decoration: inherit;">automatic<wbr>Backup<wbr>Retention<wbr>Days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -843,7 +843,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#copytagstobackups_nodejs" style="color: inherit; text-decoration: inherit;">copy<wbr>Tags<wbr>To<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -854,7 +854,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#dailyautomaticbackupstarttime_nodejs" style="color: inherit; text-decoration: inherit;">daily<wbr>Automatic<wbr>Backup<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -865,7 +865,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#deploymenttype_nodejs" style="color: inherit; text-decoration: inherit;">deployment<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -876,7 +876,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -887,7 +887,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#preferredsubnetid_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -898,7 +898,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#securitygroupids_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -920,7 +920,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#skipfinalbackup_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -931,7 +931,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storagetype_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -953,7 +953,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#weeklymaintenancestarttime_nodejs" style="color: inherit; text-decoration: inherit;">weekly<wbr>Maintenance<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -971,7 +971,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storage_capacity_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -982,7 +982,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#subnet_ids_python" style="color: inherit; text-decoration: inherit;">subnet_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -993,7 +993,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#throughput_capacity_python" style="color: inherit; text-decoration: inherit;">throughput_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -1004,7 +1004,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#active_directory_id_python" style="color: inherit; text-decoration: inherit;">active_<wbr>directory_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -1015,7 +1015,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#automatic_backup_retention_days_python" style="color: inherit; text-decoration: inherit;">automatic_<wbr>backup_<wbr>retention_<wbr>days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -1026,7 +1026,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#copy_tags_to_backups_python" style="color: inherit; text-decoration: inherit;">copy_<wbr>tags_<wbr>to_<wbr>backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1037,7 +1037,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#daily_automatic_backup_start_time_python" style="color: inherit; text-decoration: inherit;">daily_<wbr>automatic_<wbr>backup_<wbr>start_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -1048,7 +1048,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#deployment_type_python" style="color: inherit; text-decoration: inherit;">deployment_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -1059,7 +1059,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -1070,7 +1070,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#preferred_subnet_id_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>subnet_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -1081,7 +1081,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#security_group_ids_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -1103,7 +1103,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#skip_final_backup_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1114,7 +1114,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#storage_type_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -1136,7 +1136,7 @@ The WindowsFileSystem resource accepts the following [input]({{< relref "/docs/i
 <a href="#weekly_maintenance_start_time_python" style="color: inherit; text-decoration: inherit;">weekly_<wbr>maintenance_<wbr>start_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -1165,7 +1165,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -1176,7 +1176,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -1187,7 +1187,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1197,7 +1197,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#networkinterfaceids_csharp" style="color: inherit; text-decoration: inherit;">Network<wbr>Interface<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -1208,7 +1208,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#ownerid_csharp" style="color: inherit; text-decoration: inherit;">Owner<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -1219,7 +1219,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#preferredfileserverip_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>File<wbr>Server<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -1230,7 +1230,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#remoteadministrationendpoint_csharp" style="color: inherit; text-decoration: inherit;">Remote<wbr>Administration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -1241,7 +1241,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#vpcid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -1259,7 +1259,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -1270,7 +1270,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -1281,7 +1281,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1291,7 +1291,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#networkinterfaceids_go" style="color: inherit; text-decoration: inherit;">Network<wbr>Interface<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -1302,7 +1302,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#ownerid_go" style="color: inherit; text-decoration: inherit;">Owner<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -1313,7 +1313,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#preferredfileserverip_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>File<wbr>Server<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -1324,7 +1324,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#remoteadministrationendpoint_go" style="color: inherit; text-decoration: inherit;">Remote<wbr>Administration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -1335,7 +1335,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#vpcid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -1353,7 +1353,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -1364,7 +1364,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -1375,7 +1375,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1385,7 +1385,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#networkinterfaceids_nodejs" style="color: inherit; text-decoration: inherit;">network<wbr>Interface<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -1396,7 +1396,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#ownerid_nodejs" style="color: inherit; text-decoration: inherit;">owner<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -1407,7 +1407,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#preferredfileserverip_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>File<wbr>Server<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -1418,7 +1418,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#remoteadministrationendpoint_nodejs" style="color: inherit; text-decoration: inherit;">remote<wbr>Administration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -1429,7 +1429,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#vpcid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -1447,7 +1447,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -1458,7 +1458,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dns_name_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -1469,7 +1469,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1479,7 +1479,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#network_interface_ids_python" style="color: inherit; text-decoration: inherit;">network_<wbr>interface_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -1490,7 +1490,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#owner_id_python" style="color: inherit; text-decoration: inherit;">owner_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -1501,7 +1501,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#preferred_file_server_ip_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>file_<wbr>server_<wbr>ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -1512,7 +1512,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#remote_administration_endpoint_python" style="color: inherit; text-decoration: inherit;">remote_<wbr>administration_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -1523,7 +1523,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#vpc_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -1543,7 +1543,7 @@ Get an existing WindowsFileSystem resource's state with the given name, ID, and 
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystemState">WindowsFileSystemState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystem">WindowsFileSystem</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystemState">WindowsFileSystemState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/fsx/#WindowsFileSystem">WindowsFileSystem</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1552,11 +1552,11 @@ Get an existing WindowsFileSystem resource's state with the given name, ID, and 
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetWindowsFileSystem<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystemState">WindowsFileSystemState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystem">WindowsFileSystem</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetWindowsFileSystem<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystemState">WindowsFileSystemState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/fsx?tab=doc#WindowsFileSystem">WindowsFileSystem</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystem.html">WindowsFileSystem</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystemState.html">WindowsFileSystemState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystem.html">WindowsFileSystem</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Fsx.WindowsFileSystemState.html">WindowsFileSystemState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1668,7 +1668,7 @@ The following state arguments are supported:
 <a href="#state_activedirectoryid_csharp" style="color: inherit; text-decoration: inherit;">Active<wbr>Directory<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -1679,7 +1679,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -1690,7 +1690,7 @@ The following state arguments are supported:
 <a href="#state_automaticbackupretentiondays_csharp" style="color: inherit; text-decoration: inherit;">Automatic<wbr>Backup<wbr>Retention<wbr>Days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -1701,7 +1701,7 @@ The following state arguments are supported:
 <a href="#state_copytagstobackups_csharp" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1712,7 +1712,7 @@ The following state arguments are supported:
 <a href="#state_dailyautomaticbackupstarttime_csharp" style="color: inherit; text-decoration: inherit;">Daily<wbr>Automatic<wbr>Backup<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -1723,7 +1723,7 @@ The following state arguments are supported:
 <a href="#state_deploymenttype_csharp" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -1734,7 +1734,7 @@ The following state arguments are supported:
 <a href="#state_dnsname_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -1745,7 +1745,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -1756,7 +1756,7 @@ The following state arguments are supported:
 <a href="#state_networkinterfaceids_csharp" style="color: inherit; text-decoration: inherit;">Network<wbr>Interface<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -1767,7 +1767,7 @@ The following state arguments are supported:
 <a href="#state_ownerid_csharp" style="color: inherit; text-decoration: inherit;">Owner<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -1778,7 +1778,7 @@ The following state arguments are supported:
 <a href="#state_preferredfileserverip_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>File<wbr>Server<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -1789,7 +1789,7 @@ The following state arguments are supported:
 <a href="#state_preferredsubnetid_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -1800,7 +1800,7 @@ The following state arguments are supported:
 <a href="#state_remoteadministrationendpoint_csharp" style="color: inherit; text-decoration: inherit;">Remote<wbr>Administration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -1811,7 +1811,7 @@ The following state arguments are supported:
 <a href="#state_securitygroupids_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -1833,7 +1833,7 @@ The following state arguments are supported:
 <a href="#state_skipfinalbackup_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1844,7 +1844,7 @@ The following state arguments are supported:
 <a href="#state_storagecapacity_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -1855,7 +1855,7 @@ The following state arguments are supported:
 <a href="#state_storagetype_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -1866,7 +1866,7 @@ The following state arguments are supported:
 <a href="#state_subnetids_csharp" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -1888,7 +1888,7 @@ The following state arguments are supported:
 <a href="#state_throughputcapacity_csharp" style="color: inherit; text-decoration: inherit;">Throughput<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -1899,7 +1899,7 @@ The following state arguments are supported:
 <a href="#state_vpcid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -1910,7 +1910,7 @@ The following state arguments are supported:
 <a href="#state_weeklymaintenancestarttime_csharp" style="color: inherit; text-decoration: inherit;">Weekly<wbr>Maintenance<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -1928,7 +1928,7 @@ The following state arguments are supported:
 <a href="#state_activedirectoryid_go" style="color: inherit; text-decoration: inherit;">Active<wbr>Directory<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -1939,7 +1939,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -1950,7 +1950,7 @@ The following state arguments are supported:
 <a href="#state_automaticbackupretentiondays_go" style="color: inherit; text-decoration: inherit;">Automatic<wbr>Backup<wbr>Retention<wbr>Days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -1961,7 +1961,7 @@ The following state arguments are supported:
 <a href="#state_copytagstobackups_go" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1972,7 +1972,7 @@ The following state arguments are supported:
 <a href="#state_dailyautomaticbackupstarttime_go" style="color: inherit; text-decoration: inherit;">Daily<wbr>Automatic<wbr>Backup<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -1983,7 +1983,7 @@ The following state arguments are supported:
 <a href="#state_deploymenttype_go" style="color: inherit; text-decoration: inherit;">Deployment<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -1994,7 +1994,7 @@ The following state arguments are supported:
 <a href="#state_dnsname_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -2005,7 +2005,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -2016,7 +2016,7 @@ The following state arguments are supported:
 <a href="#state_networkinterfaceids_go" style="color: inherit; text-decoration: inherit;">Network<wbr>Interface<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -2027,7 +2027,7 @@ The following state arguments are supported:
 <a href="#state_ownerid_go" style="color: inherit; text-decoration: inherit;">Owner<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -2038,7 +2038,7 @@ The following state arguments are supported:
 <a href="#state_preferredfileserverip_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>File<wbr>Server<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -2049,7 +2049,7 @@ The following state arguments are supported:
 <a href="#state_preferredsubnetid_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -2060,7 +2060,7 @@ The following state arguments are supported:
 <a href="#state_remoteadministrationendpoint_go" style="color: inherit; text-decoration: inherit;">Remote<wbr>Administration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -2071,7 +2071,7 @@ The following state arguments are supported:
 <a href="#state_securitygroupids_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -2093,7 +2093,7 @@ The following state arguments are supported:
 <a href="#state_skipfinalbackup_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2104,7 +2104,7 @@ The following state arguments are supported:
 <a href="#state_storagecapacity_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -2115,7 +2115,7 @@ The following state arguments are supported:
 <a href="#state_storagetype_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -2126,7 +2126,7 @@ The following state arguments are supported:
 <a href="#state_subnetids_go" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -2148,7 +2148,7 @@ The following state arguments are supported:
 <a href="#state_throughputcapacity_go" style="color: inherit; text-decoration: inherit;">Throughput<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -2159,7 +2159,7 @@ The following state arguments are supported:
 <a href="#state_vpcid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -2170,7 +2170,7 @@ The following state arguments are supported:
 <a href="#state_weeklymaintenancestarttime_go" style="color: inherit; text-decoration: inherit;">Weekly<wbr>Maintenance<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -2188,7 +2188,7 @@ The following state arguments are supported:
 <a href="#state_activedirectoryid_nodejs" style="color: inherit; text-decoration: inherit;">active<wbr>Directory<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -2199,7 +2199,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -2210,7 +2210,7 @@ The following state arguments are supported:
 <a href="#state_automaticbackupretentiondays_nodejs" style="color: inherit; text-decoration: inherit;">automatic<wbr>Backup<wbr>Retention<wbr>Days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -2221,7 +2221,7 @@ The following state arguments are supported:
 <a href="#state_copytagstobackups_nodejs" style="color: inherit; text-decoration: inherit;">copy<wbr>Tags<wbr>To<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2232,7 +2232,7 @@ The following state arguments are supported:
 <a href="#state_dailyautomaticbackupstarttime_nodejs" style="color: inherit; text-decoration: inherit;">daily<wbr>Automatic<wbr>Backup<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -2243,7 +2243,7 @@ The following state arguments are supported:
 <a href="#state_deploymenttype_nodejs" style="color: inherit; text-decoration: inherit;">deployment<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -2254,7 +2254,7 @@ The following state arguments are supported:
 <a href="#state_dnsname_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -2265,7 +2265,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -2276,7 +2276,7 @@ The following state arguments are supported:
 <a href="#state_networkinterfaceids_nodejs" style="color: inherit; text-decoration: inherit;">network<wbr>Interface<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -2287,7 +2287,7 @@ The following state arguments are supported:
 <a href="#state_ownerid_nodejs" style="color: inherit; text-decoration: inherit;">owner<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -2298,7 +2298,7 @@ The following state arguments are supported:
 <a href="#state_preferredfileserverip_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>File<wbr>Server<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -2309,7 +2309,7 @@ The following state arguments are supported:
 <a href="#state_preferredsubnetid_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -2320,7 +2320,7 @@ The following state arguments are supported:
 <a href="#state_remoteadministrationendpoint_nodejs" style="color: inherit; text-decoration: inherit;">remote<wbr>Administration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -2331,7 +2331,7 @@ The following state arguments are supported:
 <a href="#state_securitygroupids_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -2353,7 +2353,7 @@ The following state arguments are supported:
 <a href="#state_skipfinalbackup_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2364,7 +2364,7 @@ The following state arguments are supported:
 <a href="#state_storagecapacity_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -2375,7 +2375,7 @@ The following state arguments are supported:
 <a href="#state_storagetype_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -2386,7 +2386,7 @@ The following state arguments are supported:
 <a href="#state_subnetids_nodejs" style="color: inherit; text-decoration: inherit;">subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -2408,7 +2408,7 @@ The following state arguments are supported:
 <a href="#state_throughputcapacity_nodejs" style="color: inherit; text-decoration: inherit;">throughput<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -2419,7 +2419,7 @@ The following state arguments are supported:
 <a href="#state_vpcid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -2430,7 +2430,7 @@ The following state arguments are supported:
 <a href="#state_weeklymaintenancestarttime_nodejs" style="color: inherit; text-decoration: inherit;">weekly<wbr>Maintenance<wbr>Start<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -2448,7 +2448,7 @@ The following state arguments are supported:
 <a href="#state_active_directory_id_python" style="color: inherit; text-decoration: inherit;">active_<wbr>directory_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ID for an existing Microsoft Active Directory instance that the file system should join when it's created. Cannot be specified with `self_managed_active_directory`.
 {{% /md %}}</dd>
@@ -2459,7 +2459,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name of the file system.
 {{% /md %}}</dd>
@@ -2470,7 +2470,7 @@ The following state arguments are supported:
 <a href="#state_automatic_backup_retention_days_python" style="color: inherit; text-decoration: inherit;">automatic_<wbr>backup_<wbr>retention_<wbr>days</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automatic backups. Minimum of `0` and maximum of `90`. Defaults to `7`. Set to `0` to disable.
 {{% /md %}}</dd>
@@ -2481,7 +2481,7 @@ The following state arguments are supported:
 <a href="#state_copy_tags_to_backups_python" style="color: inherit; text-decoration: inherit;">copy_<wbr>tags_<wbr>to_<wbr>backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean flag indicating whether tags on the file system should be copied to backups. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2492,7 +2492,7 @@ The following state arguments are supported:
 <a href="#state_daily_automatic_backup_start_time_python" style="color: inherit; text-decoration: inherit;">daily_<wbr>automatic_<wbr>backup_<wbr>start_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The preferred time (in `HH:MM` format) to take daily automatic backups, in the UTC time zone.
 {{% /md %}}</dd>
@@ -2503,7 +2503,7 @@ The following state arguments are supported:
 <a href="#state_deployment_type_python" style="color: inherit; text-decoration: inherit;">deployment_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the file system deployment type, valid values are `MULTI_AZ_1`, `SINGLE_AZ_1` and `SINGLE_AZ_2`. Default value is `SINGLE_AZ_1`.
 {{% /md %}}</dd>
@@ -2514,7 +2514,7 @@ The following state arguments are supported:
 <a href="#state_dns_name_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}DNS name for the file system, e.g. `fs-12345678.corp.example.com` (domain name matching the Active Directory domain name)
 {{% /md %}}</dd>
@@ -2525,7 +2525,7 @@ The following state arguments are supported:
 <a href="#state_kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN for the KMS Key to encrypt the file system at rest. Defaults to an AWS managed KMS Key.
 {{% /md %}}</dd>
@@ -2536,7 +2536,7 @@ The following state arguments are supported:
 <a href="#state_network_interface_ids_python" style="color: inherit; text-decoration: inherit;">network_<wbr>interface_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of Elastic Network Interface identifiers from which the file system is accessible.
 {{% /md %}}</dd>
@@ -2547,7 +2547,7 @@ The following state arguments are supported:
 <a href="#state_owner_id_python" style="color: inherit; text-decoration: inherit;">owner_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}AWS account identifier that created the file system.
 {{% /md %}}</dd>
@@ -2558,7 +2558,7 @@ The following state arguments are supported:
 <a href="#state_preferred_file_server_ip_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>file_<wbr>server_<wbr>ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IP address of the primary, or preferred, file server.
 {{% /md %}}</dd>
@@ -2569,7 +2569,7 @@ The following state arguments are supported:
 <a href="#state_preferred_subnet_id_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>subnet_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the subnet in which you want the preferred file server to be located. Required for when deployment type is `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -2580,7 +2580,7 @@ The following state arguments are supported:
 <a href="#state_remote_administration_endpoint_python" style="color: inherit; text-decoration: inherit;">remote_<wbr>administration_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}For `MULTI_AZ_1` deployment types, use this endpoint when performing administrative tasks on the file system using Amazon FSx Remote PowerShell. For `SINGLE_AZ_1` deployment types, this is the DNS name of the file system.
 {{% /md %}}</dd>
@@ -2591,7 +2591,7 @@ The following state arguments are supported:
 <a href="#state_security_group_ids_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the security groups that apply to the specified network interfaces created for file system access. These security groups will apply to all network interfaces.
 {{% /md %}}</dd>
@@ -2613,7 +2613,7 @@ The following state arguments are supported:
 <a href="#state_skip_final_backup_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>backup</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When enabled, will skip the default final backup taken when the file system is deleted. This configuration must be applied separately before attempting to delete the resource to have the desired behavior. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2624,7 +2624,7 @@ The following state arguments are supported:
 <a href="#state_storage_capacity_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Storage capacity (GiB) of the file system. Minimum of 32 and maximum of 65536. If the storage type is set to `HDD` the minimum value is 2000.
 {{% /md %}}</dd>
@@ -2635,7 +2635,7 @@ The following state arguments are supported:
 <a href="#state_storage_type_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the storage type, Valid values are `SSD` and `HDD`. `HDD` is supported on `SINGLE_AZ_2` and `MULTI_AZ_1` Windows file system deployment types. Default value is `SSD`.
 {{% /md %}}</dd>
@@ -2646,7 +2646,7 @@ The following state arguments are supported:
 <a href="#state_subnet_ids_python" style="color: inherit; text-decoration: inherit;">subnet_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of IDs for the subnets that the file system will be accessible from. To specify more than a single subnet set `deployment_type` to `MULTI_AZ_1`.
 {{% /md %}}</dd>
@@ -2668,7 +2668,7 @@ The following state arguments are supported:
 <a href="#state_throughput_capacity_python" style="color: inherit; text-decoration: inherit;">throughput_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Throughput (megabytes per second) of the file system in power of 2 increments. Minimum of `8` and maximum of `2048`.
 {{% /md %}}</dd>
@@ -2679,7 +2679,7 @@ The following state arguments are supported:
 <a href="#state_vpc_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Identifier of the Virtual Private Cloud for the file system.
 {{% /md %}}</dd>
@@ -2690,7 +2690,7 @@ The following state arguments are supported:
 <a href="#state_weekly_maintenance_start_time_python" style="color: inherit; text-decoration: inherit;">weekly_<wbr>maintenance_<wbr>start_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The preferred start time (in `d:HH:MM` format) to perform weekly maintenance, in the UTC time zone.
 {{% /md %}}</dd>
@@ -2734,7 +2734,7 @@ The following state arguments are supported:
 <a href="#dnsips_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of up to two IP addresses of DNS servers or domain controllers in the self-managed AD directory. The IP addresses need to be either in the same VPC CIDR range as the file system or in the private IP version 4 (IPv4) address ranges as specified in [RFC 1918](https://tools.ietf.org/html/rfc1918).
 {{% /md %}}</dd>
@@ -2745,7 +2745,7 @@ The following state arguments are supported:
 <a href="#domainname_csharp" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name of the self-managed AD directory. For example, `corp.example.com`.
 {{% /md %}}</dd>
@@ -2756,7 +2756,7 @@ The following state arguments are supported:
 <a href="#password_csharp" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The password for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2767,7 +2767,7 @@ The following state arguments are supported:
 <a href="#username_csharp" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2778,7 +2778,7 @@ The following state arguments are supported:
 <a href="#filesystemadministratorsgroup_csharp" style="color: inherit; text-decoration: inherit;">File<wbr>System<wbr>Administrators<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the domain group whose members are granted administrative privileges for the file system. Administrative privileges include taking ownership of files and folders, and setting audit controls (audit ACLs) on files and folders. The group that you specify must already exist in your domain. Defaults to `Domain Admins`.
 {{% /md %}}</dd>
@@ -2789,7 +2789,7 @@ The following state arguments are supported:
 <a href="#organizationalunitdistinguishedname_csharp" style="color: inherit; text-decoration: inherit;">Organizational<wbr>Unit<wbr>Distinguished<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified distinguished name of the organizational unit within your self-managed AD directory that the Windows File Server instance will join. For example, `OU=FSx,DC=yourdomain,DC=corp,DC=com`. Only accepts OU as the direct parent of the file system. If none is provided, the FSx file system is created in the default location of your self-managed AD directory. To learn more, see [RFC 2253](https://tools.ietf.org/html/rfc2253).
 {{% /md %}}</dd>
@@ -2807,7 +2807,7 @@ The following state arguments are supported:
 <a href="#dnsips_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of up to two IP addresses of DNS servers or domain controllers in the self-managed AD directory. The IP addresses need to be either in the same VPC CIDR range as the file system or in the private IP version 4 (IPv4) address ranges as specified in [RFC 1918](https://tools.ietf.org/html/rfc1918).
 {{% /md %}}</dd>
@@ -2818,7 +2818,7 @@ The following state arguments are supported:
 <a href="#domainname_go" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name of the self-managed AD directory. For example, `corp.example.com`.
 {{% /md %}}</dd>
@@ -2829,7 +2829,7 @@ The following state arguments are supported:
 <a href="#password_go" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The password for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2840,7 +2840,7 @@ The following state arguments are supported:
 <a href="#username_go" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2851,7 +2851,7 @@ The following state arguments are supported:
 <a href="#filesystemadministratorsgroup_go" style="color: inherit; text-decoration: inherit;">File<wbr>System<wbr>Administrators<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the domain group whose members are granted administrative privileges for the file system. Administrative privileges include taking ownership of files and folders, and setting audit controls (audit ACLs) on files and folders. The group that you specify must already exist in your domain. Defaults to `Domain Admins`.
 {{% /md %}}</dd>
@@ -2862,7 +2862,7 @@ The following state arguments are supported:
 <a href="#organizationalunitdistinguishedname_go" style="color: inherit; text-decoration: inherit;">Organizational<wbr>Unit<wbr>Distinguished<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified distinguished name of the organizational unit within your self-managed AD directory that the Windows File Server instance will join. For example, `OU=FSx,DC=yourdomain,DC=corp,DC=com`. Only accepts OU as the direct parent of the file system. If none is provided, the FSx file system is created in the default location of your self-managed AD directory. To learn more, see [RFC 2253](https://tools.ietf.org/html/rfc2253).
 {{% /md %}}</dd>
@@ -2880,7 +2880,7 @@ The following state arguments are supported:
 <a href="#dnsips_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of up to two IP addresses of DNS servers or domain controllers in the self-managed AD directory. The IP addresses need to be either in the same VPC CIDR range as the file system or in the private IP version 4 (IPv4) address ranges as specified in [RFC 1918](https://tools.ietf.org/html/rfc1918).
 {{% /md %}}</dd>
@@ -2891,7 +2891,7 @@ The following state arguments are supported:
 <a href="#domainname_nodejs" style="color: inherit; text-decoration: inherit;">domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name of the self-managed AD directory. For example, `corp.example.com`.
 {{% /md %}}</dd>
@@ -2902,7 +2902,7 @@ The following state arguments are supported:
 <a href="#password_nodejs" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The password for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2913,7 +2913,7 @@ The following state arguments are supported:
 <a href="#username_nodejs" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2924,7 +2924,7 @@ The following state arguments are supported:
 <a href="#filesystemadministratorsgroup_nodejs" style="color: inherit; text-decoration: inherit;">file<wbr>System<wbr>Administrators<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the domain group whose members are granted administrative privileges for the file system. Administrative privileges include taking ownership of files and folders, and setting audit controls (audit ACLs) on files and folders. The group that you specify must already exist in your domain. Defaults to `Domain Admins`.
 {{% /md %}}</dd>
@@ -2935,7 +2935,7 @@ The following state arguments are supported:
 <a href="#organizationalunitdistinguishedname_nodejs" style="color: inherit; text-decoration: inherit;">organizational<wbr>Unit<wbr>Distinguished<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified distinguished name of the organizational unit within your self-managed AD directory that the Windows File Server instance will join. For example, `OU=FSx,DC=yourdomain,DC=corp,DC=com`. Only accepts OU as the direct parent of the file system. If none is provided, the FSx file system is created in the default location of your self-managed AD directory. To learn more, see [RFC 2253](https://tools.ietf.org/html/rfc2253).
 {{% /md %}}</dd>
@@ -2953,7 +2953,7 @@ The following state arguments are supported:
 <a href="#dns_ips_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of up to two IP addresses of DNS servers or domain controllers in the self-managed AD directory. The IP addresses need to be either in the same VPC CIDR range as the file system or in the private IP version 4 (IPv4) address ranges as specified in [RFC 1918](https://tools.ietf.org/html/rfc1918).
 {{% /md %}}</dd>
@@ -2964,7 +2964,7 @@ The following state arguments are supported:
 <a href="#domain_name_python" style="color: inherit; text-decoration: inherit;">domain_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name of the self-managed AD directory. For example, `corp.example.com`.
 {{% /md %}}</dd>
@@ -2975,7 +2975,7 @@ The following state arguments are supported:
 <a href="#password_python" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The password for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2986,7 +2986,7 @@ The following state arguments are supported:
 <a href="#username_python" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain.
 {{% /md %}}</dd>
@@ -2997,7 +2997,7 @@ The following state arguments are supported:
 <a href="#file_system_administrators_group_python" style="color: inherit; text-decoration: inherit;">file_<wbr>system_<wbr>administrators_<wbr>group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the domain group whose members are granted administrative privileges for the file system. Administrative privileges include taking ownership of files and folders, and setting audit controls (audit ACLs) on files and folders. The group that you specify must already exist in your domain. Defaults to `Domain Admins`.
 {{% /md %}}</dd>
@@ -3008,7 +3008,7 @@ The following state arguments are supported:
 <a href="#organizational_unit_distinguished_name_python" style="color: inherit; text-decoration: inherit;">organizational_<wbr>unit_<wbr>distinguished_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The fully qualified distinguished name of the organizational unit within your self-managed AD directory that the Windows File Server instance will join. For example, `OU=FSx,DC=yourdomain,DC=corp,DC=com`. Only accepts OU as the direct parent of the file system. If none is provided, the FSx file system is created in the default location of your self-managed AD directory. To learn more, see [RFC 2253](https://tools.ietf.org/html/rfc2253).
 {{% /md %}}</dd>

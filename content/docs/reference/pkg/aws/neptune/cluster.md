@@ -125,7 +125,7 @@ const defaultCluster = new aws.neptune.Cluster("default", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#Cluster">Cluster</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#Cluster">Cluster</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -133,11 +133,11 @@ const defaultCluster = new aws.neptune.Cluster("default", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#Cluster">NewCluster</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#Cluster">NewCluster</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.Cluster.html">Cluster</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.ClusterArgs.html">ClusterArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.Cluster.html">Cluster</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.ClusterArgs.html">ClusterArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -148,7 +148,7 @@ const defaultCluster = new aws.neptune.Cluster("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -217,7 +217,7 @@ const defaultCluster = new aws.neptune.Cluster("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -256,7 +256,7 @@ const defaultCluster = new aws.neptune.Cluster("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -307,7 +307,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#applyimmediately_csharp" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -318,7 +318,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -329,7 +329,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backupretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -340,7 +340,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -351,7 +351,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifierprefix_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -362,7 +362,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletionprotection_csharp" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -373,7 +373,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enablecloudwatchlogsexports_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -384,7 +384,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -395,7 +395,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -406,7 +406,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -417,7 +417,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamdatabaseauthenticationenabled_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -428,7 +428,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamroles_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -439,7 +439,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kmskeyarn_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -450,7 +450,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptuneclusterparametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -461,7 +461,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptunesubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -472,7 +472,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -483,7 +483,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredbackupwindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -494,7 +494,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredmaintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -505,7 +505,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replicationsourceidentifier_csharp" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -516,7 +516,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -527,7 +527,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -538,7 +538,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -560,7 +560,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -578,7 +578,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#applyimmediately_go" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -589,7 +589,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -600,7 +600,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backupretentionperiod_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -611,7 +611,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -622,7 +622,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifierprefix_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -633,7 +633,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletionprotection_go" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -644,7 +644,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enablecloudwatchlogsexports_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -655,7 +655,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -666,7 +666,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -677,7 +677,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -688,7 +688,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamdatabaseauthenticationenabled_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -699,7 +699,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamroles_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -710,7 +710,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kmskeyarn_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -721,7 +721,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptuneclusterparametergroupname_go" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -732,7 +732,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptunesubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -743,7 +743,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -754,7 +754,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredbackupwindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -765,7 +765,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredmaintenancewindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -776,7 +776,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replicationsourceidentifier_go" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -787,7 +787,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -798,7 +798,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -809,7 +809,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -831,7 +831,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -849,7 +849,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#applyimmediately_nodejs" style="color: inherit; text-decoration: inherit;">apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -860,7 +860,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -871,7 +871,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backupretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -882,7 +882,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -893,7 +893,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifierprefix_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -904,7 +904,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletionprotection_nodejs" style="color: inherit; text-decoration: inherit;">deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -915,7 +915,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enablecloudwatchlogsexports_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -926,7 +926,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -937,7 +937,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -948,7 +948,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -959,7 +959,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamdatabaseauthenticationenabled_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -970,7 +970,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamroles_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -981,7 +981,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kmskeyarn_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -992,7 +992,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptuneclusterparametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">neptune<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -1003,7 +1003,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptunesubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">neptune<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -1014,7 +1014,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -1025,7 +1025,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredbackupwindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -1036,7 +1036,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredmaintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -1047,7 +1047,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replicationsourceidentifier_nodejs" style="color: inherit; text-decoration: inherit;">replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -1058,7 +1058,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -1069,7 +1069,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -1080,7 +1080,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -1102,7 +1102,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -1120,7 +1120,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#apply_immediately_python" style="color: inherit; text-decoration: inherit;">apply_<wbr>immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -1131,7 +1131,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -1142,7 +1142,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backup_retention_period_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -1153,7 +1153,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_identifier_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -1164,7 +1164,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_identifier_prefix_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -1175,7 +1175,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletion_protection_python" style="color: inherit; text-decoration: inherit;">deletion_<wbr>protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -1186,7 +1186,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enable_cloudwatch_logs_exports_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>cloudwatch_<wbr>logs_<wbr>exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -1197,7 +1197,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -1208,7 +1208,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -1219,7 +1219,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -1230,7 +1230,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iam_database_authentication_enabled_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>database_<wbr>authentication_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -1241,7 +1241,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iam_roles_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -1252,7 +1252,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kms_key_arn_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -1263,7 +1263,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptune_cluster_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">neptune_<wbr>cluster_<wbr>parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -1274,7 +1274,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#neptune_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">neptune_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -1285,7 +1285,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -1296,7 +1296,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferred_backup_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>backup_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -1307,7 +1307,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferred_maintenance_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -1318,7 +1318,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replication_source_identifier_python" style="color: inherit; text-decoration: inherit;">replication_<wbr>source_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -1329,7 +1329,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -1340,7 +1340,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -1351,7 +1351,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -1373,7 +1373,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -1402,7 +1402,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -1413,7 +1413,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clustermembers_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1424,7 +1424,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clusterresourceid_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -1435,7 +1435,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -1446,7 +1446,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -1457,7 +1457,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1467,7 +1467,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#readerendpoint_csharp" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -1485,7 +1485,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -1496,7 +1496,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clustermembers_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1507,7 +1507,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clusterresourceid_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -1518,7 +1518,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -1529,7 +1529,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -1540,7 +1540,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1550,7 +1550,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#readerendpoint_go" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -1568,7 +1568,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -1579,7 +1579,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clustermembers_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1590,7 +1590,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clusterresourceid_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -1601,7 +1601,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -1612,7 +1612,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -1623,7 +1623,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1633,7 +1633,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#readerendpoint_nodejs" style="color: inherit; text-decoration: inherit;">reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -1651,7 +1651,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -1662,7 +1662,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#cluster_members_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1673,7 +1673,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#cluster_resource_id_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -1684,7 +1684,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -1695,7 +1695,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -1706,7 +1706,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1716,7 +1716,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#reader_endpoint_python" style="color: inherit; text-decoration: inherit;">reader_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -1736,7 +1736,7 @@ Get an existing Cluster resource's state with the given name, ID, and optional e
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#Cluster">Cluster</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/neptune/#Cluster">Cluster</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1745,11 +1745,11 @@ Get an existing Cluster resource's state with the given name, ID, and optional e
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCluster<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCluster<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/neptune?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.Cluster.html">Cluster</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.ClusterState.html">ClusterState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.Cluster.html">Cluster</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Neptune.ClusterState.html">ClusterState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1861,7 +1861,7 @@ The following state arguments are supported:
 <a href="#state_applyimmediately_csharp" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -1872,7 +1872,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -1883,7 +1883,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -1894,7 +1894,7 @@ The following state arguments are supported:
 <a href="#state_backupretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -1905,7 +1905,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -1916,7 +1916,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifierprefix_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -1927,7 +1927,7 @@ The following state arguments are supported:
 <a href="#state_clustermembers_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1938,7 +1938,7 @@ The following state arguments are supported:
 <a href="#state_clusterresourceid_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -1949,7 +1949,7 @@ The following state arguments are supported:
 <a href="#state_deletionprotection_csharp" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -1960,7 +1960,7 @@ The following state arguments are supported:
 <a href="#state_enablecloudwatchlogsexports_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -1971,7 +1971,7 @@ The following state arguments are supported:
 <a href="#state_endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -1982,7 +1982,7 @@ The following state arguments are supported:
 <a href="#state_engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -1993,7 +1993,7 @@ The following state arguments are supported:
 <a href="#state_engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -2004,7 +2004,7 @@ The following state arguments are supported:
 <a href="#state_finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -2015,7 +2015,7 @@ The following state arguments are supported:
 <a href="#state_hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2026,7 +2026,7 @@ The following state arguments are supported:
 <a href="#state_iamdatabaseauthenticationenabled_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -2037,7 +2037,7 @@ The following state arguments are supported:
 <a href="#state_iamroles_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -2048,7 +2048,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyarn_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -2059,7 +2059,7 @@ The following state arguments are supported:
 <a href="#state_neptuneclusterparametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -2070,7 +2070,7 @@ The following state arguments are supported:
 <a href="#state_neptunesubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -2081,7 +2081,7 @@ The following state arguments are supported:
 <a href="#state_port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -2092,7 +2092,7 @@ The following state arguments are supported:
 <a href="#state_preferredbackupwindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -2103,7 +2103,7 @@ The following state arguments are supported:
 <a href="#state_preferredmaintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -2114,7 +2114,7 @@ The following state arguments are supported:
 <a href="#state_readerendpoint_csharp" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -2125,7 +2125,7 @@ The following state arguments are supported:
 <a href="#state_replicationsourceidentifier_csharp" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -2136,7 +2136,7 @@ The following state arguments are supported:
 <a href="#state_skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -2147,7 +2147,7 @@ The following state arguments are supported:
 <a href="#state_snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -2158,7 +2158,7 @@ The following state arguments are supported:
 <a href="#state_storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -2180,7 +2180,7 @@ The following state arguments are supported:
 <a href="#state_vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -2198,7 +2198,7 @@ The following state arguments are supported:
 <a href="#state_applyimmediately_go" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -2209,7 +2209,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -2220,7 +2220,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -2231,7 +2231,7 @@ The following state arguments are supported:
 <a href="#state_backupretentionperiod_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -2242,7 +2242,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifier_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -2253,7 +2253,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifierprefix_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -2264,7 +2264,7 @@ The following state arguments are supported:
 <a href="#state_clustermembers_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -2275,7 +2275,7 @@ The following state arguments are supported:
 <a href="#state_clusterresourceid_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -2286,7 +2286,7 @@ The following state arguments are supported:
 <a href="#state_deletionprotection_go" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -2297,7 +2297,7 @@ The following state arguments are supported:
 <a href="#state_enablecloudwatchlogsexports_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -2308,7 +2308,7 @@ The following state arguments are supported:
 <a href="#state_endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -2319,7 +2319,7 @@ The following state arguments are supported:
 <a href="#state_engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -2330,7 +2330,7 @@ The following state arguments are supported:
 <a href="#state_engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -2341,7 +2341,7 @@ The following state arguments are supported:
 <a href="#state_finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -2352,7 +2352,7 @@ The following state arguments are supported:
 <a href="#state_hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2363,7 +2363,7 @@ The following state arguments are supported:
 <a href="#state_iamdatabaseauthenticationenabled_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -2374,7 +2374,7 @@ The following state arguments are supported:
 <a href="#state_iamroles_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -2385,7 +2385,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyarn_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -2396,7 +2396,7 @@ The following state arguments are supported:
 <a href="#state_neptuneclusterparametergroupname_go" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -2407,7 +2407,7 @@ The following state arguments are supported:
 <a href="#state_neptunesubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Neptune<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -2418,7 +2418,7 @@ The following state arguments are supported:
 <a href="#state_port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -2429,7 +2429,7 @@ The following state arguments are supported:
 <a href="#state_preferredbackupwindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -2440,7 +2440,7 @@ The following state arguments are supported:
 <a href="#state_preferredmaintenancewindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -2451,7 +2451,7 @@ The following state arguments are supported:
 <a href="#state_readerendpoint_go" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -2462,7 +2462,7 @@ The following state arguments are supported:
 <a href="#state_replicationsourceidentifier_go" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -2473,7 +2473,7 @@ The following state arguments are supported:
 <a href="#state_skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -2484,7 +2484,7 @@ The following state arguments are supported:
 <a href="#state_snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -2495,7 +2495,7 @@ The following state arguments are supported:
 <a href="#state_storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -2517,7 +2517,7 @@ The following state arguments are supported:
 <a href="#state_vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -2535,7 +2535,7 @@ The following state arguments are supported:
 <a href="#state_applyimmediately_nodejs" style="color: inherit; text-decoration: inherit;">apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -2546,7 +2546,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -2557,7 +2557,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -2568,7 +2568,7 @@ The following state arguments are supported:
 <a href="#state_backupretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -2579,7 +2579,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -2590,7 +2590,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifierprefix_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -2601,7 +2601,7 @@ The following state arguments are supported:
 <a href="#state_clustermembers_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -2612,7 +2612,7 @@ The following state arguments are supported:
 <a href="#state_clusterresourceid_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -2623,7 +2623,7 @@ The following state arguments are supported:
 <a href="#state_deletionprotection_nodejs" style="color: inherit; text-decoration: inherit;">deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -2634,7 +2634,7 @@ The following state arguments are supported:
 <a href="#state_enablecloudwatchlogsexports_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -2645,7 +2645,7 @@ The following state arguments are supported:
 <a href="#state_endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -2656,7 +2656,7 @@ The following state arguments are supported:
 <a href="#state_engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -2667,7 +2667,7 @@ The following state arguments are supported:
 <a href="#state_engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -2678,7 +2678,7 @@ The following state arguments are supported:
 <a href="#state_finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -2689,7 +2689,7 @@ The following state arguments are supported:
 <a href="#state_hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2700,7 +2700,7 @@ The following state arguments are supported:
 <a href="#state_iamdatabaseauthenticationenabled_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -2711,7 +2711,7 @@ The following state arguments are supported:
 <a href="#state_iamroles_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -2722,7 +2722,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyarn_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -2733,7 +2733,7 @@ The following state arguments are supported:
 <a href="#state_neptuneclusterparametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">neptune<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -2744,7 +2744,7 @@ The following state arguments are supported:
 <a href="#state_neptunesubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">neptune<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -2755,7 +2755,7 @@ The following state arguments are supported:
 <a href="#state_port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -2766,7 +2766,7 @@ The following state arguments are supported:
 <a href="#state_preferredbackupwindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -2777,7 +2777,7 @@ The following state arguments are supported:
 <a href="#state_preferredmaintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -2788,7 +2788,7 @@ The following state arguments are supported:
 <a href="#state_readerendpoint_nodejs" style="color: inherit; text-decoration: inherit;">reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -2799,7 +2799,7 @@ The following state arguments are supported:
 <a href="#state_replicationsourceidentifier_nodejs" style="color: inherit; text-decoration: inherit;">replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -2810,7 +2810,7 @@ The following state arguments are supported:
 <a href="#state_skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -2821,7 +2821,7 @@ The following state arguments are supported:
 <a href="#state_snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -2832,7 +2832,7 @@ The following state arguments are supported:
 <a href="#state_storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -2854,7 +2854,7 @@ The following state arguments are supported:
 <a href="#state_vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -2872,7 +2872,7 @@ The following state arguments are supported:
 <a href="#state_apply_immediately_python" style="color: inherit; text-decoration: inherit;">apply_<wbr>immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`.
 {{% /md %}}</dd>
@@ -2883,7 +2883,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Amazon Resource Name (ARN)
 {{% /md %}}</dd>
@@ -2894,7 +2894,7 @@ The following state arguments are supported:
 <a href="#state_availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones that instances in the Neptune cluster can be created in.
 {{% /md %}}</dd>
@@ -2905,7 +2905,7 @@ The following state arguments are supported:
 <a href="#state_backup_retention_period_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -2916,7 +2916,7 @@ The following state arguments are supported:
 <a href="#state_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -2927,7 +2927,7 @@ The following state arguments are supported:
 <a href="#state_cluster_identifier_prefix_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -2938,7 +2938,7 @@ The following state arguments are supported:
 <a href="#state_cluster_members_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of Neptune Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -2949,7 +2949,7 @@ The following state arguments are supported:
 <a href="#state_cluster_resource_id_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Neptune Cluster Resource ID
 {{% /md %}}</dd>
@@ -2960,7 +2960,7 @@ The following state arguments are supported:
 <a href="#state_deletion_protection_python" style="color: inherit; text-decoration: inherit;">deletion_<wbr>protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A value that indicates whether the DB cluster has deletion protection enabled.The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 {{% /md %}}</dd>
@@ -2971,7 +2971,7 @@ The following state arguments are supported:
 <a href="#state_enable_cloudwatch_logs_exports_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>cloudwatch_<wbr>logs_<wbr>exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of the log types this DB cluster is configured to export to Cloudwatch Logs. Currently only supports `audit`.
 {{% /md %}}</dd>
@@ -2982,7 +2982,7 @@ The following state arguments are supported:
 <a href="#state_endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS address of the Neptune instance
 {{% /md %}}</dd>
@@ -2993,7 +2993,7 @@ The following state arguments are supported:
 <a href="#state_engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this Neptune cluster. Defaults to `neptune`.
 {{% /md %}}</dd>
@@ -3004,7 +3004,7 @@ The following state arguments are supported:
 <a href="#state_engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The database engine version.
 {{% /md %}}</dd>
@@ -3015,7 +3015,7 @@ The following state arguments are supported:
 <a href="#state_final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of your final Neptune snapshot when this Neptune cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -3026,7 +3026,7 @@ The following state arguments are supported:
 <a href="#state_hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -3037,7 +3037,7 @@ The following state arguments are supported:
 <a href="#state_iam_database_authentication_enabled_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>database_<wbr>authentication_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled.
 {{% /md %}}</dd>
@@ -3048,7 +3048,7 @@ The following state arguments are supported:
 <a href="#state_iam_roles_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the Neptune Cluster.
 {{% /md %}}</dd>
@@ -3059,7 +3059,7 @@ The following state arguments are supported:
 <a href="#state_kms_key_arn_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_arn`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -3070,7 +3070,7 @@ The following state arguments are supported:
 <a href="#state_neptune_cluster_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">neptune_<wbr>cluster_<wbr>parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -3081,7 +3081,7 @@ The following state arguments are supported:
 <a href="#state_neptune_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">neptune_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A Neptune subnet group to associate with this Neptune instance.
 {{% /md %}}</dd>
@@ -3092,7 +3092,7 @@ The following state arguments are supported:
 <a href="#state_port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the Neptune accepts connections. Default is `8182`.
 {{% /md %}}</dd>
@@ -3103,7 +3103,7 @@ The following state arguments are supported:
 <a href="#state_preferred_backup_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>backup_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -3114,7 +3114,7 @@ The following state arguments are supported:
 <a href="#state_preferred_maintenance_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -3125,7 +3125,7 @@ The following state arguments are supported:
 <a href="#state_reader_endpoint_python" style="color: inherit; text-decoration: inherit;">reader_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Neptune cluster, automatically load-balanced across replicas
 {{% /md %}}</dd>
@@ -3136,7 +3136,7 @@ The following state arguments are supported:
 <a href="#state_replication_source_identifier_python" style="color: inherit; text-decoration: inherit;">replication_<wbr>source_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of a source Neptune cluster or Neptune instance if this Neptune cluster is to be created as a Read Replica.
 {{% /md %}}</dd>
@@ -3147,7 +3147,7 @@ The following state arguments are supported:
 <a href="#state_skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final Neptune snapshot is created before the Neptune cluster is deleted. If true is specified, no Neptune snapshot is created. If false is specified, a Neptune snapshot is created before the Neptune cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -3158,7 +3158,7 @@ The following state arguments are supported:
 <a href="#state_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a Neptune cluster snapshot, or the ARN when specifying a Neptune snapshot.
 {{% /md %}}</dd>
@@ -3169,7 +3169,7 @@ The following state arguments are supported:
 <a href="#state_storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the Neptune cluster is encrypted. The default is `false` if not specified.
 {{% /md %}}</dd>
@@ -3191,7 +3191,7 @@ The following state arguments are supported:
 <a href="#state_vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>

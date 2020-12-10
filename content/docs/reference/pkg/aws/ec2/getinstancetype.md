@@ -130,7 +130,7 @@ The following arguments are supported:
 <a href="#instancetype_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Instance
 {{% /md %}}</dd>
@@ -141,7 +141,7 @@ The following arguments are supported:
 <a href="#defaultcores_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -152,7 +152,7 @@ The following arguments are supported:
 <a href="#defaultthreadspercore_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Threads<wbr>Per<wbr>Core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -193,7 +193,7 @@ The following arguments are supported:
 <a href="#hypervisor_csharp" style="color: inherit; text-decoration: inherit;">Hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -232,7 +232,7 @@ The following arguments are supported:
 <a href="#maximumipv6addressesperinterface_csharp" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Ipv6Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -243,7 +243,7 @@ The following arguments are supported:
 <a href="#totalfpgamemory_csharp" style="color: inherit; text-decoration: inherit;">Total<wbr>Fpga<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -254,7 +254,7 @@ The following arguments are supported:
 <a href="#totalgpumemory_csharp" style="color: inherit; text-decoration: inherit;">Total<wbr>Gpu<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -265,7 +265,7 @@ The following arguments are supported:
 <a href="#totalinstancestorage_csharp" style="color: inherit; text-decoration: inherit;">Total<wbr>Instance<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -283,7 +283,7 @@ The following arguments are supported:
 <a href="#instancetype_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Instance
 {{% /md %}}</dd>
@@ -294,7 +294,7 @@ The following arguments are supported:
 <a href="#defaultcores_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -305,7 +305,7 @@ The following arguments are supported:
 <a href="#defaultthreadspercore_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Threads<wbr>Per<wbr>Core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -346,7 +346,7 @@ The following arguments are supported:
 <a href="#hypervisor_go" style="color: inherit; text-decoration: inherit;">Hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -385,7 +385,7 @@ The following arguments are supported:
 <a href="#maximumipv6addressesperinterface_go" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Ipv6Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -396,7 +396,7 @@ The following arguments are supported:
 <a href="#totalfpgamemory_go" style="color: inherit; text-decoration: inherit;">Total<wbr>Fpga<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -407,7 +407,7 @@ The following arguments are supported:
 <a href="#totalgpumemory_go" style="color: inherit; text-decoration: inherit;">Total<wbr>Gpu<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -418,7 +418,7 @@ The following arguments are supported:
 <a href="#totalinstancestorage_go" style="color: inherit; text-decoration: inherit;">Total<wbr>Instance<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -436,7 +436,7 @@ The following arguments are supported:
 <a href="#instancetype_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Instance
 {{% /md %}}</dd>
@@ -447,7 +447,7 @@ The following arguments are supported:
 <a href="#defaultcores_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -458,7 +458,7 @@ The following arguments are supported:
 <a href="#defaultthreadspercore_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Threads<wbr>Per<wbr>Core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -499,7 +499,7 @@ The following arguments are supported:
 <a href="#hypervisor_nodejs" style="color: inherit; text-decoration: inherit;">hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -538,7 +538,7 @@ The following arguments are supported:
 <a href="#maximumipv6addressesperinterface_nodejs" style="color: inherit; text-decoration: inherit;">maximum<wbr>Ipv6Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -549,7 +549,7 @@ The following arguments are supported:
 <a href="#totalfpgamemory_nodejs" style="color: inherit; text-decoration: inherit;">total<wbr>Fpga<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -560,7 +560,7 @@ The following arguments are supported:
 <a href="#totalgpumemory_nodejs" style="color: inherit; text-decoration: inherit;">total<wbr>Gpu<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -571,7 +571,7 @@ The following arguments are supported:
 <a href="#totalinstancestorage_nodejs" style="color: inherit; text-decoration: inherit;">total<wbr>Instance<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -589,7 +589,7 @@ The following arguments are supported:
 <a href="#instance_type_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Instance
 {{% /md %}}</dd>
@@ -600,7 +600,7 @@ The following arguments are supported:
 <a href="#default_cores_python" style="color: inherit; text-decoration: inherit;">default_<wbr>cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -611,7 +611,7 @@ The following arguments are supported:
 <a href="#default_threads_per_core_python" style="color: inherit; text-decoration: inherit;">default_<wbr>threads_<wbr>per_<wbr>core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -652,7 +652,7 @@ The following arguments are supported:
 <a href="#hypervisor_python" style="color: inherit; text-decoration: inherit;">hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -691,7 +691,7 @@ The following arguments are supported:
 <a href="#maximum_ipv6_addresses_per_interface_python" style="color: inherit; text-decoration: inherit;">maximum_<wbr>ipv6_<wbr>addresses_<wbr>per_<wbr>interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -702,7 +702,7 @@ The following arguments are supported:
 <a href="#total_fpga_memory_python" style="color: inherit; text-decoration: inherit;">total_<wbr>fpga_<wbr>memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -713,7 +713,7 @@ The following arguments are supported:
 <a href="#total_gpu_memory_python" style="color: inherit; text-decoration: inherit;">total_<wbr>gpu_<wbr>memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -724,7 +724,7 @@ The following arguments are supported:
 <a href="#total_instance_storage_python" style="color: inherit; text-decoration: inherit;">total_<wbr>instance_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -755,7 +755,7 @@ The following output properties are available:
 <a href="#autorecoverysupported_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Recovery<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if auto recovery is supported.
 {{% /md %}}</dd>
@@ -766,7 +766,7 @@ The following output properties are available:
 <a href="#baremetal_csharp" style="color: inherit; text-decoration: inherit;">Bare<wbr>Metal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if it is a bare metal instance type.
 {{% /md %}}</dd>
@@ -777,7 +777,7 @@ The following output properties are available:
 <a href="#burstableperformancesupported_csharp" style="color: inherit; text-decoration: inherit;">Burstable<wbr>Performance<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is a burstable performance instance type.
 {{% /md %}}</dd>
@@ -788,7 +788,7 @@ The following output properties are available:
 <a href="#currentgeneration_csharp" style="color: inherit; text-decoration: inherit;">Current<wbr>Generation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true`  if the instance type is a current generation.
 {{% /md %}}</dd>
@@ -799,7 +799,7 @@ The following output properties are available:
 <a href="#dedicatedhostssupported_csharp" style="color: inherit; text-decoration: inherit;">Dedicated<wbr>Hosts<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if Dedicated Hosts are supported on the instance type.
 {{% /md %}}</dd>
@@ -810,7 +810,7 @@ The following output properties are available:
 <a href="#defaultcores_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -821,7 +821,7 @@ The following output properties are available:
 <a href="#defaultthreadspercore_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Threads<wbr>Per<wbr>Core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -832,7 +832,7 @@ The following output properties are available:
 <a href="#defaultvcpus_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Vcpus</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of vCPUs for the instance type.
 {{% /md %}}</dd>
@@ -843,7 +843,7 @@ The following output properties are available:
 <a href="#ebsencryptionsupport_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Encryption<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether Amazon EBS encryption is supported.
 {{% /md %}}</dd>
@@ -854,7 +854,7 @@ The following output properties are available:
 <a href="#ebsnvmesupport_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Nvme<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether non-volatile memory express (NVMe) is supported.
 {{% /md %}}</dd>
@@ -865,7 +865,7 @@ The following output properties are available:
 <a href="#ebsoptimizedsupport_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Optimized<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates that the instance type is Amazon EBS-optimized.
 {{% /md %}}</dd>
@@ -876,7 +876,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselinebandwidth_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Baseline<wbr>Bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The baseline bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -887,7 +887,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselineiops_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Baseline<wbr>Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The baseline input/output storage operations per seconds for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -898,7 +898,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselinethroughput_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Baseline<wbr>Throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">double</a></span>
+        <span class="property-type">double</span>
     </dt>
     <dd>{{% md %}}The baseline throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -909,7 +909,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumbandwidth_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Maximum<wbr>Bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -920,7 +920,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumiops_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Maximum<wbr>Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum input/output storage operations per second for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -931,7 +931,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumthroughput_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Maximum<wbr>Throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">double</a></span>
+        <span class="property-type">double</span>
     </dt>
     <dd>{{% md %}}The maximum throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -942,7 +942,7 @@ The following output properties are available:
 <a href="#efasupported_csharp" style="color: inherit; text-decoration: inherit;">Efa<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Fabric Adapter (EFA) is supported.
 {{% /md %}}</dd>
@@ -953,7 +953,7 @@ The following output properties are available:
 <a href="#enasupport_csharp" style="color: inherit; text-decoration: inherit;">Ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Network Adapter (ENA) is supported.
 {{% /md %}}</dd>
@@ -979,7 +979,7 @@ The following output properties are available:
 <a href="#freetiereligible_csharp" style="color: inherit; text-decoration: inherit;">Free<wbr>Tier<wbr>Eligible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is eligible for the free tier.
 {{% /md %}}</dd>
@@ -1005,7 +1005,7 @@ The following output properties are available:
 <a href="#hibernationsupported_csharp" style="color: inherit; text-decoration: inherit;">Hibernation<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if On-Demand hibernation is supported.
 {{% /md %}}</dd>
@@ -1016,7 +1016,7 @@ The following output properties are available:
 <a href="#hypervisor_csharp" style="color: inherit; text-decoration: inherit;">Hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -1031,7 +1031,7 @@ The following output properties are available:
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -1066,7 +1066,7 @@ The following output properties are available:
 <a href="#instancestoragesupported_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Storage<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if instance storage is supported.
 {{% /md %}}</dd>
@@ -1077,7 +1077,7 @@ The following output properties are available:
 <a href="#instancetype_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1087,7 +1087,7 @@ The following output properties are available:
 <a href="#ipv6supported_csharp" style="color: inherit; text-decoration: inherit;">Ipv6Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if IPv6 is supported.
 {{% /md %}}</dd>
@@ -1098,7 +1098,7 @@ The following output properties are available:
 <a href="#maximumipv4addressesperinterface_csharp" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Ipv4Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv4 addresses per network interface.
 {{% /md %}}</dd>
@@ -1109,7 +1109,7 @@ The following output properties are available:
 <a href="#maximumipv6addressesperinterface_csharp" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Ipv6Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -1120,7 +1120,7 @@ The following output properties are available:
 <a href="#maximumnetworkinterfaces_csharp" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Network<wbr>Interfaces</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of network interfaces for the instance type.
 {{% /md %}}</dd>
@@ -1131,7 +1131,7 @@ The following output properties are available:
 <a href="#memorysize_csharp" style="color: inherit; text-decoration: inherit;">Memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -1142,7 +1142,7 @@ The following output properties are available:
 <a href="#networkperformance_csharp" style="color: inherit; text-decoration: inherit;">Network<wbr>Performance</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the network performance.
 {{% /md %}}</dd>
@@ -1153,7 +1153,7 @@ The following output properties are available:
 <a href="#supportedarchitectures_csharp" style="color: inherit; text-decoration: inherit;">Supported<wbr>Architectures</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of architectures supported by the instance type.
 {{% /md %}}</dd>
@@ -1164,7 +1164,7 @@ The following output properties are available:
 <a href="#supportedplacementstrategies_csharp" style="color: inherit; text-decoration: inherit;">Supported<wbr>Placement<wbr>Strategies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of supported placement groups types.
 {{% /md %}}</dd>
@@ -1175,7 +1175,7 @@ The following output properties are available:
 <a href="#supportedrootdevicetypes_csharp" style="color: inherit; text-decoration: inherit;">Supported<wbr>Root<wbr>Device<wbr>Types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Indicates the supported root device types.
 {{% /md %}}</dd>
@@ -1186,7 +1186,7 @@ The following output properties are available:
 <a href="#supportedusagesclasses_csharp" style="color: inherit; text-decoration: inherit;">Supported<wbr>Usages<wbr>Classes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Indicates whether the instance type is offered for spot or On-Demand.
 {{% /md %}}</dd>
@@ -1197,7 +1197,7 @@ The following output properties are available:
 <a href="#supportedvirtualizationtypes_csharp" style="color: inherit; text-decoration: inherit;">Supported<wbr>Virtualization<wbr>Types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The supported virtualization types.
 {{% /md %}}</dd>
@@ -1208,7 +1208,7 @@ The following output properties are available:
 <a href="#sustainedclockspeed_csharp" style="color: inherit; text-decoration: inherit;">Sustained<wbr>Clock<wbr>Speed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">double</a></span>
+        <span class="property-type">double</span>
     </dt>
     <dd>{{% md %}}The speed of the processor, in GHz.
 {{% /md %}}</dd>
@@ -1219,7 +1219,7 @@ The following output properties are available:
 <a href="#totalfpgamemory_csharp" style="color: inherit; text-decoration: inherit;">Total<wbr>Fpga<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -1230,7 +1230,7 @@ The following output properties are available:
 <a href="#totalgpumemory_csharp" style="color: inherit; text-decoration: inherit;">Total<wbr>Gpu<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -1241,7 +1241,7 @@ The following output properties are available:
 <a href="#totalinstancestorage_csharp" style="color: inherit; text-decoration: inherit;">Total<wbr>Instance<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -1252,7 +1252,7 @@ The following output properties are available:
 <a href="#validcores_csharp" style="color: inherit; text-decoration: inherit;">Valid<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;int&gt;</a></span>
+        <span class="property-type">List&lt;int&gt;</span>
     </dt>
     <dd>{{% md %}}List of the valid number of cores that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -1263,7 +1263,7 @@ The following output properties are available:
 <a href="#validthreadspercores_csharp" style="color: inherit; text-decoration: inherit;">Valid<wbr>Threads<wbr>Per<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;int&gt;</a></span>
+        <span class="property-type">List&lt;int&gt;</span>
     </dt>
     <dd>{{% md %}}List of the valid number of threads per core that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -1281,7 +1281,7 @@ The following output properties are available:
 <a href="#autorecoverysupported_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Recovery<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if auto recovery is supported.
 {{% /md %}}</dd>
@@ -1292,7 +1292,7 @@ The following output properties are available:
 <a href="#baremetal_go" style="color: inherit; text-decoration: inherit;">Bare<wbr>Metal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if it is a bare metal instance type.
 {{% /md %}}</dd>
@@ -1303,7 +1303,7 @@ The following output properties are available:
 <a href="#burstableperformancesupported_go" style="color: inherit; text-decoration: inherit;">Burstable<wbr>Performance<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is a burstable performance instance type.
 {{% /md %}}</dd>
@@ -1314,7 +1314,7 @@ The following output properties are available:
 <a href="#currentgeneration_go" style="color: inherit; text-decoration: inherit;">Current<wbr>Generation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true`  if the instance type is a current generation.
 {{% /md %}}</dd>
@@ -1325,7 +1325,7 @@ The following output properties are available:
 <a href="#dedicatedhostssupported_go" style="color: inherit; text-decoration: inherit;">Dedicated<wbr>Hosts<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if Dedicated Hosts are supported on the instance type.
 {{% /md %}}</dd>
@@ -1336,7 +1336,7 @@ The following output properties are available:
 <a href="#defaultcores_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -1347,7 +1347,7 @@ The following output properties are available:
 <a href="#defaultthreadspercore_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Threads<wbr>Per<wbr>Core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -1358,7 +1358,7 @@ The following output properties are available:
 <a href="#defaultvcpus_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Vcpus</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of vCPUs for the instance type.
 {{% /md %}}</dd>
@@ -1369,7 +1369,7 @@ The following output properties are available:
 <a href="#ebsencryptionsupport_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Encryption<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether Amazon EBS encryption is supported.
 {{% /md %}}</dd>
@@ -1380,7 +1380,7 @@ The following output properties are available:
 <a href="#ebsnvmesupport_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Nvme<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether non-volatile memory express (NVMe) is supported.
 {{% /md %}}</dd>
@@ -1391,7 +1391,7 @@ The following output properties are available:
 <a href="#ebsoptimizedsupport_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Optimized<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates that the instance type is Amazon EBS-optimized.
 {{% /md %}}</dd>
@@ -1402,7 +1402,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselinebandwidth_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Baseline<wbr>Bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The baseline bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -1413,7 +1413,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselineiops_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Baseline<wbr>Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The baseline input/output storage operations per seconds for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -1424,7 +1424,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselinethroughput_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Baseline<wbr>Throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#number">float64</a></span>
+        <span class="property-type">float64</span>
     </dt>
     <dd>{{% md %}}The baseline throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -1435,7 +1435,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumbandwidth_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Maximum<wbr>Bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -1446,7 +1446,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumiops_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Maximum<wbr>Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum input/output storage operations per second for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -1457,7 +1457,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumthroughput_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Performance<wbr>Maximum<wbr>Throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#number">float64</a></span>
+        <span class="property-type">float64</span>
     </dt>
     <dd>{{% md %}}The maximum throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -1468,7 +1468,7 @@ The following output properties are available:
 <a href="#efasupported_go" style="color: inherit; text-decoration: inherit;">Efa<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Fabric Adapter (EFA) is supported.
 {{% /md %}}</dd>
@@ -1479,7 +1479,7 @@ The following output properties are available:
 <a href="#enasupport_go" style="color: inherit; text-decoration: inherit;">Ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Network Adapter (ENA) is supported.
 {{% /md %}}</dd>
@@ -1505,7 +1505,7 @@ The following output properties are available:
 <a href="#freetiereligible_go" style="color: inherit; text-decoration: inherit;">Free<wbr>Tier<wbr>Eligible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is eligible for the free tier.
 {{% /md %}}</dd>
@@ -1531,7 +1531,7 @@ The following output properties are available:
 <a href="#hibernationsupported_go" style="color: inherit; text-decoration: inherit;">Hibernation<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if On-Demand hibernation is supported.
 {{% /md %}}</dd>
@@ -1542,7 +1542,7 @@ The following output properties are available:
 <a href="#hypervisor_go" style="color: inherit; text-decoration: inherit;">Hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -1557,7 +1557,7 @@ The following output properties are available:
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -1592,7 +1592,7 @@ The following output properties are available:
 <a href="#instancestoragesupported_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Storage<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if instance storage is supported.
 {{% /md %}}</dd>
@@ -1603,7 +1603,7 @@ The following output properties are available:
 <a href="#instancetype_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1613,7 +1613,7 @@ The following output properties are available:
 <a href="#ipv6supported_go" style="color: inherit; text-decoration: inherit;">Ipv6Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if IPv6 is supported.
 {{% /md %}}</dd>
@@ -1624,7 +1624,7 @@ The following output properties are available:
 <a href="#maximumipv4addressesperinterface_go" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Ipv4Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv4 addresses per network interface.
 {{% /md %}}</dd>
@@ -1635,7 +1635,7 @@ The following output properties are available:
 <a href="#maximumipv6addressesperinterface_go" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Ipv6Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -1646,7 +1646,7 @@ The following output properties are available:
 <a href="#maximumnetworkinterfaces_go" style="color: inherit; text-decoration: inherit;">Maximum<wbr>Network<wbr>Interfaces</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of network interfaces for the instance type.
 {{% /md %}}</dd>
@@ -1657,7 +1657,7 @@ The following output properties are available:
 <a href="#memorysize_go" style="color: inherit; text-decoration: inherit;">Memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -1668,7 +1668,7 @@ The following output properties are available:
 <a href="#networkperformance_go" style="color: inherit; text-decoration: inherit;">Network<wbr>Performance</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the network performance.
 {{% /md %}}</dd>
@@ -1679,7 +1679,7 @@ The following output properties are available:
 <a href="#supportedarchitectures_go" style="color: inherit; text-decoration: inherit;">Supported<wbr>Architectures</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of architectures supported by the instance type.
 {{% /md %}}</dd>
@@ -1690,7 +1690,7 @@ The following output properties are available:
 <a href="#supportedplacementstrategies_go" style="color: inherit; text-decoration: inherit;">Supported<wbr>Placement<wbr>Strategies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of supported placement groups types.
 {{% /md %}}</dd>
@@ -1701,7 +1701,7 @@ The following output properties are available:
 <a href="#supportedrootdevicetypes_go" style="color: inherit; text-decoration: inherit;">Supported<wbr>Root<wbr>Device<wbr>Types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Indicates the supported root device types.
 {{% /md %}}</dd>
@@ -1712,7 +1712,7 @@ The following output properties are available:
 <a href="#supportedusagesclasses_go" style="color: inherit; text-decoration: inherit;">Supported<wbr>Usages<wbr>Classes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Indicates whether the instance type is offered for spot or On-Demand.
 {{% /md %}}</dd>
@@ -1723,7 +1723,7 @@ The following output properties are available:
 <a href="#supportedvirtualizationtypes_go" style="color: inherit; text-decoration: inherit;">Supported<wbr>Virtualization<wbr>Types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The supported virtualization types.
 {{% /md %}}</dd>
@@ -1734,7 +1734,7 @@ The following output properties are available:
 <a href="#sustainedclockspeed_go" style="color: inherit; text-decoration: inherit;">Sustained<wbr>Clock<wbr>Speed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#number">float64</a></span>
+        <span class="property-type">float64</span>
     </dt>
     <dd>{{% md %}}The speed of the processor, in GHz.
 {{% /md %}}</dd>
@@ -1745,7 +1745,7 @@ The following output properties are available:
 <a href="#totalfpgamemory_go" style="color: inherit; text-decoration: inherit;">Total<wbr>Fpga<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -1756,7 +1756,7 @@ The following output properties are available:
 <a href="#totalgpumemory_go" style="color: inherit; text-decoration: inherit;">Total<wbr>Gpu<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -1767,7 +1767,7 @@ The following output properties are available:
 <a href="#totalinstancestorage_go" style="color: inherit; text-decoration: inherit;">Total<wbr>Instance<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -1778,7 +1778,7 @@ The following output properties are available:
 <a href="#validcores_go" style="color: inherit; text-decoration: inherit;">Valid<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">[]int</a></span>
+        <span class="property-type">[]int</span>
     </dt>
     <dd>{{% md %}}List of the valid number of cores that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -1789,7 +1789,7 @@ The following output properties are available:
 <a href="#validthreadspercores_go" style="color: inherit; text-decoration: inherit;">Valid<wbr>Threads<wbr>Per<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">[]int</a></span>
+        <span class="property-type">[]int</span>
     </dt>
     <dd>{{% md %}}List of the valid number of threads per core that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -1807,7 +1807,7 @@ The following output properties are available:
 <a href="#autorecoverysupported_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Recovery<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if auto recovery is supported.
 {{% /md %}}</dd>
@@ -1818,7 +1818,7 @@ The following output properties are available:
 <a href="#baremetal_nodejs" style="color: inherit; text-decoration: inherit;">bare<wbr>Metal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if it is a bare metal instance type.
 {{% /md %}}</dd>
@@ -1829,7 +1829,7 @@ The following output properties are available:
 <a href="#burstableperformancesupported_nodejs" style="color: inherit; text-decoration: inherit;">burstable<wbr>Performance<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is a burstable performance instance type.
 {{% /md %}}</dd>
@@ -1840,7 +1840,7 @@ The following output properties are available:
 <a href="#currentgeneration_nodejs" style="color: inherit; text-decoration: inherit;">current<wbr>Generation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true`  if the instance type is a current generation.
 {{% /md %}}</dd>
@@ -1851,7 +1851,7 @@ The following output properties are available:
 <a href="#dedicatedhostssupported_nodejs" style="color: inherit; text-decoration: inherit;">dedicated<wbr>Hosts<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if Dedicated Hosts are supported on the instance type.
 {{% /md %}}</dd>
@@ -1862,7 +1862,7 @@ The following output properties are available:
 <a href="#defaultcores_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -1873,7 +1873,7 @@ The following output properties are available:
 <a href="#defaultthreadspercore_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Threads<wbr>Per<wbr>Core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -1884,7 +1884,7 @@ The following output properties are available:
 <a href="#defaultvcpus_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Vcpus</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The default number of vCPUs for the instance type.
 {{% /md %}}</dd>
@@ -1895,7 +1895,7 @@ The following output properties are available:
 <a href="#ebsencryptionsupport_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Encryption<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether Amazon EBS encryption is supported.
 {{% /md %}}</dd>
@@ -1906,7 +1906,7 @@ The following output properties are available:
 <a href="#ebsnvmesupport_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Nvme<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether non-volatile memory express (NVMe) is supported.
 {{% /md %}}</dd>
@@ -1917,7 +1917,7 @@ The following output properties are available:
 <a href="#ebsoptimizedsupport_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Optimized<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates that the instance type is Amazon EBS-optimized.
 {{% /md %}}</dd>
@@ -1928,7 +1928,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselinebandwidth_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Performance<wbr>Baseline<wbr>Bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The baseline bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -1939,7 +1939,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselineiops_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Performance<wbr>Baseline<wbr>Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The baseline input/output storage operations per seconds for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -1950,7 +1950,7 @@ The following output properties are available:
 <a href="#ebsperformancebaselinethroughput_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Performance<wbr>Baseline<wbr>Throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The baseline throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -1961,7 +1961,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumbandwidth_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Performance<wbr>Maximum<wbr>Bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -1972,7 +1972,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumiops_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Performance<wbr>Maximum<wbr>Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum input/output storage operations per second for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -1983,7 +1983,7 @@ The following output properties are available:
 <a href="#ebsperformancemaximumthroughput_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Performance<wbr>Maximum<wbr>Throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -1994,7 +1994,7 @@ The following output properties are available:
 <a href="#efasupported_nodejs" style="color: inherit; text-decoration: inherit;">efa<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Fabric Adapter (EFA) is supported.
 {{% /md %}}</dd>
@@ -2005,7 +2005,7 @@ The following output properties are available:
 <a href="#enasupport_nodejs" style="color: inherit; text-decoration: inherit;">ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Network Adapter (ENA) is supported.
 {{% /md %}}</dd>
@@ -2031,7 +2031,7 @@ The following output properties are available:
 <a href="#freetiereligible_nodejs" style="color: inherit; text-decoration: inherit;">free<wbr>Tier<wbr>Eligible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is eligible for the free tier.
 {{% /md %}}</dd>
@@ -2057,7 +2057,7 @@ The following output properties are available:
 <a href="#hibernationsupported_nodejs" style="color: inherit; text-decoration: inherit;">hibernation<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if On-Demand hibernation is supported.
 {{% /md %}}</dd>
@@ -2068,7 +2068,7 @@ The following output properties are available:
 <a href="#hypervisor_nodejs" style="color: inherit; text-decoration: inherit;">hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -2083,7 +2083,7 @@ The following output properties are available:
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -2118,7 +2118,7 @@ The following output properties are available:
 <a href="#instancestoragesupported_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Storage<wbr>Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if instance storage is supported.
 {{% /md %}}</dd>
@@ -2129,7 +2129,7 @@ The following output properties are available:
 <a href="#instancetype_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2139,7 +2139,7 @@ The following output properties are available:
 <a href="#ipv6supported_nodejs" style="color: inherit; text-decoration: inherit;">ipv6Supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if IPv6 is supported.
 {{% /md %}}</dd>
@@ -2150,7 +2150,7 @@ The following output properties are available:
 <a href="#maximumipv4addressesperinterface_nodejs" style="color: inherit; text-decoration: inherit;">maximum<wbr>Ipv4Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv4 addresses per network interface.
 {{% /md %}}</dd>
@@ -2161,7 +2161,7 @@ The following output properties are available:
 <a href="#maximumipv6addressesperinterface_nodejs" style="color: inherit; text-decoration: inherit;">maximum<wbr>Ipv6Addresses<wbr>Per<wbr>Interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -2172,7 +2172,7 @@ The following output properties are available:
 <a href="#maximumnetworkinterfaces_nodejs" style="color: inherit; text-decoration: inherit;">maximum<wbr>Network<wbr>Interfaces</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of network interfaces for the instance type.
 {{% /md %}}</dd>
@@ -2183,7 +2183,7 @@ The following output properties are available:
 <a href="#memorysize_nodejs" style="color: inherit; text-decoration: inherit;">memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -2194,7 +2194,7 @@ The following output properties are available:
 <a href="#networkperformance_nodejs" style="color: inherit; text-decoration: inherit;">network<wbr>Performance</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the network performance.
 {{% /md %}}</dd>
@@ -2205,7 +2205,7 @@ The following output properties are available:
 <a href="#supportedarchitectures_nodejs" style="color: inherit; text-decoration: inherit;">supported<wbr>Architectures</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of architectures supported by the instance type.
 {{% /md %}}</dd>
@@ -2216,7 +2216,7 @@ The following output properties are available:
 <a href="#supportedplacementstrategies_nodejs" style="color: inherit; text-decoration: inherit;">supported<wbr>Placement<wbr>Strategies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of supported placement groups types.
 {{% /md %}}</dd>
@@ -2227,7 +2227,7 @@ The following output properties are available:
 <a href="#supportedrootdevicetypes_nodejs" style="color: inherit; text-decoration: inherit;">supported<wbr>Root<wbr>Device<wbr>Types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Indicates the supported root device types.
 {{% /md %}}</dd>
@@ -2238,7 +2238,7 @@ The following output properties are available:
 <a href="#supportedusagesclasses_nodejs" style="color: inherit; text-decoration: inherit;">supported<wbr>Usages<wbr>Classes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Indicates whether the instance type is offered for spot or On-Demand.
 {{% /md %}}</dd>
@@ -2249,7 +2249,7 @@ The following output properties are available:
 <a href="#supportedvirtualizationtypes_nodejs" style="color: inherit; text-decoration: inherit;">supported<wbr>Virtualization<wbr>Types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The supported virtualization types.
 {{% /md %}}</dd>
@@ -2260,7 +2260,7 @@ The following output properties are available:
 <a href="#sustainedclockspeed_nodejs" style="color: inherit; text-decoration: inherit;">sustained<wbr>Clock<wbr>Speed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The speed of the processor, in GHz.
 {{% /md %}}</dd>
@@ -2271,7 +2271,7 @@ The following output properties are available:
 <a href="#totalfpgamemory_nodejs" style="color: inherit; text-decoration: inherit;">total<wbr>Fpga<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -2282,7 +2282,7 @@ The following output properties are available:
 <a href="#totalgpumemory_nodejs" style="color: inherit; text-decoration: inherit;">total<wbr>Gpu<wbr>Memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -2293,7 +2293,7 @@ The following output properties are available:
 <a href="#totalinstancestorage_nodejs" style="color: inherit; text-decoration: inherit;">total<wbr>Instance<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -2304,7 +2304,7 @@ The following output properties are available:
 <a href="#validcores_nodejs" style="color: inherit; text-decoration: inherit;">valid<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number[]</a></span>
+        <span class="property-type">number[]</span>
     </dt>
     <dd>{{% md %}}List of the valid number of cores that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -2315,7 +2315,7 @@ The following output properties are available:
 <a href="#validthreadspercores_nodejs" style="color: inherit; text-decoration: inherit;">valid<wbr>Threads<wbr>Per<wbr>Cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number[]</a></span>
+        <span class="property-type">number[]</span>
     </dt>
     <dd>{{% md %}}List of the valid number of threads per core that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -2333,7 +2333,7 @@ The following output properties are available:
 <a href="#auto_recovery_supported_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>recovery_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if auto recovery is supported.
 {{% /md %}}</dd>
@@ -2344,7 +2344,7 @@ The following output properties are available:
 <a href="#bare_metal_python" style="color: inherit; text-decoration: inherit;">bare_<wbr>metal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if it is a bare metal instance type.
 {{% /md %}}</dd>
@@ -2355,7 +2355,7 @@ The following output properties are available:
 <a href="#burstable_performance_supported_python" style="color: inherit; text-decoration: inherit;">burstable_<wbr>performance_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is a burstable performance instance type.
 {{% /md %}}</dd>
@@ -2366,7 +2366,7 @@ The following output properties are available:
 <a href="#current_generation_python" style="color: inherit; text-decoration: inherit;">current_<wbr>generation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true`  if the instance type is a current generation.
 {{% /md %}}</dd>
@@ -2377,7 +2377,7 @@ The following output properties are available:
 <a href="#dedicated_hosts_supported_python" style="color: inherit; text-decoration: inherit;">dedicated_<wbr>hosts_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if Dedicated Hosts are supported on the instance type.
 {{% /md %}}</dd>
@@ -2388,7 +2388,7 @@ The following output properties are available:
 <a href="#default_cores_python" style="color: inherit; text-decoration: inherit;">default_<wbr>cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of cores for the instance type.
 {{% /md %}}</dd>
@@ -2399,7 +2399,7 @@ The following output properties are available:
 <a href="#default_threads_per_core_python" style="color: inherit; text-decoration: inherit;">default_<wbr>threads_<wbr>per_<wbr>core</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The  default  number of threads per core for the instance type.
 {{% /md %}}</dd>
@@ -2410,7 +2410,7 @@ The following output properties are available:
 <a href="#default_vcpus_python" style="color: inherit; text-decoration: inherit;">default_<wbr>vcpus</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default number of vCPUs for the instance type.
 {{% /md %}}</dd>
@@ -2421,7 +2421,7 @@ The following output properties are available:
 <a href="#ebs_encryption_support_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>encryption_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates whether Amazon EBS encryption is supported.
 {{% /md %}}</dd>
@@ -2432,7 +2432,7 @@ The following output properties are available:
 <a href="#ebs_nvme_support_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>nvme_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates whether non-volatile memory express (NVMe) is supported.
 {{% /md %}}</dd>
@@ -2443,7 +2443,7 @@ The following output properties are available:
 <a href="#ebs_optimized_support_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>optimized_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates that the instance type is Amazon EBS-optimized.
 {{% /md %}}</dd>
@@ -2454,7 +2454,7 @@ The following output properties are available:
 <a href="#ebs_performance_baseline_bandwidth_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>performance_<wbr>baseline_<wbr>bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The baseline bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -2465,7 +2465,7 @@ The following output properties are available:
 <a href="#ebs_performance_baseline_iops_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>performance_<wbr>baseline_<wbr>iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The baseline input/output storage operations per seconds for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -2476,7 +2476,7 @@ The following output properties are available:
 <a href="#ebs_performance_baseline_throughput_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>performance_<wbr>baseline_<wbr>throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
+        <span class="property-type">float</span>
     </dt>
     <dd>{{% md %}}The baseline throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -2487,7 +2487,7 @@ The following output properties are available:
 <a href="#ebs_performance_maximum_bandwidth_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>performance_<wbr>maximum_<wbr>bandwidth</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum bandwidth performance for an EBS-optimized instance type, in Mbps.
 {{% /md %}}</dd>
@@ -2498,7 +2498,7 @@ The following output properties are available:
 <a href="#ebs_performance_maximum_iops_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>performance_<wbr>maximum_<wbr>iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum input/output storage operations per second for an EBS-optimized instance type.
 {{% /md %}}</dd>
@@ -2509,7 +2509,7 @@ The following output properties are available:
 <a href="#ebs_performance_maximum_throughput_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>performance_<wbr>maximum_<wbr>throughput</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
+        <span class="property-type">float</span>
     </dt>
     <dd>{{% md %}}The maximum throughput performance for an EBS-optimized instance type, in MBps.
 {{% /md %}}</dd>
@@ -2520,7 +2520,7 @@ The following output properties are available:
 <a href="#efa_supported_python" style="color: inherit; text-decoration: inherit;">efa_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Fabric Adapter (EFA) is supported.
 {{% /md %}}</dd>
@@ -2531,7 +2531,7 @@ The following output properties are available:
 <a href="#ena_support_python" style="color: inherit; text-decoration: inherit;">ena_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates whether Elastic Network Adapter (ENA) is supported.
 {{% /md %}}</dd>
@@ -2557,7 +2557,7 @@ The following output properties are available:
 <a href="#free_tier_eligible_python" style="color: inherit; text-decoration: inherit;">free_<wbr>tier_<wbr>eligible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if the instance type is eligible for the free tier.
 {{% /md %}}</dd>
@@ -2583,7 +2583,7 @@ The following output properties are available:
 <a href="#hibernation_supported_python" style="color: inherit; text-decoration: inherit;">hibernation_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if On-Demand hibernation is supported.
 {{% /md %}}</dd>
@@ -2594,7 +2594,7 @@ The following output properties are available:
 <a href="#hypervisor_python" style="color: inherit; text-decoration: inherit;">hypervisor</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates the hypervisor used for the instance type.
 * `inference_accelerators` Describes the Inference accelerators for the instance type.
@@ -2609,7 +2609,7 @@ The following output properties are available:
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -2644,7 +2644,7 @@ The following output properties are available:
 <a href="#instance_storage_supported_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>storage_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if instance storage is supported.
 {{% /md %}}</dd>
@@ -2655,7 +2655,7 @@ The following output properties are available:
 <a href="#instance_type_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2665,7 +2665,7 @@ The following output properties are available:
 <a href="#ipv6_supported_python" style="color: inherit; text-decoration: inherit;">ipv6_<wbr>supported</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if IPv6 is supported.
 {{% /md %}}</dd>
@@ -2676,7 +2676,7 @@ The following output properties are available:
 <a href="#maximum_ipv4_addresses_per_interface_python" style="color: inherit; text-decoration: inherit;">maximum_<wbr>ipv4_<wbr>addresses_<wbr>per_<wbr>interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv4 addresses per network interface.
 {{% /md %}}</dd>
@@ -2687,7 +2687,7 @@ The following output properties are available:
 <a href="#maximum_ipv6_addresses_per_interface_python" style="color: inherit; text-decoration: inherit;">maximum_<wbr>ipv6_<wbr>addresses_<wbr>per_<wbr>interface</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of IPv6 addresses per network interface.
 {{% /md %}}</dd>
@@ -2698,7 +2698,7 @@ The following output properties are available:
 <a href="#maximum_network_interfaces_python" style="color: inherit; text-decoration: inherit;">maximum_<wbr>network_<wbr>interfaces</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of network interfaces for the instance type.
 {{% /md %}}</dd>
@@ -2709,7 +2709,7 @@ The following output properties are available:
 <a href="#memory_size_python" style="color: inherit; text-decoration: inherit;">memory_<wbr>size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -2720,7 +2720,7 @@ The following output properties are available:
 <a href="#network_performance_python" style="color: inherit; text-decoration: inherit;">network_<wbr>performance</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Describes the network performance.
 {{% /md %}}</dd>
@@ -2731,7 +2731,7 @@ The following output properties are available:
 <a href="#supported_architectures_python" style="color: inherit; text-decoration: inherit;">supported_<wbr>architectures</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of architectures supported by the instance type.
 {{% /md %}}</dd>
@@ -2742,7 +2742,7 @@ The following output properties are available:
 <a href="#supported_placement_strategies_python" style="color: inherit; text-decoration: inherit;">supported_<wbr>placement_<wbr>strategies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of supported placement groups types.
 {{% /md %}}</dd>
@@ -2753,7 +2753,7 @@ The following output properties are available:
 <a href="#supported_root_device_types_python" style="color: inherit; text-decoration: inherit;">supported_<wbr>root_<wbr>device_<wbr>types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Indicates the supported root device types.
 {{% /md %}}</dd>
@@ -2764,7 +2764,7 @@ The following output properties are available:
 <a href="#supported_usages_classes_python" style="color: inherit; text-decoration: inherit;">supported_<wbr>usages_<wbr>classes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Indicates whether the instance type is offered for spot or On-Demand.
 {{% /md %}}</dd>
@@ -2775,7 +2775,7 @@ The following output properties are available:
 <a href="#supported_virtualization_types_python" style="color: inherit; text-decoration: inherit;">supported_<wbr>virtualization_<wbr>types</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The supported virtualization types.
 {{% /md %}}</dd>
@@ -2786,7 +2786,7 @@ The following output properties are available:
 <a href="#sustained_clock_speed_python" style="color: inherit; text-decoration: inherit;">sustained_<wbr>clock_<wbr>speed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
+        <span class="property-type">float</span>
     </dt>
     <dd>{{% md %}}The speed of the processor, in GHz.
 {{% /md %}}</dd>
@@ -2797,7 +2797,7 @@ The following output properties are available:
 <a href="#total_fpga_memory_python" style="color: inherit; text-decoration: inherit;">total_<wbr>fpga_<wbr>memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total memory of all FPGA accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -2808,7 +2808,7 @@ The following output properties are available:
 <a href="#total_gpu_memory_python" style="color: inherit; text-decoration: inherit;">total_<wbr>gpu_<wbr>memory</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the memory for the GPU accelerators for the instance type (in MiB).
 {{% /md %}}</dd>
@@ -2819,7 +2819,7 @@ The following output properties are available:
 <a href="#total_instance_storage_python" style="color: inherit; text-decoration: inherit;">total_<wbr>instance_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The total size of the instance disks, in GB.
 {{% /md %}}</dd>
@@ -2830,7 +2830,7 @@ The following output properties are available:
 <a href="#valid_cores_python" style="color: inherit; text-decoration: inherit;">valid_<wbr>cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[int]</a></span>
+        <span class="property-type">Sequence[int]</span>
     </dt>
     <dd>{{% md %}}List of the valid number of cores that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -2841,7 +2841,7 @@ The following output properties are available:
 <a href="#valid_threads_per_cores_python" style="color: inherit; text-decoration: inherit;">valid_<wbr>threads_<wbr>per_<wbr>cores</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[int]</a></span>
+        <span class="property-type">Sequence[int]</span>
     </dt>
     <dd>{{% md %}}List of the valid number of threads per core that can be configured for the instance type.
 {{% /md %}}</dd>
@@ -2883,7 +2883,7 @@ The following output properties are available:
 <a href="#count_csharp" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2893,7 +2893,7 @@ The following output properties are available:
 <a href="#manufacturer_csharp" style="color: inherit; text-decoration: inherit;">Manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2903,7 +2903,7 @@ The following output properties are available:
 <a href="#memorysize_csharp" style="color: inherit; text-decoration: inherit;">Memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -2914,7 +2914,7 @@ The following output properties are available:
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2931,7 +2931,7 @@ The following output properties are available:
 <a href="#count_go" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2941,7 +2941,7 @@ The following output properties are available:
 <a href="#manufacturer_go" style="color: inherit; text-decoration: inherit;">Manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2951,7 +2951,7 @@ The following output properties are available:
 <a href="#memorysize_go" style="color: inherit; text-decoration: inherit;">Memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -2962,7 +2962,7 @@ The following output properties are available:
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2979,7 +2979,7 @@ The following output properties are available:
 <a href="#count_nodejs" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2989,7 +2989,7 @@ The following output properties are available:
 <a href="#manufacturer_nodejs" style="color: inherit; text-decoration: inherit;">manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2999,7 +2999,7 @@ The following output properties are available:
 <a href="#memorysize_nodejs" style="color: inherit; text-decoration: inherit;">memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -3010,7 +3010,7 @@ The following output properties are available:
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3027,7 +3027,7 @@ The following output properties are available:
 <a href="#count_python" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3037,7 +3037,7 @@ The following output properties are available:
 <a href="#manufacturer_python" style="color: inherit; text-decoration: inherit;">manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3047,7 +3047,7 @@ The following output properties are available:
 <a href="#memory_size_python" style="color: inherit; text-decoration: inherit;">memory_<wbr>size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -3058,7 +3058,7 @@ The following output properties are available:
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3093,7 +3093,7 @@ The following output properties are available:
 <a href="#count_csharp" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3103,7 +3103,7 @@ The following output properties are available:
 <a href="#manufacturer_csharp" style="color: inherit; text-decoration: inherit;">Manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3113,7 +3113,7 @@ The following output properties are available:
 <a href="#memorysize_csharp" style="color: inherit; text-decoration: inherit;">Memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -3124,7 +3124,7 @@ The following output properties are available:
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3141,7 +3141,7 @@ The following output properties are available:
 <a href="#count_go" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3151,7 +3151,7 @@ The following output properties are available:
 <a href="#manufacturer_go" style="color: inherit; text-decoration: inherit;">Manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3161,7 +3161,7 @@ The following output properties are available:
 <a href="#memorysize_go" style="color: inherit; text-decoration: inherit;">Memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -3172,7 +3172,7 @@ The following output properties are available:
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3189,7 +3189,7 @@ The following output properties are available:
 <a href="#count_nodejs" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3199,7 +3199,7 @@ The following output properties are available:
 <a href="#manufacturer_nodejs" style="color: inherit; text-decoration: inherit;">manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3209,7 +3209,7 @@ The following output properties are available:
 <a href="#memorysize_nodejs" style="color: inherit; text-decoration: inherit;">memory<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -3220,7 +3220,7 @@ The following output properties are available:
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3237,7 +3237,7 @@ The following output properties are available:
 <a href="#count_python" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3247,7 +3247,7 @@ The following output properties are available:
 <a href="#manufacturer_python" style="color: inherit; text-decoration: inherit;">manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3257,7 +3257,7 @@ The following output properties are available:
 <a href="#memory_size_python" style="color: inherit; text-decoration: inherit;">memory_<wbr>size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Size of the instance memory, in MiB.
 {{% /md %}}</dd>
@@ -3268,7 +3268,7 @@ The following output properties are available:
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3303,7 +3303,7 @@ The following output properties are available:
 <a href="#count_csharp" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3313,7 +3313,7 @@ The following output properties are available:
 <a href="#manufacturer_csharp" style="color: inherit; text-decoration: inherit;">Manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3323,7 +3323,7 @@ The following output properties are available:
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3340,7 +3340,7 @@ The following output properties are available:
 <a href="#count_go" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3350,7 +3350,7 @@ The following output properties are available:
 <a href="#manufacturer_go" style="color: inherit; text-decoration: inherit;">Manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3360,7 +3360,7 @@ The following output properties are available:
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3377,7 +3377,7 @@ The following output properties are available:
 <a href="#count_nodejs" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3387,7 +3387,7 @@ The following output properties are available:
 <a href="#manufacturer_nodejs" style="color: inherit; text-decoration: inherit;">manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3397,7 +3397,7 @@ The following output properties are available:
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3414,7 +3414,7 @@ The following output properties are available:
 <a href="#count_python" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3424,7 +3424,7 @@ The following output properties are available:
 <a href="#manufacturer_python" style="color: inherit; text-decoration: inherit;">manufacturer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3434,7 +3434,7 @@ The following output properties are available:
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3469,7 +3469,7 @@ The following output properties are available:
 <a href="#count_csharp" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3479,7 +3479,7 @@ The following output properties are available:
 <a href="#size_csharp" style="color: inherit; text-decoration: inherit;">Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3489,7 +3489,7 @@ The following output properties are available:
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3506,7 +3506,7 @@ The following output properties are available:
 <a href="#count_go" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3516,7 +3516,7 @@ The following output properties are available:
 <a href="#size_go" style="color: inherit; text-decoration: inherit;">Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3526,7 +3526,7 @@ The following output properties are available:
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3543,7 +3543,7 @@ The following output properties are available:
 <a href="#count_nodejs" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3553,7 +3553,7 @@ The following output properties are available:
 <a href="#size_nodejs" style="color: inherit; text-decoration: inherit;">size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3563,7 +3563,7 @@ The following output properties are available:
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3580,7 +3580,7 @@ The following output properties are available:
 <a href="#count_python" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3590,7 +3590,7 @@ The following output properties are available:
 <a href="#size_python" style="color: inherit; text-decoration: inherit;">size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3600,7 +3600,7 @@ The following output properties are available:
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 

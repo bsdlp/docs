@@ -290,7 +290,7 @@ const iamPolicyForLambda = new aws.iam.RolePolicy("iamPolicyForLambda", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRule">TopicRule</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRuleArgs">TopicRuleArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRule">TopicRule</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRuleArgs">TopicRuleArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -298,11 +298,11 @@ const iamPolicyForLambda = new aws.iam.RolePolicy("iamPolicyForLambda", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRule">NewTopicRule</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRuleArgs">TopicRuleArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRule">TopicRule</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRule">NewTopicRule</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRuleArgs">TopicRuleArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRule">TopicRule</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRule.html">TopicRule</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRuleArgs.html">TopicRuleArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRule.html">TopicRule</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRuleArgs.html">TopicRuleArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -313,7 +313,7 @@ const iamPolicyForLambda = new aws.iam.RolePolicy("iamPolicyForLambda", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -382,7 +382,7 @@ const iamPolicyForLambda = new aws.iam.RolePolicy("iamPolicyForLambda", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -421,7 +421,7 @@ const iamPolicyForLambda = new aws.iam.RolePolicy("iamPolicyForLambda", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -472,7 +472,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -483,7 +483,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sql_csharp" style="color: inherit; text-decoration: inherit;">Sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -494,7 +494,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sqlversion_csharp" style="color: inherit; text-decoration: inherit;">Sql<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -525,7 +525,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -627,7 +627,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -706,7 +706,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -717,7 +717,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sql_go" style="color: inherit; text-decoration: inherit;">Sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -728,7 +728,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sqlversion_go" style="color: inherit; text-decoration: inherit;">Sql<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -759,7 +759,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -861,7 +861,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -940,7 +940,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -951,7 +951,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sql_nodejs" style="color: inherit; text-decoration: inherit;">sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -962,7 +962,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sqlversion_nodejs" style="color: inherit; text-decoration: inherit;">sql<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -993,7 +993,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -1095,7 +1095,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -1174,7 +1174,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -1185,7 +1185,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sql_python" style="color: inherit; text-decoration: inherit;">sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -1196,7 +1196,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#sql_version_python" style="color: inherit; text-decoration: inherit;">sql_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -1227,7 +1227,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -1329,7 +1329,7 @@ The TopicRule resource accepts the following [input]({{< relref "/docs/intro/con
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -1419,7 +1419,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -1430,7 +1430,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1447,7 +1447,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -1458,7 +1458,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1475,7 +1475,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -1486,7 +1486,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1503,7 +1503,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -1514,7 +1514,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1533,7 +1533,7 @@ Get an existing TopicRule resource's state with the given name, ID, and optional
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRuleState">TopicRuleState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRule">TopicRule</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRuleState">TopicRuleState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/iot/#TopicRule">TopicRule</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1542,11 +1542,11 @@ Get an existing TopicRule resource's state with the given name, ID, and optional
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetTopicRule<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRuleState">TopicRuleState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRule">TopicRule</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetTopicRule<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRuleState">TopicRuleState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/iot?tab=doc#TopicRule">TopicRule</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRule.html">TopicRule</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRuleState.html">TopicRuleState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRule.html">TopicRule</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Iot.TopicRuleState.html">TopicRuleState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1658,7 +1658,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -1689,7 +1689,7 @@ The following state arguments are supported:
 <a href="#state_description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -1730,7 +1730,7 @@ The following state arguments are supported:
 <a href="#state_enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -1802,7 +1802,7 @@ The following state arguments are supported:
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -1843,7 +1843,7 @@ The following state arguments are supported:
 <a href="#state_sql_csharp" style="color: inherit; text-decoration: inherit;">Sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -1854,7 +1854,7 @@ The following state arguments are supported:
 <a href="#state_sqlversion_csharp" style="color: inherit; text-decoration: inherit;">Sql<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -1903,7 +1903,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -1934,7 +1934,7 @@ The following state arguments are supported:
 <a href="#state_description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -1975,7 +1975,7 @@ The following state arguments are supported:
 <a href="#state_enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -2047,7 +2047,7 @@ The following state arguments are supported:
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -2088,7 +2088,7 @@ The following state arguments are supported:
 <a href="#state_sql_go" style="color: inherit; text-decoration: inherit;">Sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -2099,7 +2099,7 @@ The following state arguments are supported:
 <a href="#state_sqlversion_go" style="color: inherit; text-decoration: inherit;">Sql<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -2148,7 +2148,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -2179,7 +2179,7 @@ The following state arguments are supported:
 <a href="#state_description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -2220,7 +2220,7 @@ The following state arguments are supported:
 <a href="#state_enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -2292,7 +2292,7 @@ The following state arguments are supported:
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -2333,7 +2333,7 @@ The following state arguments are supported:
 <a href="#state_sql_nodejs" style="color: inherit; text-decoration: inherit;">sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -2344,7 +2344,7 @@ The following state arguments are supported:
 <a href="#state_sqlversion_nodejs" style="color: inherit; text-decoration: inherit;">sql<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -2393,7 +2393,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the topic rule
 {{% /md %}}</dd>
@@ -2424,7 +2424,7 @@ The following state arguments are supported:
 <a href="#state_description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The description of the rule.
 {{% /md %}}</dd>
@@ -2465,7 +2465,7 @@ The following state arguments are supported:
 <a href="#state_enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the rule is enabled.
 {{% /md %}}</dd>
@@ -2537,7 +2537,7 @@ The following state arguments are supported:
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the rule.
 {{% /md %}}</dd>
@@ -2578,7 +2578,7 @@ The following state arguments are supported:
 <a href="#state_sql_python" style="color: inherit; text-decoration: inherit;">sql</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The SQL statement used to query the topic. For more information, see AWS IoT SQL Reference (http://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html#aws-iot-sql-reference) in the AWS IoT Developer Guide.
 {{% /md %}}</dd>
@@ -2589,7 +2589,7 @@ The following state arguments are supported:
 <a href="#state_sql_version_python" style="color: inherit; text-decoration: inherit;">sql_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the SQL rules engine to use when evaluating the rule.
 {{% /md %}}</dd>
@@ -2664,7 +2664,7 @@ The following state arguments are supported:
 <a href="#alarmname_csharp" style="color: inherit; text-decoration: inherit;">Alarm<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -2675,7 +2675,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -2686,7 +2686,7 @@ The following state arguments are supported:
 <a href="#statereason_csharp" style="color: inherit; text-decoration: inherit;">State<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -2697,7 +2697,7 @@ The following state arguments are supported:
 <a href="#statevalue_csharp" style="color: inherit; text-decoration: inherit;">State<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -2715,7 +2715,7 @@ The following state arguments are supported:
 <a href="#alarmname_go" style="color: inherit; text-decoration: inherit;">Alarm<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -2726,7 +2726,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -2737,7 +2737,7 @@ The following state arguments are supported:
 <a href="#statereason_go" style="color: inherit; text-decoration: inherit;">State<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -2748,7 +2748,7 @@ The following state arguments are supported:
 <a href="#statevalue_go" style="color: inherit; text-decoration: inherit;">State<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -2766,7 +2766,7 @@ The following state arguments are supported:
 <a href="#alarmname_nodejs" style="color: inherit; text-decoration: inherit;">alarm<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -2777,7 +2777,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -2788,7 +2788,7 @@ The following state arguments are supported:
 <a href="#statereason_nodejs" style="color: inherit; text-decoration: inherit;">state<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -2799,7 +2799,7 @@ The following state arguments are supported:
 <a href="#statevalue_nodejs" style="color: inherit; text-decoration: inherit;">state<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -2817,7 +2817,7 @@ The following state arguments are supported:
 <a href="#alarm_name_python" style="color: inherit; text-decoration: inherit;">alarm_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -2828,7 +2828,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -2839,7 +2839,7 @@ The following state arguments are supported:
 <a href="#state_reason_python" style="color: inherit; text-decoration: inherit;">state_<wbr>reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -2850,7 +2850,7 @@ The following state arguments are supported:
 <a href="#state_value_python" style="color: inherit; text-decoration: inherit;">state_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -2886,7 +2886,7 @@ The following state arguments are supported:
 <a href="#metricname_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -2897,7 +2897,7 @@ The following state arguments are supported:
 <a href="#metricnamespace_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -2908,7 +2908,7 @@ The following state arguments are supported:
 <a href="#metricunit_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -2919,7 +2919,7 @@ The following state arguments are supported:
 <a href="#metricvalue_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -2930,7 +2930,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -2941,7 +2941,7 @@ The following state arguments are supported:
 <a href="#metrictimestamp_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -2959,7 +2959,7 @@ The following state arguments are supported:
 <a href="#metricname_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -2970,7 +2970,7 @@ The following state arguments are supported:
 <a href="#metricnamespace_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -2981,7 +2981,7 @@ The following state arguments are supported:
 <a href="#metricunit_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -2992,7 +2992,7 @@ The following state arguments are supported:
 <a href="#metricvalue_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -3003,7 +3003,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -3014,7 +3014,7 @@ The following state arguments are supported:
 <a href="#metrictimestamp_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -3032,7 +3032,7 @@ The following state arguments are supported:
 <a href="#metricname_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -3043,7 +3043,7 @@ The following state arguments are supported:
 <a href="#metricnamespace_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -3054,7 +3054,7 @@ The following state arguments are supported:
 <a href="#metricunit_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -3065,7 +3065,7 @@ The following state arguments are supported:
 <a href="#metricvalue_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -3076,7 +3076,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -3087,7 +3087,7 @@ The following state arguments are supported:
 <a href="#metrictimestamp_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -3105,7 +3105,7 @@ The following state arguments are supported:
 <a href="#metric_name_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -3116,7 +3116,7 @@ The following state arguments are supported:
 <a href="#metric_namespace_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -3127,7 +3127,7 @@ The following state arguments are supported:
 <a href="#metric_unit_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -3138,7 +3138,7 @@ The following state arguments are supported:
 <a href="#metric_value_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -3149,7 +3149,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -3160,7 +3160,7 @@ The following state arguments are supported:
 <a href="#metric_timestamp_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -3196,7 +3196,7 @@ The following state arguments are supported:
 <a href="#hashkeyfield_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -3207,7 +3207,7 @@ The following state arguments are supported:
 <a href="#hashkeyvalue_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -3218,7 +3218,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -3229,7 +3229,7 @@ The following state arguments are supported:
 <a href="#tablename_csharp" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3240,7 +3240,7 @@ The following state arguments are supported:
 <a href="#hashkeytype_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3251,7 +3251,7 @@ The following state arguments are supported:
 <a href="#operation_csharp" style="color: inherit; text-decoration: inherit;">Operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -3262,7 +3262,7 @@ The following state arguments are supported:
 <a href="#payloadfield_csharp" style="color: inherit; text-decoration: inherit;">Payload<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -3273,7 +3273,7 @@ The following state arguments are supported:
 <a href="#rangekeyfield_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -3284,7 +3284,7 @@ The following state arguments are supported:
 <a href="#rangekeytype_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3295,7 +3295,7 @@ The following state arguments are supported:
 <a href="#rangekeyvalue_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -3313,7 +3313,7 @@ The following state arguments are supported:
 <a href="#hashkeyfield_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -3324,7 +3324,7 @@ The following state arguments are supported:
 <a href="#hashkeyvalue_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -3335,7 +3335,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -3346,7 +3346,7 @@ The following state arguments are supported:
 <a href="#tablename_go" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3357,7 +3357,7 @@ The following state arguments are supported:
 <a href="#hashkeytype_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3368,7 +3368,7 @@ The following state arguments are supported:
 <a href="#operation_go" style="color: inherit; text-decoration: inherit;">Operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -3379,7 +3379,7 @@ The following state arguments are supported:
 <a href="#payloadfield_go" style="color: inherit; text-decoration: inherit;">Payload<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -3390,7 +3390,7 @@ The following state arguments are supported:
 <a href="#rangekeyfield_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -3401,7 +3401,7 @@ The following state arguments are supported:
 <a href="#rangekeytype_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3412,7 +3412,7 @@ The following state arguments are supported:
 <a href="#rangekeyvalue_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -3430,7 +3430,7 @@ The following state arguments are supported:
 <a href="#hashkeyfield_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -3441,7 +3441,7 @@ The following state arguments are supported:
 <a href="#hashkeyvalue_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -3452,7 +3452,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -3463,7 +3463,7 @@ The following state arguments are supported:
 <a href="#tablename_nodejs" style="color: inherit; text-decoration: inherit;">table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3474,7 +3474,7 @@ The following state arguments are supported:
 <a href="#hashkeytype_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3485,7 +3485,7 @@ The following state arguments are supported:
 <a href="#operation_nodejs" style="color: inherit; text-decoration: inherit;">operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -3496,7 +3496,7 @@ The following state arguments are supported:
 <a href="#payloadfield_nodejs" style="color: inherit; text-decoration: inherit;">payload<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -3507,7 +3507,7 @@ The following state arguments are supported:
 <a href="#rangekeyfield_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -3518,7 +3518,7 @@ The following state arguments are supported:
 <a href="#rangekeytype_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3529,7 +3529,7 @@ The following state arguments are supported:
 <a href="#rangekeyvalue_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -3547,7 +3547,7 @@ The following state arguments are supported:
 <a href="#hash_key_field_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key_<wbr>field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -3558,7 +3558,7 @@ The following state arguments are supported:
 <a href="#hash_key_value_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -3569,7 +3569,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -3580,7 +3580,7 @@ The following state arguments are supported:
 <a href="#table_name_python" style="color: inherit; text-decoration: inherit;">table_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3591,7 +3591,7 @@ The following state arguments are supported:
 <a href="#hash_key_type_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3602,7 +3602,7 @@ The following state arguments are supported:
 <a href="#operation_python" style="color: inherit; text-decoration: inherit;">operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -3613,7 +3613,7 @@ The following state arguments are supported:
 <a href="#payload_field_python" style="color: inherit; text-decoration: inherit;">payload_<wbr>field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -3624,7 +3624,7 @@ The following state arguments are supported:
 <a href="#range_key_field_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key_<wbr>field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -3635,7 +3635,7 @@ The following state arguments are supported:
 <a href="#range_key_type_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -3646,7 +3646,7 @@ The following state arguments are supported:
 <a href="#range_key_value_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -3682,7 +3682,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -3711,7 +3711,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -3740,7 +3740,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -3769,7 +3769,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -3816,7 +3816,7 @@ The following state arguments are supported:
 <a href="#tablename_csharp" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3834,7 +3834,7 @@ The following state arguments are supported:
 <a href="#tablename_go" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3852,7 +3852,7 @@ The following state arguments are supported:
 <a href="#tablename_nodejs" style="color: inherit; text-decoration: inherit;">table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3870,7 +3870,7 @@ The following state arguments are supported:
 <a href="#table_name_python" style="color: inherit; text-decoration: inherit;">table_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -3906,7 +3906,7 @@ The following state arguments are supported:
 <a href="#endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -3917,7 +3917,7 @@ The following state arguments are supported:
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -3928,7 +3928,7 @@ The following state arguments are supported:
 <a href="#index_csharp" style="color: inherit; text-decoration: inherit;">Index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -3939,7 +3939,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -3950,7 +3950,7 @@ The following state arguments are supported:
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -3968,7 +3968,7 @@ The following state arguments are supported:
 <a href="#endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -3979,7 +3979,7 @@ The following state arguments are supported:
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -3990,7 +3990,7 @@ The following state arguments are supported:
 <a href="#index_go" style="color: inherit; text-decoration: inherit;">Index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -4001,7 +4001,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -4012,7 +4012,7 @@ The following state arguments are supported:
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -4030,7 +4030,7 @@ The following state arguments are supported:
 <a href="#endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -4041,7 +4041,7 @@ The following state arguments are supported:
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -4052,7 +4052,7 @@ The following state arguments are supported:
 <a href="#index_nodejs" style="color: inherit; text-decoration: inherit;">index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -4063,7 +4063,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -4074,7 +4074,7 @@ The following state arguments are supported:
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -4092,7 +4092,7 @@ The following state arguments are supported:
 <a href="#endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -4103,7 +4103,7 @@ The following state arguments are supported:
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -4114,7 +4114,7 @@ The following state arguments are supported:
 <a href="#index_python" style="color: inherit; text-decoration: inherit;">index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -4125,7 +4125,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -4136,7 +4136,7 @@ The following state arguments are supported:
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -4818,7 +4818,7 @@ The following state arguments are supported:
 <a href="#alarmname_csharp" style="color: inherit; text-decoration: inherit;">Alarm<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -4829,7 +4829,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -4840,7 +4840,7 @@ The following state arguments are supported:
 <a href="#statereason_csharp" style="color: inherit; text-decoration: inherit;">State<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -4851,7 +4851,7 @@ The following state arguments are supported:
 <a href="#statevalue_csharp" style="color: inherit; text-decoration: inherit;">State<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -4869,7 +4869,7 @@ The following state arguments are supported:
 <a href="#alarmname_go" style="color: inherit; text-decoration: inherit;">Alarm<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -4880,7 +4880,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -4891,7 +4891,7 @@ The following state arguments are supported:
 <a href="#statereason_go" style="color: inherit; text-decoration: inherit;">State<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -4902,7 +4902,7 @@ The following state arguments are supported:
 <a href="#statevalue_go" style="color: inherit; text-decoration: inherit;">State<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -4920,7 +4920,7 @@ The following state arguments are supported:
 <a href="#alarmname_nodejs" style="color: inherit; text-decoration: inherit;">alarm<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -4931,7 +4931,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -4942,7 +4942,7 @@ The following state arguments are supported:
 <a href="#statereason_nodejs" style="color: inherit; text-decoration: inherit;">state<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -4953,7 +4953,7 @@ The following state arguments are supported:
 <a href="#statevalue_nodejs" style="color: inherit; text-decoration: inherit;">state<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -4971,7 +4971,7 @@ The following state arguments are supported:
 <a href="#alarm_name_python" style="color: inherit; text-decoration: inherit;">alarm_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch alarm name.
 {{% /md %}}</dd>
@@ -4982,7 +4982,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -4993,7 +4993,7 @@ The following state arguments are supported:
 <a href="#state_reason_python" style="color: inherit; text-decoration: inherit;">state_<wbr>reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The reason for the alarm change.
 {{% /md %}}</dd>
@@ -5004,7 +5004,7 @@ The following state arguments are supported:
 <a href="#state_value_python" style="color: inherit; text-decoration: inherit;">state_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value of the alarm state. Acceptable values are: OK, ALARM, INSUFFICIENT_DATA.
 {{% /md %}}</dd>
@@ -5040,7 +5040,7 @@ The following state arguments are supported:
 <a href="#metricname_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -5051,7 +5051,7 @@ The following state arguments are supported:
 <a href="#metricnamespace_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -5062,7 +5062,7 @@ The following state arguments are supported:
 <a href="#metricunit_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -5073,7 +5073,7 @@ The following state arguments are supported:
 <a href="#metricvalue_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -5084,7 +5084,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -5095,7 +5095,7 @@ The following state arguments are supported:
 <a href="#metrictimestamp_csharp" style="color: inherit; text-decoration: inherit;">Metric<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -5113,7 +5113,7 @@ The following state arguments are supported:
 <a href="#metricname_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -5124,7 +5124,7 @@ The following state arguments are supported:
 <a href="#metricnamespace_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -5135,7 +5135,7 @@ The following state arguments are supported:
 <a href="#metricunit_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -5146,7 +5146,7 @@ The following state arguments are supported:
 <a href="#metricvalue_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -5157,7 +5157,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -5168,7 +5168,7 @@ The following state arguments are supported:
 <a href="#metrictimestamp_go" style="color: inherit; text-decoration: inherit;">Metric<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -5186,7 +5186,7 @@ The following state arguments are supported:
 <a href="#metricname_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -5197,7 +5197,7 @@ The following state arguments are supported:
 <a href="#metricnamespace_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -5208,7 +5208,7 @@ The following state arguments are supported:
 <a href="#metricunit_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -5219,7 +5219,7 @@ The following state arguments are supported:
 <a href="#metricvalue_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -5230,7 +5230,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -5241,7 +5241,7 @@ The following state arguments are supported:
 <a href="#metrictimestamp_nodejs" style="color: inherit; text-decoration: inherit;">metric<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -5259,7 +5259,7 @@ The following state arguments are supported:
 <a href="#metric_name_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric name.
 {{% /md %}}</dd>
@@ -5270,7 +5270,7 @@ The following state arguments are supported:
 <a href="#metric_namespace_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>namespace</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric namespace name.
 {{% /md %}}</dd>
@@ -5281,7 +5281,7 @@ The following state arguments are supported:
 <a href="#metric_unit_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The metric unit (supported units can be found here: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#Unit)
 {{% /md %}}</dd>
@@ -5292,7 +5292,7 @@ The following state arguments are supported:
 <a href="#metric_value_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudWatch metric value.
 {{% /md %}}</dd>
@@ -5303,7 +5303,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch metric.
 {{% /md %}}</dd>
@@ -5314,7 +5314,7 @@ The following state arguments are supported:
 <a href="#metric_timestamp_python" style="color: inherit; text-decoration: inherit;">metric_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}An optional Unix timestamp (http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/cloudwatch_concepts.html#about_timestamp).
 {{% /md %}}</dd>
@@ -5350,7 +5350,7 @@ The following state arguments are supported:
 <a href="#hashkeyfield_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -5361,7 +5361,7 @@ The following state arguments are supported:
 <a href="#hashkeyvalue_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -5372,7 +5372,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -5383,7 +5383,7 @@ The following state arguments are supported:
 <a href="#tablename_csharp" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -5394,7 +5394,7 @@ The following state arguments are supported:
 <a href="#hashkeytype_csharp" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5405,7 +5405,7 @@ The following state arguments are supported:
 <a href="#operation_csharp" style="color: inherit; text-decoration: inherit;">Operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -5416,7 +5416,7 @@ The following state arguments are supported:
 <a href="#payloadfield_csharp" style="color: inherit; text-decoration: inherit;">Payload<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -5427,7 +5427,7 @@ The following state arguments are supported:
 <a href="#rangekeyfield_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -5438,7 +5438,7 @@ The following state arguments are supported:
 <a href="#rangekeytype_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5449,7 +5449,7 @@ The following state arguments are supported:
 <a href="#rangekeyvalue_csharp" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -5467,7 +5467,7 @@ The following state arguments are supported:
 <a href="#hashkeyfield_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -5478,7 +5478,7 @@ The following state arguments are supported:
 <a href="#hashkeyvalue_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -5489,7 +5489,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -5500,7 +5500,7 @@ The following state arguments are supported:
 <a href="#tablename_go" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -5511,7 +5511,7 @@ The following state arguments are supported:
 <a href="#hashkeytype_go" style="color: inherit; text-decoration: inherit;">Hash<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5522,7 +5522,7 @@ The following state arguments are supported:
 <a href="#operation_go" style="color: inherit; text-decoration: inherit;">Operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -5533,7 +5533,7 @@ The following state arguments are supported:
 <a href="#payloadfield_go" style="color: inherit; text-decoration: inherit;">Payload<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -5544,7 +5544,7 @@ The following state arguments are supported:
 <a href="#rangekeyfield_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -5555,7 +5555,7 @@ The following state arguments are supported:
 <a href="#rangekeytype_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5566,7 +5566,7 @@ The following state arguments are supported:
 <a href="#rangekeyvalue_go" style="color: inherit; text-decoration: inherit;">Range<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -5584,7 +5584,7 @@ The following state arguments are supported:
 <a href="#hashkeyfield_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -5595,7 +5595,7 @@ The following state arguments are supported:
 <a href="#hashkeyvalue_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -5606,7 +5606,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -5617,7 +5617,7 @@ The following state arguments are supported:
 <a href="#tablename_nodejs" style="color: inherit; text-decoration: inherit;">table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -5628,7 +5628,7 @@ The following state arguments are supported:
 <a href="#hashkeytype_nodejs" style="color: inherit; text-decoration: inherit;">hash<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5639,7 +5639,7 @@ The following state arguments are supported:
 <a href="#operation_nodejs" style="color: inherit; text-decoration: inherit;">operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -5650,7 +5650,7 @@ The following state arguments are supported:
 <a href="#payloadfield_nodejs" style="color: inherit; text-decoration: inherit;">payload<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -5661,7 +5661,7 @@ The following state arguments are supported:
 <a href="#rangekeyfield_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key<wbr>Field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -5672,7 +5672,7 @@ The following state arguments are supported:
 <a href="#rangekeytype_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5683,7 +5683,7 @@ The following state arguments are supported:
 <a href="#rangekeyvalue_nodejs" style="color: inherit; text-decoration: inherit;">range<wbr>Key<wbr>Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -5701,7 +5701,7 @@ The following state arguments are supported:
 <a href="#hash_key_field_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key_<wbr>field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hash key name.
 {{% /md %}}</dd>
@@ -5712,7 +5712,7 @@ The following state arguments are supported:
 <a href="#hash_key_value_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hash key value.
 {{% /md %}}</dd>
@@ -5723,7 +5723,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the DynamoDB table.
 {{% /md %}}</dd>
@@ -5734,7 +5734,7 @@ The following state arguments are supported:
 <a href="#table_name_python" style="color: inherit; text-decoration: inherit;">table_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -5745,7 +5745,7 @@ The following state arguments are supported:
 <a href="#hash_key_type_python" style="color: inherit; text-decoration: inherit;">hash_<wbr>key_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hash key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5756,7 +5756,7 @@ The following state arguments are supported:
 <a href="#operation_python" style="color: inherit; text-decoration: inherit;">operation</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The operation. Valid values are "INSERT", "UPDATE", or "DELETE".
 {{% /md %}}</dd>
@@ -5767,7 +5767,7 @@ The following state arguments are supported:
 <a href="#payload_field_python" style="color: inherit; text-decoration: inherit;">payload_<wbr>field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The action payload.
 {{% /md %}}</dd>
@@ -5778,7 +5778,7 @@ The following state arguments are supported:
 <a href="#range_key_field_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key_<wbr>field</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The range key name.
 {{% /md %}}</dd>
@@ -5789,7 +5789,7 @@ The following state arguments are supported:
 <a href="#range_key_type_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The range key type. Valid values are "STRING" or "NUMBER".
 {{% /md %}}</dd>
@@ -5800,7 +5800,7 @@ The following state arguments are supported:
 <a href="#range_key_value_python" style="color: inherit; text-decoration: inherit;">range_<wbr>key_<wbr>value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The range key value.
 {{% /md %}}</dd>
@@ -5836,7 +5836,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -5865,7 +5865,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -5894,7 +5894,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -5923,7 +5923,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -5970,7 +5970,7 @@ The following state arguments are supported:
 <a href="#tablename_csharp" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -5988,7 +5988,7 @@ The following state arguments are supported:
 <a href="#tablename_go" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -6006,7 +6006,7 @@ The following state arguments are supported:
 <a href="#tablename_nodejs" style="color: inherit; text-decoration: inherit;">table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -6024,7 +6024,7 @@ The following state arguments are supported:
 <a href="#table_name_python" style="color: inherit; text-decoration: inherit;">table_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the DynamoDB table.
 {{% /md %}}</dd>
@@ -6060,7 +6060,7 @@ The following state arguments are supported:
 <a href="#endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -6071,7 +6071,7 @@ The following state arguments are supported:
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -6082,7 +6082,7 @@ The following state arguments are supported:
 <a href="#index_csharp" style="color: inherit; text-decoration: inherit;">Index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -6093,7 +6093,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -6104,7 +6104,7 @@ The following state arguments are supported:
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -6122,7 +6122,7 @@ The following state arguments are supported:
 <a href="#endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -6133,7 +6133,7 @@ The following state arguments are supported:
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -6144,7 +6144,7 @@ The following state arguments are supported:
 <a href="#index_go" style="color: inherit; text-decoration: inherit;">Index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -6155,7 +6155,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -6166,7 +6166,7 @@ The following state arguments are supported:
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -6184,7 +6184,7 @@ The following state arguments are supported:
 <a href="#endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -6195,7 +6195,7 @@ The following state arguments are supported:
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -6206,7 +6206,7 @@ The following state arguments are supported:
 <a href="#index_nodejs" style="color: inherit; text-decoration: inherit;">index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -6217,7 +6217,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -6228,7 +6228,7 @@ The following state arguments are supported:
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -6246,7 +6246,7 @@ The following state arguments are supported:
 <a href="#endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The endpoint of your Elasticsearch domain.
 {{% /md %}}</dd>
@@ -6257,7 +6257,7 @@ The following state arguments are supported:
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unique identifier for the document you are storing.
 {{% /md %}}</dd>
@@ -6268,7 +6268,7 @@ The following state arguments are supported:
 <a href="#index_python" style="color: inherit; text-decoration: inherit;">index</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Elasticsearch index where you want to store your data.
 {{% /md %}}</dd>
@@ -6279,7 +6279,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that has access to Elasticsearch.
 {{% /md %}}</dd>
@@ -6290,7 +6290,7 @@ The following state arguments are supported:
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of document you are storing.
 {{% /md %}}</dd>
@@ -6326,7 +6326,7 @@ The following state arguments are supported:
 <a href="#deliverystreamname_csharp" style="color: inherit; text-decoration: inherit;">Delivery<wbr>Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -6337,7 +6337,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -6348,7 +6348,7 @@ The following state arguments are supported:
 <a href="#separator_csharp" style="color: inherit; text-decoration: inherit;">Separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -6366,7 +6366,7 @@ The following state arguments are supported:
 <a href="#deliverystreamname_go" style="color: inherit; text-decoration: inherit;">Delivery<wbr>Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -6377,7 +6377,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -6388,7 +6388,7 @@ The following state arguments are supported:
 <a href="#separator_go" style="color: inherit; text-decoration: inherit;">Separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -6406,7 +6406,7 @@ The following state arguments are supported:
 <a href="#deliverystreamname_nodejs" style="color: inherit; text-decoration: inherit;">delivery<wbr>Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -6417,7 +6417,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -6428,7 +6428,7 @@ The following state arguments are supported:
 <a href="#separator_nodejs" style="color: inherit; text-decoration: inherit;">separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -6446,7 +6446,7 @@ The following state arguments are supported:
 <a href="#delivery_stream_name_python" style="color: inherit; text-decoration: inherit;">delivery_<wbr>stream_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -6457,7 +6457,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -6468,7 +6468,7 @@ The following state arguments are supported:
 <a href="#separator_python" style="color: inherit; text-decoration: inherit;">separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -6504,7 +6504,7 @@ The following state arguments are supported:
 <a href="#channelname_csharp" style="color: inherit; text-decoration: inherit;">Channel<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -6515,7 +6515,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6533,7 +6533,7 @@ The following state arguments are supported:
 <a href="#channelname_go" style="color: inherit; text-decoration: inherit;">Channel<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -6544,7 +6544,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6562,7 +6562,7 @@ The following state arguments are supported:
 <a href="#channelname_nodejs" style="color: inherit; text-decoration: inherit;">channel<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -6573,7 +6573,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6591,7 +6591,7 @@ The following state arguments are supported:
 <a href="#channel_name_python" style="color: inherit; text-decoration: inherit;">channel_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -6602,7 +6602,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6638,7 +6638,7 @@ The following state arguments are supported:
 <a href="#inputname_csharp" style="color: inherit; text-decoration: inherit;">Input<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -6649,7 +6649,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6660,7 +6660,7 @@ The following state arguments are supported:
 <a href="#messageid_csharp" style="color: inherit; text-decoration: inherit;">Message<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -6678,7 +6678,7 @@ The following state arguments are supported:
 <a href="#inputname_go" style="color: inherit; text-decoration: inherit;">Input<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -6689,7 +6689,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6700,7 +6700,7 @@ The following state arguments are supported:
 <a href="#messageid_go" style="color: inherit; text-decoration: inherit;">Message<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -6718,7 +6718,7 @@ The following state arguments are supported:
 <a href="#inputname_nodejs" style="color: inherit; text-decoration: inherit;">input<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -6729,7 +6729,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6740,7 +6740,7 @@ The following state arguments are supported:
 <a href="#messageid_nodejs" style="color: inherit; text-decoration: inherit;">message<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -6758,7 +6758,7 @@ The following state arguments are supported:
 <a href="#input_name_python" style="color: inherit; text-decoration: inherit;">input_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -6769,7 +6769,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -6780,7 +6780,7 @@ The following state arguments are supported:
 <a href="#message_id_python" style="color: inherit; text-decoration: inherit;">message_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -6816,7 +6816,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6827,7 +6827,7 @@ The following state arguments are supported:
 <a href="#streamname_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6838,7 +6838,7 @@ The following state arguments are supported:
 <a href="#partitionkey_csharp" style="color: inherit; text-decoration: inherit;">Partition<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -6856,7 +6856,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6867,7 +6867,7 @@ The following state arguments are supported:
 <a href="#streamname_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6878,7 +6878,7 @@ The following state arguments are supported:
 <a href="#partitionkey_go" style="color: inherit; text-decoration: inherit;">Partition<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -6896,7 +6896,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6907,7 +6907,7 @@ The following state arguments are supported:
 <a href="#streamname_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6918,7 +6918,7 @@ The following state arguments are supported:
 <a href="#partitionkey_nodejs" style="color: inherit; text-decoration: inherit;">partition<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -6936,7 +6936,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6947,7 +6947,7 @@ The following state arguments are supported:
 <a href="#stream_name_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -6958,7 +6958,7 @@ The following state arguments are supported:
 <a href="#partition_key_python" style="color: inherit; text-decoration: inherit;">partition_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -6994,7 +6994,7 @@ The following state arguments are supported:
 <a href="#functionarn_csharp" style="color: inherit; text-decoration: inherit;">Function<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -7012,7 +7012,7 @@ The following state arguments are supported:
 <a href="#functionarn_go" style="color: inherit; text-decoration: inherit;">Function<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -7030,7 +7030,7 @@ The following state arguments are supported:
 <a href="#functionarn_nodejs" style="color: inherit; text-decoration: inherit;">function<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -7048,7 +7048,7 @@ The following state arguments are supported:
 <a href="#function_arn_python" style="color: inherit; text-decoration: inherit;">function_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -7084,7 +7084,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7095,7 +7095,7 @@ The following state arguments are supported:
 <a href="#topic_csharp" style="color: inherit; text-decoration: inherit;">Topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -7106,7 +7106,7 @@ The following state arguments are supported:
 <a href="#qos_csharp" style="color: inherit; text-decoration: inherit;">Qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -7124,7 +7124,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7135,7 +7135,7 @@ The following state arguments are supported:
 <a href="#topic_go" style="color: inherit; text-decoration: inherit;">Topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -7146,7 +7146,7 @@ The following state arguments are supported:
 <a href="#qos_go" style="color: inherit; text-decoration: inherit;">Qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -7164,7 +7164,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7175,7 +7175,7 @@ The following state arguments are supported:
 <a href="#topic_nodejs" style="color: inherit; text-decoration: inherit;">topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -7186,7 +7186,7 @@ The following state arguments are supported:
 <a href="#qos_nodejs" style="color: inherit; text-decoration: inherit;">qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -7204,7 +7204,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7215,7 +7215,7 @@ The following state arguments are supported:
 <a href="#topic_python" style="color: inherit; text-decoration: inherit;">topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -7226,7 +7226,7 @@ The following state arguments are supported:
 <a href="#qos_python" style="color: inherit; text-decoration: inherit;">qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -7262,7 +7262,7 @@ The following state arguments are supported:
 <a href="#bucketname_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -7273,7 +7273,7 @@ The following state arguments are supported:
 <a href="#key_csharp" style="color: inherit; text-decoration: inherit;">Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -7284,7 +7284,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -7302,7 +7302,7 @@ The following state arguments are supported:
 <a href="#bucketname_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -7313,7 +7313,7 @@ The following state arguments are supported:
 <a href="#key_go" style="color: inherit; text-decoration: inherit;">Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -7324,7 +7324,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -7342,7 +7342,7 @@ The following state arguments are supported:
 <a href="#bucketname_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -7353,7 +7353,7 @@ The following state arguments are supported:
 <a href="#key_nodejs" style="color: inherit; text-decoration: inherit;">key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -7364,7 +7364,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -7382,7 +7382,7 @@ The following state arguments are supported:
 <a href="#bucket_name_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -7393,7 +7393,7 @@ The following state arguments are supported:
 <a href="#key_python" style="color: inherit; text-decoration: inherit;">key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -7404,7 +7404,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -7440,7 +7440,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7451,7 +7451,7 @@ The following state arguments are supported:
 <a href="#targetarn_csharp" style="color: inherit; text-decoration: inherit;">Target<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -7462,7 +7462,7 @@ The following state arguments are supported:
 <a href="#messageformat_csharp" style="color: inherit; text-decoration: inherit;">Message<wbr>Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -7480,7 +7480,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7491,7 +7491,7 @@ The following state arguments are supported:
 <a href="#targetarn_go" style="color: inherit; text-decoration: inherit;">Target<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -7502,7 +7502,7 @@ The following state arguments are supported:
 <a href="#messageformat_go" style="color: inherit; text-decoration: inherit;">Message<wbr>Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -7520,7 +7520,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7531,7 +7531,7 @@ The following state arguments are supported:
 <a href="#targetarn_nodejs" style="color: inherit; text-decoration: inherit;">target<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -7542,7 +7542,7 @@ The following state arguments are supported:
 <a href="#messageformat_nodejs" style="color: inherit; text-decoration: inherit;">message<wbr>Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -7560,7 +7560,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7571,7 +7571,7 @@ The following state arguments are supported:
 <a href="#target_arn_python" style="color: inherit; text-decoration: inherit;">target_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -7582,7 +7582,7 @@ The following state arguments are supported:
 <a href="#message_format_python" style="color: inherit; text-decoration: inherit;">message_<wbr>format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -7618,7 +7618,7 @@ The following state arguments are supported:
 <a href="#queueurl_csharp" style="color: inherit; text-decoration: inherit;">Queue<wbr>Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -7629,7 +7629,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7640,7 +7640,7 @@ The following state arguments are supported:
 <a href="#usebase64_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -7658,7 +7658,7 @@ The following state arguments are supported:
 <a href="#queueurl_go" style="color: inherit; text-decoration: inherit;">Queue<wbr>Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -7669,7 +7669,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7680,7 +7680,7 @@ The following state arguments are supported:
 <a href="#usebase64_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -7698,7 +7698,7 @@ The following state arguments are supported:
 <a href="#queueurl_nodejs" style="color: inherit; text-decoration: inherit;">queue<wbr>Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -7709,7 +7709,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7720,7 +7720,7 @@ The following state arguments are supported:
 <a href="#usebase64_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -7738,7 +7738,7 @@ The following state arguments are supported:
 <a href="#queue_url_python" style="color: inherit; text-decoration: inherit;">queue_<wbr>url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -7749,7 +7749,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -7760,7 +7760,7 @@ The following state arguments are supported:
 <a href="#use_base64_python" style="color: inherit; text-decoration: inherit;">use_<wbr>base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -7796,7 +7796,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -7807,7 +7807,7 @@ The following state arguments are supported:
 <a href="#statemachinename_csharp" style="color: inherit; text-decoration: inherit;">State<wbr>Machine<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -7818,7 +7818,7 @@ The following state arguments are supported:
 <a href="#executionnameprefix_csharp" style="color: inherit; text-decoration: inherit;">Execution<wbr>Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -7836,7 +7836,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -7847,7 +7847,7 @@ The following state arguments are supported:
 <a href="#statemachinename_go" style="color: inherit; text-decoration: inherit;">State<wbr>Machine<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -7858,7 +7858,7 @@ The following state arguments are supported:
 <a href="#executionnameprefix_go" style="color: inherit; text-decoration: inherit;">Execution<wbr>Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -7876,7 +7876,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -7887,7 +7887,7 @@ The following state arguments are supported:
 <a href="#statemachinename_nodejs" style="color: inherit; text-decoration: inherit;">state<wbr>Machine<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -7898,7 +7898,7 @@ The following state arguments are supported:
 <a href="#executionnameprefix_nodejs" style="color: inherit; text-decoration: inherit;">execution<wbr>Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -7916,7 +7916,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -7927,7 +7927,7 @@ The following state arguments are supported:
 <a href="#state_machine_name_python" style="color: inherit; text-decoration: inherit;">state_<wbr>machine_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -7938,7 +7938,7 @@ The following state arguments are supported:
 <a href="#execution_name_prefix_python" style="color: inherit; text-decoration: inherit;">execution_<wbr>name_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -7974,7 +7974,7 @@ The following state arguments are supported:
 <a href="#deliverystreamname_csharp" style="color: inherit; text-decoration: inherit;">Delivery<wbr>Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -7985,7 +7985,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -7996,7 +7996,7 @@ The following state arguments are supported:
 <a href="#separator_csharp" style="color: inherit; text-decoration: inherit;">Separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -8014,7 +8014,7 @@ The following state arguments are supported:
 <a href="#deliverystreamname_go" style="color: inherit; text-decoration: inherit;">Delivery<wbr>Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -8025,7 +8025,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -8036,7 +8036,7 @@ The following state arguments are supported:
 <a href="#separator_go" style="color: inherit; text-decoration: inherit;">Separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -8054,7 +8054,7 @@ The following state arguments are supported:
 <a href="#deliverystreamname_nodejs" style="color: inherit; text-decoration: inherit;">delivery<wbr>Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -8065,7 +8065,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -8076,7 +8076,7 @@ The following state arguments are supported:
 <a href="#separator_nodejs" style="color: inherit; text-decoration: inherit;">separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -8094,7 +8094,7 @@ The following state arguments are supported:
 <a href="#delivery_stream_name_python" style="color: inherit; text-decoration: inherit;">delivery_<wbr>stream_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The delivery stream name.
 {{% /md %}}</dd>
@@ -8105,7 +8105,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that grants access to the Amazon Kinesis Firehose stream.
 {{% /md %}}</dd>
@@ -8116,7 +8116,7 @@ The following state arguments are supported:
 <a href="#separator_python" style="color: inherit; text-decoration: inherit;">separator</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A character separator that is used to separate records written to the Firehose stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
 {{% /md %}}</dd>
@@ -8152,7 +8152,7 @@ The following state arguments are supported:
 <a href="#channelname_csharp" style="color: inherit; text-decoration: inherit;">Channel<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -8163,7 +8163,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8181,7 +8181,7 @@ The following state arguments are supported:
 <a href="#channelname_go" style="color: inherit; text-decoration: inherit;">Channel<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -8192,7 +8192,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8210,7 +8210,7 @@ The following state arguments are supported:
 <a href="#channelname_nodejs" style="color: inherit; text-decoration: inherit;">channel<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -8221,7 +8221,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8239,7 +8239,7 @@ The following state arguments are supported:
 <a href="#channel_name_python" style="color: inherit; text-decoration: inherit;">channel_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of AWS IOT Analytics channel.
 {{% /md %}}</dd>
@@ -8250,7 +8250,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8286,7 +8286,7 @@ The following state arguments are supported:
 <a href="#inputname_csharp" style="color: inherit; text-decoration: inherit;">Input<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -8297,7 +8297,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8308,7 +8308,7 @@ The following state arguments are supported:
 <a href="#messageid_csharp" style="color: inherit; text-decoration: inherit;">Message<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -8326,7 +8326,7 @@ The following state arguments are supported:
 <a href="#inputname_go" style="color: inherit; text-decoration: inherit;">Input<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -8337,7 +8337,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8348,7 +8348,7 @@ The following state arguments are supported:
 <a href="#messageid_go" style="color: inherit; text-decoration: inherit;">Message<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -8366,7 +8366,7 @@ The following state arguments are supported:
 <a href="#inputname_nodejs" style="color: inherit; text-decoration: inherit;">input<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -8377,7 +8377,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8388,7 +8388,7 @@ The following state arguments are supported:
 <a href="#messageid_nodejs" style="color: inherit; text-decoration: inherit;">message<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -8406,7 +8406,7 @@ The following state arguments are supported:
 <a href="#input_name_python" style="color: inherit; text-decoration: inherit;">input_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the AWS IoT Events input.
 {{% /md %}}</dd>
@@ -8417,7 +8417,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8428,7 +8428,7 @@ The following state arguments are supported:
 <a href="#message_id_python" style="color: inherit; text-decoration: inherit;">message_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Use this to ensure that only one input (message) with a given messageId is processed by an AWS IoT Events detector.
 {{% /md %}}</dd>
@@ -8464,7 +8464,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8475,7 +8475,7 @@ The following state arguments are supported:
 <a href="#streamname_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8486,7 +8486,7 @@ The following state arguments are supported:
 <a href="#partitionkey_csharp" style="color: inherit; text-decoration: inherit;">Partition<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -8504,7 +8504,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8515,7 +8515,7 @@ The following state arguments are supported:
 <a href="#streamname_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8526,7 +8526,7 @@ The following state arguments are supported:
 <a href="#partitionkey_go" style="color: inherit; text-decoration: inherit;">Partition<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -8544,7 +8544,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8555,7 +8555,7 @@ The following state arguments are supported:
 <a href="#streamname_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8566,7 +8566,7 @@ The following state arguments are supported:
 <a href="#partitionkey_nodejs" style="color: inherit; text-decoration: inherit;">partition<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -8584,7 +8584,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8595,7 +8595,7 @@ The following state arguments are supported:
 <a href="#stream_name_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the Amazon Kinesis stream.
 {{% /md %}}</dd>
@@ -8606,7 +8606,7 @@ The following state arguments are supported:
 <a href="#partition_key_python" style="color: inherit; text-decoration: inherit;">partition_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The partition key.
 {{% /md %}}</dd>
@@ -8642,7 +8642,7 @@ The following state arguments are supported:
 <a href="#functionarn_csharp" style="color: inherit; text-decoration: inherit;">Function<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -8660,7 +8660,7 @@ The following state arguments are supported:
 <a href="#functionarn_go" style="color: inherit; text-decoration: inherit;">Function<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -8678,7 +8678,7 @@ The following state arguments are supported:
 <a href="#functionarn_nodejs" style="color: inherit; text-decoration: inherit;">function<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -8696,7 +8696,7 @@ The following state arguments are supported:
 <a href="#function_arn_python" style="color: inherit; text-decoration: inherit;">function_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -8732,7 +8732,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8743,7 +8743,7 @@ The following state arguments are supported:
 <a href="#topic_csharp" style="color: inherit; text-decoration: inherit;">Topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -8754,7 +8754,7 @@ The following state arguments are supported:
 <a href="#qos_csharp" style="color: inherit; text-decoration: inherit;">Qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -8772,7 +8772,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8783,7 +8783,7 @@ The following state arguments are supported:
 <a href="#topic_go" style="color: inherit; text-decoration: inherit;">Topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -8794,7 +8794,7 @@ The following state arguments are supported:
 <a href="#qos_go" style="color: inherit; text-decoration: inherit;">Qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -8812,7 +8812,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8823,7 +8823,7 @@ The following state arguments are supported:
 <a href="#topic_nodejs" style="color: inherit; text-decoration: inherit;">topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -8834,7 +8834,7 @@ The following state arguments are supported:
 <a href="#qos_nodejs" style="color: inherit; text-decoration: inherit;">qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -8852,7 +8852,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -8863,7 +8863,7 @@ The following state arguments are supported:
 <a href="#topic_python" style="color: inherit; text-decoration: inherit;">topic</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the MQTT topic the message should be republished to.
 {{% /md %}}</dd>
@@ -8874,7 +8874,7 @@ The following state arguments are supported:
 <a href="#qos_python" style="color: inherit; text-decoration: inherit;">qos</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Quality of Service (QoS) level to use when republishing messages. Valid values are 0 or 1. The default value is 0.
 {{% /md %}}</dd>
@@ -8910,7 +8910,7 @@ The following state arguments are supported:
 <a href="#bucketname_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -8921,7 +8921,7 @@ The following state arguments are supported:
 <a href="#key_csharp" style="color: inherit; text-decoration: inherit;">Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -8932,7 +8932,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -8950,7 +8950,7 @@ The following state arguments are supported:
 <a href="#bucketname_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -8961,7 +8961,7 @@ The following state arguments are supported:
 <a href="#key_go" style="color: inherit; text-decoration: inherit;">Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -8972,7 +8972,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -8990,7 +8990,7 @@ The following state arguments are supported:
 <a href="#bucketname_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -9001,7 +9001,7 @@ The following state arguments are supported:
 <a href="#key_nodejs" style="color: inherit; text-decoration: inherit;">key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -9012,7 +9012,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -9030,7 +9030,7 @@ The following state arguments are supported:
 <a href="#bucket_name_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket name.
 {{% /md %}}</dd>
@@ -9041,7 +9041,7 @@ The following state arguments are supported:
 <a href="#key_python" style="color: inherit; text-decoration: inherit;">key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The object key.
 {{% /md %}}</dd>
@@ -9052,7 +9052,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM role ARN that allows access to the CloudWatch alarm.
 {{% /md %}}</dd>
@@ -9088,7 +9088,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9099,7 +9099,7 @@ The following state arguments are supported:
 <a href="#targetarn_csharp" style="color: inherit; text-decoration: inherit;">Target<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -9110,7 +9110,7 @@ The following state arguments are supported:
 <a href="#messageformat_csharp" style="color: inherit; text-decoration: inherit;">Message<wbr>Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -9128,7 +9128,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9139,7 +9139,7 @@ The following state arguments are supported:
 <a href="#targetarn_go" style="color: inherit; text-decoration: inherit;">Target<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -9150,7 +9150,7 @@ The following state arguments are supported:
 <a href="#messageformat_go" style="color: inherit; text-decoration: inherit;">Message<wbr>Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -9168,7 +9168,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9179,7 +9179,7 @@ The following state arguments are supported:
 <a href="#targetarn_nodejs" style="color: inherit; text-decoration: inherit;">target<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -9190,7 +9190,7 @@ The following state arguments are supported:
 <a href="#messageformat_nodejs" style="color: inherit; text-decoration: inherit;">message<wbr>Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -9208,7 +9208,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9219,7 +9219,7 @@ The following state arguments are supported:
 <a href="#target_arn_python" style="color: inherit; text-decoration: inherit;">target_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the SNS topic.
 {{% /md %}}</dd>
@@ -9230,7 +9230,7 @@ The following state arguments are supported:
 <a href="#message_format_python" style="color: inherit; text-decoration: inherit;">message_<wbr>format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The message format of the message to publish. Accepted values are "JSON" and "RAW".
 {{% /md %}}</dd>
@@ -9266,7 +9266,7 @@ The following state arguments are supported:
 <a href="#queueurl_csharp" style="color: inherit; text-decoration: inherit;">Queue<wbr>Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -9277,7 +9277,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9288,7 +9288,7 @@ The following state arguments are supported:
 <a href="#usebase64_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -9306,7 +9306,7 @@ The following state arguments are supported:
 <a href="#queueurl_go" style="color: inherit; text-decoration: inherit;">Queue<wbr>Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -9317,7 +9317,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9328,7 +9328,7 @@ The following state arguments are supported:
 <a href="#usebase64_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -9346,7 +9346,7 @@ The following state arguments are supported:
 <a href="#queueurl_nodejs" style="color: inherit; text-decoration: inherit;">queue<wbr>Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -9357,7 +9357,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9368,7 +9368,7 @@ The following state arguments are supported:
 <a href="#usebase64_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -9386,7 +9386,7 @@ The following state arguments are supported:
 <a href="#queue_url_python" style="color: inherit; text-decoration: inherit;">queue_<wbr>url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The URL of the Amazon SQS queue.
 {{% /md %}}</dd>
@@ -9397,7 +9397,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access.
 {{% /md %}}</dd>
@@ -9408,7 +9408,7 @@ The following state arguments are supported:
 <a href="#use_base64_python" style="color: inherit; text-decoration: inherit;">use_<wbr>base64</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to use Base64 encoding.
 {{% /md %}}</dd>
@@ -9444,7 +9444,7 @@ The following state arguments are supported:
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -9455,7 +9455,7 @@ The following state arguments are supported:
 <a href="#statemachinename_csharp" style="color: inherit; text-decoration: inherit;">State<wbr>Machine<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -9466,7 +9466,7 @@ The following state arguments are supported:
 <a href="#executionnameprefix_csharp" style="color: inherit; text-decoration: inherit;">Execution<wbr>Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -9484,7 +9484,7 @@ The following state arguments are supported:
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -9495,7 +9495,7 @@ The following state arguments are supported:
 <a href="#statemachinename_go" style="color: inherit; text-decoration: inherit;">State<wbr>Machine<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -9506,7 +9506,7 @@ The following state arguments are supported:
 <a href="#executionnameprefix_go" style="color: inherit; text-decoration: inherit;">Execution<wbr>Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -9524,7 +9524,7 @@ The following state arguments are supported:
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -9535,7 +9535,7 @@ The following state arguments are supported:
 <a href="#statemachinename_nodejs" style="color: inherit; text-decoration: inherit;">state<wbr>Machine<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -9546,7 +9546,7 @@ The following state arguments are supported:
 <a href="#executionnameprefix_nodejs" style="color: inherit; text-decoration: inherit;">execution<wbr>Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>
@@ -9564,7 +9564,7 @@ The following state arguments are supported:
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM role that grants access to start execution of the state machine.
 {{% /md %}}</dd>
@@ -9575,7 +9575,7 @@ The following state arguments are supported:
 <a href="#state_machine_name_python" style="color: inherit; text-decoration: inherit;">state_<wbr>machine_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the Step Functions state machine whose execution will be started.
 {{% /md %}}</dd>
@@ -9586,7 +9586,7 @@ The following state arguments are supported:
 <a href="#execution_name_prefix_python" style="color: inherit; text-decoration: inherit;">execution_<wbr>name_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The prefix used to generate, along with a UUID, the unique state machine execution name.
 {{% /md %}}</dd>

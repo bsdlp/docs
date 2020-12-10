@@ -143,7 +143,7 @@ const exampleCurReportDefinition = new aws.cur.ReportDefinition("example_cur_rep
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinition">ReportDefinition</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinitionArgs">ReportDefinitionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinition">ReportDefinition</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinitionArgs">ReportDefinitionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -151,11 +151,11 @@ const exampleCurReportDefinition = new aws.cur.ReportDefinition("example_cur_rep
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinition">NewReportDefinition</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinitionArgs">ReportDefinitionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinition">ReportDefinition</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinition">NewReportDefinition</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinitionArgs">ReportDefinitionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinition">ReportDefinition</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinition.html">ReportDefinition</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinitionArgs.html">ReportDefinitionArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinition.html">ReportDefinition</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinitionArgs.html">ReportDefinitionArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -166,7 +166,7 @@ const exampleCurReportDefinition = new aws.cur.ReportDefinition("example_cur_rep
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -235,7 +235,7 @@ const exampleCurReportDefinition = new aws.cur.ReportDefinition("example_cur_rep
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -274,7 +274,7 @@ const exampleCurReportDefinition = new aws.cur.ReportDefinition("example_cur_rep
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -325,7 +325,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additionalschemaelements_csharp" style="color: inherit; text-decoration: inherit;">Additional<wbr>Schema<wbr>Elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -336,7 +336,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#compression_csharp" style="color: inherit; text-decoration: inherit;">Compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -347,7 +347,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#format_csharp" style="color: inherit; text-decoration: inherit;">Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -358,7 +358,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#reportname_csharp" style="color: inherit; text-decoration: inherit;">Report<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -369,7 +369,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3bucket_csharp" style="color: inherit; text-decoration: inherit;">S3Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -380,7 +380,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3region_csharp" style="color: inherit; text-decoration: inherit;">S3Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -391,7 +391,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#timeunit_csharp" style="color: inherit; text-decoration: inherit;">Time<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -402,7 +402,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additionalartifacts_csharp" style="color: inherit; text-decoration: inherit;">Additional<wbr>Artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -413,7 +413,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#refreshclosedreports_csharp" style="color: inherit; text-decoration: inherit;">Refresh<wbr>Closed<wbr>Reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -424,7 +424,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#reportversioning_csharp" style="color: inherit; text-decoration: inherit;">Report<wbr>Versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -435,7 +435,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3prefix_csharp" style="color: inherit; text-decoration: inherit;">S3Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -453,7 +453,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additionalschemaelements_go" style="color: inherit; text-decoration: inherit;">Additional<wbr>Schema<wbr>Elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -464,7 +464,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#compression_go" style="color: inherit; text-decoration: inherit;">Compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -475,7 +475,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#format_go" style="color: inherit; text-decoration: inherit;">Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -486,7 +486,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#reportname_go" style="color: inherit; text-decoration: inherit;">Report<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -497,7 +497,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3bucket_go" style="color: inherit; text-decoration: inherit;">S3Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -508,7 +508,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3region_go" style="color: inherit; text-decoration: inherit;">S3Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -519,7 +519,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#timeunit_go" style="color: inherit; text-decoration: inherit;">Time<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -530,7 +530,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additionalartifacts_go" style="color: inherit; text-decoration: inherit;">Additional<wbr>Artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -541,7 +541,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#refreshclosedreports_go" style="color: inherit; text-decoration: inherit;">Refresh<wbr>Closed<wbr>Reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -552,7 +552,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#reportversioning_go" style="color: inherit; text-decoration: inherit;">Report<wbr>Versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -563,7 +563,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3prefix_go" style="color: inherit; text-decoration: inherit;">S3Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -581,7 +581,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additionalschemaelements_nodejs" style="color: inherit; text-decoration: inherit;">additional<wbr>Schema<wbr>Elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -592,7 +592,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#compression_nodejs" style="color: inherit; text-decoration: inherit;">compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -603,7 +603,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#format_nodejs" style="color: inherit; text-decoration: inherit;">format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -614,7 +614,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#reportname_nodejs" style="color: inherit; text-decoration: inherit;">report<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -625,7 +625,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3bucket_nodejs" style="color: inherit; text-decoration: inherit;">s3Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -636,7 +636,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3region_nodejs" style="color: inherit; text-decoration: inherit;">s3Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -647,7 +647,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#timeunit_nodejs" style="color: inherit; text-decoration: inherit;">time<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -658,7 +658,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additionalartifacts_nodejs" style="color: inherit; text-decoration: inherit;">additional<wbr>Artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -669,7 +669,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#refreshclosedreports_nodejs" style="color: inherit; text-decoration: inherit;">refresh<wbr>Closed<wbr>Reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -680,7 +680,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#reportversioning_nodejs" style="color: inherit; text-decoration: inherit;">report<wbr>Versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -691,7 +691,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3prefix_nodejs" style="color: inherit; text-decoration: inherit;">s3Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -709,7 +709,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additional_schema_elements_python" style="color: inherit; text-decoration: inherit;">additional_<wbr>schema_<wbr>elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -720,7 +720,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#compression_python" style="color: inherit; text-decoration: inherit;">compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -731,7 +731,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#format_python" style="color: inherit; text-decoration: inherit;">format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -742,7 +742,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#report_name_python" style="color: inherit; text-decoration: inherit;">report_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -753,7 +753,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3_bucket_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -764,7 +764,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3_region_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -775,7 +775,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#time_unit_python" style="color: inherit; text-decoration: inherit;">time_<wbr>unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -786,7 +786,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#additional_artifacts_python" style="color: inherit; text-decoration: inherit;">additional_<wbr>artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -797,7 +797,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#refresh_closed_reports_python" style="color: inherit; text-decoration: inherit;">refresh_<wbr>closed_<wbr>reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -808,7 +808,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#report_versioning_python" style="color: inherit; text-decoration: inherit;">report_<wbr>versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -819,7 +819,7 @@ The ReportDefinition resource accepts the following [input]({{< relref "/docs/in
 <a href="#s3_prefix_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -848,7 +848,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -865,7 +865,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -882,7 +882,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -899,7 +899,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -918,7 +918,7 @@ Get an existing ReportDefinition resource's state with the given name, ID, and o
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinitionState">ReportDefinitionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinition">ReportDefinition</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinitionState">ReportDefinitionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cur/#ReportDefinition">ReportDefinition</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -927,11 +927,11 @@ Get an existing ReportDefinition resource's state with the given name, ID, and o
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetReportDefinition<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinitionState">ReportDefinitionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinition">ReportDefinition</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetReportDefinition<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinitionState">ReportDefinitionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cur?tab=doc#ReportDefinition">ReportDefinition</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinition.html">ReportDefinition</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinitionState.html">ReportDefinitionState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinition.html">ReportDefinition</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Cur.ReportDefinitionState.html">ReportDefinitionState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1043,7 +1043,7 @@ The following state arguments are supported:
 <a href="#state_additionalartifacts_csharp" style="color: inherit; text-decoration: inherit;">Additional<wbr>Artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -1054,7 +1054,7 @@ The following state arguments are supported:
 <a href="#state_additionalschemaelements_csharp" style="color: inherit; text-decoration: inherit;">Additional<wbr>Schema<wbr>Elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -1065,7 +1065,7 @@ The following state arguments are supported:
 <a href="#state_compression_csharp" style="color: inherit; text-decoration: inherit;">Compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -1076,7 +1076,7 @@ The following state arguments are supported:
 <a href="#state_format_csharp" style="color: inherit; text-decoration: inherit;">Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -1087,7 +1087,7 @@ The following state arguments are supported:
 <a href="#state_refreshclosedreports_csharp" style="color: inherit; text-decoration: inherit;">Refresh<wbr>Closed<wbr>Reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -1098,7 +1098,7 @@ The following state arguments are supported:
 <a href="#state_reportname_csharp" style="color: inherit; text-decoration: inherit;">Report<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1109,7 +1109,7 @@ The following state arguments are supported:
 <a href="#state_reportversioning_csharp" style="color: inherit; text-decoration: inherit;">Report<wbr>Versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -1120,7 +1120,7 @@ The following state arguments are supported:
 <a href="#state_s3bucket_csharp" style="color: inherit; text-decoration: inherit;">S3Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1131,7 +1131,7 @@ The following state arguments are supported:
 <a href="#state_s3prefix_csharp" style="color: inherit; text-decoration: inherit;">S3Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1142,7 +1142,7 @@ The following state arguments are supported:
 <a href="#state_s3region_csharp" style="color: inherit; text-decoration: inherit;">S3Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1153,7 +1153,7 @@ The following state arguments are supported:
 <a href="#state_timeunit_csharp" style="color: inherit; text-decoration: inherit;">Time<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -1171,7 +1171,7 @@ The following state arguments are supported:
 <a href="#state_additionalartifacts_go" style="color: inherit; text-decoration: inherit;">Additional<wbr>Artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -1182,7 +1182,7 @@ The following state arguments are supported:
 <a href="#state_additionalschemaelements_go" style="color: inherit; text-decoration: inherit;">Additional<wbr>Schema<wbr>Elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -1193,7 +1193,7 @@ The following state arguments are supported:
 <a href="#state_compression_go" style="color: inherit; text-decoration: inherit;">Compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -1204,7 +1204,7 @@ The following state arguments are supported:
 <a href="#state_format_go" style="color: inherit; text-decoration: inherit;">Format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -1215,7 +1215,7 @@ The following state arguments are supported:
 <a href="#state_refreshclosedreports_go" style="color: inherit; text-decoration: inherit;">Refresh<wbr>Closed<wbr>Reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -1226,7 +1226,7 @@ The following state arguments are supported:
 <a href="#state_reportname_go" style="color: inherit; text-decoration: inherit;">Report<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1237,7 +1237,7 @@ The following state arguments are supported:
 <a href="#state_reportversioning_go" style="color: inherit; text-decoration: inherit;">Report<wbr>Versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -1248,7 +1248,7 @@ The following state arguments are supported:
 <a href="#state_s3bucket_go" style="color: inherit; text-decoration: inherit;">S3Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1259,7 +1259,7 @@ The following state arguments are supported:
 <a href="#state_s3prefix_go" style="color: inherit; text-decoration: inherit;">S3Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1270,7 +1270,7 @@ The following state arguments are supported:
 <a href="#state_s3region_go" style="color: inherit; text-decoration: inherit;">S3Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1281,7 +1281,7 @@ The following state arguments are supported:
 <a href="#state_timeunit_go" style="color: inherit; text-decoration: inherit;">Time<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -1299,7 +1299,7 @@ The following state arguments are supported:
 <a href="#state_additionalartifacts_nodejs" style="color: inherit; text-decoration: inherit;">additional<wbr>Artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -1310,7 +1310,7 @@ The following state arguments are supported:
 <a href="#state_additionalschemaelements_nodejs" style="color: inherit; text-decoration: inherit;">additional<wbr>Schema<wbr>Elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -1321,7 +1321,7 @@ The following state arguments are supported:
 <a href="#state_compression_nodejs" style="color: inherit; text-decoration: inherit;">compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -1332,7 +1332,7 @@ The following state arguments are supported:
 <a href="#state_format_nodejs" style="color: inherit; text-decoration: inherit;">format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -1343,7 +1343,7 @@ The following state arguments are supported:
 <a href="#state_refreshclosedreports_nodejs" style="color: inherit; text-decoration: inherit;">refresh<wbr>Closed<wbr>Reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -1354,7 +1354,7 @@ The following state arguments are supported:
 <a href="#state_reportname_nodejs" style="color: inherit; text-decoration: inherit;">report<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1365,7 +1365,7 @@ The following state arguments are supported:
 <a href="#state_reportversioning_nodejs" style="color: inherit; text-decoration: inherit;">report<wbr>Versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -1376,7 +1376,7 @@ The following state arguments are supported:
 <a href="#state_s3bucket_nodejs" style="color: inherit; text-decoration: inherit;">s3Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1387,7 +1387,7 @@ The following state arguments are supported:
 <a href="#state_s3prefix_nodejs" style="color: inherit; text-decoration: inherit;">s3Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1398,7 +1398,7 @@ The following state arguments are supported:
 <a href="#state_s3region_nodejs" style="color: inherit; text-decoration: inherit;">s3Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1409,7 +1409,7 @@ The following state arguments are supported:
 <a href="#state_timeunit_nodejs" style="color: inherit; text-decoration: inherit;">time<wbr>Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>
@@ -1427,7 +1427,7 @@ The following state arguments are supported:
 <a href="#state_additional_artifacts_python" style="color: inherit; text-decoration: inherit;">additional_<wbr>artifacts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of additional artifacts. Valid values are: REDSHIFT, QUICKSIGHT, ATHENA. When ATHENA exists within additional_artifacts, no other artifact type can be declared and report_versioning must be OVERWRITE_REPORT.
 {{% /md %}}</dd>
@@ -1438,7 +1438,7 @@ The following state arguments are supported:
 <a href="#state_additional_schema_elements_python" style="color: inherit; text-decoration: inherit;">additional_<wbr>schema_<wbr>elements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of schema elements. Valid values are: RESOURCES.
 {{% /md %}}</dd>
@@ -1449,7 +1449,7 @@ The following state arguments are supported:
 <a href="#state_compression_python" style="color: inherit; text-decoration: inherit;">compression</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Compression format for report. Valid values are: GZIP, ZIP, Parquet. If Parquet is used, then format must also be Parquet.
 {{% /md %}}</dd>
@@ -1460,7 +1460,7 @@ The following state arguments are supported:
 <a href="#state_format_python" style="color: inherit; text-decoration: inherit;">format</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Format for report. Valid values are: textORcsv, Parquet. If Parquet is used, then Compression must also be Parquet.
 {{% /md %}}</dd>
@@ -1471,7 +1471,7 @@ The following state arguments are supported:
 <a href="#state_refresh_closed_reports_python" style="color: inherit; text-decoration: inherit;">refresh_<wbr>closed_<wbr>reports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to update your reports after they have been finalized if AWS detects charges related to previous months.
 {{% /md %}}</dd>
@@ -1482,7 +1482,7 @@ The following state arguments are supported:
 <a href="#state_report_name_python" style="color: inherit; text-decoration: inherit;">report_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Unique name for the report. Must start with a number/letter and is case sensitive. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1493,7 +1493,7 @@ The following state arguments are supported:
 <a href="#state_report_versioning_python" style="color: inherit; text-decoration: inherit;">report_<wbr>versioning</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Overwrite the previous version of each report or to deliver the report in addition to the previous versions. Valid values are: CREATE_NEW_REPORT, OVERWRITE_REPORT
 {{% /md %}}</dd>
@@ -1504,7 +1504,7 @@ The following state arguments are supported:
 <a href="#state_s3_bucket_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1515,7 +1515,7 @@ The following state arguments are supported:
 <a href="#state_s3_prefix_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Report path prefix. Limited to 256 characters.
 {{% /md %}}</dd>
@@ -1526,7 +1526,7 @@ The following state arguments are supported:
 <a href="#state_s3_region_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Region of the existing S3 bucket to hold generated reports.
 {{% /md %}}</dd>
@@ -1537,7 +1537,7 @@ The following state arguments are supported:
 <a href="#state_time_unit_python" style="color: inherit; text-decoration: inherit;">time_<wbr>unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The frequency on which report data are measured and displayed.  Valid values are: HOURLY, DAILY.
 {{% /md %}}</dd>

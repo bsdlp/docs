@@ -105,7 +105,7 @@ const defaultCapacityReservation = new aws.ec2.CapacityReservation("default", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservation">CapacityReservation</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservationArgs">CapacityReservationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservation">CapacityReservation</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservationArgs">CapacityReservationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -113,11 +113,11 @@ const defaultCapacityReservation = new aws.ec2.CapacityReservation("default", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservation">NewCapacityReservation</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservationArgs">CapacityReservationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservation">CapacityReservation</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservation">NewCapacityReservation</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservationArgs">CapacityReservationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservation">CapacityReservation</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservation.html">CapacityReservation</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservationArgs.html">CapacityReservationArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservation.html">CapacityReservation</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservationArgs.html">CapacityReservationArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -128,7 +128,7 @@ const defaultCapacityReservation = new aws.ec2.CapacityReservation("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -197,7 +197,7 @@ const defaultCapacityReservation = new aws.ec2.CapacityReservation("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -236,7 +236,7 @@ const defaultCapacityReservation = new aws.ec2.CapacityReservation("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -287,7 +287,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -298,7 +298,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancecount_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -309,7 +309,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instanceplatform_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Platform&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Platform</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -320,7 +320,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancetype_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -331,7 +331,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ebsoptimized_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -342,7 +342,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#enddate_csharp" style="color: inherit; text-decoration: inherit;">End<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -353,7 +353,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#enddatetype_csharp" style="color: inherit; text-decoration: inherit;">End<wbr>Date<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -364,7 +364,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ephemeralstorage_csharp" style="color: inherit; text-decoration: inherit;">Ephemeral<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -375,7 +375,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancematchcriteria_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Match<wbr>Criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -397,7 +397,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#tenancy_csharp" style="color: inherit; text-decoration: inherit;">Tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Tenancy&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Tenancy</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -415,7 +415,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -426,7 +426,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancecount_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -437,7 +437,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instanceplatform_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -448,7 +448,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancetype_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -459,7 +459,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ebsoptimized_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -470,7 +470,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#enddate_go" style="color: inherit; text-decoration: inherit;">End<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -481,7 +481,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#enddatetype_go" style="color: inherit; text-decoration: inherit;">End<wbr>Date<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -492,7 +492,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ephemeralstorage_go" style="color: inherit; text-decoration: inherit;">Ephemeral<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -503,7 +503,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancematchcriteria_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Match<wbr>Criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -525,7 +525,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#tenancy_go" style="color: inherit; text-decoration: inherit;">Tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -543,7 +543,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -554,7 +554,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancecount_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -565,7 +565,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instanceplatform_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Instance<wbr>Platform</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Instance<wbr>Platform</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -576,7 +576,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancetype_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Instance<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -587,7 +587,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ebsoptimized_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -598,7 +598,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#enddate_nodejs" style="color: inherit; text-decoration: inherit;">end<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -609,7 +609,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#enddatetype_nodejs" style="color: inherit; text-decoration: inherit;">end<wbr>Date<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -620,7 +620,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ephemeralstorage_nodejs" style="color: inherit; text-decoration: inherit;">ephemeral<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -631,7 +631,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instancematchcriteria_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Match<wbr>Criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -653,7 +653,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#tenancy_nodejs" style="color: inherit; text-decoration: inherit;">tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Tenancy</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Tenancy</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -671,7 +671,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -682,7 +682,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instance_count_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -693,7 +693,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instance_platform_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Instance<wbr>Platform]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Instance<wbr>Platform</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -704,7 +704,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instance_type_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Instance<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -715,7 +715,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ebs_optimized_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -726,7 +726,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#end_date_python" style="color: inherit; text-decoration: inherit;">end_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -737,7 +737,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#end_date_type_python" style="color: inherit; text-decoration: inherit;">end_<wbr>date_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -748,7 +748,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#ephemeral_storage_python" style="color: inherit; text-decoration: inherit;">ephemeral_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -759,7 +759,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#instance_match_criteria_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>match_<wbr>criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -781,7 +781,7 @@ The CapacityReservation resource accepts the following [input]({{< relref "/docs
 <a href="#tenancy_python" style="color: inherit; text-decoration: inherit;">tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Tenancy]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Tenancy</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -810,7 +810,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -821,7 +821,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -838,7 +838,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -849,7 +849,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -866,7 +866,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -877,7 +877,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -894,7 +894,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -905,7 +905,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -924,7 +924,7 @@ Get an existing CapacityReservation resource's state with the given name, ID, an
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservationState">CapacityReservationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservation">CapacityReservation</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservationState">CapacityReservationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#CapacityReservation">CapacityReservation</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -933,11 +933,11 @@ Get an existing CapacityReservation resource's state with the given name, ID, an
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCapacityReservation<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservationState">CapacityReservationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservation">CapacityReservation</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCapacityReservation<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservationState">CapacityReservationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#CapacityReservation">CapacityReservation</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservation.html">CapacityReservation</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservationState.html">CapacityReservationState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservation.html">CapacityReservation</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.CapacityReservationState.html">CapacityReservationState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1049,7 +1049,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1060,7 +1060,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1071,7 +1071,7 @@ The following state arguments are supported:
 <a href="#state_ebsoptimized_csharp" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1082,7 +1082,7 @@ The following state arguments are supported:
 <a href="#state_enddate_csharp" style="color: inherit; text-decoration: inherit;">End<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -1093,7 +1093,7 @@ The following state arguments are supported:
 <a href="#state_enddatetype_csharp" style="color: inherit; text-decoration: inherit;">End<wbr>Date<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -1104,7 +1104,7 @@ The following state arguments are supported:
 <a href="#state_ephemeralstorage_csharp" style="color: inherit; text-decoration: inherit;">Ephemeral<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -1115,7 +1115,7 @@ The following state arguments are supported:
 <a href="#state_instancecount_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1126,7 +1126,7 @@ The following state arguments are supported:
 <a href="#state_instancematchcriteria_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Match<wbr>Criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -1137,7 +1137,7 @@ The following state arguments are supported:
 <a href="#state_instanceplatform_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Platform&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Platform</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -1148,7 +1148,7 @@ The following state arguments are supported:
 <a href="#state_instancetype_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1170,7 +1170,7 @@ The following state arguments are supported:
 <a href="#state_tenancy_csharp" style="color: inherit; text-decoration: inherit;">Tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Tenancy&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Ec2.<wbr>Tenancy</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -1188,7 +1188,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1199,7 +1199,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1210,7 +1210,7 @@ The following state arguments are supported:
 <a href="#state_ebsoptimized_go" style="color: inherit; text-decoration: inherit;">Ebs<wbr>Optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1221,7 +1221,7 @@ The following state arguments are supported:
 <a href="#state_enddate_go" style="color: inherit; text-decoration: inherit;">End<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -1232,7 +1232,7 @@ The following state arguments are supported:
 <a href="#state_enddatetype_go" style="color: inherit; text-decoration: inherit;">End<wbr>Date<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -1243,7 +1243,7 @@ The following state arguments are supported:
 <a href="#state_ephemeralstorage_go" style="color: inherit; text-decoration: inherit;">Ephemeral<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -1254,7 +1254,7 @@ The following state arguments are supported:
 <a href="#state_instancecount_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1265,7 +1265,7 @@ The following state arguments are supported:
 <a href="#state_instancematchcriteria_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Match<wbr>Criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -1276,7 +1276,7 @@ The following state arguments are supported:
 <a href="#state_instanceplatform_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -1287,7 +1287,7 @@ The following state arguments are supported:
 <a href="#state_instancetype_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1309,7 +1309,7 @@ The following state arguments are supported:
 <a href="#state_tenancy_go" style="color: inherit; text-decoration: inherit;">Tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -1327,7 +1327,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1338,7 +1338,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1349,7 +1349,7 @@ The following state arguments are supported:
 <a href="#state_ebsoptimized_nodejs" style="color: inherit; text-decoration: inherit;">ebs<wbr>Optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1360,7 +1360,7 @@ The following state arguments are supported:
 <a href="#state_enddate_nodejs" style="color: inherit; text-decoration: inherit;">end<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -1371,7 +1371,7 @@ The following state arguments are supported:
 <a href="#state_enddatetype_nodejs" style="color: inherit; text-decoration: inherit;">end<wbr>Date<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -1382,7 +1382,7 @@ The following state arguments are supported:
 <a href="#state_ephemeralstorage_nodejs" style="color: inherit; text-decoration: inherit;">ephemeral<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -1393,7 +1393,7 @@ The following state arguments are supported:
 <a href="#state_instancecount_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1404,7 +1404,7 @@ The following state arguments are supported:
 <a href="#state_instancematchcriteria_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Match<wbr>Criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -1415,7 +1415,7 @@ The following state arguments are supported:
 <a href="#state_instanceplatform_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Instance<wbr>Platform</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Instance<wbr>Platform</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -1426,7 +1426,7 @@ The following state arguments are supported:
 <a href="#state_instancetype_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Instance<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1448,7 +1448,7 @@ The following state arguments are supported:
 <a href="#state_tenancy_nodejs" style="color: inherit; text-decoration: inherit;">tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Tenancy</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Tenancy</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>
@@ -1466,7 +1466,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1477,7 +1477,7 @@ The following state arguments are supported:
 <a href="#state_availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Availability Zone in which to create the Capacity Reservation.
 {{% /md %}}</dd>
@@ -1488,7 +1488,7 @@ The following state arguments are supported:
 <a href="#state_ebs_optimized_python" style="color: inherit; text-decoration: inherit;">ebs_<wbr>optimized</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1499,7 +1499,7 @@ The following state arguments are supported:
 <a href="#state_end_date_python" style="color: inherit; text-decoration: inherit;">end_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date and time at which the Capacity Reservation expires. When a Capacity Reservation expires, the reserved capacity is released and you can no longer launch instances into it. Valid values: [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) (`YYYY-MM-DDTHH:MM:SSZ`)
 {{% /md %}}</dd>
@@ -1510,7 +1510,7 @@ The following state arguments are supported:
 <a href="#state_end_date_type_python" style="color: inherit; text-decoration: inherit;">end_<wbr>date_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates the way in which the Capacity Reservation ends. Specify either `unlimited` or `limited`.
 {{% /md %}}</dd>
@@ -1521,7 +1521,7 @@ The following state arguments are supported:
 <a href="#state_ephemeral_storage_python" style="color: inherit; text-decoration: inherit;">ephemeral_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether the Capacity Reservation supports instances with temporary, block-level storage.
 {{% /md %}}</dd>
@@ -1532,7 +1532,7 @@ The following state arguments are supported:
 <a href="#state_instance_count_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of instances for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1543,7 +1543,7 @@ The following state arguments are supported:
 <a href="#state_instance_match_criteria_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>match_<wbr>criteria</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Indicates the type of instance launches that the Capacity Reservation accepts. Specify either `open` or `targeted`.
 {{% /md %}}</dd>
@@ -1554,7 +1554,7 @@ The following state arguments are supported:
 <a href="#state_instance_platform_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>platform</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Instance<wbr>Platform]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Instance<wbr>Platform</span>
     </dt>
     <dd>{{% md %}}The type of operating system for which to reserve capacity. Valid options are `Linux/UNIX`, `Red Hat Enterprise Linux`, `SUSE Linux`, `Windows`, `Windows with SQL Server`, `Windows with SQL Server Enterprise`, `Windows with SQL Server Standard` or `Windows with SQL Server Web`.
 {{% /md %}}</dd>
@@ -1565,7 +1565,7 @@ The following state arguments are supported:
 <a href="#state_instance_type_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Instance<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type for which to reserve capacity.
 {{% /md %}}</dd>
@@ -1587,7 +1587,7 @@ The following state arguments are supported:
 <a href="#state_tenancy_python" style="color: inherit; text-decoration: inherit;">tenancy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Tenancy]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Tenancy</span>
     </dt>
     <dd>{{% md %}}Indicates the tenancy of the Capacity Reservation. Specify either `default` or `dedicated`.
 {{% /md %}}</dd>

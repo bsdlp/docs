@@ -189,7 +189,7 @@ The following arguments are supported:
 <a href="#dbclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Returns the list of snapshots created by the specific db_cluster
 {{% /md %}}</dd>
@@ -200,7 +200,7 @@ The following arguments are supported:
 <a href="#dbclustersnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Returns information on a specific snapshot_id.
 {{% /md %}}</dd>
@@ -211,7 +211,7 @@ The following arguments are supported:
 <a href="#includepublic_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include manual DB Cluster Snapshots that are public and can be
 copied or restored by any AWS account, otherwise set this value to false. The default is `false`.
@@ -223,7 +223,7 @@ copied or restored by any AWS account, otherwise set this value to false. The de
 <a href="#includeshared_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include shared manual DB Cluster Snapshots from other
 AWS accounts that this AWS account has been given permission to copy or restore, otherwise set this value to false.
@@ -236,7 +236,7 @@ The default is `false`.
 <a href="#mostrecent_csharp" style="color: inherit; text-decoration: inherit;">Most<wbr>Recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If more than one result is returned, use the most recent Snapshot.
 {{% /md %}}</dd>
@@ -247,7 +247,7 @@ The default is `false`.
 <a href="#snapshottype_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of snapshots to be returned. If you don't specify a SnapshotType
 value, then both automated and manual DB cluster snapshots are returned. Shared and public DB Cluster Snapshots are not
@@ -278,7 +278,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#dbclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Returns the list of snapshots created by the specific db_cluster
 {{% /md %}}</dd>
@@ -289,7 +289,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#dbclustersnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Returns information on a specific snapshot_id.
 {{% /md %}}</dd>
@@ -300,7 +300,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#includepublic_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include manual DB Cluster Snapshots that are public and can be
 copied or restored by any AWS account, otherwise set this value to false. The default is `false`.
@@ -312,7 +312,7 @@ copied or restored by any AWS account, otherwise set this value to false. The de
 <a href="#includeshared_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include shared manual DB Cluster Snapshots from other
 AWS accounts that this AWS account has been given permission to copy or restore, otherwise set this value to false.
@@ -325,7 +325,7 @@ The default is `false`.
 <a href="#mostrecent_go" style="color: inherit; text-decoration: inherit;">Most<wbr>Recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If more than one result is returned, use the most recent Snapshot.
 {{% /md %}}</dd>
@@ -336,7 +336,7 @@ The default is `false`.
 <a href="#snapshottype_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of snapshots to be returned. If you don't specify a SnapshotType
 value, then both automated and manual DB cluster snapshots are returned. Shared and public DB Cluster Snapshots are not
@@ -367,7 +367,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#dbclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Returns the list of snapshots created by the specific db_cluster
 {{% /md %}}</dd>
@@ -378,7 +378,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#dbclustersnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Returns information on a specific snapshot_id.
 {{% /md %}}</dd>
@@ -389,7 +389,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#includepublic_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include manual DB Cluster Snapshots that are public and can be
 copied or restored by any AWS account, otherwise set this value to false. The default is `false`.
@@ -401,7 +401,7 @@ copied or restored by any AWS account, otherwise set this value to false. The de
 <a href="#includeshared_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include shared manual DB Cluster Snapshots from other
 AWS accounts that this AWS account has been given permission to copy or restore, otherwise set this value to false.
@@ -414,7 +414,7 @@ The default is `false`.
 <a href="#mostrecent_nodejs" style="color: inherit; text-decoration: inherit;">most<wbr>Recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If more than one result is returned, use the most recent Snapshot.
 {{% /md %}}</dd>
@@ -425,7 +425,7 @@ The default is `false`.
 <a href="#snapshottype_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of snapshots to be returned. If you don't specify a SnapshotType
 value, then both automated and manual DB cluster snapshots are returned. Shared and public DB Cluster Snapshots are not
@@ -456,7 +456,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#db_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Returns the list of snapshots created by the specific db_cluster
 {{% /md %}}</dd>
@@ -467,7 +467,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#db_cluster_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Returns information on a specific snapshot_id.
 {{% /md %}}</dd>
@@ -478,7 +478,7 @@ included in the returned results by default. Possible values are, `automated`, `
 <a href="#include_public_python" style="color: inherit; text-decoration: inherit;">include_<wbr>public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include manual DB Cluster Snapshots that are public and can be
 copied or restored by any AWS account, otherwise set this value to false. The default is `false`.
@@ -490,7 +490,7 @@ copied or restored by any AWS account, otherwise set this value to false. The de
 <a href="#include_shared_python" style="color: inherit; text-decoration: inherit;">include_<wbr>shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set this value to true to include shared manual DB Cluster Snapshots from other
 AWS accounts that this AWS account has been given permission to copy or restore, otherwise set this value to false.
@@ -503,7 +503,7 @@ The default is `false`.
 <a href="#most_recent_python" style="color: inherit; text-decoration: inherit;">most_<wbr>recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If more than one result is returned, use the most recent Snapshot.
 {{% /md %}}</dd>
@@ -514,7 +514,7 @@ The default is `false`.
 <a href="#snapshot_type_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of snapshots to be returned. If you don't specify a SnapshotType
 value, then both automated and manual DB cluster snapshots are returned. Shared and public DB Cluster Snapshots are not
@@ -558,7 +558,7 @@ The following output properties are available:
 <a href="#allocatedstorage_csharp" style="color: inherit; text-decoration: inherit;">Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Specifies the allocated storage size in gigabytes (GB).
 {{% /md %}}</dd>
@@ -569,7 +569,7 @@ The following output properties are available:
 <a href="#availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of EC2 Availability Zones that instances in the DB cluster snapshot can be restored in.
 {{% /md %}}</dd>
@@ -580,7 +580,7 @@ The following output properties are available:
 <a href="#dbclustersnapshotarn_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Snapshot<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) for the DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -591,7 +591,7 @@ The following output properties are available:
 <a href="#engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the name of the database engine.
 {{% /md %}}</dd>
@@ -602,7 +602,7 @@ The following output properties are available:
 <a href="#engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the database engine for this DB cluster snapshot.
 {{% /md %}}</dd>
@@ -613,7 +613,7 @@ The following output properties are available:
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -624,7 +624,7 @@ The following output properties are available:
 <a href="#kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If storage_encrypted is true, the AWS KMS key identifier for the encrypted DB cluster snapshot.
 {{% /md %}}</dd>
@@ -635,7 +635,7 @@ The following output properties are available:
 <a href="#licensemodel_csharp" style="color: inherit; text-decoration: inherit;">License<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}License model information for the restored DB cluster.
 {{% /md %}}</dd>
@@ -646,7 +646,7 @@ The following output properties are available:
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Port that the DB cluster was listening on at the time of the snapshot.
 {{% /md %}}</dd>
@@ -657,7 +657,7 @@ The following output properties are available:
 <a href="#snapshotcreatetime_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Create<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time when the snapshot was taken, in Universal Coordinated Time (UTC).
 {{% /md %}}</dd>
@@ -668,7 +668,7 @@ The following output properties are available:
 <a href="#sourcedbclustersnapshotarn_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Db<wbr>Cluster<wbr>Snapshot<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -678,7 +678,7 @@ The following output properties are available:
 <a href="#status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of this DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -689,7 +689,7 @@ The following output properties are available:
 <a href="#storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster snapshot is encrypted.
 {{% /md %}}</dd>
@@ -711,7 +711,7 @@ The following output properties are available:
 <a href="#vpcid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The VPC ID associated with the DB cluster snapshot.
 {{% /md %}}</dd>
@@ -722,7 +722,7 @@ The following output properties are available:
 <a href="#dbclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the DB cluster identifier of the DB cluster that this DB cluster snapshot was created from.
 {{% /md %}}</dd>
@@ -733,7 +733,7 @@ The following output properties are available:
 <a href="#dbclustersnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -743,7 +743,7 @@ The following output properties are available:
 <a href="#includepublic_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -753,7 +753,7 @@ The following output properties are available:
 <a href="#includeshared_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -763,7 +763,7 @@ The following output properties are available:
 <a href="#mostrecent_csharp" style="color: inherit; text-decoration: inherit;">Most<wbr>Recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -773,7 +773,7 @@ The following output properties are available:
 <a href="#snapshottype_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -790,7 +790,7 @@ The following output properties are available:
 <a href="#allocatedstorage_go" style="color: inherit; text-decoration: inherit;">Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Specifies the allocated storage size in gigabytes (GB).
 {{% /md %}}</dd>
@@ -801,7 +801,7 @@ The following output properties are available:
 <a href="#availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of EC2 Availability Zones that instances in the DB cluster snapshot can be restored in.
 {{% /md %}}</dd>
@@ -812,7 +812,7 @@ The following output properties are available:
 <a href="#dbclustersnapshotarn_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Snapshot<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) for the DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -823,7 +823,7 @@ The following output properties are available:
 <a href="#engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the name of the database engine.
 {{% /md %}}</dd>
@@ -834,7 +834,7 @@ The following output properties are available:
 <a href="#engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the database engine for this DB cluster snapshot.
 {{% /md %}}</dd>
@@ -845,7 +845,7 @@ The following output properties are available:
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -856,7 +856,7 @@ The following output properties are available:
 <a href="#kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If storage_encrypted is true, the AWS KMS key identifier for the encrypted DB cluster snapshot.
 {{% /md %}}</dd>
@@ -867,7 +867,7 @@ The following output properties are available:
 <a href="#licensemodel_go" style="color: inherit; text-decoration: inherit;">License<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}License model information for the restored DB cluster.
 {{% /md %}}</dd>
@@ -878,7 +878,7 @@ The following output properties are available:
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Port that the DB cluster was listening on at the time of the snapshot.
 {{% /md %}}</dd>
@@ -889,7 +889,7 @@ The following output properties are available:
 <a href="#snapshotcreatetime_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Create<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time when the snapshot was taken, in Universal Coordinated Time (UTC).
 {{% /md %}}</dd>
@@ -900,7 +900,7 @@ The following output properties are available:
 <a href="#sourcedbclustersnapshotarn_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Db<wbr>Cluster<wbr>Snapshot<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -910,7 +910,7 @@ The following output properties are available:
 <a href="#status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of this DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -921,7 +921,7 @@ The following output properties are available:
 <a href="#storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster snapshot is encrypted.
 {{% /md %}}</dd>
@@ -943,7 +943,7 @@ The following output properties are available:
 <a href="#vpcid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The VPC ID associated with the DB cluster snapshot.
 {{% /md %}}</dd>
@@ -954,7 +954,7 @@ The following output properties are available:
 <a href="#dbclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the DB cluster identifier of the DB cluster that this DB cluster snapshot was created from.
 {{% /md %}}</dd>
@@ -965,7 +965,7 @@ The following output properties are available:
 <a href="#dbclustersnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -975,7 +975,7 @@ The following output properties are available:
 <a href="#includepublic_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -985,7 +985,7 @@ The following output properties are available:
 <a href="#includeshared_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -995,7 +995,7 @@ The following output properties are available:
 <a href="#mostrecent_go" style="color: inherit; text-decoration: inherit;">Most<wbr>Recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1005,7 +1005,7 @@ The following output properties are available:
 <a href="#snapshottype_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1022,7 +1022,7 @@ The following output properties are available:
 <a href="#allocatedstorage_nodejs" style="color: inherit; text-decoration: inherit;">allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Specifies the allocated storage size in gigabytes (GB).
 {{% /md %}}</dd>
@@ -1033,7 +1033,7 @@ The following output properties are available:
 <a href="#availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of EC2 Availability Zones that instances in the DB cluster snapshot can be restored in.
 {{% /md %}}</dd>
@@ -1044,7 +1044,7 @@ The following output properties are available:
 <a href="#dbclustersnapshotarn_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Snapshot<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) for the DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -1055,7 +1055,7 @@ The following output properties are available:
 <a href="#engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the name of the database engine.
 {{% /md %}}</dd>
@@ -1066,7 +1066,7 @@ The following output properties are available:
 <a href="#engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the database engine for this DB cluster snapshot.
 {{% /md %}}</dd>
@@ -1077,7 +1077,7 @@ The following output properties are available:
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -1088,7 +1088,7 @@ The following output properties are available:
 <a href="#kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If storage_encrypted is true, the AWS KMS key identifier for the encrypted DB cluster snapshot.
 {{% /md %}}</dd>
@@ -1099,7 +1099,7 @@ The following output properties are available:
 <a href="#licensemodel_nodejs" style="color: inherit; text-decoration: inherit;">license<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}License model information for the restored DB cluster.
 {{% /md %}}</dd>
@@ -1110,7 +1110,7 @@ The following output properties are available:
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Port that the DB cluster was listening on at the time of the snapshot.
 {{% /md %}}</dd>
@@ -1121,7 +1121,7 @@ The following output properties are available:
 <a href="#snapshotcreatetime_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Create<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time when the snapshot was taken, in Universal Coordinated Time (UTC).
 {{% /md %}}</dd>
@@ -1132,7 +1132,7 @@ The following output properties are available:
 <a href="#sourcedbclustersnapshotarn_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Db<wbr>Cluster<wbr>Snapshot<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1142,7 +1142,7 @@ The following output properties are available:
 <a href="#status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of this DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -1153,7 +1153,7 @@ The following output properties are available:
 <a href="#storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster snapshot is encrypted.
 {{% /md %}}</dd>
@@ -1175,7 +1175,7 @@ The following output properties are available:
 <a href="#vpcid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The VPC ID associated with the DB cluster snapshot.
 {{% /md %}}</dd>
@@ -1186,7 +1186,7 @@ The following output properties are available:
 <a href="#dbclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the DB cluster identifier of the DB cluster that this DB cluster snapshot was created from.
 {{% /md %}}</dd>
@@ -1197,7 +1197,7 @@ The following output properties are available:
 <a href="#dbclustersnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1207,7 +1207,7 @@ The following output properties are available:
 <a href="#includepublic_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1217,7 +1217,7 @@ The following output properties are available:
 <a href="#includeshared_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1227,7 +1227,7 @@ The following output properties are available:
 <a href="#mostrecent_nodejs" style="color: inherit; text-decoration: inherit;">most<wbr>Recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1237,7 +1237,7 @@ The following output properties are available:
 <a href="#snapshottype_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1254,7 +1254,7 @@ The following output properties are available:
 <a href="#allocated_storage_python" style="color: inherit; text-decoration: inherit;">allocated_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Specifies the allocated storage size in gigabytes (GB).
 {{% /md %}}</dd>
@@ -1265,7 +1265,7 @@ The following output properties are available:
 <a href="#availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of EC2 Availability Zones that instances in the DB cluster snapshot can be restored in.
 {{% /md %}}</dd>
@@ -1276,7 +1276,7 @@ The following output properties are available:
 <a href="#db_cluster_snapshot_arn_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>snapshot_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) for the DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -1287,7 +1287,7 @@ The following output properties are available:
 <a href="#engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the name of the database engine.
 {{% /md %}}</dd>
@@ -1298,7 +1298,7 @@ The following output properties are available:
 <a href="#engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Version of the database engine for this DB cluster snapshot.
 {{% /md %}}</dd>
@@ -1309,7 +1309,7 @@ The following output properties are available:
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -1320,7 +1320,7 @@ The following output properties are available:
 <a href="#kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If storage_encrypted is true, the AWS KMS key identifier for the encrypted DB cluster snapshot.
 {{% /md %}}</dd>
@@ -1331,7 +1331,7 @@ The following output properties are available:
 <a href="#license_model_python" style="color: inherit; text-decoration: inherit;">license_<wbr>model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}License model information for the restored DB cluster.
 {{% /md %}}</dd>
@@ -1342,7 +1342,7 @@ The following output properties are available:
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Port that the DB cluster was listening on at the time of the snapshot.
 {{% /md %}}</dd>
@@ -1353,7 +1353,7 @@ The following output properties are available:
 <a href="#snapshot_create_time_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>create_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Time when the snapshot was taken, in Universal Coordinated Time (UTC).
 {{% /md %}}</dd>
@@ -1364,7 +1364,7 @@ The following output properties are available:
 <a href="#source_db_cluster_snapshot_arn_python" style="color: inherit; text-decoration: inherit;">source_<wbr>db_<wbr>cluster_<wbr>snapshot_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1374,7 +1374,7 @@ The following output properties are available:
 <a href="#status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The status of this DB Cluster Snapshot.
 {{% /md %}}</dd>
@@ -1385,7 +1385,7 @@ The following output properties are available:
 <a href="#storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster snapshot is encrypted.
 {{% /md %}}</dd>
@@ -1407,7 +1407,7 @@ The following output properties are available:
 <a href="#vpc_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The VPC ID associated with the DB cluster snapshot.
 {{% /md %}}</dd>
@@ -1418,7 +1418,7 @@ The following output properties are available:
 <a href="#db_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the DB cluster identifier of the DB cluster that this DB cluster snapshot was created from.
 {{% /md %}}</dd>
@@ -1429,7 +1429,7 @@ The following output properties are available:
 <a href="#db_cluster_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1439,7 +1439,7 @@ The following output properties are available:
 <a href="#include_public_python" style="color: inherit; text-decoration: inherit;">include_<wbr>public</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1449,7 +1449,7 @@ The following output properties are available:
 <a href="#include_shared_python" style="color: inherit; text-decoration: inherit;">include_<wbr>shared</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1459,7 +1459,7 @@ The following output properties are available:
 <a href="#most_recent_python" style="color: inherit; text-decoration: inherit;">most_<wbr>recent</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1469,7 +1469,7 @@ The following output properties are available:
 <a href="#snapshot_type_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 

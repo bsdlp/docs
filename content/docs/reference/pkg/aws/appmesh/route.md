@@ -650,7 +650,7 @@ const serviceb = new aws.appmesh.Route("serviceb", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#Route">Route</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#RouteArgs">RouteArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#Route">Route</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#RouteArgs">RouteArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -658,11 +658,11 @@ const serviceb = new aws.appmesh.Route("serviceb", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#Route">NewRoute</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#RouteArgs">RouteArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#Route">Route</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#Route">NewRoute</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#RouteArgs">RouteArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#Route">Route</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.Route.html">Route</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.RouteArgs.html">RouteArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.Route.html">Route</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.RouteArgs.html">RouteArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -673,7 +673,7 @@ const serviceb = new aws.appmesh.Route("serviceb", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -742,7 +742,7 @@ const serviceb = new aws.appmesh.Route("serviceb", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -781,7 +781,7 @@ const serviceb = new aws.appmesh.Route("serviceb", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -832,7 +832,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#meshname_csharp" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -854,7 +854,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#virtualroutername_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Router<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -865,7 +865,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#meshowner_csharp" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -876,7 +876,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -905,7 +905,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#meshname_go" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -927,7 +927,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#virtualroutername_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Router<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -938,7 +938,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#meshowner_go" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -949,7 +949,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -978,7 +978,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#meshname_nodejs" style="color: inherit; text-decoration: inherit;">mesh<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1000,7 +1000,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#virtualroutername_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Router<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1011,7 +1011,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#meshowner_nodejs" style="color: inherit; text-decoration: inherit;">mesh<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -1022,7 +1022,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1051,7 +1051,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#mesh_name_python" style="color: inherit; text-decoration: inherit;">mesh_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1073,7 +1073,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#virtual_router_name_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>router_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1084,7 +1084,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#mesh_owner_python" style="color: inherit; text-decoration: inherit;">mesh_<wbr>owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -1095,7 +1095,7 @@ The Route resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1135,7 +1135,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1146,7 +1146,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createddate_csharp" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1157,7 +1157,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1167,7 +1167,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdateddate_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1178,7 +1178,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resourceowner_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1196,7 +1196,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1207,7 +1207,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createddate_go" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1218,7 +1218,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1228,7 +1228,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdateddate_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1239,7 +1239,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resourceowner_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1257,7 +1257,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1268,7 +1268,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createddate_nodejs" style="color: inherit; text-decoration: inherit;">created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1279,7 +1279,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1289,7 +1289,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdateddate_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1300,7 +1300,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resourceowner_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1318,7 +1318,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1329,7 +1329,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#created_date_python" style="color: inherit; text-decoration: inherit;">created_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1340,7 +1340,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1350,7 +1350,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#last_updated_date_python" style="color: inherit; text-decoration: inherit;">last_<wbr>updated_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1361,7 +1361,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#resource_owner_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1381,7 +1381,7 @@ Get an existing Route resource's state with the given name, ID, and optional ext
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#RouteState">RouteState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#Route">Route</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#RouteState">RouteState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/appmesh/#Route">Route</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1390,11 +1390,11 @@ Get an existing Route resource's state with the given name, ID, and optional ext
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetRoute<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#RouteState">RouteState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#Route">Route</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetRoute<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#RouteState">RouteState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/appmesh?tab=doc#Route">Route</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.Route.html">Route</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.RouteState.html">RouteState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.Route.html">Route</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.AppMesh.RouteState.html">RouteState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1506,7 +1506,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1517,7 +1517,7 @@ The following state arguments are supported:
 <a href="#state_createddate_csharp" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1528,7 +1528,7 @@ The following state arguments are supported:
 <a href="#state_lastupdateddate_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1539,7 +1539,7 @@ The following state arguments are supported:
 <a href="#state_meshname_csharp" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1550,7 +1550,7 @@ The following state arguments are supported:
 <a href="#state_meshowner_csharp" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -1561,7 +1561,7 @@ The following state arguments are supported:
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1572,7 +1572,7 @@ The following state arguments are supported:
 <a href="#state_resourceowner_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1605,7 +1605,7 @@ The following state arguments are supported:
 <a href="#state_virtualroutername_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Router<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1623,7 +1623,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1634,7 +1634,7 @@ The following state arguments are supported:
 <a href="#state_createddate_go" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1645,7 +1645,7 @@ The following state arguments are supported:
 <a href="#state_lastupdateddate_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1656,7 +1656,7 @@ The following state arguments are supported:
 <a href="#state_meshname_go" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1667,7 +1667,7 @@ The following state arguments are supported:
 <a href="#state_meshowner_go" style="color: inherit; text-decoration: inherit;">Mesh<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -1678,7 +1678,7 @@ The following state arguments are supported:
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1689,7 +1689,7 @@ The following state arguments are supported:
 <a href="#state_resourceowner_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1722,7 +1722,7 @@ The following state arguments are supported:
 <a href="#state_virtualroutername_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Router<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1740,7 +1740,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1751,7 +1751,7 @@ The following state arguments are supported:
 <a href="#state_createddate_nodejs" style="color: inherit; text-decoration: inherit;">created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1762,7 +1762,7 @@ The following state arguments are supported:
 <a href="#state_lastupdateddate_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1773,7 +1773,7 @@ The following state arguments are supported:
 <a href="#state_meshname_nodejs" style="color: inherit; text-decoration: inherit;">mesh<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1784,7 +1784,7 @@ The following state arguments are supported:
 <a href="#state_meshowner_nodejs" style="color: inherit; text-decoration: inherit;">mesh<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -1795,7 +1795,7 @@ The following state arguments are supported:
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1806,7 +1806,7 @@ The following state arguments are supported:
 <a href="#state_resourceowner_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1839,7 +1839,7 @@ The following state arguments are supported:
 <a href="#state_virtualroutername_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Router<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1857,7 +1857,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the route.
 {{% /md %}}</dd>
@@ -1868,7 +1868,7 @@ The following state arguments are supported:
 <a href="#state_created_date_python" style="color: inherit; text-decoration: inherit;">created_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The creation date of the route.
 {{% /md %}}</dd>
@@ -1879,7 +1879,7 @@ The following state arguments are supported:
 <a href="#state_last_updated_date_python" style="color: inherit; text-decoration: inherit;">last_<wbr>updated_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The last update date of the route.
 {{% /md %}}</dd>
@@ -1890,7 +1890,7 @@ The following state arguments are supported:
 <a href="#state_mesh_name_python" style="color: inherit; text-decoration: inherit;">mesh_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the service mesh in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1901,7 +1901,7 @@ The following state arguments are supported:
 <a href="#state_mesh_owner_python" style="color: inherit; text-decoration: inherit;">mesh_<wbr>owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The AWS account ID of the service mesh's owner. Defaults to the account ID the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) is currently connected to.
 {{% /md %}}</dd>
@@ -1912,7 +1912,7 @@ The following state arguments are supported:
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name to use for the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -1923,7 +1923,7 @@ The following state arguments are supported:
 <a href="#state_resource_owner_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>owner</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The resource owner's AWS account ID.
 {{% /md %}}</dd>
@@ -1956,7 +1956,7 @@ The following state arguments are supported:
 <a href="#state_virtual_router_name_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>router_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the virtual router in which to create the route. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -2033,7 +2033,7 @@ The following state arguments are supported:
 <a href="#priority_csharp" style="color: inherit; text-decoration: inherit;">Priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The priority for the route, between `0` and `1000`.
 Routes are matched based on the specified value, where `0` is the highest priority.
@@ -2096,7 +2096,7 @@ Routes are matched based on the specified value, where `0` is the highest priori
 <a href="#priority_go" style="color: inherit; text-decoration: inherit;">Priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The priority for the route, between `0` and `1000`.
 Routes are matched based on the specified value, where `0` is the highest priority.
@@ -2159,7 +2159,7 @@ Routes are matched based on the specified value, where `0` is the highest priori
 <a href="#priority_nodejs" style="color: inherit; text-decoration: inherit;">priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The priority for the route, between `0` and `1000`.
 Routes are matched based on the specified value, where `0` is the highest priority.
@@ -2222,7 +2222,7 @@ Routes are matched based on the specified value, where `0` is the highest priori
 <a href="#priority_python" style="color: inherit; text-decoration: inherit;">priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The priority for the route, between `0` and `1000`.
 Routes are matched based on the specified value, where `0` is the highest priority.
@@ -2586,7 +2586,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -2597,7 +2597,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_csharp" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -2615,7 +2615,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -2626,7 +2626,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_go" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -2644,7 +2644,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -2655,7 +2655,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_nodejs" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -2673,7 +2673,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtual_node_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -2684,7 +2684,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_python" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -2731,7 +2731,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#methodname_csharp" style="color: inherit; text-decoration: inherit;">Method<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The method name to match from the request. If you specify a name, you must also specify a `service_name`.
 {{% /md %}}</dd>
@@ -2742,7 +2742,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -2754,7 +2754,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#servicename_csharp" style="color: inherit; text-decoration: inherit;">Service<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name for the service to match from the request.
 {{% /md %}}</dd>
@@ -2783,7 +2783,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#methodname_go" style="color: inherit; text-decoration: inherit;">Method<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The method name to match from the request. If you specify a name, you must also specify a `service_name`.
 {{% /md %}}</dd>
@@ -2794,7 +2794,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -2806,7 +2806,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#servicename_go" style="color: inherit; text-decoration: inherit;">Service<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name for the service to match from the request.
 {{% /md %}}</dd>
@@ -2835,7 +2835,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#methodname_nodejs" style="color: inherit; text-decoration: inherit;">method<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The method name to match from the request. If you specify a name, you must also specify a `service_name`.
 {{% /md %}}</dd>
@@ -2846,7 +2846,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -2858,7 +2858,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#servicename_nodejs" style="color: inherit; text-decoration: inherit;">service<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name for the service to match from the request.
 {{% /md %}}</dd>
@@ -2887,7 +2887,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_name_python" style="color: inherit; text-decoration: inherit;">method_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The method name to match from the request. If you specify a name, you must also specify a `service_name`.
 {{% /md %}}</dd>
@@ -2898,7 +2898,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -2910,7 +2910,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#service_name_python" style="color: inherit; text-decoration: inherit;">service_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The fully qualified domain name for the service to match from the request.
 {{% /md %}}</dd>
@@ -2946,7 +2946,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the route. Must be between 1 and 50 characters in length.
 {{% /md %}}</dd>
@@ -2957,7 +2957,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_csharp" style="color: inherit; text-decoration: inherit;">Invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` criteria. Default is `false`.
 {{% /md %}}</dd>
@@ -2986,7 +2986,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the route. Must be between 1 and 50 characters in length.
 {{% /md %}}</dd>
@@ -2997,7 +2997,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_go" style="color: inherit; text-decoration: inherit;">Invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` criteria. Default is `false`.
 {{% /md %}}</dd>
@@ -3026,7 +3026,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the route. Must be between 1 and 50 characters in length.
 {{% /md %}}</dd>
@@ -3037,7 +3037,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_nodejs" style="color: inherit; text-decoration: inherit;">invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` criteria. Default is `false`.
 {{% /md %}}</dd>
@@ -3066,7 +3066,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the route. Must be between 1 and 50 characters in length.
 {{% /md %}}</dd>
@@ -3077,7 +3077,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_python" style="color: inherit; text-decoration: inherit;">invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` criteria. Default is `false`.
 {{% /md %}}</dd>
@@ -3124,7 +3124,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_csharp" style="color: inherit; text-decoration: inherit;">Exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3135,7 +3135,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -3158,7 +3158,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_csharp" style="color: inherit; text-decoration: inherit;">Regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3169,7 +3169,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_csharp" style="color: inherit; text-decoration: inherit;">Suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3187,7 +3187,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_go" style="color: inherit; text-decoration: inherit;">Exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3198,7 +3198,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -3221,7 +3221,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_go" style="color: inherit; text-decoration: inherit;">Regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3232,7 +3232,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_go" style="color: inherit; text-decoration: inherit;">Suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3250,7 +3250,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_nodejs" style="color: inherit; text-decoration: inherit;">exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3261,7 +3261,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -3284,7 +3284,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_nodejs" style="color: inherit; text-decoration: inherit;">regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3295,7 +3295,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_nodejs" style="color: inherit; text-decoration: inherit;">suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3313,7 +3313,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_python" style="color: inherit; text-decoration: inherit;">exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3324,7 +3324,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -3347,7 +3347,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_python" style="color: inherit; text-decoration: inherit;">regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3358,7 +3358,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_python" style="color: inherit; text-decoration: inherit;">suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -3394,7 +3394,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_csharp" style="color: inherit; text-decoration: inherit;">End</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -3405,7 +3405,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_csharp" style="color: inherit; text-decoration: inherit;">Start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -3423,7 +3423,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_go" style="color: inherit; text-decoration: inherit;">End</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -3434,7 +3434,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_go" style="color: inherit; text-decoration: inherit;">Start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -3452,7 +3452,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_nodejs" style="color: inherit; text-decoration: inherit;">end</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -3463,7 +3463,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_nodejs" style="color: inherit; text-decoration: inherit;">start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -3481,7 +3481,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_python" style="color: inherit; text-decoration: inherit;">end</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -3492,7 +3492,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_python" style="color: inherit; text-decoration: inherit;">start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -3528,7 +3528,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#maxretries_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -3550,7 +3550,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#grpcretryevents_csharp" style="color: inherit; text-decoration: inherit;">Grpc<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of gRPC retry events.
 Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`, `unavailable`.
@@ -3562,7 +3562,7 @@ Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`
 <a href="#httpretryevents_csharp" style="color: inherit; text-decoration: inherit;">Http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -3575,7 +3575,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_csharp" style="color: inherit; text-decoration: inherit;">Tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -3593,7 +3593,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#maxretries_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -3615,7 +3615,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#grpcretryevents_go" style="color: inherit; text-decoration: inherit;">Grpc<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of gRPC retry events.
 Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`, `unavailable`.
@@ -3627,7 +3627,7 @@ Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`
 <a href="#httpretryevents_go" style="color: inherit; text-decoration: inherit;">Http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -3640,7 +3640,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_go" style="color: inherit; text-decoration: inherit;">Tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -3658,7 +3658,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#maxretries_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -3680,7 +3680,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#grpcretryevents_nodejs" style="color: inherit; text-decoration: inherit;">grpc<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of gRPC retry events.
 Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`, `unavailable`.
@@ -3692,7 +3692,7 @@ Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`
 <a href="#httpretryevents_nodejs" style="color: inherit; text-decoration: inherit;">http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -3705,7 +3705,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_nodejs" style="color: inherit; text-decoration: inherit;">tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -3723,7 +3723,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#max_retries_python" style="color: inherit; text-decoration: inherit;">max_<wbr>retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -3745,7 +3745,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#grpc_retry_events_python" style="color: inherit; text-decoration: inherit;">grpc_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of gRPC retry events.
 Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`, `unavailable`.
@@ -3757,7 +3757,7 @@ Valid values: `cancelled`, `deadline-exceeded`, `internal`, `resource-exhausted`
 <a href="#http_retry_events_python" style="color: inherit; text-decoration: inherit;">http_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -3770,7 +3770,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcp_retry_events_python" style="color: inherit; text-decoration: inherit;">tcp_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -3806,7 +3806,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -3817,7 +3817,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -3835,7 +3835,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -3846,7 +3846,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -3864,7 +3864,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -3875,7 +3875,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -3893,7 +3893,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -3904,7 +3904,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -4074,7 +4074,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4085,7 +4085,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4103,7 +4103,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4114,7 +4114,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4132,7 +4132,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4143,7 +4143,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4161,7 +4161,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4172,7 +4172,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4208,7 +4208,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4219,7 +4219,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4237,7 +4237,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4248,7 +4248,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4266,7 +4266,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4277,7 +4277,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4295,7 +4295,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -4306,7 +4306,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -4658,7 +4658,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -4669,7 +4669,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_csharp" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -4687,7 +4687,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -4698,7 +4698,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_go" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -4716,7 +4716,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -4727,7 +4727,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_nodejs" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -4745,7 +4745,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtual_node_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -4756,7 +4756,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_python" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -4792,7 +4792,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -4815,7 +4815,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_csharp" style="color: inherit; text-decoration: inherit;">Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -4826,7 +4826,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_csharp" style="color: inherit; text-decoration: inherit;">Scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -4844,7 +4844,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -4867,7 +4867,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_go" style="color: inherit; text-decoration: inherit;">Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -4878,7 +4878,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_go" style="color: inherit; text-decoration: inherit;">Scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -4896,7 +4896,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -4919,7 +4919,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_nodejs" style="color: inherit; text-decoration: inherit;">method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -4930,7 +4930,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_nodejs" style="color: inherit; text-decoration: inherit;">scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -4948,7 +4948,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -4971,7 +4971,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_python" style="color: inherit; text-decoration: inherit;">method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -4982,7 +4982,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_python" style="color: inherit; text-decoration: inherit;">scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -5018,7 +5018,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -5029,7 +5029,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_csharp" style="color: inherit; text-decoration: inherit;">Invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -5058,7 +5058,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -5069,7 +5069,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_go" style="color: inherit; text-decoration: inherit;">Invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -5098,7 +5098,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -5109,7 +5109,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_nodejs" style="color: inherit; text-decoration: inherit;">invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -5138,7 +5138,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -5149,7 +5149,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_python" style="color: inherit; text-decoration: inherit;">invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -5196,7 +5196,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_csharp" style="color: inherit; text-decoration: inherit;">Exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5207,7 +5207,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -5230,7 +5230,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_csharp" style="color: inherit; text-decoration: inherit;">Regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5241,7 +5241,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_csharp" style="color: inherit; text-decoration: inherit;">Suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5259,7 +5259,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_go" style="color: inherit; text-decoration: inherit;">Exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5270,7 +5270,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -5293,7 +5293,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_go" style="color: inherit; text-decoration: inherit;">Regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5304,7 +5304,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_go" style="color: inherit; text-decoration: inherit;">Suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5322,7 +5322,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_nodejs" style="color: inherit; text-decoration: inherit;">exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5333,7 +5333,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -5356,7 +5356,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_nodejs" style="color: inherit; text-decoration: inherit;">regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5367,7 +5367,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_nodejs" style="color: inherit; text-decoration: inherit;">suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5385,7 +5385,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_python" style="color: inherit; text-decoration: inherit;">exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5396,7 +5396,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -5419,7 +5419,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_python" style="color: inherit; text-decoration: inherit;">regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5430,7 +5430,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_python" style="color: inherit; text-decoration: inherit;">suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -5466,7 +5466,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_csharp" style="color: inherit; text-decoration: inherit;">End</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -5477,7 +5477,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_csharp" style="color: inherit; text-decoration: inherit;">Start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -5495,7 +5495,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_go" style="color: inherit; text-decoration: inherit;">End</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -5506,7 +5506,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_go" style="color: inherit; text-decoration: inherit;">Start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -5524,7 +5524,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_nodejs" style="color: inherit; text-decoration: inherit;">end</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -5535,7 +5535,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_nodejs" style="color: inherit; text-decoration: inherit;">start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -5553,7 +5553,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_python" style="color: inherit; text-decoration: inherit;">end</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -5564,7 +5564,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_python" style="color: inherit; text-decoration: inherit;">start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -5600,7 +5600,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#maxretries_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -5622,7 +5622,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#httpretryevents_csharp" style="color: inherit; text-decoration: inherit;">Http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -5635,7 +5635,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_csharp" style="color: inherit; text-decoration: inherit;">Tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -5653,7 +5653,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#maxretries_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -5675,7 +5675,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#httpretryevents_go" style="color: inherit; text-decoration: inherit;">Http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -5688,7 +5688,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_go" style="color: inherit; text-decoration: inherit;">Tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -5706,7 +5706,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#maxretries_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -5728,7 +5728,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#httpretryevents_nodejs" style="color: inherit; text-decoration: inherit;">http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -5741,7 +5741,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_nodejs" style="color: inherit; text-decoration: inherit;">tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -5759,7 +5759,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#max_retries_python" style="color: inherit; text-decoration: inherit;">max_<wbr>retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -5781,7 +5781,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#http_retry_events_python" style="color: inherit; text-decoration: inherit;">http_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -5794,7 +5794,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcp_retry_events_python" style="color: inherit; text-decoration: inherit;">tcp_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -5830,7 +5830,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -5841,7 +5841,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -5859,7 +5859,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -5870,7 +5870,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -5888,7 +5888,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -5899,7 +5899,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -5917,7 +5917,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -5928,7 +5928,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -6098,7 +6098,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6109,7 +6109,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6127,7 +6127,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6138,7 +6138,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6156,7 +6156,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6167,7 +6167,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6185,7 +6185,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6196,7 +6196,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6232,7 +6232,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6243,7 +6243,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6261,7 +6261,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6272,7 +6272,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6290,7 +6290,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6301,7 +6301,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6319,7 +6319,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -6330,7 +6330,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -6682,7 +6682,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -6693,7 +6693,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_csharp" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -6711,7 +6711,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -6722,7 +6722,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_go" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -6740,7 +6740,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -6751,7 +6751,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_nodejs" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -6769,7 +6769,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtual_node_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -6780,7 +6780,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_python" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -6816,7 +6816,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -6839,7 +6839,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_csharp" style="color: inherit; text-decoration: inherit;">Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -6850,7 +6850,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_csharp" style="color: inherit; text-decoration: inherit;">Scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -6868,7 +6868,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -6891,7 +6891,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_go" style="color: inherit; text-decoration: inherit;">Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -6902,7 +6902,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_go" style="color: inherit; text-decoration: inherit;">Scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -6920,7 +6920,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -6943,7 +6943,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_nodejs" style="color: inherit; text-decoration: inherit;">method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -6954,7 +6954,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_nodejs" style="color: inherit; text-decoration: inherit;">scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -6972,7 +6972,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -6995,7 +6995,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#method_python" style="color: inherit; text-decoration: inherit;">method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The client request header method to match on. Valid values: `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`.
 {{% /md %}}</dd>
@@ -7006,7 +7006,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#scheme_python" style="color: inherit; text-decoration: inherit;">scheme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The client request header scheme to match on. Valid values: `http`, `https`.
 {{% /md %}}</dd>
@@ -7042,7 +7042,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -7053,7 +7053,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_csharp" style="color: inherit; text-decoration: inherit;">Invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -7082,7 +7082,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -7093,7 +7093,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_go" style="color: inherit; text-decoration: inherit;">Invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -7122,7 +7122,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -7133,7 +7133,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_nodejs" style="color: inherit; text-decoration: inherit;">invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -7162,7 +7162,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A name for the HTTP header in the client request that will be matched on.
 {{% /md %}}</dd>
@@ -7173,7 +7173,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#invert_python" style="color: inherit; text-decoration: inherit;">invert</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If `true`, the match is on the opposite of the `match` method and value. Default is `false`.
 {{% /md %}}</dd>
@@ -7220,7 +7220,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_csharp" style="color: inherit; text-decoration: inherit;">Exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7231,7 +7231,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -7254,7 +7254,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_csharp" style="color: inherit; text-decoration: inherit;">Regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7265,7 +7265,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_csharp" style="color: inherit; text-decoration: inherit;">Suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7283,7 +7283,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_go" style="color: inherit; text-decoration: inherit;">Exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7294,7 +7294,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -7317,7 +7317,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_go" style="color: inherit; text-decoration: inherit;">Regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7328,7 +7328,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_go" style="color: inherit; text-decoration: inherit;">Suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7346,7 +7346,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_nodejs" style="color: inherit; text-decoration: inherit;">exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7357,7 +7357,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -7380,7 +7380,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_nodejs" style="color: inherit; text-decoration: inherit;">regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7391,7 +7391,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_nodejs" style="color: inherit; text-decoration: inherit;">suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7409,7 +7409,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#exact_python" style="color: inherit; text-decoration: inherit;">exact</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must match the specified value exactly. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7420,7 +7420,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must begin with the specified characters. Must be between 1 and 255 characters in length.
 This parameter must always start with /, which by itself matches all requests to the virtual router service name.
@@ -7443,7 +7443,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#regex_python" style="color: inherit; text-decoration: inherit;">regex</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must include the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7454,7 +7454,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#suffix_python" style="color: inherit; text-decoration: inherit;">suffix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value sent by the client must end with the specified characters. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -7490,7 +7490,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_csharp" style="color: inherit; text-decoration: inherit;">End</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -7501,7 +7501,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_csharp" style="color: inherit; text-decoration: inherit;">Start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -7519,7 +7519,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_go" style="color: inherit; text-decoration: inherit;">End</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -7530,7 +7530,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_go" style="color: inherit; text-decoration: inherit;">Start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -7548,7 +7548,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_nodejs" style="color: inherit; text-decoration: inherit;">end</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -7559,7 +7559,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_nodejs" style="color: inherit; text-decoration: inherit;">start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -7577,7 +7577,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#end_python" style="color: inherit; text-decoration: inherit;">end</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The end of the range.
 {{% /md %}}</dd>
@@ -7588,7 +7588,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#start_python" style="color: inherit; text-decoration: inherit;">start</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The start of the range.
 {{% /md %}}</dd>
@@ -7624,7 +7624,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#maxretries_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -7646,7 +7646,7 @@ This parameter must always start with /, which by itself matches all requests to
 <a href="#httpretryevents_csharp" style="color: inherit; text-decoration: inherit;">Http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -7659,7 +7659,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_csharp" style="color: inherit; text-decoration: inherit;">Tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -7677,7 +7677,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#maxretries_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -7699,7 +7699,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#httpretryevents_go" style="color: inherit; text-decoration: inherit;">Http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -7712,7 +7712,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_go" style="color: inherit; text-decoration: inherit;">Tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -7730,7 +7730,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#maxretries_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -7752,7 +7752,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#httpretryevents_nodejs" style="color: inherit; text-decoration: inherit;">http<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -7765,7 +7765,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcpretryevents_nodejs" style="color: inherit; text-decoration: inherit;">tcp<wbr>Retry<wbr>Events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -7783,7 +7783,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#max_retries_python" style="color: inherit; text-decoration: inherit;">max_<wbr>retries</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum number of retries.
 {{% /md %}}</dd>
@@ -7805,7 +7805,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#http_retry_events_python" style="color: inherit; text-decoration: inherit;">http_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of HTTP retry events.
 Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP status codes 502, 503, and 504), `server-error` (HTTP status codes 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, and 511), `stream-error` (retry on refused stream).
@@ -7818,7 +7818,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#tcp_retry_events_python" style="color: inherit; text-decoration: inherit;">tcp_<wbr>retry_<wbr>events</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of TCP retry events. The only valid value is `connection-error`.
 {{% /md %}}</dd>
@@ -7854,7 +7854,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -7865,7 +7865,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -7883,7 +7883,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -7894,7 +7894,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -7912,7 +7912,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -7923,7 +7923,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -7941,7 +7941,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Retry unit. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -7952,7 +7952,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Retry value.
 {{% /md %}}</dd>
@@ -8122,7 +8122,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8133,7 +8133,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8151,7 +8151,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8162,7 +8162,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8180,7 +8180,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8191,7 +8191,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8209,7 +8209,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8220,7 +8220,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8256,7 +8256,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8267,7 +8267,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8285,7 +8285,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8296,7 +8296,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8314,7 +8314,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8325,7 +8325,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8343,7 +8343,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8354,7 +8354,7 @@ Valid values: `client-error` (HTTP status code 409), `gateway-error` (HTTP statu
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8618,7 +8618,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -8629,7 +8629,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_csharp" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -8647,7 +8647,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -8658,7 +8658,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_go" style="color: inherit; text-decoration: inherit;">Weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -8676,7 +8676,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtualnode_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -8687,7 +8687,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_nodejs" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -8705,7 +8705,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#virtual_node_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>node</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The virtual node to associate with the weighted target. Must be between 1 and 255 characters in length.
 {{% /md %}}</dd>
@@ -8716,7 +8716,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#weight_python" style="color: inherit; text-decoration: inherit;">weight</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The relative weight of the weighted target. An integer between 0 and 100.
 {{% /md %}}</dd>
@@ -8842,7 +8842,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#unit_csharp" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8853,7 +8853,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8871,7 +8871,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#unit_go" style="color: inherit; text-decoration: inherit;">Unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8882,7 +8882,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8900,7 +8900,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#unit_nodejs" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8911,7 +8911,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>
@@ -8929,7 +8929,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#unit_python" style="color: inherit; text-decoration: inherit;">unit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unit of time. Valid values: `ms`, `s`.
 {{% /md %}}</dd>
@@ -8940,7 +8940,7 @@ You can specify one or more targets and their relative weights with which to dis
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of time units. Minimum value of `0`.
 {{% /md %}}</dd>

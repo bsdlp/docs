@@ -436,7 +436,7 @@ const orderFlowersIntent = new aws.lex.Intent("order_flowers_intent", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Intent">Intent</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#IntentArgs">IntentArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Intent">Intent</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#IntentArgs">IntentArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -444,11 +444,11 @@ const orderFlowersIntent = new aws.lex.Intent("order_flowers_intent", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Intent">NewIntent</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#IntentArgs">IntentArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Intent">Intent</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Intent">NewIntent</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#IntentArgs">IntentArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Intent">Intent</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Intent.html">Intent</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.IntentArgs.html">IntentArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Intent.html">Intent</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.IntentArgs.html">IntentArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -459,7 +459,7 @@ const orderFlowersIntent = new aws.lex.Intent("order_flowers_intent", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -528,7 +528,7 @@ const orderFlowersIntent = new aws.lex.Intent("order_flowers_intent", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -567,7 +567,7 @@ const orderFlowersIntent = new aws.lex.Intent("order_flowers_intent", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -659,7 +659,7 @@ or neither. Attributes are documented under prompt.
 <a href="#createversion_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -671,7 +671,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -708,7 +708,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -719,7 +719,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#parentintentsignature_csharp" style="color: inherit; text-decoration: inherit;">Parent<wbr>Intent<wbr>Signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -746,7 +746,7 @@ documented below under statement.
 <a href="#sampleutterances_csharp" style="color: inherit; text-decoration: inherit;">Sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -819,7 +819,7 @@ or neither. Attributes are documented under prompt.
 <a href="#createversion_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -831,7 +831,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -868,7 +868,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -879,7 +879,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#parentintentsignature_go" style="color: inherit; text-decoration: inherit;">Parent<wbr>Intent<wbr>Signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -906,7 +906,7 @@ documented below under statement.
 <a href="#sampleutterances_go" style="color: inherit; text-decoration: inherit;">Sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -979,7 +979,7 @@ or neither. Attributes are documented under prompt.
 <a href="#createversion_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -991,7 +991,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -1028,7 +1028,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -1039,7 +1039,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#parentintentsignature_nodejs" style="color: inherit; text-decoration: inherit;">parent<wbr>Intent<wbr>Signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -1066,7 +1066,7 @@ documented below under statement.
 <a href="#sampleutterances_nodejs" style="color: inherit; text-decoration: inherit;">sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -1139,7 +1139,7 @@ or neither. Attributes are documented under prompt.
 <a href="#create_version_python" style="color: inherit; text-decoration: inherit;">create_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -1151,7 +1151,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -1188,7 +1188,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -1199,7 +1199,7 @@ exclusive. You can specify only one. Attributes are documented under follow_up_p
 <a href="#parent_intent_signature_python" style="color: inherit; text-decoration: inherit;">parent_<wbr>intent_<wbr>signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -1226,7 +1226,7 @@ documented below under statement.
 <a href="#sample_utterances_python" style="color: inherit; text-decoration: inherit;">sample_<wbr>utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -1269,7 +1269,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -1280,7 +1280,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#checksum_csharp" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -1292,7 +1292,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#createddate_csharp" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -1303,7 +1303,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1313,7 +1313,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#lastupdateddate_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -1324,7 +1324,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1342,7 +1342,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -1353,7 +1353,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#checksum_go" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -1365,7 +1365,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#createddate_go" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -1376,7 +1376,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1386,7 +1386,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#lastupdateddate_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -1397,7 +1397,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1415,7 +1415,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -1426,7 +1426,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#checksum_nodejs" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -1438,7 +1438,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#createddate_nodejs" style="color: inherit; text-decoration: inherit;">created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -1449,7 +1449,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1459,7 +1459,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#lastupdateddate_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -1470,7 +1470,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1488,7 +1488,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -1499,7 +1499,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#checksum_python" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -1511,7 +1511,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#created_date_python" style="color: inherit; text-decoration: inherit;">created_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -1522,7 +1522,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1532,7 +1532,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#last_updated_date_python" style="color: inherit; text-decoration: inherit;">last_<wbr>updated_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -1543,7 +1543,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1563,7 +1563,7 @@ Get an existing Intent resource's state with the given name, ID, and optional ex
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#IntentState">IntentState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Intent">Intent</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#IntentState">IntentState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Intent">Intent</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1572,11 +1572,11 @@ Get an existing Intent resource's state with the given name, ID, and optional ex
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetIntent<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#IntentState">IntentState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Intent">Intent</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetIntent<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#IntentState">IntentState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Intent">Intent</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Intent.html">Intent</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.IntentState.html">IntentState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Intent.html">Intent</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.IntentState.html">IntentState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1688,7 +1688,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -1699,7 +1699,7 @@ The following state arguments are supported:
 <a href="#state_checksum_csharp" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -1739,7 +1739,7 @@ or neither. Attributes are documented under prompt.
 <a href="#state_createversion_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -1751,7 +1751,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_createddate_csharp" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -1762,7 +1762,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -1812,7 +1812,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_lastupdateddate_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -1823,7 +1823,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -1834,7 +1834,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_parentintentsignature_csharp" style="color: inherit; text-decoration: inherit;">Parent<wbr>Intent<wbr>Signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -1861,7 +1861,7 @@ documented below under statement.
 <a href="#state_sampleutterances_csharp" style="color: inherit; text-decoration: inherit;">Sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -1886,7 +1886,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1904,7 +1904,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -1915,7 +1915,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_checksum_go" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -1955,7 +1955,7 @@ or neither. Attributes are documented under prompt.
 <a href="#state_createversion_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -1967,7 +1967,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_createddate_go" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -1978,7 +1978,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -2028,7 +2028,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_lastupdateddate_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -2039,7 +2039,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -2050,7 +2050,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_parentintentsignature_go" style="color: inherit; text-decoration: inherit;">Parent<wbr>Intent<wbr>Signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -2077,7 +2077,7 @@ documented below under statement.
 <a href="#state_sampleutterances_go" style="color: inherit; text-decoration: inherit;">Sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -2102,7 +2102,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -2120,7 +2120,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -2131,7 +2131,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_checksum_nodejs" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -2171,7 +2171,7 @@ or neither. Attributes are documented under prompt.
 <a href="#state_createversion_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -2183,7 +2183,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_createddate_nodejs" style="color: inherit; text-decoration: inherit;">created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -2194,7 +2194,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -2244,7 +2244,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_lastupdateddate_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -2255,7 +2255,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -2266,7 +2266,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_parentintentsignature_nodejs" style="color: inherit; text-decoration: inherit;">parent<wbr>Intent<wbr>Signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -2293,7 +2293,7 @@ documented below under statement.
 <a href="#state_sampleutterances_nodejs" style="color: inherit; text-decoration: inherit;">sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -2318,7 +2318,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -2336,7 +2336,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lex intent.
 {{% /md %}}</dd>
@@ -2347,7 +2347,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_checksum_python" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the intent that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the intent.
@@ -2387,7 +2387,7 @@ or neither. Attributes are documented under prompt.
 <a href="#state_create_version_python" style="color: inherit; text-decoration: inherit;">create_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new slot type version is created when the initial
 resource is created and on each update. Defaults to `false`.
@@ -2399,7 +2399,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_created_date_python" style="color: inherit; text-decoration: inherit;">created_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the intent version was created.
 {{% /md %}}</dd>
@@ -2410,7 +2410,7 @@ resource is created and on each update. Defaults to `false`.
 <a href="#state_description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -2460,7 +2460,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_last_updated_date_python" style="color: inherit; text-decoration: inherit;">last_<wbr>updated_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this intent was updated.
 {{% /md %}}</dd>
@@ -2471,7 +2471,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -2482,7 +2482,7 @@ places an order with a local pizza store. Attributes are documented under fulfil
 <a href="#state_parent_intent_signature_python" style="color: inherit; text-decoration: inherit;">parent_<wbr>intent_<wbr>signature</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A unique identifier for the built-in intent to base this
 intent on. To find the signature for an intent, see
@@ -2509,7 +2509,7 @@ documented below under statement.
 <a href="#state_sample_utterances_python" style="color: inherit; text-decoration: inherit;">sample_<wbr>utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -2534,7 +2534,7 @@ from the user using prompts defined in the slots. Attributes are documented unde
 <a href="#state_version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -2591,7 +2591,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2624,7 +2624,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2657,7 +2657,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2690,7 +2690,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2728,7 +2728,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -2739,7 +2739,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2750,7 +2750,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -2769,7 +2769,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -2780,7 +2780,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2791,7 +2791,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -2810,7 +2810,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -2821,7 +2821,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2832,7 +2832,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -2851,7 +2851,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -2862,7 +2862,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2873,7 +2873,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -2910,7 +2910,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#maxattempts_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -2934,7 +2934,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2954,7 +2954,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -2978,7 +2978,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2998,7 +2998,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -3022,7 +3022,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3042,7 +3042,7 @@ slot values into the response card. For more information, see
 <a href="#max_attempts_python" style="color: inherit; text-decoration: inherit;">max_<wbr>attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -3066,7 +3066,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3104,7 +3104,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3115,7 +3115,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3126,7 +3126,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3145,7 +3145,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3156,7 +3156,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3167,7 +3167,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3186,7 +3186,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3197,7 +3197,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3208,7 +3208,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3227,7 +3227,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3238,7 +3238,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3249,7 +3249,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3286,7 +3286,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#messageversion_csharp" style="color: inherit; text-decoration: inherit;">Message<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -3299,7 +3299,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_csharp" style="color: inherit; text-decoration: inherit;">Uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -3317,7 +3317,7 @@ to invoke your Lambda function. For more information, see
 <a href="#messageversion_go" style="color: inherit; text-decoration: inherit;">Message<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -3330,7 +3330,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_go" style="color: inherit; text-decoration: inherit;">Uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -3348,7 +3348,7 @@ to invoke your Lambda function. For more information, see
 <a href="#messageversion_nodejs" style="color: inherit; text-decoration: inherit;">message<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -3361,7 +3361,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_nodejs" style="color: inherit; text-decoration: inherit;">uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -3379,7 +3379,7 @@ to invoke your Lambda function. For more information, see
 <a href="#message_version_python" style="color: inherit; text-decoration: inherit;">message_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -3392,7 +3392,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_python" style="color: inherit; text-decoration: inherit;">uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -3570,7 +3570,7 @@ documented below under statement.
 <a href="#maxattempts_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -3594,7 +3594,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3614,7 +3614,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -3638,7 +3638,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3658,7 +3658,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -3682,7 +3682,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3702,7 +3702,7 @@ slot values into the response card. For more information, see
 <a href="#max_attempts_python" style="color: inherit; text-decoration: inherit;">max_<wbr>attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -3726,7 +3726,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3764,7 +3764,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3775,7 +3775,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3786,7 +3786,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3805,7 +3805,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3816,7 +3816,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3827,7 +3827,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3846,7 +3846,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3857,7 +3857,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3868,7 +3868,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3887,7 +3887,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -3898,7 +3898,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3909,7 +3909,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -3959,7 +3959,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3992,7 +3992,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4025,7 +4025,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4058,7 +4058,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4096,7 +4096,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4107,7 +4107,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4118,7 +4118,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4137,7 +4137,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4148,7 +4148,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4159,7 +4159,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4178,7 +4178,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4189,7 +4189,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4200,7 +4200,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4219,7 +4219,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4230,7 +4230,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4241,7 +4241,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4278,7 +4278,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}How the intent should be fulfilled, either by running a Lambda function or by
 returning the slot data to the client application.
@@ -4309,7 +4309,7 @@ Required if type is CodeHook. Attributes are documented under code_hook.
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}How the intent should be fulfilled, either by running a Lambda function or by
 returning the slot data to the client application.
@@ -4340,7 +4340,7 @@ Required if type is CodeHook. Attributes are documented under code_hook.
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}How the intent should be fulfilled, either by running a Lambda function or by
 returning the slot data to the client application.
@@ -4371,7 +4371,7 @@ Required if type is CodeHook. Attributes are documented under code_hook.
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}How the intent should be fulfilled, either by running a Lambda function or by
 returning the slot data to the client application.
@@ -4420,7 +4420,7 @@ Required if type is CodeHook. Attributes are documented under code_hook.
 <a href="#messageversion_csharp" style="color: inherit; text-decoration: inherit;">Message<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -4433,7 +4433,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_csharp" style="color: inherit; text-decoration: inherit;">Uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -4451,7 +4451,7 @@ to invoke your Lambda function. For more information, see
 <a href="#messageversion_go" style="color: inherit; text-decoration: inherit;">Message<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -4464,7 +4464,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_go" style="color: inherit; text-decoration: inherit;">Uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -4482,7 +4482,7 @@ to invoke your Lambda function. For more information, see
 <a href="#messageversion_nodejs" style="color: inherit; text-decoration: inherit;">message<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -4495,7 +4495,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_nodejs" style="color: inherit; text-decoration: inherit;">uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -4513,7 +4513,7 @@ to invoke your Lambda function. For more information, see
 <a href="#message_version_python" style="color: inherit; text-decoration: inherit;">message_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the request-response that you want Amazon Lex to use
 to invoke your Lambda function. For more information, see
@@ -4526,7 +4526,7 @@ to invoke your Lambda function. For more information, see
 <a href="#uri_python" style="color: inherit; text-decoration: inherit;">uri</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name (ARN) of the Lambda function.
 {{% /md %}}</dd>
@@ -4575,7 +4575,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4608,7 +4608,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4641,7 +4641,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4674,7 +4674,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4712,7 +4712,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4723,7 +4723,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4734,7 +4734,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4753,7 +4753,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4764,7 +4764,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4775,7 +4775,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4794,7 +4794,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4805,7 +4805,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4816,7 +4816,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4835,7 +4835,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -4846,7 +4846,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -4857,7 +4857,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -4894,7 +4894,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -4905,7 +4905,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#slotconstraint_csharp" style="color: inherit; text-decoration: inherit;">Slot<wbr>Constraint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether the slot is required or optional.
 {{% /md %}}</dd>
@@ -4916,7 +4916,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#slottype_csharp" style="color: inherit; text-decoration: inherit;">Slot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of the slot, either a custom slot type that you defined or one of
 the built-in slot types. Must be less than or equal to 100 characters in length.
@@ -4928,7 +4928,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -4939,7 +4939,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#priority_csharp" style="color: inherit; text-decoration: inherit;">Priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Directs Lex the order in which to elicit this slot value from the user.
 For example, if the intent has two slots with priorities 1 and 2, AWS Lex first elicits a value for
@@ -4953,7 +4953,7 @@ values is arbitrary. Must be between 1 and 100.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -4966,7 +4966,7 @@ slot values into the response card. For more information, see
 <a href="#sampleutterances_csharp" style="color: inherit; text-decoration: inherit;">Sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -4979,7 +4979,7 @@ is optional. In most cases, Amazon Lex is capable of understanding user utteranc
 <a href="#slottypeversion_csharp" style="color: inherit; text-decoration: inherit;">Slot<wbr>Type<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the slot type. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -5009,7 +5009,7 @@ from the user. Attributes are documented under prompt.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -5020,7 +5020,7 @@ from the user. Attributes are documented under prompt.
 <a href="#slotconstraint_go" style="color: inherit; text-decoration: inherit;">Slot<wbr>Constraint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether the slot is required or optional.
 {{% /md %}}</dd>
@@ -5031,7 +5031,7 @@ from the user. Attributes are documented under prompt.
 <a href="#slottype_go" style="color: inherit; text-decoration: inherit;">Slot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of the slot, either a custom slot type that you defined or one of
 the built-in slot types. Must be less than or equal to 100 characters in length.
@@ -5043,7 +5043,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -5054,7 +5054,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#priority_go" style="color: inherit; text-decoration: inherit;">Priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Directs Lex the order in which to elicit this slot value from the user.
 For example, if the intent has two slots with priorities 1 and 2, AWS Lex first elicits a value for
@@ -5068,7 +5068,7 @@ values is arbitrary. Must be between 1 and 100.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5081,7 +5081,7 @@ slot values into the response card. For more information, see
 <a href="#sampleutterances_go" style="color: inherit; text-decoration: inherit;">Sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -5094,7 +5094,7 @@ is optional. In most cases, Amazon Lex is capable of understanding user utteranc
 <a href="#slottypeversion_go" style="color: inherit; text-decoration: inherit;">Slot<wbr>Type<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the slot type. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -5124,7 +5124,7 @@ from the user. Attributes are documented under prompt.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -5135,7 +5135,7 @@ from the user. Attributes are documented under prompt.
 <a href="#slotconstraint_nodejs" style="color: inherit; text-decoration: inherit;">slot<wbr>Constraint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether the slot is required or optional.
 {{% /md %}}</dd>
@@ -5146,7 +5146,7 @@ from the user. Attributes are documented under prompt.
 <a href="#slottype_nodejs" style="color: inherit; text-decoration: inherit;">slot<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of the slot, either a custom slot type that you defined or one of
 the built-in slot types. Must be less than or equal to 100 characters in length.
@@ -5158,7 +5158,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -5169,7 +5169,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#priority_nodejs" style="color: inherit; text-decoration: inherit;">priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Directs Lex the order in which to elicit this slot value from the user.
 For example, if the intent has two slots with priorities 1 and 2, AWS Lex first elicits a value for
@@ -5183,7 +5183,7 @@ values is arbitrary. Must be between 1 and 100.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5196,7 +5196,7 @@ slot values into the response card. For more information, see
 <a href="#sampleutterances_nodejs" style="color: inherit; text-decoration: inherit;">sample<wbr>Utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -5209,7 +5209,7 @@ is optional. In most cases, Amazon Lex is capable of understanding user utteranc
 <a href="#slottypeversion_nodejs" style="color: inherit; text-decoration: inherit;">slot<wbr>Type<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the slot type. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -5239,7 +5239,7 @@ from the user. Attributes are documented under prompt.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the intent slot that you want to create. The name is case sensitive. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -5250,7 +5250,7 @@ from the user. Attributes are documented under prompt.
 <a href="#slot_constraint_python" style="color: inherit; text-decoration: inherit;">slot_<wbr>constraint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether the slot is required or optional.
 {{% /md %}}</dd>
@@ -5261,7 +5261,7 @@ from the user. Attributes are documented under prompt.
 <a href="#slot_type_python" style="color: inherit; text-decoration: inherit;">slot_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of the slot, either a custom slot type that you defined or one of
 the built-in slot types. Must be less than or equal to 100 characters in length.
@@ -5273,7 +5273,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -5284,7 +5284,7 @@ the built-in slot types. Must be less than or equal to 100 characters in length.
 <a href="#priority_python" style="color: inherit; text-decoration: inherit;">priority</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Directs Lex the order in which to elicit this slot value from the user.
 For example, if the intent has two slots with priorities 1 and 2, AWS Lex first elicits a value for
@@ -5298,7 +5298,7 @@ values is arbitrary. Must be between 1 and 100.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5311,7 +5311,7 @@ slot values into the response card. For more information, see
 <a href="#sample_utterances_python" style="color: inherit; text-decoration: inherit;">sample_<wbr>utterances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}If you know a specific pattern with which users might respond to
 an Amazon Lex request for a slot value, you can provide those utterances to improve accuracy. This
@@ -5324,7 +5324,7 @@ is optional. In most cases, Amazon Lex is capable of understanding user utteranc
 <a href="#slot_type_version_python" style="color: inherit; text-decoration: inherit;">slot_<wbr>type_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the slot type. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -5372,7 +5372,7 @@ from the user. Attributes are documented under prompt.
 <a href="#maxattempts_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -5396,7 +5396,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5416,7 +5416,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -5440,7 +5440,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5460,7 +5460,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -5484,7 +5484,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5504,7 +5504,7 @@ slot values into the response card. For more information, see
 <a href="#max_attempts_python" style="color: inherit; text-decoration: inherit;">max_<wbr>attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information. Must be a number between 1 and 5 (inclusive).
 {{% /md %}}</dd>
@@ -5528,7 +5528,7 @@ Attributes are documented under message. Must contain between 1 and 15 messages.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -5566,7 +5566,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -5577,7 +5577,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -5588,7 +5588,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -5607,7 +5607,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -5618,7 +5618,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -5629,7 +5629,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -5648,7 +5648,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -5659,7 +5659,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -5670,7 +5670,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).
@@ -5689,7 +5689,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message. Must be less than or equal to 1000 characters in length.
 {{% /md %}}</dd>
@@ -5700,7 +5700,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -5711,7 +5711,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response. Must be a number between 1 and 5 (inclusive).

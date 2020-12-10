@@ -139,7 +139,7 @@ const example = new aws.ec2.Ami("example", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#Ami">Ami</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#AmiArgs">AmiArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#Ami">Ami</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#AmiArgs">AmiArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -147,11 +147,11 @@ const example = new aws.ec2.Ami("example", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#Ami">NewAmi</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#AmiArgs">AmiArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#Ami">Ami</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#Ami">NewAmi</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#AmiArgs">AmiArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#Ami">Ami</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.Ami.html">Ami</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.AmiArgs.html">AmiArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.Ami.html">Ami</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.AmiArgs.html">AmiArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -162,7 +162,7 @@ const example = new aws.ec2.Ami("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -231,7 +231,7 @@ const example = new aws.ec2.Ami("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -270,7 +270,7 @@ const example = new aws.ec2.Ami("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -321,7 +321,7 @@ The Ami resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#architecture_csharp" style="color: inherit; text-decoration: inherit;">Architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -332,7 +332,7 @@ The Ami resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -355,7 +355,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#enasupport_csharp" style="color: inherit; text-decoration: inherit;">Ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -378,7 +378,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#imagelocation_csharp" style="color: inherit; text-decoration: inherit;">Image<wbr>Location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -390,7 +390,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#kernelid_csharp" style="color: inherit; text-decoration: inherit;">Kernel<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -402,7 +402,7 @@ kernel in created instances.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -413,7 +413,7 @@ kernel in created instances.
 <a href="#ramdiskid_csharp" style="color: inherit; text-decoration: inherit;">Ramdisk<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -425,7 +425,7 @@ created instances.
 <a href="#rootdevicename_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -436,7 +436,7 @@ created instances.
 <a href="#sriovnetsupport_csharp" style="color: inherit; text-decoration: inherit;">Sriov<wbr>Net<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -459,7 +459,7 @@ for created instances. No other value is supported at this time.
 <a href="#virtualizationtype_csharp" style="color: inherit; text-decoration: inherit;">Virtualization<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -479,7 +479,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#architecture_go" style="color: inherit; text-decoration: inherit;">Architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -490,7 +490,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -513,7 +513,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#enasupport_go" style="color: inherit; text-decoration: inherit;">Ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -536,7 +536,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#imagelocation_go" style="color: inherit; text-decoration: inherit;">Image<wbr>Location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -548,7 +548,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#kernelid_go" style="color: inherit; text-decoration: inherit;">Kernel<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -560,7 +560,7 @@ kernel in created instances.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -571,7 +571,7 @@ kernel in created instances.
 <a href="#ramdiskid_go" style="color: inherit; text-decoration: inherit;">Ramdisk<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -583,7 +583,7 @@ created instances.
 <a href="#rootdevicename_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -594,7 +594,7 @@ created instances.
 <a href="#sriovnetsupport_go" style="color: inherit; text-decoration: inherit;">Sriov<wbr>Net<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -617,7 +617,7 @@ for created instances. No other value is supported at this time.
 <a href="#virtualizationtype_go" style="color: inherit; text-decoration: inherit;">Virtualization<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -637,7 +637,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#architecture_nodejs" style="color: inherit; text-decoration: inherit;">architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -648,7 +648,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -671,7 +671,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#enasupport_nodejs" style="color: inherit; text-decoration: inherit;">ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -694,7 +694,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#imagelocation_nodejs" style="color: inherit; text-decoration: inherit;">image<wbr>Location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -706,7 +706,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#kernelid_nodejs" style="color: inherit; text-decoration: inherit;">kernel<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -718,7 +718,7 @@ kernel in created instances.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -729,7 +729,7 @@ kernel in created instances.
 <a href="#ramdiskid_nodejs" style="color: inherit; text-decoration: inherit;">ramdisk<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -741,7 +741,7 @@ created instances.
 <a href="#rootdevicename_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -752,7 +752,7 @@ created instances.
 <a href="#sriovnetsupport_nodejs" style="color: inherit; text-decoration: inherit;">sriov<wbr>Net<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -775,7 +775,7 @@ for created instances. No other value is supported at this time.
 <a href="#virtualizationtype_nodejs" style="color: inherit; text-decoration: inherit;">virtualization<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -795,7 +795,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#architecture_python" style="color: inherit; text-decoration: inherit;">architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -806,7 +806,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -829,7 +829,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#ena_support_python" style="color: inherit; text-decoration: inherit;">ena_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -852,7 +852,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#image_location_python" style="color: inherit; text-decoration: inherit;">image_<wbr>location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -864,7 +864,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#kernel_id_python" style="color: inherit; text-decoration: inherit;">kernel_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -876,7 +876,7 @@ kernel in created instances.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -887,7 +887,7 @@ kernel in created instances.
 <a href="#ramdisk_id_python" style="color: inherit; text-decoration: inherit;">ramdisk_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -899,7 +899,7 @@ created instances.
 <a href="#root_device_name_python" style="color: inherit; text-decoration: inherit;">root_<wbr>device_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -910,7 +910,7 @@ created instances.
 <a href="#sriov_net_support_python" style="color: inherit; text-decoration: inherit;">sriov_<wbr>net_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -933,7 +933,7 @@ for created instances. No other value is supported at this time.
 <a href="#virtualization_type_python" style="color: inherit; text-decoration: inherit;">virtualization_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -964,7 +964,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -975,7 +975,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -985,7 +985,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#manageebssnapshots_csharp" style="color: inherit; text-decoration: inherit;">Manage<wbr>Ebs<wbr>Snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -995,7 +995,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#rootsnapshotid_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1013,7 +1013,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1024,7 +1024,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1034,7 +1034,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#manageebssnapshots_go" style="color: inherit; text-decoration: inherit;">Manage<wbr>Ebs<wbr>Snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1044,7 +1044,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#rootsnapshotid_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1062,7 +1062,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1073,7 +1073,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1083,7 +1083,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#manageebssnapshots_nodejs" style="color: inherit; text-decoration: inherit;">manage<wbr>Ebs<wbr>Snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1093,7 +1093,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#rootsnapshotid_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1111,7 +1111,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1122,7 +1122,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1132,7 +1132,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#manage_ebs_snapshots_python" style="color: inherit; text-decoration: inherit;">manage_<wbr>ebs_<wbr>snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1142,7 +1142,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#root_snapshot_id_python" style="color: inherit; text-decoration: inherit;">root_<wbr>snapshot_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1162,7 +1162,7 @@ Get an existing Ami resource's state with the given name, ID, and optional extra
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#AmiState">AmiState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#Ami">Ami</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#AmiState">AmiState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/ec2/#Ami">Ami</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1171,11 +1171,11 @@ Get an existing Ami resource's state with the given name, ID, and optional extra
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAmi<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#AmiState">AmiState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#Ami">Ami</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAmi<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#AmiState">AmiState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/ec2?tab=doc#Ami">Ami</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.Ami.html">Ami</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.AmiState.html">AmiState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.Ami.html">Ami</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Ec2.AmiState.html">AmiState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1287,7 +1287,7 @@ The following state arguments are supported:
 <a href="#state_architecture_csharp" style="color: inherit; text-decoration: inherit;">Architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -1298,7 +1298,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1309,7 +1309,7 @@ The following state arguments are supported:
 <a href="#state_description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -1332,7 +1332,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#state_enasupport_csharp" style="color: inherit; text-decoration: inherit;">Ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1355,7 +1355,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#state_imagelocation_csharp" style="color: inherit; text-decoration: inherit;">Image<wbr>Location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -1367,7 +1367,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#state_kernelid_csharp" style="color: inherit; text-decoration: inherit;">Kernel<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -1379,7 +1379,7 @@ kernel in created instances.
 <a href="#state_manageebssnapshots_csharp" style="color: inherit; text-decoration: inherit;">Manage<wbr>Ebs<wbr>Snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1389,7 +1389,7 @@ kernel in created instances.
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -1400,7 +1400,7 @@ kernel in created instances.
 <a href="#state_ramdiskid_csharp" style="color: inherit; text-decoration: inherit;">Ramdisk<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -1412,7 +1412,7 @@ created instances.
 <a href="#state_rootdevicename_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -1423,7 +1423,7 @@ created instances.
 <a href="#state_rootsnapshotid_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1434,7 +1434,7 @@ created instances.
 <a href="#state_sriovnetsupport_csharp" style="color: inherit; text-decoration: inherit;">Sriov<wbr>Net<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -1457,7 +1457,7 @@ for created instances. No other value is supported at this time.
 <a href="#state_virtualizationtype_csharp" style="color: inherit; text-decoration: inherit;">Virtualization<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -1477,7 +1477,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_architecture_go" style="color: inherit; text-decoration: inherit;">Architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -1488,7 +1488,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1499,7 +1499,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -1522,7 +1522,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#state_enasupport_go" style="color: inherit; text-decoration: inherit;">Ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1545,7 +1545,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#state_imagelocation_go" style="color: inherit; text-decoration: inherit;">Image<wbr>Location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -1557,7 +1557,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#state_kernelid_go" style="color: inherit; text-decoration: inherit;">Kernel<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -1569,7 +1569,7 @@ kernel in created instances.
 <a href="#state_manageebssnapshots_go" style="color: inherit; text-decoration: inherit;">Manage<wbr>Ebs<wbr>Snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1579,7 +1579,7 @@ kernel in created instances.
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -1590,7 +1590,7 @@ kernel in created instances.
 <a href="#state_ramdiskid_go" style="color: inherit; text-decoration: inherit;">Ramdisk<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -1602,7 +1602,7 @@ created instances.
 <a href="#state_rootdevicename_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -1613,7 +1613,7 @@ created instances.
 <a href="#state_rootsnapshotid_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1624,7 +1624,7 @@ created instances.
 <a href="#state_sriovnetsupport_go" style="color: inherit; text-decoration: inherit;">Sriov<wbr>Net<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -1647,7 +1647,7 @@ for created instances. No other value is supported at this time.
 <a href="#state_virtualizationtype_go" style="color: inherit; text-decoration: inherit;">Virtualization<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -1667,7 +1667,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_architecture_nodejs" style="color: inherit; text-decoration: inherit;">architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -1678,7 +1678,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1689,7 +1689,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -1712,7 +1712,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#state_enasupport_nodejs" style="color: inherit; text-decoration: inherit;">ena<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1735,7 +1735,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#state_imagelocation_nodejs" style="color: inherit; text-decoration: inherit;">image<wbr>Location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -1747,7 +1747,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#state_kernelid_nodejs" style="color: inherit; text-decoration: inherit;">kernel<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -1759,7 +1759,7 @@ kernel in created instances.
 <a href="#state_manageebssnapshots_nodejs" style="color: inherit; text-decoration: inherit;">manage<wbr>Ebs<wbr>Snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1769,7 +1769,7 @@ kernel in created instances.
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -1780,7 +1780,7 @@ kernel in created instances.
 <a href="#state_ramdiskid_nodejs" style="color: inherit; text-decoration: inherit;">ramdisk<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -1792,7 +1792,7 @@ created instances.
 <a href="#state_rootdevicename_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -1803,7 +1803,7 @@ created instances.
 <a href="#state_rootsnapshotid_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -1814,7 +1814,7 @@ created instances.
 <a href="#state_sriovnetsupport_nodejs" style="color: inherit; text-decoration: inherit;">sriov<wbr>Net<wbr>Support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -1837,7 +1837,7 @@ for created instances. No other value is supported at this time.
 <a href="#state_virtualizationtype_nodejs" style="color: inherit; text-decoration: inherit;">virtualization<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -1857,7 +1857,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_architecture_python" style="color: inherit; text-decoration: inherit;">architecture</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Machine architecture for created instances. Defaults to "x86_64".
 {{% /md %}}</dd>
@@ -1868,7 +1868,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the AMI.
 {{% /md %}}</dd>
@@ -1879,7 +1879,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#state_description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A longer, human-readable description for the AMI.
 {{% /md %}}</dd>
@@ -1902,7 +1902,7 @@ attached to created instances. The structure of this block is described below.
 <a href="#state_ena_support_python" style="color: inherit; text-decoration: inherit;">ena_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether enhanced networking with ENA is enabled. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1925,7 +1925,7 @@ should be attached to created instances. The structure of this block is describe
 <a href="#state_image_location_python" style="color: inherit; text-decoration: inherit;">image_<wbr>location</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Path to an S3 object containing an image manifest, e.g. created
 by the `ec2-upload-bundle` command in the EC2 command line tools.
@@ -1937,7 +1937,7 @@ by the `ec2-upload-bundle` command in the EC2 command line tools.
 <a href="#state_kernel_id_python" style="color: inherit; text-decoration: inherit;">kernel_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of the kernel image (AKI) that will be used as the paravirtual
 kernel in created instances.
@@ -1949,7 +1949,7 @@ kernel in created instances.
 <a href="#state_manage_ebs_snapshots_python" style="color: inherit; text-decoration: inherit;">manage_<wbr>ebs_<wbr>snapshots</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1959,7 +1959,7 @@ kernel in created instances.
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A region-unique name for the AMI.
 {{% /md %}}</dd>
@@ -1970,7 +1970,7 @@ kernel in created instances.
 <a href="#state_ramdisk_id_python" style="color: inherit; text-decoration: inherit;">ramdisk_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of an initrd image (ARI) that will be used when booting the
 created instances.
@@ -1982,7 +1982,7 @@ created instances.
 <a href="#state_root_device_name_python" style="color: inherit; text-decoration: inherit;">root_<wbr>device_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the root device (for example, `/dev/sda1`, or `/dev/xvda`).
 {{% /md %}}</dd>
@@ -1993,7 +1993,7 @@ created instances.
 <a href="#state_root_snapshot_id_python" style="color: inherit; text-decoration: inherit;">root_<wbr>snapshot_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Snapshot ID for the root volume (for EBS-backed AMIs)
 {{% /md %}}</dd>
@@ -2004,7 +2004,7 @@ created instances.
 <a href="#state_sriov_net_support_python" style="color: inherit; text-decoration: inherit;">sriov_<wbr>net_<wbr>support</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}When set to "simple" (the default), enables enhanced networking
 for created instances. No other value is supported at this time.
@@ -2027,7 +2027,7 @@ for created instances. No other value is supported at this time.
 <a href="#state_virtualization_type_python" style="color: inherit; text-decoration: inherit;">virtualization_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Keyword to choose what virtualization mode created instances
 will use. Can be either "paravirtual" (the default) or "hvm". The choice of virtualization type
@@ -2073,7 +2073,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#devicename_csharp" style="color: inherit; text-decoration: inherit;">Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2084,7 +2084,7 @@ changes the set of further arguments that are required, as described below.
 <a href="#deleteontermination_csharp" style="color: inherit; text-decoration: inherit;">Delete<wbr>On<wbr>Termination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the EBS volumes created to
 support each created instance will be deleted once that instance is terminated.
@@ -2096,7 +2096,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#encrypted_csharp" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the created EBS volumes will be encrypted. Can't be used with `snapshot_id`.
 {{% /md %}}</dd>
@@ -2107,7 +2107,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#iops_csharp" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Number of I/O operations per second the
 created volumes will support.
@@ -2119,7 +2119,7 @@ created volumes will support.
 <a href="#snapshotid_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an EBS snapshot that will be used to initialize the created
 EBS volumes. If set, the `volume_size` attribute must be at least as large as the referenced
@@ -2132,7 +2132,7 @@ snapshot.
 <a href="#volumesize_csharp" style="color: inherit; text-decoration: inherit;">Volume<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The size of created volumes in GiB.
 If `snapshot_id` is set and `volume_size` is omitted then the volume will have the same size
@@ -2145,7 +2145,7 @@ as the selected snapshot.
 <a href="#volumetype_csharp" style="color: inherit; text-decoration: inherit;">Volume<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of EBS volume to create. Can be one of "standard" (the
 default), "io1", "io2" or "gp2".
@@ -2164,7 +2164,7 @@ default), "io1", "io2" or "gp2".
 <a href="#devicename_go" style="color: inherit; text-decoration: inherit;">Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2175,7 +2175,7 @@ default), "io1", "io2" or "gp2".
 <a href="#deleteontermination_go" style="color: inherit; text-decoration: inherit;">Delete<wbr>On<wbr>Termination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the EBS volumes created to
 support each created instance will be deleted once that instance is terminated.
@@ -2187,7 +2187,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#encrypted_go" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the created EBS volumes will be encrypted. Can't be used with `snapshot_id`.
 {{% /md %}}</dd>
@@ -2198,7 +2198,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#iops_go" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Number of I/O operations per second the
 created volumes will support.
@@ -2210,7 +2210,7 @@ created volumes will support.
 <a href="#snapshotid_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an EBS snapshot that will be used to initialize the created
 EBS volumes. If set, the `volume_size` attribute must be at least as large as the referenced
@@ -2223,7 +2223,7 @@ snapshot.
 <a href="#volumesize_go" style="color: inherit; text-decoration: inherit;">Volume<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The size of created volumes in GiB.
 If `snapshot_id` is set and `volume_size` is omitted then the volume will have the same size
@@ -2236,7 +2236,7 @@ as the selected snapshot.
 <a href="#volumetype_go" style="color: inherit; text-decoration: inherit;">Volume<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of EBS volume to create. Can be one of "standard" (the
 default), "io1", "io2" or "gp2".
@@ -2255,7 +2255,7 @@ default), "io1", "io2" or "gp2".
 <a href="#devicename_nodejs" style="color: inherit; text-decoration: inherit;">device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2266,7 +2266,7 @@ default), "io1", "io2" or "gp2".
 <a href="#deleteontermination_nodejs" style="color: inherit; text-decoration: inherit;">delete<wbr>On<wbr>Termination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the EBS volumes created to
 support each created instance will be deleted once that instance is terminated.
@@ -2278,7 +2278,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#encrypted_nodejs" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the created EBS volumes will be encrypted. Can't be used with `snapshot_id`.
 {{% /md %}}</dd>
@@ -2289,7 +2289,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#iops_nodejs" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Number of I/O operations per second the
 created volumes will support.
@@ -2301,7 +2301,7 @@ created volumes will support.
 <a href="#snapshotid_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of an EBS snapshot that will be used to initialize the created
 EBS volumes. If set, the `volume_size` attribute must be at least as large as the referenced
@@ -2314,7 +2314,7 @@ snapshot.
 <a href="#volumesize_nodejs" style="color: inherit; text-decoration: inherit;">volume<wbr>Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The size of created volumes in GiB.
 If `snapshot_id` is set and `volume_size` is omitted then the volume will have the same size
@@ -2327,7 +2327,7 @@ as the selected snapshot.
 <a href="#volumetype_nodejs" style="color: inherit; text-decoration: inherit;">volume<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of EBS volume to create. Can be one of "standard" (the
 default), "io1", "io2" or "gp2".
@@ -2346,7 +2346,7 @@ default), "io1", "io2" or "gp2".
 <a href="#device_name_python" style="color: inherit; text-decoration: inherit;">device_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2357,7 +2357,7 @@ default), "io1", "io2" or "gp2".
 <a href="#delete_on_termination_python" style="color: inherit; text-decoration: inherit;">delete_<wbr>on_<wbr>termination</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the EBS volumes created to
 support each created instance will be deleted once that instance is terminated.
@@ -2369,7 +2369,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#encrypted_python" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean controlling whether the created EBS volumes will be encrypted. Can't be used with `snapshot_id`.
 {{% /md %}}</dd>
@@ -2380,7 +2380,7 @@ support each created instance will be deleted once that instance is terminated.
 <a href="#iops_python" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Number of I/O operations per second the
 created volumes will support.
@@ -2392,7 +2392,7 @@ created volumes will support.
 <a href="#snapshot_id_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of an EBS snapshot that will be used to initialize the created
 EBS volumes. If set, the `volume_size` attribute must be at least as large as the referenced
@@ -2405,7 +2405,7 @@ snapshot.
 <a href="#volume_size_python" style="color: inherit; text-decoration: inherit;">volume_<wbr>size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The size of created volumes in GiB.
 If `snapshot_id` is set and `volume_size` is omitted then the volume will have the same size
@@ -2418,7 +2418,7 @@ as the selected snapshot.
 <a href="#volume_type_python" style="color: inherit; text-decoration: inherit;">volume_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of EBS volume to create. Can be one of "standard" (the
 default), "io1", "io2" or "gp2".
@@ -2455,7 +2455,7 @@ default), "io1", "io2" or "gp2".
 <a href="#devicename_csharp" style="color: inherit; text-decoration: inherit;">Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2466,7 +2466,7 @@ default), "io1", "io2" or "gp2".
 <a href="#virtualname_csharp" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the ephemeral device, of the form "ephemeralN" where
 *N* is a volume number starting from zero.
@@ -2485,7 +2485,7 @@ default), "io1", "io2" or "gp2".
 <a href="#devicename_go" style="color: inherit; text-decoration: inherit;">Device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2496,7 +2496,7 @@ default), "io1", "io2" or "gp2".
 <a href="#virtualname_go" style="color: inherit; text-decoration: inherit;">Virtual<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the ephemeral device, of the form "ephemeralN" where
 *N* is a volume number starting from zero.
@@ -2515,7 +2515,7 @@ default), "io1", "io2" or "gp2".
 <a href="#devicename_nodejs" style="color: inherit; text-decoration: inherit;">device<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2526,7 +2526,7 @@ default), "io1", "io2" or "gp2".
 <a href="#virtualname_nodejs" style="color: inherit; text-decoration: inherit;">virtual<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A name for the ephemeral device, of the form "ephemeralN" where
 *N* is a volume number starting from zero.
@@ -2545,7 +2545,7 @@ default), "io1", "io2" or "gp2".
 <a href="#device_name_python" style="color: inherit; text-decoration: inherit;">device_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path at which the device is exposed to created instances.
 {{% /md %}}</dd>
@@ -2556,7 +2556,7 @@ default), "io1", "io2" or "gp2".
 <a href="#virtual_name_python" style="color: inherit; text-decoration: inherit;">virtual_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A name for the ephemeral device, of the form "ephemeralN" where
 *N* is a volume number starting from zero.

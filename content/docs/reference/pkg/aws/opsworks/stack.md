@@ -135,7 +135,7 @@ const main = new aws.opsworks.Stack("main", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#Stack">Stack</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#StackArgs">StackArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#Stack">Stack</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#StackArgs">StackArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -143,11 +143,11 @@ const main = new aws.opsworks.Stack("main", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#Stack">NewStack</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#StackArgs">StackArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#Stack">Stack</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#Stack">NewStack</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#StackArgs">StackArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#Stack">Stack</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.Stack.html">Stack</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.StackArgs.html">StackArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.Stack.html">Stack</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.StackArgs.html">StackArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -158,7 +158,7 @@ const main = new aws.opsworks.Stack("main", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -227,7 +227,7 @@ const main = new aws.opsworks.Stack("main", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -266,7 +266,7 @@ const main = new aws.opsworks.Stack("main", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -317,7 +317,7 @@ The Stack resource accepts the following [input]({{< relref "/docs/intro/concept
 <a href="#defaultinstanceprofilearn_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -329,7 +329,7 @@ will have by default.
 <a href="#region_csharp" style="color: inherit; text-decoration: inherit;">Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -340,7 +340,7 @@ will have by default.
 <a href="#servicerolearn_csharp" style="color: inherit; text-decoration: inherit;">Service<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -351,7 +351,7 @@ will have by default.
 <a href="#agentversion_csharp" style="color: inherit; text-decoration: inherit;">Agent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -362,7 +362,7 @@ will have by default.
 <a href="#berkshelfversion_csharp" style="color: inherit; text-decoration: inherit;">Berkshelf<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -373,7 +373,7 @@ will have by default.
 <a href="#color_csharp" style="color: inherit; text-decoration: inherit;">Color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -384,7 +384,7 @@ will have by default.
 <a href="#configurationmanagername_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -395,7 +395,7 @@ will have by default.
 <a href="#configurationmanagerversion_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -418,7 +418,7 @@ described below.
 <a href="#customjson_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -429,7 +429,7 @@ described below.
 <a href="#defaultavailabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -441,7 +441,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultos_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -452,7 +452,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultrootdevicetype_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Device<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -463,7 +463,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultsshkeyname_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Ssh<wbr>Key<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -474,7 +474,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultsubnetid_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -486,7 +486,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#hostnametheme_csharp" style="color: inherit; text-decoration: inherit;">Hostname<wbr>Theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -498,7 +498,7 @@ within this stack.
 <a href="#manageberkshelf_csharp" style="color: inherit; text-decoration: inherit;">Manage<wbr>Berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -509,7 +509,7 @@ within this stack.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -531,7 +531,7 @@ within this stack.
 <a href="#usecustomcookbooks_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Custom<wbr>Cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -543,7 +543,7 @@ enabled.
 <a href="#useopsworkssecuritygroups_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Opsworks<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -555,7 +555,7 @@ security groups apply to created instances.
 <a href="#vpcid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -573,7 +573,7 @@ security groups apply to created instances.
 <a href="#defaultinstanceprofilearn_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -585,7 +585,7 @@ will have by default.
 <a href="#region_go" style="color: inherit; text-decoration: inherit;">Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -596,7 +596,7 @@ will have by default.
 <a href="#servicerolearn_go" style="color: inherit; text-decoration: inherit;">Service<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -607,7 +607,7 @@ will have by default.
 <a href="#agentversion_go" style="color: inherit; text-decoration: inherit;">Agent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -618,7 +618,7 @@ will have by default.
 <a href="#berkshelfversion_go" style="color: inherit; text-decoration: inherit;">Berkshelf<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -629,7 +629,7 @@ will have by default.
 <a href="#color_go" style="color: inherit; text-decoration: inherit;">Color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -640,7 +640,7 @@ will have by default.
 <a href="#configurationmanagername_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -651,7 +651,7 @@ will have by default.
 <a href="#configurationmanagerversion_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -674,7 +674,7 @@ described below.
 <a href="#customjson_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -685,7 +685,7 @@ described below.
 <a href="#defaultavailabilityzone_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -697,7 +697,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultos_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -708,7 +708,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultrootdevicetype_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Device<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -719,7 +719,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultsshkeyname_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Ssh<wbr>Key<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -730,7 +730,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultsubnetid_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -742,7 +742,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#hostnametheme_go" style="color: inherit; text-decoration: inherit;">Hostname<wbr>Theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -754,7 +754,7 @@ within this stack.
 <a href="#manageberkshelf_go" style="color: inherit; text-decoration: inherit;">Manage<wbr>Berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -765,7 +765,7 @@ within this stack.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -787,7 +787,7 @@ within this stack.
 <a href="#usecustomcookbooks_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Custom<wbr>Cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -799,7 +799,7 @@ enabled.
 <a href="#useopsworkssecuritygroups_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Opsworks<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -811,7 +811,7 @@ security groups apply to created instances.
 <a href="#vpcid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -829,7 +829,7 @@ security groups apply to created instances.
 <a href="#defaultinstanceprofilearn_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -841,7 +841,7 @@ will have by default.
 <a href="#region_nodejs" style="color: inherit; text-decoration: inherit;">region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -852,7 +852,7 @@ will have by default.
 <a href="#servicerolearn_nodejs" style="color: inherit; text-decoration: inherit;">service<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -863,7 +863,7 @@ will have by default.
 <a href="#agentversion_nodejs" style="color: inherit; text-decoration: inherit;">agent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -874,7 +874,7 @@ will have by default.
 <a href="#berkshelfversion_nodejs" style="color: inherit; text-decoration: inherit;">berkshelf<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -885,7 +885,7 @@ will have by default.
 <a href="#color_nodejs" style="color: inherit; text-decoration: inherit;">color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -896,7 +896,7 @@ will have by default.
 <a href="#configurationmanagername_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Manager<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -907,7 +907,7 @@ will have by default.
 <a href="#configurationmanagerversion_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Manager<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -930,7 +930,7 @@ described below.
 <a href="#customjson_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -941,7 +941,7 @@ described below.
 <a href="#defaultavailabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -953,7 +953,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultos_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -964,7 +964,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultrootdevicetype_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Root<wbr>Device<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -975,7 +975,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultsshkeyname_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Ssh<wbr>Key<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -986,7 +986,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#defaultsubnetid_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -998,7 +998,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#hostnametheme_nodejs" style="color: inherit; text-decoration: inherit;">hostname<wbr>Theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -1010,7 +1010,7 @@ within this stack.
 <a href="#manageberkshelf_nodejs" style="color: inherit; text-decoration: inherit;">manage<wbr>Berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -1021,7 +1021,7 @@ within this stack.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -1043,7 +1043,7 @@ within this stack.
 <a href="#usecustomcookbooks_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Custom<wbr>Cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -1055,7 +1055,7 @@ enabled.
 <a href="#useopsworkssecuritygroups_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Opsworks<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -1067,7 +1067,7 @@ security groups apply to created instances.
 <a href="#vpcid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -1085,7 +1085,7 @@ security groups apply to created instances.
 <a href="#default_instance_profile_arn_python" style="color: inherit; text-decoration: inherit;">default_<wbr>instance_<wbr>profile_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -1097,7 +1097,7 @@ will have by default.
 <a href="#region_python" style="color: inherit; text-decoration: inherit;">region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -1108,7 +1108,7 @@ will have by default.
 <a href="#service_role_arn_python" style="color: inherit; text-decoration: inherit;">service_<wbr>role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -1119,7 +1119,7 @@ will have by default.
 <a href="#agent_version_python" style="color: inherit; text-decoration: inherit;">agent_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -1130,7 +1130,7 @@ will have by default.
 <a href="#berkshelf_version_python" style="color: inherit; text-decoration: inherit;">berkshelf_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -1141,7 +1141,7 @@ will have by default.
 <a href="#color_python" style="color: inherit; text-decoration: inherit;">color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -1152,7 +1152,7 @@ will have by default.
 <a href="#configuration_manager_name_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>manager_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -1163,7 +1163,7 @@ will have by default.
 <a href="#configuration_manager_version_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>manager_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -1186,7 +1186,7 @@ described below.
 <a href="#custom_json_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -1197,7 +1197,7 @@ described below.
 <a href="#default_availability_zone_python" style="color: inherit; text-decoration: inherit;">default_<wbr>availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -1209,7 +1209,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#default_os_python" style="color: inherit; text-decoration: inherit;">default_<wbr>os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -1220,7 +1220,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#default_root_device_type_python" style="color: inherit; text-decoration: inherit;">default_<wbr>root_<wbr>device_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -1231,7 +1231,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#default_ssh_key_name_python" style="color: inherit; text-decoration: inherit;">default_<wbr>ssh_<wbr>key_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -1242,7 +1242,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#default_subnet_id_python" style="color: inherit; text-decoration: inherit;">default_<wbr>subnet_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -1254,7 +1254,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#hostname_theme_python" style="color: inherit; text-decoration: inherit;">hostname_<wbr>theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -1266,7 +1266,7 @@ within this stack.
 <a href="#manage_berkshelf_python" style="color: inherit; text-decoration: inherit;">manage_<wbr>berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -1277,7 +1277,7 @@ within this stack.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -1299,7 +1299,7 @@ within this stack.
 <a href="#use_custom_cookbooks_python" style="color: inherit; text-decoration: inherit;">use_<wbr>custom_<wbr>cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -1311,7 +1311,7 @@ enabled.
 <a href="#use_opsworks_security_groups_python" style="color: inherit; text-decoration: inherit;">use_<wbr>opsworks_<wbr>security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -1323,7 +1323,7 @@ security groups apply to created instances.
 <a href="#vpc_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -1352,7 +1352,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1362,7 +1362,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1372,7 +1372,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#stackendpoint_csharp" style="color: inherit; text-decoration: inherit;">Stack<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1389,7 +1389,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1399,7 +1399,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1409,7 +1409,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#stackendpoint_go" style="color: inherit; text-decoration: inherit;">Stack<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1426,7 +1426,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1436,7 +1436,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1446,7 +1446,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#stackendpoint_nodejs" style="color: inherit; text-decoration: inherit;">stack<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1463,7 +1463,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1473,7 +1473,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1483,7 +1483,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#stack_endpoint_python" style="color: inherit; text-decoration: inherit;">stack_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1502,7 +1502,7 @@ Get an existing Stack resource's state with the given name, ID, and optional ext
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#StackState">StackState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#Stack">Stack</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#StackState">StackState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#Stack">Stack</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1511,11 +1511,11 @@ Get an existing Stack resource's state with the given name, ID, and optional ext
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetStack<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#StackState">StackState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#Stack">Stack</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetStack<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#StackState">StackState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#Stack">Stack</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.Stack.html">Stack</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.StackState.html">StackState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.Stack.html">Stack</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.StackState.html">StackState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1627,7 +1627,7 @@ The following state arguments are supported:
 <a href="#state_agentversion_csharp" style="color: inherit; text-decoration: inherit;">Agent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -1638,7 +1638,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1648,7 +1648,7 @@ The following state arguments are supported:
 <a href="#state_berkshelfversion_csharp" style="color: inherit; text-decoration: inherit;">Berkshelf<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -1659,7 +1659,7 @@ The following state arguments are supported:
 <a href="#state_color_csharp" style="color: inherit; text-decoration: inherit;">Color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -1670,7 +1670,7 @@ The following state arguments are supported:
 <a href="#state_configurationmanagername_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -1681,7 +1681,7 @@ The following state arguments are supported:
 <a href="#state_configurationmanagerversion_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -1704,7 +1704,7 @@ described below.
 <a href="#state_customjson_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -1715,7 +1715,7 @@ described below.
 <a href="#state_defaultavailabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -1727,7 +1727,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#state_defaultinstanceprofilearn_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -1739,7 +1739,7 @@ will have by default.
 <a href="#state_defaultos_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -1750,7 +1750,7 @@ will have by default.
 <a href="#state_defaultrootdevicetype_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Device<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -1761,7 +1761,7 @@ will have by default.
 <a href="#state_defaultsshkeyname_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Ssh<wbr>Key<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -1772,7 +1772,7 @@ will have by default.
 <a href="#state_defaultsubnetid_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -1784,7 +1784,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#state_hostnametheme_csharp" style="color: inherit; text-decoration: inherit;">Hostname<wbr>Theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -1796,7 +1796,7 @@ within this stack.
 <a href="#state_manageberkshelf_csharp" style="color: inherit; text-decoration: inherit;">Manage<wbr>Berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -1807,7 +1807,7 @@ within this stack.
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -1818,7 +1818,7 @@ within this stack.
 <a href="#state_region_csharp" style="color: inherit; text-decoration: inherit;">Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -1829,7 +1829,7 @@ within this stack.
 <a href="#state_servicerolearn_csharp" style="color: inherit; text-decoration: inherit;">Service<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -1840,7 +1840,7 @@ within this stack.
 <a href="#state_stackendpoint_csharp" style="color: inherit; text-decoration: inherit;">Stack<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1861,7 +1861,7 @@ within this stack.
 <a href="#state_usecustomcookbooks_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Custom<wbr>Cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -1873,7 +1873,7 @@ enabled.
 <a href="#state_useopsworkssecuritygroups_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Opsworks<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -1885,7 +1885,7 @@ security groups apply to created instances.
 <a href="#state_vpcid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -1903,7 +1903,7 @@ security groups apply to created instances.
 <a href="#state_agentversion_go" style="color: inherit; text-decoration: inherit;">Agent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -1914,7 +1914,7 @@ security groups apply to created instances.
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1924,7 +1924,7 @@ security groups apply to created instances.
 <a href="#state_berkshelfversion_go" style="color: inherit; text-decoration: inherit;">Berkshelf<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -1935,7 +1935,7 @@ security groups apply to created instances.
 <a href="#state_color_go" style="color: inherit; text-decoration: inherit;">Color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -1946,7 +1946,7 @@ security groups apply to created instances.
 <a href="#state_configurationmanagername_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -1957,7 +1957,7 @@ security groups apply to created instances.
 <a href="#state_configurationmanagerversion_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Manager<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -1980,7 +1980,7 @@ described below.
 <a href="#state_customjson_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -1991,7 +1991,7 @@ described below.
 <a href="#state_defaultavailabilityzone_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -2003,7 +2003,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#state_defaultinstanceprofilearn_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -2015,7 +2015,7 @@ will have by default.
 <a href="#state_defaultos_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -2026,7 +2026,7 @@ will have by default.
 <a href="#state_defaultrootdevicetype_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Device<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -2037,7 +2037,7 @@ will have by default.
 <a href="#state_defaultsshkeyname_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Ssh<wbr>Key<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -2048,7 +2048,7 @@ will have by default.
 <a href="#state_defaultsubnetid_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -2060,7 +2060,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#state_hostnametheme_go" style="color: inherit; text-decoration: inherit;">Hostname<wbr>Theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -2072,7 +2072,7 @@ within this stack.
 <a href="#state_manageberkshelf_go" style="color: inherit; text-decoration: inherit;">Manage<wbr>Berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -2083,7 +2083,7 @@ within this stack.
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -2094,7 +2094,7 @@ within this stack.
 <a href="#state_region_go" style="color: inherit; text-decoration: inherit;">Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -2105,7 +2105,7 @@ within this stack.
 <a href="#state_servicerolearn_go" style="color: inherit; text-decoration: inherit;">Service<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -2116,7 +2116,7 @@ within this stack.
 <a href="#state_stackendpoint_go" style="color: inherit; text-decoration: inherit;">Stack<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2137,7 +2137,7 @@ within this stack.
 <a href="#state_usecustomcookbooks_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Custom<wbr>Cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -2149,7 +2149,7 @@ enabled.
 <a href="#state_useopsworkssecuritygroups_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Opsworks<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -2161,7 +2161,7 @@ security groups apply to created instances.
 <a href="#state_vpcid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -2179,7 +2179,7 @@ security groups apply to created instances.
 <a href="#state_agentversion_nodejs" style="color: inherit; text-decoration: inherit;">agent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -2190,7 +2190,7 @@ security groups apply to created instances.
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2200,7 +2200,7 @@ security groups apply to created instances.
 <a href="#state_berkshelfversion_nodejs" style="color: inherit; text-decoration: inherit;">berkshelf<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -2211,7 +2211,7 @@ security groups apply to created instances.
 <a href="#state_color_nodejs" style="color: inherit; text-decoration: inherit;">color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -2222,7 +2222,7 @@ security groups apply to created instances.
 <a href="#state_configurationmanagername_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Manager<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -2233,7 +2233,7 @@ security groups apply to created instances.
 <a href="#state_configurationmanagerversion_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Manager<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -2256,7 +2256,7 @@ described below.
 <a href="#state_customjson_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -2267,7 +2267,7 @@ described below.
 <a href="#state_defaultavailabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -2279,7 +2279,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#state_defaultinstanceprofilearn_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -2291,7 +2291,7 @@ will have by default.
 <a href="#state_defaultos_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -2302,7 +2302,7 @@ will have by default.
 <a href="#state_defaultrootdevicetype_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Root<wbr>Device<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -2313,7 +2313,7 @@ will have by default.
 <a href="#state_defaultsshkeyname_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Ssh<wbr>Key<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -2324,7 +2324,7 @@ will have by default.
 <a href="#state_defaultsubnetid_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Subnet<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -2336,7 +2336,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#state_hostnametheme_nodejs" style="color: inherit; text-decoration: inherit;">hostname<wbr>Theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -2348,7 +2348,7 @@ within this stack.
 <a href="#state_manageberkshelf_nodejs" style="color: inherit; text-decoration: inherit;">manage<wbr>Berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -2359,7 +2359,7 @@ within this stack.
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -2370,7 +2370,7 @@ within this stack.
 <a href="#state_region_nodejs" style="color: inherit; text-decoration: inherit;">region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -2381,7 +2381,7 @@ within this stack.
 <a href="#state_servicerolearn_nodejs" style="color: inherit; text-decoration: inherit;">service<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -2392,7 +2392,7 @@ within this stack.
 <a href="#state_stackendpoint_nodejs" style="color: inherit; text-decoration: inherit;">stack<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2413,7 +2413,7 @@ within this stack.
 <a href="#state_usecustomcookbooks_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Custom<wbr>Cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -2425,7 +2425,7 @@ enabled.
 <a href="#state_useopsworkssecuritygroups_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Opsworks<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -2437,7 +2437,7 @@ security groups apply to created instances.
 <a href="#state_vpcid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -2455,7 +2455,7 @@ security groups apply to created instances.
 <a href="#state_agent_version_python" style="color: inherit; text-decoration: inherit;">agent_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If set to `"LATEST"`, OpsWorks will automatically install the latest version.
 {{% /md %}}</dd>
@@ -2466,7 +2466,7 @@ security groups apply to created instances.
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2476,7 +2476,7 @@ security groups apply to created instances.
 <a href="#state_berkshelf_version_python" style="color: inherit; text-decoration: inherit;">berkshelf_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If `manage_berkshelf` is enabled, the version of Berkshelf to use.
 {{% /md %}}</dd>
@@ -2487,7 +2487,7 @@ security groups apply to created instances.
 <a href="#state_color_python" style="color: inherit; text-decoration: inherit;">color</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Color to paint next to the stack's resources in the OpsWorks console.
 {{% /md %}}</dd>
@@ -2498,7 +2498,7 @@ security groups apply to created instances.
 <a href="#state_configuration_manager_name_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>manager_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the configuration manager to use. Defaults to "Chef".
 {{% /md %}}</dd>
@@ -2509,7 +2509,7 @@ security groups apply to created instances.
 <a href="#state_configuration_manager_version_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>manager_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Version of the configuration manager to use. Defaults to "11.4".
 {{% /md %}}</dd>
@@ -2532,7 +2532,7 @@ described below.
 <a href="#state_custom_json_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the entire stack.
 {{% /md %}}</dd>
@@ -2543,7 +2543,7 @@ described below.
 <a href="#state_default_availability_zone_python" style="color: inherit; text-decoration: inherit;">default_<wbr>availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the availability zone where instances will be created
 by default. This is required unless you set `vpc_id`.
@@ -2555,7 +2555,7 @@ by default. This is required unless you set `vpc_id`.
 <a href="#state_default_instance_profile_arn_python" style="color: inherit; text-decoration: inherit;">default_<wbr>instance_<wbr>profile_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM Instance Profile that created instances
 will have by default.
@@ -2567,7 +2567,7 @@ will have by default.
 <a href="#state_default_os_python" style="color: inherit; text-decoration: inherit;">default_<wbr>os</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of OS that will be installed on instances by default.
 {{% /md %}}</dd>
@@ -2578,7 +2578,7 @@ will have by default.
 <a href="#state_default_root_device_type_python" style="color: inherit; text-decoration: inherit;">default_<wbr>root_<wbr>device_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the type of root device instances will have by default.
 {{% /md %}}</dd>
@@ -2589,7 +2589,7 @@ will have by default.
 <a href="#state_default_ssh_key_name_python" style="color: inherit; text-decoration: inherit;">default_<wbr>ssh_<wbr>key_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the SSH keypair that instances will have by default.
 {{% /md %}}</dd>
@@ -2600,7 +2600,7 @@ will have by default.
 <a href="#state_default_subnet_id_python" style="color: inherit; text-decoration: inherit;">default_<wbr>subnet_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Id of the subnet in which instances will be created by default. Mandatory
 if `vpc_id` is set, and forbidden if it isn't.
@@ -2612,7 +2612,7 @@ if `vpc_id` is set, and forbidden if it isn't.
 <a href="#state_hostname_theme_python" style="color: inherit; text-decoration: inherit;">hostname_<wbr>theme</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Keyword representing the naming scheme that will be used for instance hostnames
 within this stack.
@@ -2624,7 +2624,7 @@ within this stack.
 <a href="#state_manage_berkshelf_python" style="color: inherit; text-decoration: inherit;">manage_<wbr>berkshelf</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether Opsworks will run Berkshelf for this stack.
 {{% /md %}}</dd>
@@ -2635,7 +2635,7 @@ within this stack.
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the stack.
 {{% /md %}}</dd>
@@ -2646,7 +2646,7 @@ within this stack.
 <a href="#state_region_python" style="color: inherit; text-decoration: inherit;">region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the region where the stack will exist.
 {{% /md %}}</dd>
@@ -2657,7 +2657,7 @@ within this stack.
 <a href="#state_service_role_arn_python" style="color: inherit; text-decoration: inherit;">service_<wbr>role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM role that the OpsWorks service will act as.
 {{% /md %}}</dd>
@@ -2668,7 +2668,7 @@ within this stack.
 <a href="#state_stack_endpoint_python" style="color: inherit; text-decoration: inherit;">stack_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2689,7 +2689,7 @@ within this stack.
 <a href="#state_use_custom_cookbooks_python" style="color: inherit; text-decoration: inherit;">use_<wbr>custom_<wbr>cookbooks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the custom cookbook settings are
 enabled.
@@ -2701,7 +2701,7 @@ enabled.
 <a href="#state_use_opsworks_security_groups_python" style="color: inherit; text-decoration: inherit;">use_<wbr>opsworks_<wbr>security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean value controlling whether the standard OpsWorks
 security groups apply to created instances.
@@ -2713,7 +2713,7 @@ security groups apply to created instances.
 <a href="#state_vpc_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of the VPC that this stack belongs to.
 {{% /md %}}</dd>
@@ -2757,7 +2757,7 @@ security groups apply to created instances.
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of source to use. For example, "archive".
 {{% /md %}}</dd>
@@ -2768,7 +2768,7 @@ security groups apply to created instances.
 <a href="#url_csharp" style="color: inherit; text-decoration: inherit;">Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL where the cookbooks resource can be found.
 {{% /md %}}</dd>
@@ -2779,7 +2779,7 @@ security groups apply to created instances.
 <a href="#password_csharp" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -2790,7 +2790,7 @@ security groups apply to created instances.
 <a href="#revision_csharp" style="color: inherit; text-decoration: inherit;">Revision</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For sources that are version-aware, the revision to use.
 {{% /md %}}</dd>
@@ -2801,7 +2801,7 @@ security groups apply to created instances.
 <a href="#sshkey_csharp" style="color: inherit; text-decoration: inherit;">Ssh<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SSH key to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -2812,7 +2812,7 @@ security groups apply to created instances.
 <a href="#username_csharp" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username to use when authenticating to the source.
 {{% /md %}}</dd>
@@ -2830,7 +2830,7 @@ security groups apply to created instances.
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of source to use. For example, "archive".
 {{% /md %}}</dd>
@@ -2841,7 +2841,7 @@ security groups apply to created instances.
 <a href="#url_go" style="color: inherit; text-decoration: inherit;">Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL where the cookbooks resource can be found.
 {{% /md %}}</dd>
@@ -2852,7 +2852,7 @@ security groups apply to created instances.
 <a href="#password_go" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -2863,7 +2863,7 @@ security groups apply to created instances.
 <a href="#revision_go" style="color: inherit; text-decoration: inherit;">Revision</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For sources that are version-aware, the revision to use.
 {{% /md %}}</dd>
@@ -2874,7 +2874,7 @@ security groups apply to created instances.
 <a href="#sshkey_go" style="color: inherit; text-decoration: inherit;">Ssh<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SSH key to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -2885,7 +2885,7 @@ security groups apply to created instances.
 <a href="#username_go" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username to use when authenticating to the source.
 {{% /md %}}</dd>
@@ -2903,7 +2903,7 @@ security groups apply to created instances.
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of source to use. For example, "archive".
 {{% /md %}}</dd>
@@ -2914,7 +2914,7 @@ security groups apply to created instances.
 <a href="#url_nodejs" style="color: inherit; text-decoration: inherit;">url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The URL where the cookbooks resource can be found.
 {{% /md %}}</dd>
@@ -2925,7 +2925,7 @@ security groups apply to created instances.
 <a href="#password_nodejs" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -2936,7 +2936,7 @@ security groups apply to created instances.
 <a href="#revision_nodejs" style="color: inherit; text-decoration: inherit;">revision</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}For sources that are version-aware, the revision to use.
 {{% /md %}}</dd>
@@ -2947,7 +2947,7 @@ security groups apply to created instances.
 <a href="#sshkey_nodejs" style="color: inherit; text-decoration: inherit;">ssh<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SSH key to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -2958,7 +2958,7 @@ security groups apply to created instances.
 <a href="#username_nodejs" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username to use when authenticating to the source.
 {{% /md %}}</dd>
@@ -2976,7 +2976,7 @@ security groups apply to created instances.
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of source to use. For example, "archive".
 {{% /md %}}</dd>
@@ -2987,7 +2987,7 @@ security groups apply to created instances.
 <a href="#url_python" style="color: inherit; text-decoration: inherit;">url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The URL where the cookbooks resource can be found.
 {{% /md %}}</dd>
@@ -2998,7 +2998,7 @@ security groups apply to created instances.
 <a href="#password_python" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Password to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -3009,7 +3009,7 @@ security groups apply to created instances.
 <a href="#revision_python" style="color: inherit; text-decoration: inherit;">revision</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}For sources that are version-aware, the revision to use.
 {{% /md %}}</dd>
@@ -3020,7 +3020,7 @@ security groups apply to created instances.
 <a href="#ssh_key_python" style="color: inherit; text-decoration: inherit;">ssh_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}SSH key to use when authenticating to the source. The provider cannot perform drift detection of this configuration.
 {{% /md %}}</dd>
@@ -3031,7 +3031,7 @@ security groups apply to created instances.
 <a href="#username_python" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Username to use when authenticating to the source.
 {{% /md %}}</dd>

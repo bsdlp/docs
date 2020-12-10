@@ -219,7 +219,7 @@ const bar = new aws.elb.LoadBalancer("bar", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancer">LoadBalancer</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancerArgs">LoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancer">LoadBalancer</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancerArgs">LoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -227,11 +227,11 @@ const bar = new aws.elb.LoadBalancer("bar", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancer">NewLoadBalancer</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancerArgs">LoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancer">LoadBalancer</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancer">NewLoadBalancer</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancerArgs">LoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancer">LoadBalancer</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancer.html">LoadBalancer</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancerArgs.html">LoadBalancerArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancer.html">LoadBalancer</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancerArgs.html">LoadBalancerArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -242,7 +242,7 @@ const bar = new aws.elb.LoadBalancer("bar", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -311,7 +311,7 @@ const bar = new aws.elb.LoadBalancer("bar", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -350,7 +350,7 @@ const bar = new aws.elb.LoadBalancer("bar", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -423,7 +423,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -434,7 +434,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#connectiondraining_csharp" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -445,7 +445,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#connectiondrainingtimeout_csharp" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -456,7 +456,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#crosszoneloadbalancing_csharp" style="color: inherit; text-decoration: inherit;">Cross<wbr>Zone<wbr>Load<wbr>Balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -478,7 +478,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#idletimeout_csharp" style="color: inherit; text-decoration: inherit;">Idle<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -489,7 +489,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#instances_csharp" style="color: inherit; text-decoration: inherit;">Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -500,7 +500,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#internal_csharp" style="color: inherit; text-decoration: inherit;">Internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -511,7 +511,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -522,7 +522,7 @@ The LoadBalancer resource accepts the following [input]({{< relref "/docs/intro/
 <a href="#nameprefix_csharp" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -534,7 +534,7 @@ prefix. Conflicts with `name`.
 <a href="#securitygroups_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -546,7 +546,7 @@ Only valid if creating an ELB within a VPC
 <a href="#sourcesecuritygroup_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -559,7 +559,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#subnets_csharp" style="color: inherit; text-decoration: inherit;">Subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -610,7 +610,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -621,7 +621,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#connectiondraining_go" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -632,7 +632,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#connectiondrainingtimeout_go" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -643,7 +643,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#crosszoneloadbalancing_go" style="color: inherit; text-decoration: inherit;">Cross<wbr>Zone<wbr>Load<wbr>Balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -665,7 +665,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#idletimeout_go" style="color: inherit; text-decoration: inherit;">Idle<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -676,7 +676,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#instances_go" style="color: inherit; text-decoration: inherit;">Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -687,7 +687,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#internal_go" style="color: inherit; text-decoration: inherit;">Internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -698,7 +698,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -709,7 +709,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#nameprefix_go" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -721,7 +721,7 @@ prefix. Conflicts with `name`.
 <a href="#securitygroups_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -733,7 +733,7 @@ Only valid if creating an ELB within a VPC
 <a href="#sourcesecuritygroup_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -746,7 +746,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#subnets_go" style="color: inherit; text-decoration: inherit;">Subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -797,7 +797,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -808,7 +808,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#connectiondraining_nodejs" style="color: inherit; text-decoration: inherit;">connection<wbr>Draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -819,7 +819,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#connectiondrainingtimeout_nodejs" style="color: inherit; text-decoration: inherit;">connection<wbr>Draining<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -830,7 +830,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#crosszoneloadbalancing_nodejs" style="color: inherit; text-decoration: inherit;">cross<wbr>Zone<wbr>Load<wbr>Balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -852,7 +852,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#idletimeout_nodejs" style="color: inherit; text-decoration: inherit;">idle<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -863,7 +863,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#instances_nodejs" style="color: inherit; text-decoration: inherit;">instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -874,7 +874,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#internal_nodejs" style="color: inherit; text-decoration: inherit;">internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -885,7 +885,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -896,7 +896,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#nameprefix_nodejs" style="color: inherit; text-decoration: inherit;">name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -908,7 +908,7 @@ prefix. Conflicts with `name`.
 <a href="#securitygroups_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -920,7 +920,7 @@ Only valid if creating an ELB within a VPC
 <a href="#sourcesecuritygroup_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Security<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -933,7 +933,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#subnets_nodejs" style="color: inherit; text-decoration: inherit;">subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -984,7 +984,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -995,7 +995,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#connection_draining_python" style="color: inherit; text-decoration: inherit;">connection_<wbr>draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -1006,7 +1006,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#connection_draining_timeout_python" style="color: inherit; text-decoration: inherit;">connection_<wbr>draining_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -1017,7 +1017,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#cross_zone_load_balancing_python" style="color: inherit; text-decoration: inherit;">cross_<wbr>zone_<wbr>load_<wbr>balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -1039,7 +1039,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#idle_timeout_python" style="color: inherit; text-decoration: inherit;">idle_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -1050,7 +1050,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#instances_python" style="color: inherit; text-decoration: inherit;">instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -1061,7 +1061,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#internal_python" style="color: inherit; text-decoration: inherit;">internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -1072,7 +1072,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -1083,7 +1083,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#name_prefix_python" style="color: inherit; text-decoration: inherit;">name_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -1095,7 +1095,7 @@ prefix. Conflicts with `name`.
 <a href="#security_groups_python" style="color: inherit; text-decoration: inherit;">security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -1107,7 +1107,7 @@ Only valid if creating an ELB within a VPC
 <a href="#source_security_group_python" style="color: inherit; text-decoration: inherit;">source_<wbr>security_<wbr>group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1120,7 +1120,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#subnets_python" style="color: inherit; text-decoration: inherit;">subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -1160,7 +1160,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -1171,7 +1171,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -1182,7 +1182,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1192,7 +1192,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#sourcesecuritygroupid_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1205,7 +1205,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#zoneid_csharp" style="color: inherit; text-decoration: inherit;">Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -1223,7 +1223,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -1234,7 +1234,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#dnsname_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -1245,7 +1245,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1255,7 +1255,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#sourcesecuritygroupid_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1268,7 +1268,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#zoneid_go" style="color: inherit; text-decoration: inherit;">Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -1286,7 +1286,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -1297,7 +1297,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#dnsname_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -1308,7 +1308,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1318,7 +1318,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#sourcesecuritygroupid_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Security<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1331,7 +1331,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#zoneid_nodejs" style="color: inherit; text-decoration: inherit;">zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -1349,7 +1349,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -1360,7 +1360,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#dns_name_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -1371,7 +1371,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1381,7 +1381,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#source_security_group_id_python" style="color: inherit; text-decoration: inherit;">source_<wbr>security_<wbr>group_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1394,7 +1394,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#zone_id_python" style="color: inherit; text-decoration: inherit;">zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -1414,7 +1414,7 @@ Get an existing LoadBalancer resource's state with the given name, ID, and optio
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancerState">LoadBalancerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancer">LoadBalancer</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancerState">LoadBalancerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/elb/#LoadBalancer">LoadBalancer</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1423,11 +1423,11 @@ Get an existing LoadBalancer resource's state with the given name, ID, and optio
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetLoadBalancer<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancerState">LoadBalancerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancer">LoadBalancer</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetLoadBalancer<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancerState">LoadBalancerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/elb?tab=doc#LoadBalancer">LoadBalancer</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancer.html">LoadBalancer</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancerState.html">LoadBalancerState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancer.html">LoadBalancer</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Elb.LoadBalancerState.html">LoadBalancerState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1550,7 +1550,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -1561,7 +1561,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -1572,7 +1572,7 @@ The following state arguments are supported:
 <a href="#state_connectiondraining_csharp" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -1583,7 +1583,7 @@ The following state arguments are supported:
 <a href="#state_connectiondrainingtimeout_csharp" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -1594,7 +1594,7 @@ The following state arguments are supported:
 <a href="#state_crosszoneloadbalancing_csharp" style="color: inherit; text-decoration: inherit;">Cross<wbr>Zone<wbr>Load<wbr>Balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -1605,7 +1605,7 @@ The following state arguments are supported:
 <a href="#state_dnsname_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -1627,7 +1627,7 @@ The following state arguments are supported:
 <a href="#state_idletimeout_csharp" style="color: inherit; text-decoration: inherit;">Idle<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -1638,7 +1638,7 @@ The following state arguments are supported:
 <a href="#state_instances_csharp" style="color: inherit; text-decoration: inherit;">Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -1649,7 +1649,7 @@ The following state arguments are supported:
 <a href="#state_internal_csharp" style="color: inherit; text-decoration: inherit;">Internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -1671,7 +1671,7 @@ The following state arguments are supported:
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -1682,7 +1682,7 @@ The following state arguments are supported:
 <a href="#state_nameprefix_csharp" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -1694,7 +1694,7 @@ prefix. Conflicts with `name`.
 <a href="#state_securitygroups_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -1706,7 +1706,7 @@ Only valid if creating an ELB within a VPC
 <a href="#state_sourcesecuritygroup_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1719,7 +1719,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#state_sourcesecuritygroupid_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1732,7 +1732,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_subnets_csharp" style="color: inherit; text-decoration: inherit;">Subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -1754,7 +1754,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_zoneid_csharp" style="color: inherit; text-decoration: inherit;">Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -1783,7 +1783,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -1794,7 +1794,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -1805,7 +1805,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_connectiondraining_go" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -1816,7 +1816,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_connectiondrainingtimeout_go" style="color: inherit; text-decoration: inherit;">Connection<wbr>Draining<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -1827,7 +1827,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_crosszoneloadbalancing_go" style="color: inherit; text-decoration: inherit;">Cross<wbr>Zone<wbr>Load<wbr>Balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -1838,7 +1838,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_dnsname_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -1860,7 +1860,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_idletimeout_go" style="color: inherit; text-decoration: inherit;">Idle<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -1871,7 +1871,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_instances_go" style="color: inherit; text-decoration: inherit;">Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -1882,7 +1882,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_internal_go" style="color: inherit; text-decoration: inherit;">Internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -1904,7 +1904,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -1915,7 +1915,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_nameprefix_go" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -1927,7 +1927,7 @@ prefix. Conflicts with `name`.
 <a href="#state_securitygroups_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -1939,7 +1939,7 @@ Only valid if creating an ELB within a VPC
 <a href="#state_sourcesecuritygroup_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1952,7 +1952,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#state_sourcesecuritygroupid_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Security<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -1965,7 +1965,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_subnets_go" style="color: inherit; text-decoration: inherit;">Subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -1987,7 +1987,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_zoneid_go" style="color: inherit; text-decoration: inherit;">Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -2016,7 +2016,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -2027,7 +2027,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -2038,7 +2038,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_connectiondraining_nodejs" style="color: inherit; text-decoration: inherit;">connection<wbr>Draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -2049,7 +2049,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_connectiondrainingtimeout_nodejs" style="color: inherit; text-decoration: inherit;">connection<wbr>Draining<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -2060,7 +2060,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_crosszoneloadbalancing_nodejs" style="color: inherit; text-decoration: inherit;">cross<wbr>Zone<wbr>Load<wbr>Balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -2071,7 +2071,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_dnsname_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -2093,7 +2093,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_idletimeout_nodejs" style="color: inherit; text-decoration: inherit;">idle<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -2104,7 +2104,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_instances_nodejs" style="color: inherit; text-decoration: inherit;">instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -2115,7 +2115,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_internal_nodejs" style="color: inherit; text-decoration: inherit;">internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -2137,7 +2137,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -2148,7 +2148,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_nameprefix_nodejs" style="color: inherit; text-decoration: inherit;">name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -2160,7 +2160,7 @@ prefix. Conflicts with `name`.
 <a href="#state_securitygroups_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -2172,7 +2172,7 @@ Only valid if creating an ELB within a VPC
 <a href="#state_sourcesecuritygroup_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Security<wbr>Group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -2185,7 +2185,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#state_sourcesecuritygroupid_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Security<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -2198,7 +2198,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_subnets_nodejs" style="color: inherit; text-decoration: inherit;">subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -2220,7 +2220,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_zoneid_nodejs" style="color: inherit; text-decoration: inherit;">zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -2249,7 +2249,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the ELB
 {{% /md %}}</dd>
@@ -2260,7 +2260,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The AZ's to serve traffic in.
 {{% /md %}}</dd>
@@ -2271,7 +2271,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_connection_draining_python" style="color: inherit; text-decoration: inherit;">connection_<wbr>draining</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable connection draining. Default: `false`
 {{% /md %}}</dd>
@@ -2282,7 +2282,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_connection_draining_timeout_python" style="color: inherit; text-decoration: inherit;">connection_<wbr>draining_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds to allow for connections to drain. Default: `300`
 {{% /md %}}</dd>
@@ -2293,7 +2293,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_cross_zone_load_balancing_python" style="color: inherit; text-decoration: inherit;">cross_<wbr>zone_<wbr>load_<wbr>balancing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable cross-zone load balancing. Default: `true`
 {{% /md %}}</dd>
@@ -2304,7 +2304,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_dns_name_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS name of the ELB
 {{% /md %}}</dd>
@@ -2326,7 +2326,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_idle_timeout_python" style="color: inherit; text-decoration: inherit;">idle_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time in seconds that the connection is allowed to be idle. Default: `60`
 {{% /md %}}</dd>
@@ -2337,7 +2337,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_instances_python" style="color: inherit; text-decoration: inherit;">instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of instance ids to place in the ELB pool.
 {{% /md %}}</dd>
@@ -2348,7 +2348,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_internal_python" style="color: inherit; text-decoration: inherit;">internal</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, ELB will be an internal ELB.
 {{% /md %}}</dd>
@@ -2370,7 +2370,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the ELB. By default generated by this provider.
 {{% /md %}}</dd>
@@ -2381,7 +2381,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_name_prefix_python" style="color: inherit; text-decoration: inherit;">name_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique name beginning with the specified
 prefix. Conflicts with `name`.
@@ -2393,7 +2393,7 @@ prefix. Conflicts with `name`.
 <a href="#state_security_groups_python" style="color: inherit; text-decoration: inherit;">security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of security group IDs to assign to the ELB.
 Only valid if creating an ELB within a VPC
@@ -2405,7 +2405,7 @@ Only valid if creating an ELB within a VPC
 <a href="#state_source_security_group_python" style="color: inherit; text-decoration: inherit;">source_<wbr>security_<wbr>group</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -2418,7 +2418,7 @@ instances. Use this for Classic or Default VPC only.
 <a href="#state_source_security_group_id_python" style="color: inherit; text-decoration: inherit;">source_<wbr>security_<wbr>group_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ID of the security group that you can use as
 part of your inbound rules for your load balancer's back-end application
@@ -2431,7 +2431,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_subnets_python" style="color: inherit; text-decoration: inherit;">subnets</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of subnet IDs to attach to the ELB.
 {{% /md %}}</dd>
@@ -2453,7 +2453,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#state_zone_id_python" style="color: inherit; text-decoration: inherit;">zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the ELB (to be used in a Route 53 Alias record)
 {{% /md %}}</dd>
@@ -2497,7 +2497,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucket_csharp" style="color: inherit; text-decoration: inherit;">Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 bucket name to store the logs in.
 {{% /md %}}</dd>
@@ -2508,7 +2508,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucketprefix_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 bucket prefix. Logs are stored in the root if not configured.
 {{% /md %}}</dd>
@@ -2519,7 +2519,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable / disable `access_logs`. Default is `true`
 {{% /md %}}</dd>
@@ -2530,7 +2530,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#interval_csharp" style="color: inherit; text-decoration: inherit;">Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The publishing interval in minutes. Default: 60 minutes.
 {{% /md %}}</dd>
@@ -2548,7 +2548,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucket_go" style="color: inherit; text-decoration: inherit;">Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 bucket name to store the logs in.
 {{% /md %}}</dd>
@@ -2559,7 +2559,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucketprefix_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 bucket prefix. Logs are stored in the root if not configured.
 {{% /md %}}</dd>
@@ -2570,7 +2570,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable / disable `access_logs`. Default is `true`
 {{% /md %}}</dd>
@@ -2581,7 +2581,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#interval_go" style="color: inherit; text-decoration: inherit;">Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The publishing interval in minutes. Default: 60 minutes.
 {{% /md %}}</dd>
@@ -2599,7 +2599,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucket_nodejs" style="color: inherit; text-decoration: inherit;">bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 bucket name to store the logs in.
 {{% /md %}}</dd>
@@ -2610,7 +2610,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucketprefix_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 bucket prefix. Logs are stored in the root if not configured.
 {{% /md %}}</dd>
@@ -2621,7 +2621,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Boolean to enable / disable `access_logs`. Default is `true`
 {{% /md %}}</dd>
@@ -2632,7 +2632,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#interval_nodejs" style="color: inherit; text-decoration: inherit;">interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The publishing interval in minutes. Default: 60 minutes.
 {{% /md %}}</dd>
@@ -2650,7 +2650,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucket_python" style="color: inherit; text-decoration: inherit;">bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The S3 bucket name to store the logs in.
 {{% /md %}}</dd>
@@ -2661,7 +2661,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#bucket_prefix_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The S3 bucket prefix. Logs are stored in the root if not configured.
 {{% /md %}}</dd>
@@ -2672,7 +2672,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Boolean to enable / disable `access_logs`. Default is `true`
 {{% /md %}}</dd>
@@ -2683,7 +2683,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#interval_python" style="color: inherit; text-decoration: inherit;">interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The publishing interval in minutes. Default: 60 minutes.
 {{% /md %}}</dd>
@@ -2719,7 +2719,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#healthythreshold_csharp" style="color: inherit; text-decoration: inherit;">Healthy<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared healthy.
 {{% /md %}}</dd>
@@ -2730,7 +2730,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#interval_csharp" style="color: inherit; text-decoration: inherit;">Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval between checks.
 {{% /md %}}</dd>
@@ -2741,7 +2741,7 @@ instances. Only available on ELBs launched in a VPC.
 <a href="#target_csharp" style="color: inherit; text-decoration: inherit;">Target</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The target of the check. Valid pattern is "${PROTOCOL}:${PORT}${PATH}", where PROTOCOL
 values are:
@@ -2755,7 +2755,7 @@ values are:
 <a href="#timeout_csharp" style="color: inherit; text-decoration: inherit;">Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The length of time before the check times out.
 {{% /md %}}</dd>
@@ -2766,7 +2766,7 @@ values are:
 <a href="#unhealthythreshold_csharp" style="color: inherit; text-decoration: inherit;">Unhealthy<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared unhealthy.
 {{% /md %}}</dd>
@@ -2784,7 +2784,7 @@ values are:
 <a href="#healthythreshold_go" style="color: inherit; text-decoration: inherit;">Healthy<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared healthy.
 {{% /md %}}</dd>
@@ -2795,7 +2795,7 @@ values are:
 <a href="#interval_go" style="color: inherit; text-decoration: inherit;">Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval between checks.
 {{% /md %}}</dd>
@@ -2806,7 +2806,7 @@ values are:
 <a href="#target_go" style="color: inherit; text-decoration: inherit;">Target</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The target of the check. Valid pattern is "${PROTOCOL}:${PORT}${PATH}", where PROTOCOL
 values are:
@@ -2820,7 +2820,7 @@ values are:
 <a href="#timeout_go" style="color: inherit; text-decoration: inherit;">Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The length of time before the check times out.
 {{% /md %}}</dd>
@@ -2831,7 +2831,7 @@ values are:
 <a href="#unhealthythreshold_go" style="color: inherit; text-decoration: inherit;">Unhealthy<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared unhealthy.
 {{% /md %}}</dd>
@@ -2849,7 +2849,7 @@ values are:
 <a href="#healthythreshold_nodejs" style="color: inherit; text-decoration: inherit;">healthy<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared healthy.
 {{% /md %}}</dd>
@@ -2860,7 +2860,7 @@ values are:
 <a href="#interval_nodejs" style="color: inherit; text-decoration: inherit;">interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The interval between checks.
 {{% /md %}}</dd>
@@ -2871,7 +2871,7 @@ values are:
 <a href="#target_nodejs" style="color: inherit; text-decoration: inherit;">target</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The target of the check. Valid pattern is "${PROTOCOL}:${PORT}${PATH}", where PROTOCOL
 values are:
@@ -2885,7 +2885,7 @@ values are:
 <a href="#timeout_nodejs" style="color: inherit; text-decoration: inherit;">timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The length of time before the check times out.
 {{% /md %}}</dd>
@@ -2896,7 +2896,7 @@ values are:
 <a href="#unhealthythreshold_nodejs" style="color: inherit; text-decoration: inherit;">unhealthy<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared unhealthy.
 {{% /md %}}</dd>
@@ -2914,7 +2914,7 @@ values are:
 <a href="#healthy_threshold_python" style="color: inherit; text-decoration: inherit;">healthy_<wbr>threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared healthy.
 {{% /md %}}</dd>
@@ -2925,7 +2925,7 @@ values are:
 <a href="#interval_python" style="color: inherit; text-decoration: inherit;">interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval between checks.
 {{% /md %}}</dd>
@@ -2936,7 +2936,7 @@ values are:
 <a href="#target_python" style="color: inherit; text-decoration: inherit;">target</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The target of the check. Valid pattern is "${PROTOCOL}:${PORT}${PATH}", where PROTOCOL
 values are:
@@ -2950,7 +2950,7 @@ values are:
 <a href="#timeout_python" style="color: inherit; text-decoration: inherit;">timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The length of time before the check times out.
 {{% /md %}}</dd>
@@ -2961,7 +2961,7 @@ values are:
 <a href="#unhealthy_threshold_python" style="color: inherit; text-decoration: inherit;">unhealthy_<wbr>threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of checks before the instance is declared unhealthy.
 {{% /md %}}</dd>
@@ -2997,7 +2997,7 @@ values are:
 <a href="#instanceport_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on the instance to route to
 {{% /md %}}</dd>
@@ -3008,7 +3008,7 @@ values are:
 <a href="#instanceprotocol_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The protocol to use to the instance. Valid
 values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
@@ -3020,7 +3020,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lbport_csharp" style="color: inherit; text-decoration: inherit;">Lb<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port to listen on for the load balancer
 {{% /md %}}</dd>
@@ -3031,7 +3031,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lbprotocol_csharp" style="color: inherit; text-decoration: inherit;">Lb<wbr>Protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The protocol to listen on. Valid values are `HTTP`,
 `HTTPS`, `TCP`, or `SSL`
@@ -3043,7 +3043,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#sslcertificateid_csharp" style="color: inherit; text-decoration: inherit;">Ssl<wbr>Certificate<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an SSL certificate you have
 uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when `lb_protocol` is either HTTPS or SSL**
@@ -3062,7 +3062,7 @@ uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when 
 <a href="#instanceport_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on the instance to route to
 {{% /md %}}</dd>
@@ -3073,7 +3073,7 @@ uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when 
 <a href="#instanceprotocol_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The protocol to use to the instance. Valid
 values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
@@ -3085,7 +3085,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lbport_go" style="color: inherit; text-decoration: inherit;">Lb<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port to listen on for the load balancer
 {{% /md %}}</dd>
@@ -3096,7 +3096,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lbprotocol_go" style="color: inherit; text-decoration: inherit;">Lb<wbr>Protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The protocol to listen on. Valid values are `HTTP`,
 `HTTPS`, `TCP`, or `SSL`
@@ -3108,7 +3108,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#sslcertificateid_go" style="color: inherit; text-decoration: inherit;">Ssl<wbr>Certificate<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an SSL certificate you have
 uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when `lb_protocol` is either HTTPS or SSL**
@@ -3127,7 +3127,7 @@ uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when 
 <a href="#instanceport_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on the instance to route to
 {{% /md %}}</dd>
@@ -3138,7 +3138,7 @@ uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when 
 <a href="#instanceprotocol_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The protocol to use to the instance. Valid
 values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
@@ -3150,7 +3150,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lbport_nodejs" style="color: inherit; text-decoration: inherit;">lb<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port to listen on for the load balancer
 {{% /md %}}</dd>
@@ -3161,7 +3161,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lbprotocol_nodejs" style="color: inherit; text-decoration: inherit;">lb<wbr>Protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The protocol to listen on. Valid values are `HTTP`,
 `HTTPS`, `TCP`, or `SSL`
@@ -3173,7 +3173,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#sslcertificateid_nodejs" style="color: inherit; text-decoration: inherit;">ssl<wbr>Certificate<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an SSL certificate you have
 uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when `lb_protocol` is either HTTPS or SSL**
@@ -3192,7 +3192,7 @@ uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when 
 <a href="#instance_port_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on the instance to route to
 {{% /md %}}</dd>
@@ -3203,7 +3203,7 @@ uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when 
 <a href="#instance_protocol_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The protocol to use to the instance. Valid
 values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
@@ -3215,7 +3215,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lb_port_python" style="color: inherit; text-decoration: inherit;">lb_<wbr>port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port to listen on for the load balancer
 {{% /md %}}</dd>
@@ -3226,7 +3226,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#lb_protocol_python" style="color: inherit; text-decoration: inherit;">lb_<wbr>protocol</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The protocol to listen on. Valid values are `HTTP`,
 `HTTPS`, `TCP`, or `SSL`
@@ -3238,7 +3238,7 @@ values are `HTTP`, `HTTPS`, `TCP`, or `SSL`
 <a href="#ssl_certificate_id_python" style="color: inherit; text-decoration: inherit;">ssl_<wbr>certificate_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an SSL certificate you have
 uploaded to AWS IAM. **Note ECDSA-specific restrictions below.  Only valid when `lb_protocol` is either HTTPS or SSL**

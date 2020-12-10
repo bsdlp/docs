@@ -456,7 +456,7 @@ const example = new aws.rds.Cluster("example", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Cluster">Cluster</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Cluster">Cluster</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -464,11 +464,11 @@ const example = new aws.rds.Cluster("example", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Cluster">NewCluster</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Cluster">NewCluster</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Cluster.html">Cluster</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.ClusterArgs.html">ClusterArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Cluster.html">Cluster</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.ClusterArgs.html">ClusterArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -479,7 +479,7 @@ const example = new aws.rds.Cluster("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -548,7 +548,7 @@ const example = new aws.rds.Cluster("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -587,7 +587,7 @@ const example = new aws.rds.Cluster("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -638,7 +638,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#allowmajorversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -649,7 +649,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#applyimmediately_csharp" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -660,7 +660,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -671,7 +671,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backtrackwindow_csharp" style="color: inherit; text-decoration: inherit;">Backtrack<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -682,7 +682,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backupretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -693,7 +693,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -704,7 +704,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifierprefix_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -715,7 +715,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clustermembers_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -726,7 +726,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#copytagstosnapshot_csharp" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -737,7 +737,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#databasename_csharp" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -748,7 +748,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#dbclusterparametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -759,7 +759,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#dbsubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -770,7 +770,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletionprotection_csharp" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -781,7 +781,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enablehttpendpoint_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Http<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -792,7 +792,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enabledcloudwatchlogsexports_csharp" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -803,7 +803,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -814,7 +814,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enginemode_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Mode&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Mode</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -825,7 +825,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -836,7 +836,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -847,7 +847,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#globalclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Global<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -858,7 +858,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamdatabaseauthenticationenabled_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -869,7 +869,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamroles_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -880,7 +880,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -891,7 +891,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#masterpassword_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -902,7 +902,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#masterusername_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -913,7 +913,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -924,7 +924,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredbackupwindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -935,7 +935,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredmaintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -946,7 +946,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replicationsourceidentifier_csharp" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -989,7 +989,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -1000,7 +1000,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -1011,7 +1011,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#sourceregion_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -1022,7 +1022,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -1044,7 +1044,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -1062,7 +1062,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#allowmajorversionupgrade_go" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1073,7 +1073,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#applyimmediately_go" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -1084,7 +1084,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -1095,7 +1095,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backtrackwindow_go" style="color: inherit; text-decoration: inherit;">Backtrack<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -1106,7 +1106,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backupretentionperiod_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -1117,7 +1117,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -1128,7 +1128,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifierprefix_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -1139,7 +1139,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clustermembers_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1150,7 +1150,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#copytagstosnapshot_go" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -1161,7 +1161,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#databasename_go" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -1172,7 +1172,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#dbclusterparametergroupname_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -1183,7 +1183,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#dbsubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -1194,7 +1194,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletionprotection_go" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -1205,7 +1205,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enablehttpendpoint_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Http<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -1216,7 +1216,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enabledcloudwatchlogsexports_go" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -1227,7 +1227,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -1238,7 +1238,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enginemode_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -1249,7 +1249,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -1260,7 +1260,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -1271,7 +1271,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#globalclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Global<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -1282,7 +1282,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamdatabaseauthenticationenabled_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -1293,7 +1293,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamroles_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -1304,7 +1304,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -1315,7 +1315,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#masterpassword_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -1326,7 +1326,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#masterusername_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -1337,7 +1337,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -1348,7 +1348,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredbackupwindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -1359,7 +1359,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredmaintenancewindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -1370,7 +1370,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replicationsourceidentifier_go" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -1413,7 +1413,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -1424,7 +1424,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -1435,7 +1435,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#sourceregion_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -1446,7 +1446,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -1468,7 +1468,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -1486,7 +1486,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#allowmajorversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1497,7 +1497,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#applyimmediately_nodejs" style="color: inherit; text-decoration: inherit;">apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -1508,7 +1508,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -1519,7 +1519,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backtrackwindow_nodejs" style="color: inherit; text-decoration: inherit;">backtrack<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -1530,7 +1530,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backupretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -1541,7 +1541,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -1552,7 +1552,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifierprefix_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -1563,7 +1563,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clustermembers_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1574,7 +1574,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#copytagstosnapshot_nodejs" style="color: inherit; text-decoration: inherit;">copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -1585,7 +1585,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#databasename_nodejs" style="color: inherit; text-decoration: inherit;">database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -1596,7 +1596,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#dbclusterparametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -1607,7 +1607,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#dbsubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -1618,7 +1618,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletionprotection_nodejs" style="color: inherit; text-decoration: inherit;">deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -1629,7 +1629,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enablehttpendpoint_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Http<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -1640,7 +1640,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enabledcloudwatchlogsexports_nodejs" style="color: inherit; text-decoration: inherit;">enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -1651,7 +1651,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Engine<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Engine<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -1662,7 +1662,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enginemode_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Engine<wbr>Mode</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Engine<wbr>Mode</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -1673,7 +1673,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -1684,7 +1684,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -1695,7 +1695,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#globalclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">global<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -1706,7 +1706,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamdatabaseauthenticationenabled_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -1717,7 +1717,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iamroles_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -1728,7 +1728,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -1739,7 +1739,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#masterpassword_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -1750,7 +1750,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#masterusername_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -1761,7 +1761,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -1772,7 +1772,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredbackupwindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -1783,7 +1783,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferredmaintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -1794,7 +1794,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replicationsourceidentifier_nodejs" style="color: inherit; text-decoration: inherit;">replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -1837,7 +1837,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -1848,7 +1848,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -1859,7 +1859,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#sourceregion_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -1870,7 +1870,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -1892,7 +1892,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -1910,7 +1910,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#allow_major_version_upgrade_python" style="color: inherit; text-decoration: inherit;">allow_<wbr>major_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1921,7 +1921,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#apply_immediately_python" style="color: inherit; text-decoration: inherit;">apply_<wbr>immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -1932,7 +1932,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -1943,7 +1943,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backtrack_window_python" style="color: inherit; text-decoration: inherit;">backtrack_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -1954,7 +1954,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#backup_retention_period_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -1965,7 +1965,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_identifier_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -1976,7 +1976,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_identifier_prefix_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -1987,7 +1987,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#cluster_members_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -1998,7 +1998,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#copy_tags_to_snapshot_python" style="color: inherit; text-decoration: inherit;">copy_<wbr>tags_<wbr>to_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -2009,7 +2009,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#database_name_python" style="color: inherit; text-decoration: inherit;">database_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -2020,7 +2020,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#db_cluster_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -2031,7 +2031,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#db_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">db_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -2042,7 +2042,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#deletion_protection_python" style="color: inherit; text-decoration: inherit;">deletion_<wbr>protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -2053,7 +2053,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enable_http_endpoint_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>http_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -2064,7 +2064,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#enabled_cloudwatch_logs_exports_python" style="color: inherit; text-decoration: inherit;">enabled_<wbr>cloudwatch_<wbr>logs_<wbr>exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -2075,7 +2075,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Engine<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Engine<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -2086,7 +2086,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_mode_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Engine<wbr>Mode]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Engine<wbr>Mode</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -2097,7 +2097,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -2108,7 +2108,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -2119,7 +2119,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#global_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">global_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -2130,7 +2130,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iam_database_authentication_enabled_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>database_<wbr>authentication_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -2141,7 +2141,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#iam_roles_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -2152,7 +2152,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -2163,7 +2163,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#master_password_python" style="color: inherit; text-decoration: inherit;">master_<wbr>password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -2174,7 +2174,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#master_username_python" style="color: inherit; text-decoration: inherit;">master_<wbr>username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -2185,7 +2185,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -2196,7 +2196,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferred_backup_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>backup_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -2207,7 +2207,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#preferred_maintenance_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -2218,7 +2218,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#replication_source_identifier_python" style="color: inherit; text-decoration: inherit;">replication_<wbr>source_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -2261,7 +2261,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -2272,7 +2272,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -2283,7 +2283,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#source_region_python" style="color: inherit; text-decoration: inherit;">source_<wbr>region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -2294,7 +2294,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -2316,7 +2316,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -2345,7 +2345,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2356,7 +2356,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#clusterresourceid_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -2367,7 +2367,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -2378,7 +2378,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2389,7 +2389,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2399,7 +2399,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#readerendpoint_csharp" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -2418,7 +2418,7 @@ load-balanced across replicas
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2429,7 +2429,7 @@ load-balanced across replicas
 <a href="#clusterresourceid_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -2440,7 +2440,7 @@ load-balanced across replicas
 <a href="#endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -2451,7 +2451,7 @@ load-balanced across replicas
 <a href="#hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2462,7 +2462,7 @@ load-balanced across replicas
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2472,7 +2472,7 @@ load-balanced across replicas
 <a href="#readerendpoint_go" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -2491,7 +2491,7 @@ load-balanced across replicas
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2502,7 +2502,7 @@ load-balanced across replicas
 <a href="#clusterresourceid_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -2513,7 +2513,7 @@ load-balanced across replicas
 <a href="#endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -2524,7 +2524,7 @@ load-balanced across replicas
 <a href="#hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2535,7 +2535,7 @@ load-balanced across replicas
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2545,7 +2545,7 @@ load-balanced across replicas
 <a href="#readerendpoint_nodejs" style="color: inherit; text-decoration: inherit;">reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -2564,7 +2564,7 @@ load-balanced across replicas
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2575,7 +2575,7 @@ load-balanced across replicas
 <a href="#cluster_resource_id_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -2586,7 +2586,7 @@ load-balanced across replicas
 <a href="#endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -2597,7 +2597,7 @@ load-balanced across replicas
 <a href="#hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -2608,7 +2608,7 @@ load-balanced across replicas
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2618,7 +2618,7 @@ load-balanced across replicas
 <a href="#reader_endpoint_python" style="color: inherit; text-decoration: inherit;">reader_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -2639,7 +2639,7 @@ Get an existing Cluster resource's state with the given name, ID, and optional e
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Cluster">Cluster</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Cluster">Cluster</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -2648,11 +2648,11 @@ Get an existing Cluster resource's state with the given name, ID, and optional e
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCluster<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCluster<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Cluster.html">Cluster</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.ClusterState.html">ClusterState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Cluster.html">Cluster</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.ClusterState.html">ClusterState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -2764,7 +2764,7 @@ The following state arguments are supported:
 <a href="#state_allowmajorversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2775,7 +2775,7 @@ The following state arguments are supported:
 <a href="#state_applyimmediately_csharp" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -2786,7 +2786,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2797,7 +2797,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzones_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -2808,7 +2808,7 @@ The following state arguments are supported:
 <a href="#state_backtrackwindow_csharp" style="color: inherit; text-decoration: inherit;">Backtrack<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -2819,7 +2819,7 @@ The following state arguments are supported:
 <a href="#state_backupretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -2830,7 +2830,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -2841,7 +2841,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifierprefix_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -2852,7 +2852,7 @@ The following state arguments are supported:
 <a href="#state_clustermembers_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -2863,7 +2863,7 @@ The following state arguments are supported:
 <a href="#state_clusterresourceid_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -2874,7 +2874,7 @@ The following state arguments are supported:
 <a href="#state_copytagstosnapshot_csharp" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -2885,7 +2885,7 @@ The following state arguments are supported:
 <a href="#state_databasename_csharp" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -2896,7 +2896,7 @@ The following state arguments are supported:
 <a href="#state_dbclusterparametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -2907,7 +2907,7 @@ The following state arguments are supported:
 <a href="#state_dbsubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -2918,7 +2918,7 @@ The following state arguments are supported:
 <a href="#state_deletionprotection_csharp" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -2929,7 +2929,7 @@ The following state arguments are supported:
 <a href="#state_enablehttpendpoint_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Http<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -2940,7 +2940,7 @@ The following state arguments are supported:
 <a href="#state_enabledcloudwatchlogsexports_csharp" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -2951,7 +2951,7 @@ The following state arguments are supported:
 <a href="#state_endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -2962,7 +2962,7 @@ The following state arguments are supported:
 <a href="#state_engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -2973,7 +2973,7 @@ The following state arguments are supported:
 <a href="#state_enginemode_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Mode&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Engine<wbr>Mode</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -2984,7 +2984,7 @@ The following state arguments are supported:
 <a href="#state_engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -2995,7 +2995,7 @@ The following state arguments are supported:
 <a href="#state_finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -3006,7 +3006,7 @@ The following state arguments are supported:
 <a href="#state_globalclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Global<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -3017,7 +3017,7 @@ The following state arguments are supported:
 <a href="#state_hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -3028,7 +3028,7 @@ The following state arguments are supported:
 <a href="#state_iamdatabaseauthenticationenabled_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -3039,7 +3039,7 @@ The following state arguments are supported:
 <a href="#state_iamroles_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -3050,7 +3050,7 @@ The following state arguments are supported:
 <a href="#state_kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -3061,7 +3061,7 @@ The following state arguments are supported:
 <a href="#state_masterpassword_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -3072,7 +3072,7 @@ The following state arguments are supported:
 <a href="#state_masterusername_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -3083,7 +3083,7 @@ The following state arguments are supported:
 <a href="#state_port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -3094,7 +3094,7 @@ The following state arguments are supported:
 <a href="#state_preferredbackupwindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -3105,7 +3105,7 @@ The following state arguments are supported:
 <a href="#state_preferredmaintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -3116,7 +3116,7 @@ The following state arguments are supported:
 <a href="#state_readerendpoint_csharp" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -3128,7 +3128,7 @@ load-balanced across replicas
 <a href="#state_replicationsourceidentifier_csharp" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -3171,7 +3171,7 @@ load-balanced across replicas
 <a href="#state_skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -3182,7 +3182,7 @@ load-balanced across replicas
 <a href="#state_snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -3193,7 +3193,7 @@ load-balanced across replicas
 <a href="#state_sourceregion_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -3204,7 +3204,7 @@ load-balanced across replicas
 <a href="#state_storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -3226,7 +3226,7 @@ load-balanced across replicas
 <a href="#state_vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -3244,7 +3244,7 @@ load-balanced across replicas
 <a href="#state_allowmajorversionupgrade_go" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -3255,7 +3255,7 @@ load-balanced across replicas
 <a href="#state_applyimmediately_go" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -3266,7 +3266,7 @@ load-balanced across replicas
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -3277,7 +3277,7 @@ load-balanced across replicas
 <a href="#state_availabilityzones_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -3288,7 +3288,7 @@ load-balanced across replicas
 <a href="#state_backtrackwindow_go" style="color: inherit; text-decoration: inherit;">Backtrack<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -3299,7 +3299,7 @@ load-balanced across replicas
 <a href="#state_backupretentionperiod_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -3310,7 +3310,7 @@ load-balanced across replicas
 <a href="#state_clusteridentifier_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -3321,7 +3321,7 @@ load-balanced across replicas
 <a href="#state_clusteridentifierprefix_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -3332,7 +3332,7 @@ load-balanced across replicas
 <a href="#state_clustermembers_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -3343,7 +3343,7 @@ load-balanced across replicas
 <a href="#state_clusterresourceid_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -3354,7 +3354,7 @@ load-balanced across replicas
 <a href="#state_copytagstosnapshot_go" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -3365,7 +3365,7 @@ load-balanced across replicas
 <a href="#state_databasename_go" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -3376,7 +3376,7 @@ load-balanced across replicas
 <a href="#state_dbclusterparametergroupname_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -3387,7 +3387,7 @@ load-balanced across replicas
 <a href="#state_dbsubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -3398,7 +3398,7 @@ load-balanced across replicas
 <a href="#state_deletionprotection_go" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -3409,7 +3409,7 @@ load-balanced across replicas
 <a href="#state_enablehttpendpoint_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Http<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -3420,7 +3420,7 @@ load-balanced across replicas
 <a href="#state_enabledcloudwatchlogsexports_go" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -3431,7 +3431,7 @@ load-balanced across replicas
 <a href="#state_endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -3442,7 +3442,7 @@ load-balanced across replicas
 <a href="#state_engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -3453,7 +3453,7 @@ load-balanced across replicas
 <a href="#state_enginemode_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -3464,7 +3464,7 @@ load-balanced across replicas
 <a href="#state_engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -3475,7 +3475,7 @@ load-balanced across replicas
 <a href="#state_finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -3486,7 +3486,7 @@ load-balanced across replicas
 <a href="#state_globalclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Global<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -3497,7 +3497,7 @@ load-balanced across replicas
 <a href="#state_hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -3508,7 +3508,7 @@ load-balanced across replicas
 <a href="#state_iamdatabaseauthenticationenabled_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -3519,7 +3519,7 @@ load-balanced across replicas
 <a href="#state_iamroles_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -3530,7 +3530,7 @@ load-balanced across replicas
 <a href="#state_kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -3541,7 +3541,7 @@ load-balanced across replicas
 <a href="#state_masterpassword_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -3552,7 +3552,7 @@ load-balanced across replicas
 <a href="#state_masterusername_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -3563,7 +3563,7 @@ load-balanced across replicas
 <a href="#state_port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -3574,7 +3574,7 @@ load-balanced across replicas
 <a href="#state_preferredbackupwindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -3585,7 +3585,7 @@ load-balanced across replicas
 <a href="#state_preferredmaintenancewindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -3596,7 +3596,7 @@ load-balanced across replicas
 <a href="#state_readerendpoint_go" style="color: inherit; text-decoration: inherit;">Reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -3608,7 +3608,7 @@ load-balanced across replicas
 <a href="#state_replicationsourceidentifier_go" style="color: inherit; text-decoration: inherit;">Replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -3651,7 +3651,7 @@ load-balanced across replicas
 <a href="#state_skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -3662,7 +3662,7 @@ load-balanced across replicas
 <a href="#state_snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -3673,7 +3673,7 @@ load-balanced across replicas
 <a href="#state_sourceregion_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -3684,7 +3684,7 @@ load-balanced across replicas
 <a href="#state_storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -3706,7 +3706,7 @@ load-balanced across replicas
 <a href="#state_vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -3724,7 +3724,7 @@ load-balanced across replicas
 <a href="#state_allowmajorversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -3735,7 +3735,7 @@ load-balanced across replicas
 <a href="#state_applyimmediately_nodejs" style="color: inherit; text-decoration: inherit;">apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -3746,7 +3746,7 @@ load-balanced across replicas
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -3757,7 +3757,7 @@ load-balanced across replicas
 <a href="#state_availabilityzones_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -3768,7 +3768,7 @@ load-balanced across replicas
 <a href="#state_backtrackwindow_nodejs" style="color: inherit; text-decoration: inherit;">backtrack<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -3779,7 +3779,7 @@ load-balanced across replicas
 <a href="#state_backupretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -3790,7 +3790,7 @@ load-balanced across replicas
 <a href="#state_clusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -3801,7 +3801,7 @@ load-balanced across replicas
 <a href="#state_clusteridentifierprefix_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -3812,7 +3812,7 @@ load-balanced across replicas
 <a href="#state_clustermembers_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -3823,7 +3823,7 @@ load-balanced across replicas
 <a href="#state_clusterresourceid_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -3834,7 +3834,7 @@ load-balanced across replicas
 <a href="#state_copytagstosnapshot_nodejs" style="color: inherit; text-decoration: inherit;">copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -3845,7 +3845,7 @@ load-balanced across replicas
 <a href="#state_databasename_nodejs" style="color: inherit; text-decoration: inherit;">database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -3856,7 +3856,7 @@ load-balanced across replicas
 <a href="#state_dbclusterparametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -3867,7 +3867,7 @@ load-balanced across replicas
 <a href="#state_dbsubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -3878,7 +3878,7 @@ load-balanced across replicas
 <a href="#state_deletionprotection_nodejs" style="color: inherit; text-decoration: inherit;">deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -3889,7 +3889,7 @@ load-balanced across replicas
 <a href="#state_enablehttpendpoint_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Http<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -3900,7 +3900,7 @@ load-balanced across replicas
 <a href="#state_enabledcloudwatchlogsexports_nodejs" style="color: inherit; text-decoration: inherit;">enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -3911,7 +3911,7 @@ load-balanced across replicas
 <a href="#state_endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -3922,7 +3922,7 @@ load-balanced across replicas
 <a href="#state_engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Engine<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Engine<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -3933,7 +3933,7 @@ load-balanced across replicas
 <a href="#state_enginemode_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Engine<wbr>Mode</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Engine<wbr>Mode</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -3944,7 +3944,7 @@ load-balanced across replicas
 <a href="#state_engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -3955,7 +3955,7 @@ load-balanced across replicas
 <a href="#state_finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -3966,7 +3966,7 @@ load-balanced across replicas
 <a href="#state_globalclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">global<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -3977,7 +3977,7 @@ load-balanced across replicas
 <a href="#state_hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -3988,7 +3988,7 @@ load-balanced across replicas
 <a href="#state_iamdatabaseauthenticationenabled_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -3999,7 +3999,7 @@ load-balanced across replicas
 <a href="#state_iamroles_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -4010,7 +4010,7 @@ load-balanced across replicas
 <a href="#state_kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -4021,7 +4021,7 @@ load-balanced across replicas
 <a href="#state_masterpassword_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -4032,7 +4032,7 @@ load-balanced across replicas
 <a href="#state_masterusername_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -4043,7 +4043,7 @@ load-balanced across replicas
 <a href="#state_port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -4054,7 +4054,7 @@ load-balanced across replicas
 <a href="#state_preferredbackupwindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -4065,7 +4065,7 @@ load-balanced across replicas
 <a href="#state_preferredmaintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -4076,7 +4076,7 @@ load-balanced across replicas
 <a href="#state_readerendpoint_nodejs" style="color: inherit; text-decoration: inherit;">reader<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -4088,7 +4088,7 @@ load-balanced across replicas
 <a href="#state_replicationsourceidentifier_nodejs" style="color: inherit; text-decoration: inherit;">replication<wbr>Source<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -4131,7 +4131,7 @@ load-balanced across replicas
 <a href="#state_skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -4142,7 +4142,7 @@ load-balanced across replicas
 <a href="#state_snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -4153,7 +4153,7 @@ load-balanced across replicas
 <a href="#state_sourceregion_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -4164,7 +4164,7 @@ load-balanced across replicas
 <a href="#state_storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -4186,7 +4186,7 @@ load-balanced across replicas
 <a href="#state_vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -4204,7 +4204,7 @@ load-balanced across replicas
 <a href="#state_allow_major_version_upgrade_python" style="color: inherit; text-decoration: inherit;">allow_<wbr>major_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable to allow major engine version upgrades when changing engine versions. Defaults to `false`.
 {{% /md %}}</dd>
@@ -4215,7 +4215,7 @@ load-balanced across replicas
 <a href="#state_apply_immediately_python" style="color: inherit; text-decoration: inherit;">apply_<wbr>immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any cluster modifications are applied immediately, or during the next maintenance window. Default is `false`. See [Amazon RDS Documentation for more information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html)
 {{% /md %}}</dd>
@@ -4226,7 +4226,7 @@ load-balanced across replicas
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -4237,7 +4237,7 @@ load-balanced across replicas
 <a href="#state_availability_zones_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zones</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of EC2 Availability Zones for the DB cluster storage where DB cluster instances can be created. RDS automatically assigns 3 AZs if less than 3 AZs are configured, which will show as a difference requiring resource recreation next provider update. It is recommended to specify 3 AZs or use [the `ignoreChanges` argument](https://www.pulumi.com/docs/intro/concepts/programming-model/#ignorechanges) if necessary.
 {{% /md %}}</dd>
@@ -4248,7 +4248,7 @@ load-balanced across replicas
 <a href="#state_backtrack_window_python" style="color: inherit; text-decoration: inherit;">backtrack_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The target backtrack window, in seconds. Only available for `aurora` engine currently. To disable backtracking, set this value to `0`. Defaults to `0`. Must be between `0` and `259200` (72 hours)
 {{% /md %}}</dd>
@@ -4259,7 +4259,7 @@ load-balanced across replicas
 <a href="#state_backup_retention_period_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Default `1`
 {{% /md %}}</dd>
@@ -4270,7 +4270,7 @@ load-balanced across replicas
 <a href="#state_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster identifier. If omitted, this provider will assign a random, unique identifier.
 {{% /md %}}</dd>
@@ -4281,7 +4281,7 @@ load-balanced across replicas
 <a href="#state_cluster_identifier_prefix_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique cluster identifier beginning with the specified prefix. Conflicts with `cluster_identifier`.
 {{% /md %}}</dd>
@@ -4292,7 +4292,7 @@ load-balanced across replicas
 <a href="#state_cluster_members_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>members</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of RDS Instances that are a part of this cluster
 {{% /md %}}</dd>
@@ -4303,7 +4303,7 @@ load-balanced across replicas
 <a href="#state_cluster_resource_id_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RDS Cluster Resource ID
 {{% /md %}}</dd>
@@ -4314,7 +4314,7 @@ load-balanced across replicas
 <a href="#state_copy_tags_to_snapshot_python" style="color: inherit; text-decoration: inherit;">copy_<wbr>tags_<wbr>to_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Cluster `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -4325,7 +4325,7 @@ load-balanced across replicas
 <a href="#state_database_name_python" style="color: inherit; text-decoration: inherit;">database_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name for an automatically created database on cluster creation. There are different naming restrictions per database engine: [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -4336,7 +4336,7 @@ load-balanced across replicas
 <a href="#state_db_cluster_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">db_<wbr>cluster_<wbr>parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A cluster parameter group to associate with the cluster.
 {{% /md %}}</dd>
@@ -4347,7 +4347,7 @@ load-balanced across replicas
 <a href="#state_db_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">db_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A DB subnet group to associate with this DB instance. **NOTE:** This must match the `db_subnet_group_name` specified on every `aws.rds.ClusterInstance` in the cluster.
 {{% /md %}}</dd>
@@ -4358,7 +4358,7 @@ load-balanced across replicas
 <a href="#state_deletion_protection_python" style="color: inherit; text-decoration: inherit;">deletion_<wbr>protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -4369,7 +4369,7 @@ load-balanced across replicas
 <a href="#state_enable_http_endpoint_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>http_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enable HTTP endpoint (data API). Only valid when `engine_mode` is set to `serverless`.
 {{% /md %}}</dd>
@@ -4380,7 +4380,7 @@ load-balanced across replicas
 <a href="#state_enabled_cloudwatch_logs_exports_python" style="color: inherit; text-decoration: inherit;">enabled_<wbr>cloudwatch_<wbr>logs_<wbr>exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of log types to export to cloudwatch. If omitted, no logs will be exported. The following log types are supported: `audit`, `error`, `general`, `slowquery`, `postgresql` (PostgreSQL).
 {{% /md %}}</dd>
@@ -4391,7 +4391,7 @@ load-balanced across replicas
 <a href="#state_endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS address of the RDS instance
 {{% /md %}}</dd>
@@ -4402,7 +4402,7 @@ load-balanced across replicas
 <a href="#state_engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Engine<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Engine<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The name of the database engine to be used for this DB cluster. Defaults to `aurora`. Valid Values: `aurora`, `aurora-mysql`, `aurora-postgresql`
 {{% /md %}}</dd>
@@ -4413,7 +4413,7 @@ load-balanced across replicas
 <a href="#state_engine_mode_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>mode</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Engine<wbr>Mode]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Engine<wbr>Mode</span>
     </dt>
     <dd>{{% md %}}The database engine mode. Valid values: `global` (only valid for Aurora MySQL 1.21 and earlier), `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`. See the [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/aurora-serverless.html) for limitations when using `serverless`.
 {{% /md %}}</dd>
@@ -4424,7 +4424,7 @@ load-balanced across replicas
 <a href="#state_engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The database engine version. Updating this argument results in an outage. See the [Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) and [Aurora Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.html) documentation for your configured engine to determine this value. For example with Aurora MySQL 2, a potential value for this argument is `5.7.mysql_aurora.2.03.2`.
 {{% /md %}}</dd>
@@ -4435,7 +4435,7 @@ load-balanced across replicas
 <a href="#state_final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot when this DB cluster is deleted. If omitted, no final snapshot will be made.
 {{% /md %}}</dd>
@@ -4446,7 +4446,7 @@ load-balanced across replicas
 <a href="#state_global_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">global_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The global cluster identifier specified on `aws.rds.GlobalCluster`.
 {{% /md %}}</dd>
@@ -4457,7 +4457,7 @@ load-balanced across replicas
 <a href="#state_hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Route53 Hosted Zone ID of the endpoint
 {{% /md %}}</dd>
@@ -4468,7 +4468,7 @@ load-balanced across replicas
 <a href="#state_iam_database_authentication_enabled_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>database_<wbr>authentication_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or mappings of AWS Identity and Access Management (IAM) accounts to database accounts is enabled. Please see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) for availability and limitations.
 {{% /md %}}</dd>
@@ -4479,7 +4479,7 @@ load-balanced across replicas
 <a href="#state_iam_roles_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A List of ARNs for the IAM roles to associate to the RDS Cluster.
 {{% /md %}}</dd>
@@ -4490,7 +4490,7 @@ load-balanced across replicas
 <a href="#state_kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `storage_encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -4501,7 +4501,7 @@ load-balanced across replicas
 <a href="#state_master_password_python" style="color: inherit; text-decoration: inherit;">master_<wbr>password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user. Note that this may show up in logs, and it will be stored in the state file. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints)
 {{% /md %}}</dd>
@@ -4512,7 +4512,7 @@ load-balanced across replicas
 <a href="#state_master_username_python" style="color: inherit; text-decoration: inherit;">master_<wbr>username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user. Please refer to the [RDS Naming Constraints](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints). This argument does not support in-place updates and cannot be changed during a restore from snapshot.
 {{% /md %}}</dd>
@@ -4523,7 +4523,7 @@ load-balanced across replicas
 <a href="#state_port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections
 {{% /md %}}</dd>
@@ -4534,7 +4534,7 @@ load-balanced across replicas
 <a href="#state_preferred_backup_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>backup_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter.Time in UTC. Default: A 30-minute window selected at random from an 8-hour block of time per region. e.g. 04:00-09:00
 {{% /md %}}</dd>
@@ -4545,7 +4545,7 @@ load-balanced across replicas
 <a href="#state_preferred_maintenance_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The weekly time range during which system maintenance can occur, in (UTC) e.g. wed:04:00-wed:04:30
 {{% /md %}}</dd>
@@ -4556,7 +4556,7 @@ load-balanced across replicas
 <a href="#state_reader_endpoint_python" style="color: inherit; text-decoration: inherit;">reader_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A read-only endpoint for the Aurora cluster, automatically
 load-balanced across replicas
@@ -4568,7 +4568,7 @@ load-balanced across replicas
 <a href="#state_replication_source_identifier_python" style="color: inherit; text-decoration: inherit;">replication_<wbr>source_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of the source DB cluster or DB instance if this DB cluster is created as a Read Replica.
 {{% /md %}}</dd>
@@ -4611,7 +4611,7 @@ load-balanced across replicas
 <a href="#state_skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is created before the DB cluster is deleted. If true is specified, no DB snapshot is created. If false is specified, a DB snapshot is created before the DB cluster is deleted, using the value from `final_snapshot_identifier`. Default is `false`.
 {{% /md %}}</dd>
@@ -4622,7 +4622,7 @@ load-balanced across replicas
 <a href="#state_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this cluster from a snapshot. You can use either the name or ARN when specifying a DB cluster snapshot, or the ARN when specifying a DB snapshot.
 {{% /md %}}</dd>
@@ -4633,7 +4633,7 @@ load-balanced across replicas
 <a href="#state_source_region_python" style="color: inherit; text-decoration: inherit;">source_<wbr>region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The source region for an encrypted replica DB cluster.
 {{% /md %}}</dd>
@@ -4644,7 +4644,7 @@ load-balanced across replicas
 <a href="#state_storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB cluster is encrypted
 {{% /md %}}</dd>
@@ -4666,7 +4666,7 @@ load-balanced across replicas
 <a href="#state_vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to associate with the Cluster
 {{% /md %}}</dd>
@@ -4710,7 +4710,7 @@ load-balanced across replicas
 <a href="#sourceclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the source database cluster from which to restore.
 {{% /md %}}</dd>
@@ -4721,7 +4721,7 @@ load-balanced across replicas
 <a href="#restoretotime_csharp" style="color: inherit; text-decoration: inherit;">Restore<wbr>To<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Date and time in UTC format to restore the database cluster to. Conflicts with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -4732,7 +4732,7 @@ load-balanced across replicas
 <a href="#restoretype_csharp" style="color: inherit; text-decoration: inherit;">Restore<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Type of restore to be performed.
 Valid options are `full-copy` (default) and `copy-on-write`.
@@ -4744,7 +4744,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#uselatestrestorabletime_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to restore the database cluster to the latest restorable backup time. Defaults to false. Conflicts with `restore_to_time`.
 {{% /md %}}</dd>
@@ -4762,7 +4762,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the source database cluster from which to restore.
 {{% /md %}}</dd>
@@ -4773,7 +4773,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#restoretotime_go" style="color: inherit; text-decoration: inherit;">Restore<wbr>To<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Date and time in UTC format to restore the database cluster to. Conflicts with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -4784,7 +4784,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#restoretype_go" style="color: inherit; text-decoration: inherit;">Restore<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Type of restore to be performed.
 Valid options are `full-copy` (default) and `copy-on-write`.
@@ -4796,7 +4796,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#uselatestrestorabletime_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to restore the database cluster to the latest restorable backup time. Defaults to false. Conflicts with `restore_to_time`.
 {{% /md %}}</dd>
@@ -4814,7 +4814,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the source database cluster from which to restore.
 {{% /md %}}</dd>
@@ -4825,7 +4825,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#restoretotime_nodejs" style="color: inherit; text-decoration: inherit;">restore<wbr>To<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Date and time in UTC format to restore the database cluster to. Conflicts with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -4836,7 +4836,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#restoretype_nodejs" style="color: inherit; text-decoration: inherit;">restore<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Type of restore to be performed.
 Valid options are `full-copy` (default) and `copy-on-write`.
@@ -4848,7 +4848,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#uselatestrestorabletime_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set to true to restore the database cluster to the latest restorable backup time. Defaults to false. Conflicts with `restore_to_time`.
 {{% /md %}}</dd>
@@ -4866,7 +4866,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#source_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">source_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The identifier of the source database cluster from which to restore.
 {{% /md %}}</dd>
@@ -4877,7 +4877,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#restore_to_time_python" style="color: inherit; text-decoration: inherit;">restore_<wbr>to_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Date and time in UTC format to restore the database cluster to. Conflicts with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -4888,7 +4888,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#restore_type_python" style="color: inherit; text-decoration: inherit;">restore_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Type of restore to be performed.
 Valid options are `full-copy` (default) and `copy-on-write`.
@@ -4900,7 +4900,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#use_latest_restorable_time_python" style="color: inherit; text-decoration: inherit;">use_<wbr>latest_<wbr>restorable_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to true to restore the database cluster to the latest restorable backup time. Defaults to false. Conflicts with `restore_to_time`.
 {{% /md %}}</dd>
@@ -4936,7 +4936,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucketname_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -4947,7 +4947,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#ingestionrole_csharp" style="color: inherit; text-decoration: inherit;">Ingestion<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -4958,7 +4958,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceengine_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -4969,7 +4969,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceengineversion_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -4980,7 +4980,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucketprefix_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -4998,7 +4998,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucketname_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -5009,7 +5009,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#ingestionrole_go" style="color: inherit; text-decoration: inherit;">Ingestion<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -5020,7 +5020,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceengine_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -5031,7 +5031,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceengineversion_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -5042,7 +5042,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucketprefix_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -5060,7 +5060,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucketname_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -5071,7 +5071,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#ingestionrole_nodejs" style="color: inherit; text-decoration: inherit;">ingestion<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -5082,7 +5082,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceengine_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -5093,7 +5093,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#sourceengineversion_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -5104,7 +5104,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucketprefix_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -5122,7 +5122,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucket_name_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -5133,7 +5133,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#ingestion_role_python" style="color: inherit; text-decoration: inherit;">ingestion_<wbr>role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -5144,7 +5144,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#source_engine_python" style="color: inherit; text-decoration: inherit;">source_<wbr>engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -5155,7 +5155,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#source_engine_version_python" style="color: inherit; text-decoration: inherit;">source_<wbr>engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -5166,7 +5166,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#bucket_prefix_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -5202,7 +5202,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#autopause_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable automatic pause. A DB cluster can be paused only when it's idle (it has no connections). If a DB cluster is paused for more than seven days, the DB cluster might be backed up with a snapshot. In this case, the DB cluster is restored when there is a request to connect to it. Defaults to `true`.
 {{% /md %}}</dd>
@@ -5213,7 +5213,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#maxcapacity_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum capacity. The maximum capacity must be greater than or equal to the minimum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `16`.
 {{% /md %}}</dd>
@@ -5224,7 +5224,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#mincapacity_csharp" style="color: inherit; text-decoration: inherit;">Min<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum capacity. The minimum capacity must be lesser than or equal to the maximum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `1`.
 {{% /md %}}</dd>
@@ -5235,7 +5235,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#secondsuntilautopause_csharp" style="color: inherit; text-decoration: inherit;">Seconds<wbr>Until<wbr>Auto<wbr>Pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, before an Aurora DB cluster in serverless mode is paused. Valid values are `300` through `86400`. Defaults to `300`.
 {{% /md %}}</dd>
@@ -5246,7 +5246,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#timeoutaction_csharp" style="color: inherit; text-decoration: inherit;">Timeout<wbr>Action</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action to take when the timeout is reached. Valid values: `ForceApplyCapacityChange`, `RollbackCapacityChange`. Defaults to `RollbackCapacityChange`. See [documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html#aurora-serverless.how-it-works.timeout-action).
 {{% /md %}}</dd>
@@ -5264,7 +5264,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#autopause_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable automatic pause. A DB cluster can be paused only when it's idle (it has no connections). If a DB cluster is paused for more than seven days, the DB cluster might be backed up with a snapshot. In this case, the DB cluster is restored when there is a request to connect to it. Defaults to `true`.
 {{% /md %}}</dd>
@@ -5275,7 +5275,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#maxcapacity_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum capacity. The maximum capacity must be greater than or equal to the minimum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `16`.
 {{% /md %}}</dd>
@@ -5286,7 +5286,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#mincapacity_go" style="color: inherit; text-decoration: inherit;">Min<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum capacity. The minimum capacity must be lesser than or equal to the maximum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `1`.
 {{% /md %}}</dd>
@@ -5297,7 +5297,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#secondsuntilautopause_go" style="color: inherit; text-decoration: inherit;">Seconds<wbr>Until<wbr>Auto<wbr>Pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, before an Aurora DB cluster in serverless mode is paused. Valid values are `300` through `86400`. Defaults to `300`.
 {{% /md %}}</dd>
@@ -5308,7 +5308,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#timeoutaction_go" style="color: inherit; text-decoration: inherit;">Timeout<wbr>Action</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action to take when the timeout is reached. Valid values: `ForceApplyCapacityChange`, `RollbackCapacityChange`. Defaults to `RollbackCapacityChange`. See [documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html#aurora-serverless.how-it-works.timeout-action).
 {{% /md %}}</dd>
@@ -5326,7 +5326,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#autopause_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to enable automatic pause. A DB cluster can be paused only when it's idle (it has no connections). If a DB cluster is paused for more than seven days, the DB cluster might be backed up with a snapshot. In this case, the DB cluster is restored when there is a request to connect to it. Defaults to `true`.
 {{% /md %}}</dd>
@@ -5337,7 +5337,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#maxcapacity_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum capacity. The maximum capacity must be greater than or equal to the minimum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `16`.
 {{% /md %}}</dd>
@@ -5348,7 +5348,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#mincapacity_nodejs" style="color: inherit; text-decoration: inherit;">min<wbr>Capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The minimum capacity. The minimum capacity must be lesser than or equal to the maximum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `1`.
 {{% /md %}}</dd>
@@ -5359,7 +5359,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#secondsuntilautopause_nodejs" style="color: inherit; text-decoration: inherit;">seconds<wbr>Until<wbr>Auto<wbr>Pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, before an Aurora DB cluster in serverless mode is paused. Valid values are `300` through `86400`. Defaults to `300`.
 {{% /md %}}</dd>
@@ -5370,7 +5370,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#timeoutaction_nodejs" style="color: inherit; text-decoration: inherit;">timeout<wbr>Action</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The action to take when the timeout is reached. Valid values: `ForceApplyCapacityChange`, `RollbackCapacityChange`. Defaults to `RollbackCapacityChange`. See [documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html#aurora-serverless.how-it-works.timeout-action).
 {{% /md %}}</dd>
@@ -5388,7 +5388,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#auto_pause_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable automatic pause. A DB cluster can be paused only when it's idle (it has no connections). If a DB cluster is paused for more than seven days, the DB cluster might be backed up with a snapshot. In this case, the DB cluster is restored when there is a request to connect to it. Defaults to `true`.
 {{% /md %}}</dd>
@@ -5399,7 +5399,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#max_capacity_python" style="color: inherit; text-decoration: inherit;">max_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum capacity. The maximum capacity must be greater than or equal to the minimum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `16`.
 {{% /md %}}</dd>
@@ -5410,7 +5410,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#min_capacity_python" style="color: inherit; text-decoration: inherit;">min_<wbr>capacity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum capacity. The minimum capacity must be lesser than or equal to the maximum capacity. Valid capacity values are `1`, `2`, `4`, `8`, `16`, `32`, `64`, `128`, and `256`. Defaults to `1`.
 {{% /md %}}</dd>
@@ -5421,7 +5421,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#seconds_until_auto_pause_python" style="color: inherit; text-decoration: inherit;">seconds_<wbr>until_<wbr>auto_<wbr>pause</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, before an Aurora DB cluster in serverless mode is paused. Valid values are `300` through `86400`. Defaults to `300`.
 {{% /md %}}</dd>
@@ -5432,7 +5432,7 @@ Valid options are `full-copy` (default) and `copy-on-write`.
 <a href="#timeout_action_python" style="color: inherit; text-decoration: inherit;">timeout_<wbr>action</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The action to take when the timeout is reached. Valid values: `ForceApplyCapacityChange`, `RollbackCapacityChange`. Defaults to `RollbackCapacityChange`. See [documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html#aurora-serverless.how-it-works.timeout-action).
 {{% /md %}}</dd>

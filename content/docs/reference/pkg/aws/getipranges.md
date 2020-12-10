@@ -170,7 +170,7 @@ The following arguments are supported:
 <a href="#services_csharp" style="color: inherit; text-decoration: inherit;">Services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by services. Valid items are `amazon`
 (for amazon.com), `amazon_connect`, `api_gateway`, `cloud9`, `cloudfront`,
@@ -185,7 +185,7 @@ The following arguments are supported:
 <a href="#regions_csharp" style="color: inherit; text-decoration: inherit;">Regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by regions (or include all regions, if
 omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
@@ -198,7 +198,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#url_csharp" style="color: inherit; text-decoration: inherit;">Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom URL for source JSON file. Syntax must match [AWS IP Address Ranges documentation](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html). Defaults to `https://ip-ranges.amazonaws.com/ip-ranges.json`.
 {{% /md %}}</dd>
@@ -216,7 +216,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#services_go" style="color: inherit; text-decoration: inherit;">Services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by services. Valid items are `amazon`
 (for amazon.com), `amazon_connect`, `api_gateway`, `cloud9`, `cloudfront`,
@@ -231,7 +231,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#regions_go" style="color: inherit; text-decoration: inherit;">Regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by regions (or include all regions, if
 omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
@@ -244,7 +244,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#url_go" style="color: inherit; text-decoration: inherit;">Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom URL for source JSON file. Syntax must match [AWS IP Address Ranges documentation](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html). Defaults to `https://ip-ranges.amazonaws.com/ip-ranges.json`.
 {{% /md %}}</dd>
@@ -262,7 +262,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#services_nodejs" style="color: inherit; text-decoration: inherit;">services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by services. Valid items are `amazon`
 (for amazon.com), `amazon_connect`, `api_gateway`, `cloud9`, `cloudfront`,
@@ -277,7 +277,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#regions_nodejs" style="color: inherit; text-decoration: inherit;">regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by regions (or include all regions, if
 omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
@@ -290,7 +290,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#url_nodejs" style="color: inherit; text-decoration: inherit;">url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom URL for source JSON file. Syntax must match [AWS IP Address Ranges documentation](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html). Defaults to `https://ip-ranges.amazonaws.com/ip-ranges.json`.
 {{% /md %}}</dd>
@@ -308,7 +308,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#services_python" style="color: inherit; text-decoration: inherit;">services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by services. Valid items are `amazon`
 (for amazon.com), `amazon_connect`, `api_gateway`, `cloud9`, `cloudfront`,
@@ -323,7 +323,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#regions_python" style="color: inherit; text-decoration: inherit;">regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Filter IP ranges by regions (or include all regions, if
 omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
@@ -336,7 +336,7 @@ omitted). Valid items are `global` (for `cloudfront`) as well as all AWS regions
 <a href="#url_python" style="color: inherit; text-decoration: inherit;">url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Custom URL for source JSON file. Syntax must match [AWS IP Address Ranges documentation](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html). Defaults to `https://ip-ranges.amazonaws.com/ip-ranges.json`.
 {{% /md %}}</dd>
@@ -367,7 +367,7 @@ The following output properties are available:
 <a href="#cidrblocks_csharp" style="color: inherit; text-decoration: inherit;">Cidr<wbr>Blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of CIDR blocks.
 {{% /md %}}</dd>
@@ -378,7 +378,7 @@ The following output properties are available:
 <a href="#createdate_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges (e.g. `2016-08-03-23-46-05`).
 {{% /md %}}</dd>
@@ -389,7 +389,7 @@ The following output properties are available:
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -400,7 +400,7 @@ The following output properties are available:
 <a href="#ipv6cidrblocks_csharp" style="color: inherit; text-decoration: inherit;">Ipv6Cidr<wbr>Blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of IPv6 CIDR blocks.
 {{% /md %}}</dd>
@@ -411,7 +411,7 @@ The following output properties are available:
 <a href="#services_csharp" style="color: inherit; text-decoration: inherit;">Services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -421,7 +421,7 @@ The following output properties are available:
 <a href="#synctoken_csharp" style="color: inherit; text-decoration: inherit;">Sync<wbr>Token</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges, in Unix epoch time format
 (e.g. `1470267965`).
@@ -433,7 +433,7 @@ The following output properties are available:
 <a href="#regions_csharp" style="color: inherit; text-decoration: inherit;">Regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -443,7 +443,7 @@ The following output properties are available:
 <a href="#url_csharp" style="color: inherit; text-decoration: inherit;">Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -460,7 +460,7 @@ The following output properties are available:
 <a href="#cidrblocks_go" style="color: inherit; text-decoration: inherit;">Cidr<wbr>Blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of CIDR blocks.
 {{% /md %}}</dd>
@@ -471,7 +471,7 @@ The following output properties are available:
 <a href="#createdate_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges (e.g. `2016-08-03-23-46-05`).
 {{% /md %}}</dd>
@@ -482,7 +482,7 @@ The following output properties are available:
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -493,7 +493,7 @@ The following output properties are available:
 <a href="#ipv6cidrblocks_go" style="color: inherit; text-decoration: inherit;">Ipv6Cidr<wbr>Blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of IPv6 CIDR blocks.
 {{% /md %}}</dd>
@@ -504,7 +504,7 @@ The following output properties are available:
 <a href="#services_go" style="color: inherit; text-decoration: inherit;">Services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -514,7 +514,7 @@ The following output properties are available:
 <a href="#synctoken_go" style="color: inherit; text-decoration: inherit;">Sync<wbr>Token</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges, in Unix epoch time format
 (e.g. `1470267965`).
@@ -526,7 +526,7 @@ The following output properties are available:
 <a href="#regions_go" style="color: inherit; text-decoration: inherit;">Regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -536,7 +536,7 @@ The following output properties are available:
 <a href="#url_go" style="color: inherit; text-decoration: inherit;">Url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -553,7 +553,7 @@ The following output properties are available:
 <a href="#cidrblocks_nodejs" style="color: inherit; text-decoration: inherit;">cidr<wbr>Blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of CIDR blocks.
 {{% /md %}}</dd>
@@ -564,7 +564,7 @@ The following output properties are available:
 <a href="#createdate_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges (e.g. `2016-08-03-23-46-05`).
 {{% /md %}}</dd>
@@ -575,7 +575,7 @@ The following output properties are available:
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -586,7 +586,7 @@ The following output properties are available:
 <a href="#ipv6cidrblocks_nodejs" style="color: inherit; text-decoration: inherit;">ipv6Cidr<wbr>Blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of IPv6 CIDR blocks.
 {{% /md %}}</dd>
@@ -597,7 +597,7 @@ The following output properties are available:
 <a href="#services_nodejs" style="color: inherit; text-decoration: inherit;">services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -607,7 +607,7 @@ The following output properties are available:
 <a href="#synctoken_nodejs" style="color: inherit; text-decoration: inherit;">sync<wbr>Token</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges, in Unix epoch time format
 (e.g. `1470267965`).
@@ -619,7 +619,7 @@ The following output properties are available:
 <a href="#regions_nodejs" style="color: inherit; text-decoration: inherit;">regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -629,7 +629,7 @@ The following output properties are available:
 <a href="#url_nodejs" style="color: inherit; text-decoration: inherit;">url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -646,7 +646,7 @@ The following output properties are available:
 <a href="#cidr_blocks_python" style="color: inherit; text-decoration: inherit;">cidr_<wbr>blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of CIDR blocks.
 {{% /md %}}</dd>
@@ -657,7 +657,7 @@ The following output properties are available:
 <a href="#create_date_python" style="color: inherit; text-decoration: inherit;">create_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges (e.g. `2016-08-03-23-46-05`).
 {{% /md %}}</dd>
@@ -668,7 +668,7 @@ The following output properties are available:
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -679,7 +679,7 @@ The following output properties are available:
 <a href="#ipv6_cidr_blocks_python" style="color: inherit; text-decoration: inherit;">ipv6_<wbr>cidr_<wbr>blocks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The lexically ordered list of IPv6 CIDR blocks.
 {{% /md %}}</dd>
@@ -690,7 +690,7 @@ The following output properties are available:
 <a href="#services_python" style="color: inherit; text-decoration: inherit;">services</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -700,7 +700,7 @@ The following output properties are available:
 <a href="#sync_token_python" style="color: inherit; text-decoration: inherit;">sync_<wbr>token</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The publication time of the IP ranges, in Unix epoch time format
 (e.g. `1470267965`).
@@ -712,7 +712,7 @@ The following output properties are available:
 <a href="#regions_python" style="color: inherit; text-decoration: inherit;">regions</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -722,7 +722,7 @@ The following output properties are available:
 <a href="#url_python" style="color: inherit; text-decoration: inherit;">url</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 

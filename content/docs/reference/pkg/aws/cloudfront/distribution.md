@@ -631,7 +631,7 @@ const s3Distribution = new aws.cloudfront.Distribution("s3Distribution", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#Distribution">Distribution</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#DistributionArgs">DistributionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#Distribution">Distribution</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#DistributionArgs">DistributionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -639,11 +639,11 @@ const s3Distribution = new aws.cloudfront.Distribution("s3Distribution", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#Distribution">NewDistribution</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#DistributionArgs">DistributionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#Distribution">Distribution</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#Distribution">NewDistribution</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#DistributionArgs">DistributionArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#Distribution">Distribution</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.Distribution.html">Distribution</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.DistributionArgs.html">DistributionArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.Distribution.html">Distribution</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.DistributionArgs.html">DistributionArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -654,7 +654,7 @@ const s3Distribution = new aws.cloudfront.Distribution("s3Distribution", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -723,7 +723,7 @@ const s3Distribution = new aws.cloudfront.Distribution("s3Distribution", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -762,7 +762,7 @@ const s3Distribution = new aws.cloudfront.Distribution("s3Distribution", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -825,7 +825,7 @@ one).
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -874,7 +874,7 @@ one).
 <a href="#aliases_csharp" style="color: inherit; text-decoration: inherit;">Aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -886,7 +886,7 @@ this distribution.
 <a href="#comment_csharp" style="color: inherit; text-decoration: inherit;">Comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -909,7 +909,7 @@ distribution.
 <a href="#defaultrootobject_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -921,7 +921,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#httpversion_csharp" style="color: inherit; text-decoration: inherit;">Http<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -934,7 +934,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#isipv6enabled_csharp" style="color: inherit; text-decoration: inherit;">Is<wbr>Ipv6Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -983,7 +983,7 @@ distribution (multiples allowed).
 <a href="#priceclass_csharp" style="color: inherit; text-decoration: inherit;">Price<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -995,7 +995,7 @@ distribution (multiples allowed).
 <a href="#retainondelete_csharp" style="color: inherit; text-decoration: inherit;">Retain<wbr>On<wbr>Delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -1019,7 +1019,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#waitfordeployment_csharp" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -1032,7 +1032,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#webaclid_csharp" style="color: inherit; text-decoration: inherit;">Web<wbr>Acl<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -1068,7 +1068,7 @@ one).
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -1117,7 +1117,7 @@ one).
 <a href="#aliases_go" style="color: inherit; text-decoration: inherit;">Aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -1129,7 +1129,7 @@ this distribution.
 <a href="#comment_go" style="color: inherit; text-decoration: inherit;">Comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -1152,7 +1152,7 @@ distribution.
 <a href="#defaultrootobject_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -1164,7 +1164,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#httpversion_go" style="color: inherit; text-decoration: inherit;">Http<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -1177,7 +1177,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#isipv6enabled_go" style="color: inherit; text-decoration: inherit;">Is<wbr>Ipv6Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -1226,7 +1226,7 @@ distribution (multiples allowed).
 <a href="#priceclass_go" style="color: inherit; text-decoration: inherit;">Price<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -1238,7 +1238,7 @@ distribution (multiples allowed).
 <a href="#retainondelete_go" style="color: inherit; text-decoration: inherit;">Retain<wbr>On<wbr>Delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -1262,7 +1262,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#waitfordeployment_go" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -1275,7 +1275,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#webaclid_go" style="color: inherit; text-decoration: inherit;">Web<wbr>Acl<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -1311,7 +1311,7 @@ one).
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -1360,7 +1360,7 @@ one).
 <a href="#aliases_nodejs" style="color: inherit; text-decoration: inherit;">aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -1372,7 +1372,7 @@ this distribution.
 <a href="#comment_nodejs" style="color: inherit; text-decoration: inherit;">comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -1395,7 +1395,7 @@ distribution.
 <a href="#defaultrootobject_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Root<wbr>Object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -1407,7 +1407,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#httpversion_nodejs" style="color: inherit; text-decoration: inherit;">http<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -1420,7 +1420,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#isipv6enabled_nodejs" style="color: inherit; text-decoration: inherit;">is<wbr>Ipv6Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -1469,7 +1469,7 @@ distribution (multiples allowed).
 <a href="#priceclass_nodejs" style="color: inherit; text-decoration: inherit;">price<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -1481,7 +1481,7 @@ distribution (multiples allowed).
 <a href="#retainondelete_nodejs" style="color: inherit; text-decoration: inherit;">retain<wbr>On<wbr>Delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -1505,7 +1505,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#waitfordeployment_nodejs" style="color: inherit; text-decoration: inherit;">wait<wbr>For<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -1518,7 +1518,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#webaclid_nodejs" style="color: inherit; text-decoration: inherit;">web<wbr>Acl<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -1554,7 +1554,7 @@ one).
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -1603,7 +1603,7 @@ one).
 <a href="#aliases_python" style="color: inherit; text-decoration: inherit;">aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -1615,7 +1615,7 @@ this distribution.
 <a href="#comment_python" style="color: inherit; text-decoration: inherit;">comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -1638,7 +1638,7 @@ distribution.
 <a href="#default_root_object_python" style="color: inherit; text-decoration: inherit;">default_<wbr>root_<wbr>object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -1650,7 +1650,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#http_version_python" style="color: inherit; text-decoration: inherit;">http_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -1663,7 +1663,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#is_ipv6_enabled_python" style="color: inherit; text-decoration: inherit;">is_<wbr>ipv6_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -1712,7 +1712,7 @@ distribution (multiples allowed).
 <a href="#price_class_python" style="color: inherit; text-decoration: inherit;">price_<wbr>class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -1724,7 +1724,7 @@ distribution (multiples allowed).
 <a href="#retain_on_delete_python" style="color: inherit; text-decoration: inherit;">retain_<wbr>on_<wbr>delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -1748,7 +1748,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#wait_for_deployment_python" style="color: inherit; text-decoration: inherit;">wait_<wbr>for_<wbr>deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -1761,7 +1761,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#web_acl_id_python" style="color: inherit; text-decoration: inherit;">web_<wbr>acl_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -1796,7 +1796,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -1807,7 +1807,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#callerreference_csharp" style="color: inherit; text-decoration: inherit;">Caller<wbr>Reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -1819,7 +1819,7 @@ updates to the distribution configuration.
 <a href="#domainname_csharp" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -1831,7 +1831,7 @@ web site of your custom origin.
 <a href="#etag_csharp" style="color: inherit; text-decoration: inherit;">Etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -1843,7 +1843,7 @@ web site of your custom origin.
 <a href="#hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -1856,7 +1856,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1866,7 +1866,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#inprogressvalidationbatches_csharp" style="color: inherit; text-decoration: inherit;">In<wbr>Progress<wbr>Validation<wbr>Batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -1878,7 +1878,7 @@ currently in progress.
 <a href="#lastmodifiedtime_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Modified<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -1889,7 +1889,7 @@ currently in progress.
 <a href="#status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -1921,7 +1921,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -1932,7 +1932,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#callerreference_go" style="color: inherit; text-decoration: inherit;">Caller<wbr>Reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -1944,7 +1944,7 @@ updates to the distribution configuration.
 <a href="#domainname_go" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -1956,7 +1956,7 @@ web site of your custom origin.
 <a href="#etag_go" style="color: inherit; text-decoration: inherit;">Etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -1968,7 +1968,7 @@ web site of your custom origin.
 <a href="#hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -1981,7 +1981,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1991,7 +1991,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#inprogressvalidationbatches_go" style="color: inherit; text-decoration: inherit;">In<wbr>Progress<wbr>Validation<wbr>Batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -2003,7 +2003,7 @@ currently in progress.
 <a href="#lastmodifiedtime_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Modified<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -2014,7 +2014,7 @@ currently in progress.
 <a href="#status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -2046,7 +2046,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -2057,7 +2057,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#callerreference_nodejs" style="color: inherit; text-decoration: inherit;">caller<wbr>Reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -2069,7 +2069,7 @@ updates to the distribution configuration.
 <a href="#domainname_nodejs" style="color: inherit; text-decoration: inherit;">domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -2081,7 +2081,7 @@ web site of your custom origin.
 <a href="#etag_nodejs" style="color: inherit; text-decoration: inherit;">etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -2093,7 +2093,7 @@ web site of your custom origin.
 <a href="#hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -2106,7 +2106,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2116,7 +2116,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#inprogressvalidationbatches_nodejs" style="color: inherit; text-decoration: inherit;">in<wbr>Progress<wbr>Validation<wbr>Batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -2128,7 +2128,7 @@ currently in progress.
 <a href="#lastmodifiedtime_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Modified<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -2139,7 +2139,7 @@ currently in progress.
 <a href="#status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -2171,7 +2171,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -2182,7 +2182,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#caller_reference_python" style="color: inherit; text-decoration: inherit;">caller_<wbr>reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -2194,7 +2194,7 @@ updates to the distribution configuration.
 <a href="#domain_name_python" style="color: inherit; text-decoration: inherit;">domain_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -2206,7 +2206,7 @@ web site of your custom origin.
 <a href="#etag_python" style="color: inherit; text-decoration: inherit;">etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -2218,7 +2218,7 @@ web site of your custom origin.
 <a href="#hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -2231,7 +2231,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2241,7 +2241,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#in_progress_validation_batches_python" style="color: inherit; text-decoration: inherit;">in_<wbr>progress_<wbr>validation_<wbr>batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -2253,7 +2253,7 @@ currently in progress.
 <a href="#last_modified_time_python" style="color: inherit; text-decoration: inherit;">last_<wbr>modified_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -2264,7 +2264,7 @@ currently in progress.
 <a href="#status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -2298,7 +2298,7 @@ Get an existing Distribution resource's state with the given name, ID, and optio
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#DistributionState">DistributionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#Distribution">Distribution</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#DistributionState">DistributionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/cloudfront/#Distribution">Distribution</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -2307,11 +2307,11 @@ Get an existing Distribution resource's state with the given name, ID, and optio
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetDistribution<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#DistributionState">DistributionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#Distribution">Distribution</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetDistribution<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#DistributionState">DistributionState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/cloudfront?tab=doc#Distribution">Distribution</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.Distribution.html">Distribution</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.DistributionState.html">DistributionState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.Distribution.html">Distribution</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.CloudFront.DistributionState.html">DistributionState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -2423,7 +2423,7 @@ The following state arguments are supported:
 <a href="#state_aliases_csharp" style="color: inherit; text-decoration: inherit;">Aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -2435,7 +2435,7 @@ this distribution.
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -2446,7 +2446,7 @@ this distribution.
 <a href="#state_callerreference_csharp" style="color: inherit; text-decoration: inherit;">Caller<wbr>Reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -2458,7 +2458,7 @@ updates to the distribution configuration.
 <a href="#state_comment_csharp" style="color: inherit; text-decoration: inherit;">Comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -2493,7 +2493,7 @@ one).
 <a href="#state_defaultrootobject_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -2505,7 +2505,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#state_domainname_csharp" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -2517,7 +2517,7 @@ web site of your custom origin.
 <a href="#state_enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -2529,7 +2529,7 @@ user requests for content.
 <a href="#state_etag_csharp" style="color: inherit; text-decoration: inherit;">Etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -2541,7 +2541,7 @@ user requests for content.
 <a href="#state_hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -2554,7 +2554,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#state_httpversion_csharp" style="color: inherit; text-decoration: inherit;">Http<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -2567,7 +2567,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#state_inprogressvalidationbatches_csharp" style="color: inherit; text-decoration: inherit;">In<wbr>Progress<wbr>Validation<wbr>Batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -2579,7 +2579,7 @@ currently in progress.
 <a href="#state_isipv6enabled_csharp" style="color: inherit; text-decoration: inherit;">Is<wbr>Ipv6Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -2590,7 +2590,7 @@ currently in progress.
 <a href="#state_lastmodifiedtime_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Modified<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -2651,7 +2651,7 @@ distribution (multiples allowed).
 <a href="#state_priceclass_csharp" style="color: inherit; text-decoration: inherit;">Price<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -2675,7 +2675,7 @@ configuration for this distribution (maximum one).
 <a href="#state_retainondelete_csharp" style="color: inherit; text-decoration: inherit;">Retain<wbr>On<wbr>Delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -2688,7 +2688,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#state_status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -2737,7 +2737,7 @@ one).
 <a href="#state_waitfordeployment_csharp" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -2750,7 +2750,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#state_webaclid_csharp" style="color: inherit; text-decoration: inherit;">Web<wbr>Acl<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -2774,7 +2774,7 @@ credentials configuring this argument must have `waf:GetWebACL` permissions assi
 <a href="#state_aliases_go" style="color: inherit; text-decoration: inherit;">Aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -2786,7 +2786,7 @@ this distribution.
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -2797,7 +2797,7 @@ this distribution.
 <a href="#state_callerreference_go" style="color: inherit; text-decoration: inherit;">Caller<wbr>Reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -2809,7 +2809,7 @@ updates to the distribution configuration.
 <a href="#state_comment_go" style="color: inherit; text-decoration: inherit;">Comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -2844,7 +2844,7 @@ one).
 <a href="#state_defaultrootobject_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Root<wbr>Object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -2856,7 +2856,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#state_domainname_go" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -2868,7 +2868,7 @@ web site of your custom origin.
 <a href="#state_enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -2880,7 +2880,7 @@ user requests for content.
 <a href="#state_etag_go" style="color: inherit; text-decoration: inherit;">Etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -2892,7 +2892,7 @@ user requests for content.
 <a href="#state_hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -2905,7 +2905,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#state_httpversion_go" style="color: inherit; text-decoration: inherit;">Http<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -2918,7 +2918,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#state_inprogressvalidationbatches_go" style="color: inherit; text-decoration: inherit;">In<wbr>Progress<wbr>Validation<wbr>Batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -2930,7 +2930,7 @@ currently in progress.
 <a href="#state_isipv6enabled_go" style="color: inherit; text-decoration: inherit;">Is<wbr>Ipv6Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -2941,7 +2941,7 @@ currently in progress.
 <a href="#state_lastmodifiedtime_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Modified<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -3002,7 +3002,7 @@ distribution (multiples allowed).
 <a href="#state_priceclass_go" style="color: inherit; text-decoration: inherit;">Price<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -3026,7 +3026,7 @@ configuration for this distribution (maximum one).
 <a href="#state_retainondelete_go" style="color: inherit; text-decoration: inherit;">Retain<wbr>On<wbr>Delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -3039,7 +3039,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#state_status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -3088,7 +3088,7 @@ one).
 <a href="#state_waitfordeployment_go" style="color: inherit; text-decoration: inherit;">Wait<wbr>For<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -3101,7 +3101,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#state_webaclid_go" style="color: inherit; text-decoration: inherit;">Web<wbr>Acl<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -3125,7 +3125,7 @@ credentials configuring this argument must have `waf:GetWebACL` permissions assi
 <a href="#state_aliases_nodejs" style="color: inherit; text-decoration: inherit;">aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -3137,7 +3137,7 @@ this distribution.
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -3148,7 +3148,7 @@ this distribution.
 <a href="#state_callerreference_nodejs" style="color: inherit; text-decoration: inherit;">caller<wbr>Reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -3160,7 +3160,7 @@ updates to the distribution configuration.
 <a href="#state_comment_nodejs" style="color: inherit; text-decoration: inherit;">comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -3195,7 +3195,7 @@ one).
 <a href="#state_defaultrootobject_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Root<wbr>Object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -3207,7 +3207,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#state_domainname_nodejs" style="color: inherit; text-decoration: inherit;">domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -3219,7 +3219,7 @@ web site of your custom origin.
 <a href="#state_enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -3231,7 +3231,7 @@ user requests for content.
 <a href="#state_etag_nodejs" style="color: inherit; text-decoration: inherit;">etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -3243,7 +3243,7 @@ user requests for content.
 <a href="#state_hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -3256,7 +3256,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#state_httpversion_nodejs" style="color: inherit; text-decoration: inherit;">http<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -3269,7 +3269,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#state_inprogressvalidationbatches_nodejs" style="color: inherit; text-decoration: inherit;">in<wbr>Progress<wbr>Validation<wbr>Batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -3281,7 +3281,7 @@ currently in progress.
 <a href="#state_isipv6enabled_nodejs" style="color: inherit; text-decoration: inherit;">is<wbr>Ipv6Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -3292,7 +3292,7 @@ currently in progress.
 <a href="#state_lastmodifiedtime_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Modified<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -3353,7 +3353,7 @@ distribution (multiples allowed).
 <a href="#state_priceclass_nodejs" style="color: inherit; text-decoration: inherit;">price<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -3377,7 +3377,7 @@ configuration for this distribution (maximum one).
 <a href="#state_retainondelete_nodejs" style="color: inherit; text-decoration: inherit;">retain<wbr>On<wbr>Delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -3390,7 +3390,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#state_status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -3439,7 +3439,7 @@ one).
 <a href="#state_waitfordeployment_nodejs" style="color: inherit; text-decoration: inherit;">wait<wbr>For<wbr>Deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -3452,7 +3452,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#state_webaclid_nodejs" style="color: inherit; text-decoration: inherit;">web<wbr>Acl<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -3476,7 +3476,7 @@ credentials configuring this argument must have `waf:GetWebACL` permissions assi
 <a href="#state_aliases_python" style="color: inherit; text-decoration: inherit;">aliases</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Extra CNAMEs (alternate domain names), if any, for
 this distribution.
@@ -3488,7 +3488,7 @@ this distribution.
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN (Amazon Resource Name) for the distribution. For example: `arn:aws:cloudfront::123456789012:distribution/EDFDVBD632BHDS5`, where `123456789012` is your AWS account ID.
 {{% /md %}}</dd>
@@ -3499,7 +3499,7 @@ this distribution.
 <a href="#state_caller_reference_python" style="color: inherit; text-decoration: inherit;">caller_<wbr>reference</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Internal value used by CloudFront to allow future
 updates to the distribution configuration.
@@ -3511,7 +3511,7 @@ updates to the distribution configuration.
 <a href="#state_comment_python" style="color: inherit; text-decoration: inherit;">comment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Any comments you want to include about the
 distribution.
@@ -3546,7 +3546,7 @@ one).
 <a href="#state_default_root_object_python" style="color: inherit; text-decoration: inherit;">default_<wbr>root_<wbr>object</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The object that you want CloudFront to
 return (for example, index.html) when an end user requests the root URL.
@@ -3558,7 +3558,7 @@ return (for example, index.html) when an end user requests the root URL.
 <a href="#state_domain_name_python" style="color: inherit; text-decoration: inherit;">domain_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -3570,7 +3570,7 @@ web site of your custom origin.
 <a href="#state_enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -3582,7 +3582,7 @@ user requests for content.
 <a href="#state_etag_python" style="color: inherit; text-decoration: inherit;">etag</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current version of the distribution's information. For example:
 `E2QWRUHAPOMQZL`.
@@ -3594,7 +3594,7 @@ user requests for content.
 <a href="#state_hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The CloudFront Route 53 zone ID that can be used to
 route an [Alias Resource Record Set](http://docs.aws.amazon.com/Route53/latest/APIReference/CreateAliasRRSAPI.html) to. This attribute is simply an
@@ -3607,7 +3607,7 @@ alias for the zone ID `Z2FDTNDATAQYW2`.
 <a href="#state_http_version_python" style="color: inherit; text-decoration: inherit;">http_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The maximum HTTP version to support on the
 distribution. Allowed values are `http1.1` and `http2`. The default is
@@ -3620,7 +3620,7 @@ distribution. Allowed values are `http1.1` and `http2`. The default is
 <a href="#state_in_progress_validation_batches_python" style="color: inherit; text-decoration: inherit;">in_<wbr>progress_<wbr>validation_<wbr>batches</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of invalidation batches
 currently in progress.
@@ -3632,7 +3632,7 @@ currently in progress.
 <a href="#state_is_ipv6_enabled_python" style="color: inherit; text-decoration: inherit;">is_<wbr>ipv6_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the IPv6 is enabled for the distribution.
 {{% /md %}}</dd>
@@ -3643,7 +3643,7 @@ currently in progress.
 <a href="#state_last_modified_time_python" style="color: inherit; text-decoration: inherit;">last_<wbr>modified_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date and time the distribution was last modified.
 {{% /md %}}</dd>
@@ -3704,7 +3704,7 @@ distribution (multiples allowed).
 <a href="#state_price_class_python" style="color: inherit; text-decoration: inherit;">price_<wbr>class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The price class for this distribution. One of
 `PriceClass_All`, `PriceClass_200`, `PriceClass_100`
@@ -3728,7 +3728,7 @@ configuration for this distribution (maximum one).
 <a href="#state_retain_on_delete_python" style="color: inherit; text-decoration: inherit;">retain_<wbr>on_<wbr>delete</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Disables the distribution instead of
 deleting it when destroying the resource. If this is set,
@@ -3741,7 +3741,7 @@ the distribution needs to be deleted manually afterwards. Default: `false`.
 <a href="#state_status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current status of the distribution. `Deployed` if the
 distribution's information is fully propagated throughout the Amazon
@@ -3790,7 +3790,7 @@ one).
 <a href="#state_wait_for_deployment_python" style="color: inherit; text-decoration: inherit;">wait_<wbr>for_<wbr>deployment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If enabled, the resource will wait for
 the distribution status to change from `InProgress` to `Deployed`. Setting
@@ -3803,7 +3803,7 @@ this to`false` will skip the process. Default: `true`.
 <a href="#state_web_acl_id_python" style="color: inherit; text-decoration: inherit;">web_<wbr>acl_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A unique identifier that specifies the AWS WAF web ACL,
 if any, to associate with this distribution.
@@ -3853,7 +3853,7 @@ credentials configuring this argument must have `waf:GetWebACL` permissions assi
 <a href="#errorcode_csharp" style="color: inherit; text-decoration: inherit;">Error<wbr>Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The 4xx or 5xx HTTP status code that you want to
 customize.
@@ -3865,7 +3865,7 @@ customize.
 <a href="#errorcachingminttl_csharp" style="color: inherit; text-decoration: inherit;">Error<wbr>Caching<wbr>Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time you want
 HTTP error codes to stay in CloudFront caches before CloudFront queries your
@@ -3878,7 +3878,7 @@ origin to see whether the object has been updated.
 <a href="#responsecode_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTP status code that you want CloudFront
 to return with the custom error page to the viewer.
@@ -3890,7 +3890,7 @@ to return with the custom error page to the viewer.
 <a href="#responsepagepath_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Page<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path of the custom error page (for
 example, `/custom_404.html`).
@@ -3909,7 +3909,7 @@ example, `/custom_404.html`).
 <a href="#errorcode_go" style="color: inherit; text-decoration: inherit;">Error<wbr>Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The 4xx or 5xx HTTP status code that you want to
 customize.
@@ -3921,7 +3921,7 @@ customize.
 <a href="#errorcachingminttl_go" style="color: inherit; text-decoration: inherit;">Error<wbr>Caching<wbr>Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time you want
 HTTP error codes to stay in CloudFront caches before CloudFront queries your
@@ -3934,7 +3934,7 @@ origin to see whether the object has been updated.
 <a href="#responsecode_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTP status code that you want CloudFront
 to return with the custom error page to the viewer.
@@ -3946,7 +3946,7 @@ to return with the custom error page to the viewer.
 <a href="#responsepagepath_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Page<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path of the custom error page (for
 example, `/custom_404.html`).
@@ -3965,7 +3965,7 @@ example, `/custom_404.html`).
 <a href="#errorcode_nodejs" style="color: inherit; text-decoration: inherit;">error<wbr>Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The 4xx or 5xx HTTP status code that you want to
 customize.
@@ -3977,7 +3977,7 @@ customize.
 <a href="#errorcachingminttl_nodejs" style="color: inherit; text-decoration: inherit;">error<wbr>Caching<wbr>Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time you want
 HTTP error codes to stay in CloudFront caches before CloudFront queries your
@@ -3990,7 +3990,7 @@ origin to see whether the object has been updated.
 <a href="#responsecode_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The HTTP status code that you want CloudFront
 to return with the custom error page to the viewer.
@@ -4002,7 +4002,7 @@ to return with the custom error page to the viewer.
 <a href="#responsepagepath_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Page<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path of the custom error page (for
 example, `/custom_404.html`).
@@ -4021,7 +4021,7 @@ example, `/custom_404.html`).
 <a href="#error_code_python" style="color: inherit; text-decoration: inherit;">error_<wbr>code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The 4xx or 5xx HTTP status code that you want to
 customize.
@@ -4033,7 +4033,7 @@ customize.
 <a href="#error_caching_min_ttl_python" style="color: inherit; text-decoration: inherit;">error_<wbr>caching_<wbr>min_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time you want
 HTTP error codes to stay in CloudFront caches before CloudFront queries your
@@ -4046,7 +4046,7 @@ origin to see whether the object has been updated.
 <a href="#response_code_python" style="color: inherit; text-decoration: inherit;">response_<wbr>code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTP status code that you want CloudFront
 to return with the custom error page to the viewer.
@@ -4058,7 +4058,7 @@ to return with the custom error page to the viewer.
 <a href="#response_page_path_python" style="color: inherit; text-decoration: inherit;">response_<wbr>page_<wbr>path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path of the custom error page (for
 example, `/custom_404.html`).
@@ -4095,7 +4095,7 @@ example, `/custom_404.html`).
 <a href="#allowedmethods_csharp" style="color: inherit; text-decoration: inherit;">Allowed<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -4107,7 +4107,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cachedmethods_csharp" style="color: inherit; text-decoration: inherit;">Cached<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -4131,7 +4131,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#targetoriginid_csharp" style="color: inherit; text-decoration: inherit;">Target<wbr>Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -4144,7 +4144,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewerprotocolpolicy_csharp" style="color: inherit; text-decoration: inherit;">Viewer<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -4158,7 +4158,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_csharp" style="color: inherit; text-decoration: inherit;">Compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -4171,7 +4171,7 @@ the request header (default: `false`).
 <a href="#defaultttl_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4185,7 +4185,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#fieldlevelencryptionid_csharp" style="color: inherit; text-decoration: inherit;">Field<wbr>Level<wbr>Encryption<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -4208,7 +4208,7 @@ specific actions. Defined below, maximum 4.
 <a href="#maxttl_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4223,7 +4223,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#minttl_csharp" style="color: inherit; text-decoration: inherit;">Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -4236,7 +4236,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smoothstreaming_csharp" style="color: inherit; text-decoration: inherit;">Smooth<wbr>Streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -4249,7 +4249,7 @@ associated with this cache behavior.
 <a href="#trustedsigners_csharp" style="color: inherit; text-decoration: inherit;">Trusted<wbr>Signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -4268,7 +4268,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#allowedmethods_go" style="color: inherit; text-decoration: inherit;">Allowed<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -4280,7 +4280,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cachedmethods_go" style="color: inherit; text-decoration: inherit;">Cached<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -4304,7 +4304,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#targetoriginid_go" style="color: inherit; text-decoration: inherit;">Target<wbr>Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -4317,7 +4317,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewerprotocolpolicy_go" style="color: inherit; text-decoration: inherit;">Viewer<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -4331,7 +4331,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_go" style="color: inherit; text-decoration: inherit;">Compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -4344,7 +4344,7 @@ the request header (default: `false`).
 <a href="#defaultttl_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4358,7 +4358,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#fieldlevelencryptionid_go" style="color: inherit; text-decoration: inherit;">Field<wbr>Level<wbr>Encryption<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -4381,7 +4381,7 @@ specific actions. Defined below, maximum 4.
 <a href="#maxttl_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4396,7 +4396,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#minttl_go" style="color: inherit; text-decoration: inherit;">Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -4409,7 +4409,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smoothstreaming_go" style="color: inherit; text-decoration: inherit;">Smooth<wbr>Streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -4422,7 +4422,7 @@ associated with this cache behavior.
 <a href="#trustedsigners_go" style="color: inherit; text-decoration: inherit;">Trusted<wbr>Signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -4441,7 +4441,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#allowedmethods_nodejs" style="color: inherit; text-decoration: inherit;">allowed<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -4453,7 +4453,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cachedmethods_nodejs" style="color: inherit; text-decoration: inherit;">cached<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -4477,7 +4477,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#targetoriginid_nodejs" style="color: inherit; text-decoration: inherit;">target<wbr>Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -4490,7 +4490,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewerprotocolpolicy_nodejs" style="color: inherit; text-decoration: inherit;">viewer<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -4504,7 +4504,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_nodejs" style="color: inherit; text-decoration: inherit;">compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -4517,7 +4517,7 @@ the request header (default: `false`).
 <a href="#defaultttl_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4531,7 +4531,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#fieldlevelencryptionid_nodejs" style="color: inherit; text-decoration: inherit;">field<wbr>Level<wbr>Encryption<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -4554,7 +4554,7 @@ specific actions. Defined below, maximum 4.
 <a href="#maxttl_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4569,7 +4569,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#minttl_nodejs" style="color: inherit; text-decoration: inherit;">min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -4582,7 +4582,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smoothstreaming_nodejs" style="color: inherit; text-decoration: inherit;">smooth<wbr>Streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -4595,7 +4595,7 @@ associated with this cache behavior.
 <a href="#trustedsigners_nodejs" style="color: inherit; text-decoration: inherit;">trusted<wbr>Signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -4614,7 +4614,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#allowed_methods_python" style="color: inherit; text-decoration: inherit;">allowed_<wbr>methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -4626,7 +4626,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cached_methods_python" style="color: inherit; text-decoration: inherit;">cached_<wbr>methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -4650,7 +4650,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#target_origin_id_python" style="color: inherit; text-decoration: inherit;">target_<wbr>origin_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -4663,7 +4663,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewer_protocol_policy_python" style="color: inherit; text-decoration: inherit;">viewer_<wbr>protocol_<wbr>policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -4677,7 +4677,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_python" style="color: inherit; text-decoration: inherit;">compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -4690,7 +4690,7 @@ the request header (default: `false`).
 <a href="#default_ttl_python" style="color: inherit; text-decoration: inherit;">default_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4704,7 +4704,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#field_level_encryption_id_python" style="color: inherit; text-decoration: inherit;">field_<wbr>level_<wbr>encryption_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -4727,7 +4727,7 @@ specific actions. Defined below, maximum 4.
 <a href="#max_ttl_python" style="color: inherit; text-decoration: inherit;">max_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -4742,7 +4742,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#min_ttl_python" style="color: inherit; text-decoration: inherit;">min_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -4755,7 +4755,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smooth_streaming_python" style="color: inherit; text-decoration: inherit;">smooth_<wbr>streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -4768,7 +4768,7 @@ associated with this cache behavior.
 <a href="#trusted_signers_python" style="color: inherit; text-decoration: inherit;">trusted_<wbr>signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -4817,7 +4817,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#querystring_csharp" style="color: inherit; text-decoration: inherit;">Query<wbr>String</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -4829,7 +4829,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_csharp" style="color: inherit; text-decoration: inherit;">Headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -4842,7 +4842,7 @@ headers.
 <a href="#querystringcachekeys_csharp" style="color: inherit; text-decoration: inherit;">Query<wbr>String<wbr>Cache<wbr>Keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -4875,7 +4875,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#querystring_go" style="color: inherit; text-decoration: inherit;">Query<wbr>String</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -4887,7 +4887,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_go" style="color: inherit; text-decoration: inherit;">Headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -4900,7 +4900,7 @@ headers.
 <a href="#querystringcachekeys_go" style="color: inherit; text-decoration: inherit;">Query<wbr>String<wbr>Cache<wbr>Keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -4933,7 +4933,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#querystring_nodejs" style="color: inherit; text-decoration: inherit;">query<wbr>String</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -4945,7 +4945,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_nodejs" style="color: inherit; text-decoration: inherit;">headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -4958,7 +4958,7 @@ headers.
 <a href="#querystringcachekeys_nodejs" style="color: inherit; text-decoration: inherit;">query<wbr>String<wbr>Cache<wbr>Keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -4991,7 +4991,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#query_string_python" style="color: inherit; text-decoration: inherit;">query_<wbr>string</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -5003,7 +5003,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_python" style="color: inherit; text-decoration: inherit;">headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -5016,7 +5016,7 @@ headers.
 <a href="#query_string_cache_keys_python" style="color: inherit; text-decoration: inherit;">query_<wbr>string_<wbr>cache_<wbr>keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -5055,7 +5055,7 @@ value of `true` for `query_string`, all query string keys are cached.
 <a href="#forward_csharp" style="color: inherit; text-decoration: inherit;">Forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -5069,7 +5069,7 @@ subsequent `whitelisted_names`
 <a href="#whitelistednames_csharp" style="color: inherit; text-decoration: inherit;">Whitelisted<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -5089,7 +5089,7 @@ your origin.
 <a href="#forward_go" style="color: inherit; text-decoration: inherit;">Forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -5103,7 +5103,7 @@ subsequent `whitelisted_names`
 <a href="#whitelistednames_go" style="color: inherit; text-decoration: inherit;">Whitelisted<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -5123,7 +5123,7 @@ your origin.
 <a href="#forward_nodejs" style="color: inherit; text-decoration: inherit;">forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -5137,7 +5137,7 @@ subsequent `whitelisted_names`
 <a href="#whitelistednames_nodejs" style="color: inherit; text-decoration: inherit;">whitelisted<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -5157,7 +5157,7 @@ your origin.
 <a href="#forward_python" style="color: inherit; text-decoration: inherit;">forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -5171,7 +5171,7 @@ subsequent `whitelisted_names`
 <a href="#whitelisted_names_python" style="color: inherit; text-decoration: inherit;">whitelisted_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -5209,7 +5209,7 @@ your origin.
 <a href="#eventtype_csharp" style="color: inherit; text-decoration: inherit;">Event<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -5222,7 +5222,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambdaarn_csharp" style="color: inherit; text-decoration: inherit;">Lambda<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -5233,7 +5233,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#includebody_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -5251,7 +5251,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#eventtype_go" style="color: inherit; text-decoration: inherit;">Event<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -5264,7 +5264,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambdaarn_go" style="color: inherit; text-decoration: inherit;">Lambda<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -5275,7 +5275,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#includebody_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -5293,7 +5293,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#eventtype_nodejs" style="color: inherit; text-decoration: inherit;">event<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -5306,7 +5306,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambdaarn_nodejs" style="color: inherit; text-decoration: inherit;">lambda<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -5317,7 +5317,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#includebody_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -5335,7 +5335,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#event_type_python" style="color: inherit; text-decoration: inherit;">event_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -5348,7 +5348,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambda_arn_python" style="color: inherit; text-decoration: inherit;">lambda_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -5359,7 +5359,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#include_body_python" style="color: inherit; text-decoration: inherit;">include_<wbr>body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -5395,7 +5395,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#bucket_csharp" style="color: inherit; text-decoration: inherit;">Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket to store the access logs in, for
 example, `myawslogbucket.s3.amazonaws.com`.
@@ -5407,7 +5407,7 @@ example, `myawslogbucket.s3.amazonaws.com`.
 <a href="#includecookies_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Cookies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to
 include cookies in access logs (default: `false`).
@@ -5419,7 +5419,7 @@ include cookies in access logs (default: `false`).
 <a href="#prefix_csharp" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional string that you want CloudFront to prefix
 to the access log filenames for this distribution, for example, `myprefix/`.
@@ -5438,7 +5438,7 @@ to the access log filenames for this distribution, for example, `myprefix/`.
 <a href="#bucket_go" style="color: inherit; text-decoration: inherit;">Bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket to store the access logs in, for
 example, `myawslogbucket.s3.amazonaws.com`.
@@ -5450,7 +5450,7 @@ example, `myawslogbucket.s3.amazonaws.com`.
 <a href="#includecookies_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Cookies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to
 include cookies in access logs (default: `false`).
@@ -5462,7 +5462,7 @@ include cookies in access logs (default: `false`).
 <a href="#prefix_go" style="color: inherit; text-decoration: inherit;">Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional string that you want CloudFront to prefix
 to the access log filenames for this distribution, for example, `myprefix/`.
@@ -5481,7 +5481,7 @@ to the access log filenames for this distribution, for example, `myprefix/`.
 <a href="#bucket_nodejs" style="color: inherit; text-decoration: inherit;">bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket to store the access logs in, for
 example, `myawslogbucket.s3.amazonaws.com`.
@@ -5493,7 +5493,7 @@ example, `myawslogbucket.s3.amazonaws.com`.
 <a href="#includecookies_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Cookies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to
 include cookies in access logs (default: `false`).
@@ -5505,7 +5505,7 @@ include cookies in access logs (default: `false`).
 <a href="#prefix_nodejs" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional string that you want CloudFront to prefix
 to the access log filenames for this distribution, for example, `myprefix/`.
@@ -5524,7 +5524,7 @@ to the access log filenames for this distribution, for example, `myprefix/`.
 <a href="#bucket_python" style="color: inherit; text-decoration: inherit;">bucket</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon S3 bucket to store the access logs in, for
 example, `myawslogbucket.s3.amazonaws.com`.
@@ -5536,7 +5536,7 @@ example, `myawslogbucket.s3.amazonaws.com`.
 <a href="#include_cookies_python" style="color: inherit; text-decoration: inherit;">include_<wbr>cookies</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to
 include cookies in access logs (default: `false`).
@@ -5548,7 +5548,7 @@ include cookies in access logs (default: `false`).
 <a href="#prefix_python" style="color: inherit; text-decoration: inherit;">prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}An optional string that you want CloudFront to prefix
 to the access log filenames for this distribution, for example, `myprefix/`.
@@ -5585,7 +5585,7 @@ to the access log filenames for this distribution, for example, `myprefix/`.
 <a href="#allowedmethods_csharp" style="color: inherit; text-decoration: inherit;">Allowed<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -5597,7 +5597,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cachedmethods_csharp" style="color: inherit; text-decoration: inherit;">Cached<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -5621,7 +5621,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#pathpattern_csharp" style="color: inherit; text-decoration: inherit;">Path<wbr>Pattern</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The pattern (for example, `images/*.jpg)` that
 specifies which requests you want this cache behavior to apply to.
@@ -5633,7 +5633,7 @@ specifies which requests you want this cache behavior to apply to.
 <a href="#targetoriginid_csharp" style="color: inherit; text-decoration: inherit;">Target<wbr>Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -5646,7 +5646,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewerprotocolpolicy_csharp" style="color: inherit; text-decoration: inherit;">Viewer<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -5660,7 +5660,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_csharp" style="color: inherit; text-decoration: inherit;">Compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -5673,7 +5673,7 @@ the request header (default: `false`).
 <a href="#defaultttl_csharp" style="color: inherit; text-decoration: inherit;">Default<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -5687,7 +5687,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#fieldlevelencryptionid_csharp" style="color: inherit; text-decoration: inherit;">Field<wbr>Level<wbr>Encryption<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -5710,7 +5710,7 @@ specific actions. Defined below, maximum 4.
 <a href="#maxttl_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -5725,7 +5725,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#minttl_csharp" style="color: inherit; text-decoration: inherit;">Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -5738,7 +5738,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smoothstreaming_csharp" style="color: inherit; text-decoration: inherit;">Smooth<wbr>Streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -5751,7 +5751,7 @@ associated with this cache behavior.
 <a href="#trustedsigners_csharp" style="color: inherit; text-decoration: inherit;">Trusted<wbr>Signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -5770,7 +5770,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#allowedmethods_go" style="color: inherit; text-decoration: inherit;">Allowed<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -5782,7 +5782,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cachedmethods_go" style="color: inherit; text-decoration: inherit;">Cached<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -5806,7 +5806,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#pathpattern_go" style="color: inherit; text-decoration: inherit;">Path<wbr>Pattern</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The pattern (for example, `images/*.jpg)` that
 specifies which requests you want this cache behavior to apply to.
@@ -5818,7 +5818,7 @@ specifies which requests you want this cache behavior to apply to.
 <a href="#targetoriginid_go" style="color: inherit; text-decoration: inherit;">Target<wbr>Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -5831,7 +5831,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewerprotocolpolicy_go" style="color: inherit; text-decoration: inherit;">Viewer<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -5845,7 +5845,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_go" style="color: inherit; text-decoration: inherit;">Compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -5858,7 +5858,7 @@ the request header (default: `false`).
 <a href="#defaultttl_go" style="color: inherit; text-decoration: inherit;">Default<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -5872,7 +5872,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#fieldlevelencryptionid_go" style="color: inherit; text-decoration: inherit;">Field<wbr>Level<wbr>Encryption<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -5895,7 +5895,7 @@ specific actions. Defined below, maximum 4.
 <a href="#maxttl_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -5910,7 +5910,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#minttl_go" style="color: inherit; text-decoration: inherit;">Min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -5923,7 +5923,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smoothstreaming_go" style="color: inherit; text-decoration: inherit;">Smooth<wbr>Streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -5936,7 +5936,7 @@ associated with this cache behavior.
 <a href="#trustedsigners_go" style="color: inherit; text-decoration: inherit;">Trusted<wbr>Signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -5955,7 +5955,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#allowedmethods_nodejs" style="color: inherit; text-decoration: inherit;">allowed<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -5967,7 +5967,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cachedmethods_nodejs" style="color: inherit; text-decoration: inherit;">cached<wbr>Methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -5991,7 +5991,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#pathpattern_nodejs" style="color: inherit; text-decoration: inherit;">path<wbr>Pattern</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The pattern (for example, `images/*.jpg)` that
 specifies which requests you want this cache behavior to apply to.
@@ -6003,7 +6003,7 @@ specifies which requests you want this cache behavior to apply to.
 <a href="#targetoriginid_nodejs" style="color: inherit; text-decoration: inherit;">target<wbr>Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -6016,7 +6016,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewerprotocolpolicy_nodejs" style="color: inherit; text-decoration: inherit;">viewer<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -6030,7 +6030,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_nodejs" style="color: inherit; text-decoration: inherit;">compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -6043,7 +6043,7 @@ the request header (default: `false`).
 <a href="#defaultttl_nodejs" style="color: inherit; text-decoration: inherit;">default<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -6057,7 +6057,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#fieldlevelencryptionid_nodejs" style="color: inherit; text-decoration: inherit;">field<wbr>Level<wbr>Encryption<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -6080,7 +6080,7 @@ specific actions. Defined below, maximum 4.
 <a href="#maxttl_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -6095,7 +6095,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#minttl_nodejs" style="color: inherit; text-decoration: inherit;">min<wbr>Ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -6108,7 +6108,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smoothstreaming_nodejs" style="color: inherit; text-decoration: inherit;">smooth<wbr>Streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -6121,7 +6121,7 @@ associated with this cache behavior.
 <a href="#trustedsigners_nodejs" style="color: inherit; text-decoration: inherit;">trusted<wbr>Signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -6140,7 +6140,7 @@ See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/lat
 <a href="#allowed_methods_python" style="color: inherit; text-decoration: inherit;">allowed_<wbr>methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Controls which HTTP methods CloudFront
 processes and forwards to your Amazon S3 bucket or your custom origin.
@@ -6152,7 +6152,7 @@ processes and forwards to your Amazon S3 bucket or your custom origin.
 <a href="#cached_methods_python" style="color: inherit; text-decoration: inherit;">cached_<wbr>methods</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Controls whether CloudFront caches the
 response to requests using the specified HTTP methods.
@@ -6176,7 +6176,7 @@ handles query strings, cookies and headers (maximum one).
 <a href="#path_pattern_python" style="color: inherit; text-decoration: inherit;">path_<wbr>pattern</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The pattern (for example, `images/*.jpg)` that
 specifies which requests you want this cache behavior to apply to.
@@ -6188,7 +6188,7 @@ specifies which requests you want this cache behavior to apply to.
 <a href="#target_origin_id_python" style="color: inherit; text-decoration: inherit;">target_<wbr>origin_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The value of ID for the origin that you want
 CloudFront to route requests to when a request matches the path pattern
@@ -6201,7 +6201,7 @@ either for a cache behavior or for the default cache behavior.
 <a href="#viewer_protocol_policy_python" style="color: inherit; text-decoration: inherit;">viewer_<wbr>protocol_<wbr>policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Use this element to specify the
 protocol that users can use to access the files in the origin specified by
@@ -6215,7 +6215,7 @@ of `allow-all`, `https-only`, or `redirect-to-https`.
 <a href="#compress_python" style="color: inherit; text-decoration: inherit;">compress</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether you want CloudFront to automatically
 compress content for web requests that include `Accept-Encoding: gzip` in
@@ -6228,7 +6228,7 @@ the request header (default: `false`).
 <a href="#default_ttl_python" style="color: inherit; text-decoration: inherit;">default_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The default amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -6242,7 +6242,7 @@ in the absence of an `Cache-Control max-age` or `Expires` header. Defaults to
 <a href="#field_level_encryption_id_python" style="color: inherit; text-decoration: inherit;">field_<wbr>level_<wbr>encryption_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Field level encryption configuration ID
 {{% /md %}}</dd>
@@ -6265,7 +6265,7 @@ specific actions. Defined below, maximum 4.
 <a href="#max_ttl_python" style="color: inherit; text-decoration: inherit;">max_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum amount of time (in seconds) that an
 object is in a CloudFront cache before CloudFront forwards another request
@@ -6280,7 +6280,7 @@ s-maxage`, and `Expires` headers. Defaults to 365 days.
 <a href="#min_ttl_python" style="color: inherit; text-decoration: inherit;">min_<wbr>ttl</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The minimum amount of time that you want objects to
 stay in CloudFront caches before CloudFront queries your origin to see
@@ -6293,7 +6293,7 @@ whether the object has been updated. Defaults to 0 seconds.
 <a href="#smooth_streaming_python" style="color: inherit; text-decoration: inherit;">smooth_<wbr>streaming</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want to distribute
 media files in Microsoft Smooth Streaming format using the origin that is
@@ -6306,7 +6306,7 @@ associated with this cache behavior.
 <a href="#trusted_signers_python" style="color: inherit; text-decoration: inherit;">trusted_<wbr>signers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of AWS account IDs (or `self`) that you want to allow to create signed URLs for private content.
 See the [CloudFront User Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html) for more information about this feature.
@@ -6355,7 +6355,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#querystring_csharp" style="color: inherit; text-decoration: inherit;">Query<wbr>String</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -6367,7 +6367,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_csharp" style="color: inherit; text-decoration: inherit;">Headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -6380,7 +6380,7 @@ headers.
 <a href="#querystringcachekeys_csharp" style="color: inherit; text-decoration: inherit;">Query<wbr>String<wbr>Cache<wbr>Keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -6413,7 +6413,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#querystring_go" style="color: inherit; text-decoration: inherit;">Query<wbr>String</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -6425,7 +6425,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_go" style="color: inherit; text-decoration: inherit;">Headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -6438,7 +6438,7 @@ headers.
 <a href="#querystringcachekeys_go" style="color: inherit; text-decoration: inherit;">Query<wbr>String<wbr>Cache<wbr>Keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -6471,7 +6471,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#querystring_nodejs" style="color: inherit; text-decoration: inherit;">query<wbr>String</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -6483,7 +6483,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_nodejs" style="color: inherit; text-decoration: inherit;">headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -6496,7 +6496,7 @@ headers.
 <a href="#querystringcachekeys_nodejs" style="color: inherit; text-decoration: inherit;">query<wbr>String<wbr>Cache<wbr>Keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -6529,7 +6529,7 @@ that specifies how CloudFront handles cookies (maximum one).
 <a href="#query_string_python" style="color: inherit; text-decoration: inherit;">query_<wbr>string</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates whether you want CloudFront to forward
 query strings to the origin that is associated with this cache behavior.
@@ -6541,7 +6541,7 @@ query strings to the origin that is associated with this cache behavior.
 <a href="#headers_python" style="color: inherit; text-decoration: inherit;">headers</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Specifies the Headers, if any, that you want
 CloudFront to vary upon for this cache behavior. Specify `*` to include all
@@ -6554,7 +6554,7 @@ headers.
 <a href="#query_string_cache_keys_python" style="color: inherit; text-decoration: inherit;">query_<wbr>string_<wbr>cache_<wbr>keys</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}When specified, along with a value of
 `true` for `query_string`, all query strings are forwarded, however only the
@@ -6593,7 +6593,7 @@ value of `true` for `query_string`, all query string keys are cached.
 <a href="#forward_csharp" style="color: inherit; text-decoration: inherit;">Forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -6607,7 +6607,7 @@ subsequent `whitelisted_names`
 <a href="#whitelistednames_csharp" style="color: inherit; text-decoration: inherit;">Whitelisted<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -6627,7 +6627,7 @@ your origin.
 <a href="#forward_go" style="color: inherit; text-decoration: inherit;">Forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -6641,7 +6641,7 @@ subsequent `whitelisted_names`
 <a href="#whitelistednames_go" style="color: inherit; text-decoration: inherit;">Whitelisted<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -6661,7 +6661,7 @@ your origin.
 <a href="#forward_nodejs" style="color: inherit; text-decoration: inherit;">forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -6675,7 +6675,7 @@ subsequent `whitelisted_names`
 <a href="#whitelistednames_nodejs" style="color: inherit; text-decoration: inherit;">whitelisted<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -6695,7 +6695,7 @@ your origin.
 <a href="#forward_python" style="color: inherit; text-decoration: inherit;">forward</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether you want CloudFront to forward
 cookies to the origin that is associated with this cache behavior. You can
@@ -6709,7 +6709,7 @@ subsequent `whitelisted_names`
 <a href="#whitelisted_names_python" style="color: inherit; text-decoration: inherit;">whitelisted_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}If you have specified `whitelist` to
 `forward`, the whitelisted cookies that you want CloudFront to forward to
@@ -6747,7 +6747,7 @@ your origin.
 <a href="#eventtype_csharp" style="color: inherit; text-decoration: inherit;">Event<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -6760,7 +6760,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambdaarn_csharp" style="color: inherit; text-decoration: inherit;">Lambda<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -6771,7 +6771,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#includebody_csharp" style="color: inherit; text-decoration: inherit;">Include<wbr>Body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -6789,7 +6789,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#eventtype_go" style="color: inherit; text-decoration: inherit;">Event<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -6802,7 +6802,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambdaarn_go" style="color: inherit; text-decoration: inherit;">Lambda<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -6813,7 +6813,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#includebody_go" style="color: inherit; text-decoration: inherit;">Include<wbr>Body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -6831,7 +6831,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#eventtype_nodejs" style="color: inherit; text-decoration: inherit;">event<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -6844,7 +6844,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambdaarn_nodejs" style="color: inherit; text-decoration: inherit;">lambda<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -6855,7 +6855,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#includebody_nodejs" style="color: inherit; text-decoration: inherit;">include<wbr>Body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -6873,7 +6873,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#event_type_python" style="color: inherit; text-decoration: inherit;">event_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The specific event to trigger this function.
 Valid values: `viewer-request`, `origin-request`, `viewer-response`,
@@ -6886,7 +6886,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#lambda_arn_python" style="color: inherit; text-decoration: inherit;">lambda_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -6897,7 +6897,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#include_body_python" style="color: inherit; text-decoration: inherit;">include_<wbr>body</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true it exposes the request body to the lambda function. Defaults to false. Valid values: `true`, `false`.
 {{% /md %}}</dd>
@@ -6933,7 +6933,7 @@ Valid values: `viewer-request`, `origin-request`, `viewer-response`,
 <a href="#domainname_csharp" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -6945,7 +6945,7 @@ web site of your custom origin.
 <a href="#originid_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -6982,7 +6982,7 @@ origin is required, use `s3_origin_config` instead.
 <a href="#originpath_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional element that causes CloudFront to
 request your content from a directory in your Amazon S3 bucket or your
@@ -7015,7 +7015,7 @@ configuration information. If a custom origin is required, use
 <a href="#domainname_go" style="color: inherit; text-decoration: inherit;">Domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -7027,7 +7027,7 @@ web site of your custom origin.
 <a href="#originid_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7064,7 +7064,7 @@ origin is required, use `s3_origin_config` instead.
 <a href="#originpath_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional element that causes CloudFront to
 request your content from a directory in your Amazon S3 bucket or your
@@ -7097,7 +7097,7 @@ configuration information. If a custom origin is required, use
 <a href="#domainname_nodejs" style="color: inherit; text-decoration: inherit;">domain<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -7109,7 +7109,7 @@ web site of your custom origin.
 <a href="#originid_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7146,7 +7146,7 @@ origin is required, use `s3_origin_config` instead.
 <a href="#originpath_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An optional element that causes CloudFront to
 request your content from a directory in your Amazon S3 bucket or your
@@ -7179,7 +7179,7 @@ configuration information. If a custom origin is required, use
 <a href="#domain_name_python" style="color: inherit; text-decoration: inherit;">domain_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS domain name of either the S3 bucket, or
 web site of your custom origin.
@@ -7191,7 +7191,7 @@ web site of your custom origin.
 <a href="#origin_id_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7228,7 +7228,7 @@ origin is required, use `s3_origin_config` instead.
 <a href="#origin_path_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}An optional element that causes CloudFront to
 request your content from a directory in your Amazon S3 bucket or your
@@ -7279,7 +7279,7 @@ configuration information. If a custom origin is required, use
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7289,7 +7289,7 @@ configuration information. If a custom origin is required, use
 <a href="#value_csharp" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7306,7 +7306,7 @@ configuration information. If a custom origin is required, use
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7316,7 +7316,7 @@ configuration information. If a custom origin is required, use
 <a href="#value_go" style="color: inherit; text-decoration: inherit;">Value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7333,7 +7333,7 @@ configuration information. If a custom origin is required, use
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7343,7 +7343,7 @@ configuration information. If a custom origin is required, use
 <a href="#value_nodejs" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7360,7 +7360,7 @@ configuration information. If a custom origin is required, use
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7370,7 +7370,7 @@ configuration information. If a custom origin is required, use
 <a href="#value_python" style="color: inherit; text-decoration: inherit;">value</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7405,7 +7405,7 @@ configuration information. If a custom origin is required, use
 <a href="#httpport_csharp" style="color: inherit; text-decoration: inherit;">Http<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTP port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7416,7 +7416,7 @@ configuration information. If a custom origin is required, use
 <a href="#httpsport_csharp" style="color: inherit; text-decoration: inherit;">Https<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTPS port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7427,7 +7427,7 @@ configuration information. If a custom origin is required, use
 <a href="#originprotocolpolicy_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The origin protocol policy to apply to
 your origin. One of `http-only`, `https-only`, or `match-viewer`.
@@ -7439,7 +7439,7 @@ your origin. One of `http-only`, `https-only`, or `match-viewer`.
 <a href="#originsslprotocols_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Ssl<wbr>Protocols</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The SSL/TLS protocols that you want
 CloudFront to use when communicating with your origin over HTTPS. A list of
@@ -7452,7 +7452,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originkeepalivetimeout_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Keepalive<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Custom KeepAlive timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7463,7 +7463,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originreadtimeout_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Read<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Custom Read timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7481,7 +7481,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#httpport_go" style="color: inherit; text-decoration: inherit;">Http<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTP port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7492,7 +7492,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#httpsport_go" style="color: inherit; text-decoration: inherit;">Https<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTPS port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7503,7 +7503,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originprotocolpolicy_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The origin protocol policy to apply to
 your origin. One of `http-only`, `https-only`, or `match-viewer`.
@@ -7515,7 +7515,7 @@ your origin. One of `http-only`, `https-only`, or `match-viewer`.
 <a href="#originsslprotocols_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Ssl<wbr>Protocols</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The SSL/TLS protocols that you want
 CloudFront to use when communicating with your origin over HTTPS. A list of
@@ -7528,7 +7528,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originkeepalivetimeout_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Keepalive<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Custom KeepAlive timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7539,7 +7539,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originreadtimeout_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Read<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Custom Read timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7557,7 +7557,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#httpport_nodejs" style="color: inherit; text-decoration: inherit;">http<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The HTTP port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7568,7 +7568,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#httpsport_nodejs" style="color: inherit; text-decoration: inherit;">https<wbr>Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The HTTPS port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7579,7 +7579,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originprotocolpolicy_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Protocol<wbr>Policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The origin protocol policy to apply to
 your origin. One of `http-only`, `https-only`, or `match-viewer`.
@@ -7591,7 +7591,7 @@ your origin. One of `http-only`, `https-only`, or `match-viewer`.
 <a href="#originsslprotocols_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Ssl<wbr>Protocols</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The SSL/TLS protocols that you want
 CloudFront to use when communicating with your origin over HTTPS. A list of
@@ -7604,7 +7604,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originkeepalivetimeout_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Keepalive<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Custom KeepAlive timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7615,7 +7615,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originreadtimeout_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Read<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Custom Read timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7633,7 +7633,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#http_port_python" style="color: inherit; text-decoration: inherit;">http_<wbr>port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTP port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7644,7 +7644,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#https_port_python" style="color: inherit; text-decoration: inherit;">https_<wbr>port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The HTTPS port the custom origin listens on.
 {{% /md %}}</dd>
@@ -7655,7 +7655,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#origin_protocol_policy_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>protocol_<wbr>policy</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The origin protocol policy to apply to
 your origin. One of `http-only`, `https-only`, or `match-viewer`.
@@ -7667,7 +7667,7 @@ your origin. One of `http-only`, `https-only`, or `match-viewer`.
 <a href="#origin_ssl_protocols_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>ssl_<wbr>protocols</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The SSL/TLS protocols that you want
 CloudFront to use when communicating with your origin over HTTPS. A list of
@@ -7680,7 +7680,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#origin_keepalive_timeout_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>keepalive_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Custom KeepAlive timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7691,7 +7691,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#origin_read_timeout_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>read_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Custom Read timeout, in seconds. By default, AWS enforces a limit of `60`. But you can request an [increase](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-request-timeout).
 {{% /md %}}</dd>
@@ -7749,7 +7749,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originid_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7789,7 +7789,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originid_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7829,7 +7829,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originid_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7869,7 +7869,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#origin_id_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -7905,7 +7905,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#statuscodes_csharp" style="color: inherit; text-decoration: inherit;">Status<wbr>Codes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;int&gt;</a></span>
+        <span class="property-type">List&lt;int&gt;</span>
     </dt>
     <dd>{{% md %}}A list of HTTP status codes for the origin group
 {{% /md %}}</dd>
@@ -7923,7 +7923,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#statuscodes_go" style="color: inherit; text-decoration: inherit;">Status<wbr>Codes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">[]int</a></span>
+        <span class="property-type">[]int</span>
     </dt>
     <dd>{{% md %}}A list of HTTP status codes for the origin group
 {{% /md %}}</dd>
@@ -7941,7 +7941,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#statuscodes_nodejs" style="color: inherit; text-decoration: inherit;">status<wbr>Codes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number[]</a></span>
+        <span class="property-type">number[]</span>
     </dt>
     <dd>{{% md %}}A list of HTTP status codes for the origin group
 {{% /md %}}</dd>
@@ -7959,7 +7959,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#status_codes_python" style="color: inherit; text-decoration: inherit;">status_<wbr>codes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[int]</a></span>
+        <span class="property-type">Sequence[int]</span>
     </dt>
     <dd>{{% md %}}A list of HTTP status codes for the origin group
 {{% /md %}}</dd>
@@ -7995,7 +7995,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originid_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -8013,7 +8013,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originid_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -8031,7 +8031,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originid_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -8049,7 +8049,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#origin_id_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The unique identifier of the member origin
 {{% /md %}}</dd>
@@ -8085,7 +8085,7 @@ one or more of `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 <a href="#originaccessidentity_csharp" style="color: inherit; text-decoration: inherit;">Origin<wbr>Access<wbr>Identity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The [CloudFront origin access
 identity][5] to associate with the origin.
@@ -8104,7 +8104,7 @@ identity][5] to associate with the origin.
 <a href="#originaccessidentity_go" style="color: inherit; text-decoration: inherit;">Origin<wbr>Access<wbr>Identity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The [CloudFront origin access
 identity][5] to associate with the origin.
@@ -8123,7 +8123,7 @@ identity][5] to associate with the origin.
 <a href="#originaccessidentity_nodejs" style="color: inherit; text-decoration: inherit;">origin<wbr>Access<wbr>Identity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The [CloudFront origin access
 identity][5] to associate with the origin.
@@ -8142,7 +8142,7 @@ identity][5] to associate with the origin.
 <a href="#origin_access_identity_python" style="color: inherit; text-decoration: inherit;">origin_<wbr>access_<wbr>identity</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The [CloudFront origin access
 identity][5] to associate with the origin.
@@ -8265,7 +8265,7 @@ identity][5] to associate with the origin.
 <a href="#restrictiontype_csharp" style="color: inherit; text-decoration: inherit;">Restriction<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The method that you want to use to restrict
 distribution of your content by country: `none`, `whitelist`, or
@@ -8278,7 +8278,7 @@ distribution of your content by country: `none`, `whitelist`, or
 <a href="#locations_csharp" style="color: inherit; text-decoration: inherit;">Locations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The [ISO 3166-1-alpha-2 codes][4] for which you
 want CloudFront either to distribute your content (`whitelist`) or not
@@ -8298,7 +8298,7 @@ distribute your content (`blacklist`).
 <a href="#restrictiontype_go" style="color: inherit; text-decoration: inherit;">Restriction<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The method that you want to use to restrict
 distribution of your content by country: `none`, `whitelist`, or
@@ -8311,7 +8311,7 @@ distribution of your content by country: `none`, `whitelist`, or
 <a href="#locations_go" style="color: inherit; text-decoration: inherit;">Locations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The [ISO 3166-1-alpha-2 codes][4] for which you
 want CloudFront either to distribute your content (`whitelist`) or not
@@ -8331,7 +8331,7 @@ distribute your content (`blacklist`).
 <a href="#restrictiontype_nodejs" style="color: inherit; text-decoration: inherit;">restriction<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The method that you want to use to restrict
 distribution of your content by country: `none`, `whitelist`, or
@@ -8344,7 +8344,7 @@ distribution of your content by country: `none`, `whitelist`, or
 <a href="#locations_nodejs" style="color: inherit; text-decoration: inherit;">locations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The [ISO 3166-1-alpha-2 codes][4] for which you
 want CloudFront either to distribute your content (`whitelist`) or not
@@ -8364,7 +8364,7 @@ distribute your content (`blacklist`).
 <a href="#restriction_type_python" style="color: inherit; text-decoration: inherit;">restriction_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The method that you want to use to restrict
 distribution of your content by country: `none`, `whitelist`, or
@@ -8377,7 +8377,7 @@ distribution of your content by country: `none`, `whitelist`, or
 <a href="#locations_python" style="color: inherit; text-decoration: inherit;">locations</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The [ISO 3166-1-alpha-2 codes][4] for which you
 want CloudFront either to distribute your content (`whitelist`) or not
@@ -8415,7 +8415,7 @@ distribute your content (`blacklist`).
 <a href="#enabled_csharp" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -8445,7 +8445,7 @@ user requests for content.
 <a href="#enabled_go" style="color: inherit; text-decoration: inherit;">Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -8475,7 +8475,7 @@ user requests for content.
 <a href="#enabled_nodejs" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -8505,7 +8505,7 @@ user requests for content.
 <a href="#enabled_python" style="color: inherit; text-decoration: inherit;">enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether the distribution is enabled to accept end
 user requests for content.
@@ -8553,7 +8553,7 @@ user requests for content.
 <a href="#awsaccountnumber_csharp" style="color: inherit; text-decoration: inherit;">Aws<wbr>Account<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account ID or `self`
 {{% /md %}}</dd>
@@ -8564,7 +8564,7 @@ user requests for content.
 <a href="#keypairids_csharp" style="color: inherit; text-decoration: inherit;">Key<wbr>Pair<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of active CloudFront key pairs associated with the signer account
 {{% /md %}}</dd>
@@ -8582,7 +8582,7 @@ user requests for content.
 <a href="#awsaccountnumber_go" style="color: inherit; text-decoration: inherit;">Aws<wbr>Account<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account ID or `self`
 {{% /md %}}</dd>
@@ -8593,7 +8593,7 @@ user requests for content.
 <a href="#keypairids_go" style="color: inherit; text-decoration: inherit;">Key<wbr>Pair<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of active CloudFront key pairs associated with the signer account
 {{% /md %}}</dd>
@@ -8611,7 +8611,7 @@ user requests for content.
 <a href="#awsaccountnumber_nodejs" style="color: inherit; text-decoration: inherit;">aws<wbr>Account<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}AWS account ID or `self`
 {{% /md %}}</dd>
@@ -8622,7 +8622,7 @@ user requests for content.
 <a href="#keypairids_nodejs" style="color: inherit; text-decoration: inherit;">key<wbr>Pair<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of active CloudFront key pairs associated with the signer account
 {{% /md %}}</dd>
@@ -8640,7 +8640,7 @@ user requests for content.
 <a href="#aws_account_number_python" style="color: inherit; text-decoration: inherit;">aws_<wbr>account_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}AWS account ID or `self`
 {{% /md %}}</dd>
@@ -8651,7 +8651,7 @@ user requests for content.
 <a href="#key_pair_ids_python" style="color: inherit; text-decoration: inherit;">key_<wbr>pair_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of active CloudFront key pairs associated with the signer account
 {{% /md %}}</dd>
@@ -8687,7 +8687,7 @@ user requests for content.
 <a href="#acmcertificatearn_csharp" style="color: inherit; text-decoration: inherit;">Acm<wbr>Certificate<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 certificate that you wish to use with this distribution. Specify this,
@@ -8701,7 +8701,7 @@ certificate must be in  US-EAST-1.
 <a href="#cloudfrontdefaultcertificate_csharp" style="color: inherit; text-decoration: inherit;">Cloudfront<wbr>Default<wbr>Certificate</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if you want viewers to use HTTPS
 to request your objects and you're using the CloudFront domain name for your
@@ -8714,7 +8714,7 @@ distribution. Specify this, `acm_certificate_arn`, or `iam_certificate_id`.
 <a href="#iamcertificateid_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Certificate<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM certificate identifier of the custom viewer
 certificate for this distribution if you are using a custom domain. Specify
@@ -8727,7 +8727,7 @@ this, `acm_certificate_arn`, or `cloudfront_default_certificate`.
 <a href="#minimumprotocolversion_csharp" style="color: inherit; text-decoration: inherit;">Minimum<wbr>Protocol<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The minimum version of the SSL protocol that
 you want CloudFront to use for HTTPS connections. Can only be set if
@@ -8747,7 +8747,7 @@ must be specified.
 <a href="#sslsupportmethod_csharp" style="color: inherit; text-decoration: inherit;">Ssl<wbr>Support<wbr>Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8764,7 +8764,7 @@ must be specified.
 <a href="#acmcertificatearn_go" style="color: inherit; text-decoration: inherit;">Acm<wbr>Certificate<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 certificate that you wish to use with this distribution. Specify this,
@@ -8778,7 +8778,7 @@ certificate must be in  US-EAST-1.
 <a href="#cloudfrontdefaultcertificate_go" style="color: inherit; text-decoration: inherit;">Cloudfront<wbr>Default<wbr>Certificate</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if you want viewers to use HTTPS
 to request your objects and you're using the CloudFront domain name for your
@@ -8791,7 +8791,7 @@ distribution. Specify this, `acm_certificate_arn`, or `iam_certificate_id`.
 <a href="#iamcertificateid_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Certificate<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM certificate identifier of the custom viewer
 certificate for this distribution if you are using a custom domain. Specify
@@ -8804,7 +8804,7 @@ this, `acm_certificate_arn`, or `cloudfront_default_certificate`.
 <a href="#minimumprotocolversion_go" style="color: inherit; text-decoration: inherit;">Minimum<wbr>Protocol<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The minimum version of the SSL protocol that
 you want CloudFront to use for HTTPS connections. Can only be set if
@@ -8824,7 +8824,7 @@ must be specified.
 <a href="#sslsupportmethod_go" style="color: inherit; text-decoration: inherit;">Ssl<wbr>Support<wbr>Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8841,7 +8841,7 @@ must be specified.
 <a href="#acmcertificatearn_nodejs" style="color: inherit; text-decoration: inherit;">acm<wbr>Certificate<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 certificate that you wish to use with this distribution. Specify this,
@@ -8855,7 +8855,7 @@ certificate must be in  US-EAST-1.
 <a href="#cloudfrontdefaultcertificate_nodejs" style="color: inherit; text-decoration: inherit;">cloudfront<wbr>Default<wbr>Certificate</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}`true` if you want viewers to use HTTPS
 to request your objects and you're using the CloudFront domain name for your
@@ -8868,7 +8868,7 @@ distribution. Specify this, `acm_certificate_arn`, or `iam_certificate_id`.
 <a href="#iamcertificateid_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Certificate<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The IAM certificate identifier of the custom viewer
 certificate for this distribution if you are using a custom domain. Specify
@@ -8881,7 +8881,7 @@ this, `acm_certificate_arn`, or `cloudfront_default_certificate`.
 <a href="#minimumprotocolversion_nodejs" style="color: inherit; text-decoration: inherit;">minimum<wbr>Protocol<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The minimum version of the SSL protocol that
 you want CloudFront to use for HTTPS connections. Can only be set if
@@ -8901,7 +8901,7 @@ must be specified.
 <a href="#sslsupportmethod_nodejs" style="color: inherit; text-decoration: inherit;">ssl<wbr>Support<wbr>Method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8918,7 +8918,7 @@ must be specified.
 <a href="#acm_certificate_arn_python" style="color: inherit; text-decoration: inherit;">acm_<wbr>certificate_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
 certificate that you wish to use with this distribution. Specify this,
@@ -8932,7 +8932,7 @@ certificate must be in  US-EAST-1.
 <a href="#cloudfront_default_certificate_python" style="color: inherit; text-decoration: inherit;">cloudfront_<wbr>default_<wbr>certificate</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}`true` if you want viewers to use HTTPS
 to request your objects and you're using the CloudFront domain name for your
@@ -8945,7 +8945,7 @@ distribution. Specify this, `acm_certificate_arn`, or `iam_certificate_id`.
 <a href="#iam_certificate_id_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>certificate_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The IAM certificate identifier of the custom viewer
 certificate for this distribution if you are using a custom domain. Specify
@@ -8958,7 +8958,7 @@ this, `acm_certificate_arn`, or `cloudfront_default_certificate`.
 <a href="#minimum_protocol_version_python" style="color: inherit; text-decoration: inherit;">minimum_<wbr>protocol_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The minimum version of the SSL protocol that
 you want CloudFront to use for HTTPS connections. Can only be set if
@@ -8978,7 +8978,7 @@ must be specified.
 <a href="#ssl_support_method_python" style="color: inherit; text-decoration: inherit;">ssl_<wbr>support_<wbr>method</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 

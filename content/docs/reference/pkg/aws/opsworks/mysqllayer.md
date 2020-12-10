@@ -93,7 +93,7 @@ const db = new aws.opsworks.MysqlLayer("db", {stackId: aws_opsworks_stack.main.i
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayer">MysqlLayer</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayerArgs">MysqlLayerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayer">MysqlLayer</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayerArgs">MysqlLayerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -101,11 +101,11 @@ const db = new aws.opsworks.MysqlLayer("db", {stackId: aws_opsworks_stack.main.i
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayer">NewMysqlLayer</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayerArgs">MysqlLayerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayer">MysqlLayer</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayer">NewMysqlLayer</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayerArgs">MysqlLayerArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayer">MysqlLayer</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayer.html">MysqlLayer</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayerArgs.html">MysqlLayerArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayer.html">MysqlLayer</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayerArgs.html">MysqlLayerArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -116,7 +116,7 @@ const db = new aws.opsworks.MysqlLayer("db", {stackId: aws_opsworks_stack.main.i
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -185,7 +185,7 @@ const db = new aws.opsworks.MysqlLayer("db", {stackId: aws_opsworks_stack.main.i
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -224,7 +224,7 @@ const db = new aws.opsworks.MysqlLayer("db", {stackId: aws_opsworks_stack.main.i
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -275,7 +275,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#stackid_csharp" style="color: inherit; text-decoration: inherit;">Stack<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -286,7 +286,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autoassignelasticips_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Elastic<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -297,7 +297,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autoassignpublicips_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Public<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -308,7 +308,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autohealing_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -319,7 +319,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customconfigurerecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Configure<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -329,7 +329,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customdeployrecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Deploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -339,7 +339,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custominstanceprofilearn_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -350,7 +350,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customjson_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -361,7 +361,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -372,7 +372,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customsetuprecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Setup<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -382,7 +382,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customshutdownrecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Shutdown<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -392,7 +392,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customundeployrecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Undeploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -402,7 +402,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#drainelbonshutdown_csharp" style="color: inherit; text-decoration: inherit;">Drain<wbr>Elb<wbr>On<wbr>Shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -424,7 +424,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#elasticloadbalancer_csharp" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Load<wbr>Balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -435,7 +435,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#installupdatesonboot_csharp" style="color: inherit; text-decoration: inherit;">Install<wbr>Updates<wbr>On<wbr>Boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -446,7 +446,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#instanceshutdowntimeout_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Shutdown<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -457,7 +457,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -468,7 +468,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#rootpassword_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -479,7 +479,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#rootpasswordonallinstances_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Password<wbr>On<wbr>All<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -490,7 +490,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#systempackages_csharp" style="color: inherit; text-decoration: inherit;">System<wbr>Packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -512,7 +512,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#useebsoptimizedinstances_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Ebs<wbr>Optimized<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -530,7 +530,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#stackid_go" style="color: inherit; text-decoration: inherit;">Stack<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -541,7 +541,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autoassignelasticips_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Elastic<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -552,7 +552,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autoassignpublicips_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Public<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -563,7 +563,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autohealing_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -574,7 +574,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customconfigurerecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Configure<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -584,7 +584,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customdeployrecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Deploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -594,7 +594,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custominstanceprofilearn_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -605,7 +605,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customjson_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -616,7 +616,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -627,7 +627,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customsetuprecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Setup<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -637,7 +637,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customshutdownrecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Shutdown<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -647,7 +647,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customundeployrecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Undeploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -657,7 +657,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#drainelbonshutdown_go" style="color: inherit; text-decoration: inherit;">Drain<wbr>Elb<wbr>On<wbr>Shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -679,7 +679,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#elasticloadbalancer_go" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Load<wbr>Balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -690,7 +690,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#installupdatesonboot_go" style="color: inherit; text-decoration: inherit;">Install<wbr>Updates<wbr>On<wbr>Boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -701,7 +701,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#instanceshutdowntimeout_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Shutdown<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -712,7 +712,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -723,7 +723,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#rootpassword_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -734,7 +734,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#rootpasswordonallinstances_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Password<wbr>On<wbr>All<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -745,7 +745,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#systempackages_go" style="color: inherit; text-decoration: inherit;">System<wbr>Packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -767,7 +767,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#useebsoptimizedinstances_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Ebs<wbr>Optimized<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -785,7 +785,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#stackid_nodejs" style="color: inherit; text-decoration: inherit;">stack<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -796,7 +796,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autoassignelasticips_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Assign<wbr>Elastic<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -807,7 +807,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autoassignpublicips_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Assign<wbr>Public<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -818,7 +818,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#autohealing_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -829,7 +829,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customconfigurerecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Configure<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -839,7 +839,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customdeployrecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Deploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -849,7 +849,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custominstanceprofilearn_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -860,7 +860,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customjson_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -871,7 +871,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -882,7 +882,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customsetuprecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Setup<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -892,7 +892,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customshutdownrecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Shutdown<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -902,7 +902,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#customundeployrecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Undeploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -912,7 +912,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#drainelbonshutdown_nodejs" style="color: inherit; text-decoration: inherit;">drain<wbr>Elb<wbr>On<wbr>Shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -934,7 +934,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#elasticloadbalancer_nodejs" style="color: inherit; text-decoration: inherit;">elastic<wbr>Load<wbr>Balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -945,7 +945,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#installupdatesonboot_nodejs" style="color: inherit; text-decoration: inherit;">install<wbr>Updates<wbr>On<wbr>Boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -956,7 +956,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#instanceshutdowntimeout_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Shutdown<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -967,7 +967,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -978,7 +978,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#rootpassword_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -989,7 +989,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#rootpasswordonallinstances_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Password<wbr>On<wbr>All<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -1000,7 +1000,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#systempackages_nodejs" style="color: inherit; text-decoration: inherit;">system<wbr>Packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -1022,7 +1022,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#useebsoptimizedinstances_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Ebs<wbr>Optimized<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1040,7 +1040,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#stack_id_python" style="color: inherit; text-decoration: inherit;">stack_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -1051,7 +1051,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#auto_assign_elastic_ips_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>assign_<wbr>elastic_<wbr>ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -1062,7 +1062,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#auto_assign_public_ips_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>assign_<wbr>public_<wbr>ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -1073,7 +1073,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#auto_healing_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -1084,7 +1084,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_configure_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>configure_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1094,7 +1094,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_deploy_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>deploy_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1104,7 +1104,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_instance_profile_arn_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>instance_<wbr>profile_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -1115,7 +1115,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_json_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -1126,7 +1126,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_security_group_ids_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -1137,7 +1137,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_setup_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>setup_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1147,7 +1147,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_shutdown_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>shutdown_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1157,7 +1157,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#custom_undeploy_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>undeploy_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1167,7 +1167,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#drain_elb_on_shutdown_python" style="color: inherit; text-decoration: inherit;">drain_<wbr>elb_<wbr>on_<wbr>shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -1189,7 +1189,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#elastic_load_balancer_python" style="color: inherit; text-decoration: inherit;">elastic_<wbr>load_<wbr>balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -1200,7 +1200,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#install_updates_on_boot_python" style="color: inherit; text-decoration: inherit;">install_<wbr>updates_<wbr>on_<wbr>boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -1211,7 +1211,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#instance_shutdown_timeout_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>shutdown_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -1222,7 +1222,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -1233,7 +1233,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#root_password_python" style="color: inherit; text-decoration: inherit;">root_<wbr>password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -1244,7 +1244,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#root_password_on_all_instances_python" style="color: inherit; text-decoration: inherit;">root_<wbr>password_<wbr>on_<wbr>all_<wbr>instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -1255,7 +1255,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#system_packages_python" style="color: inherit; text-decoration: inherit;">system_<wbr>packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -1277,7 +1277,7 @@ The MysqlLayer resource accepts the following [input]({{< relref "/docs/intro/co
 <a href="#use_ebs_optimized_instances_python" style="color: inherit; text-decoration: inherit;">use_<wbr>ebs_<wbr>optimized_<wbr>instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1306,7 +1306,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -1317,7 +1317,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1334,7 +1334,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -1345,7 +1345,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1362,7 +1362,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -1373,7 +1373,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1390,7 +1390,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -1401,7 +1401,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1420,7 +1420,7 @@ Get an existing MysqlLayer resource's state with the given name, ID, and optiona
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayerState">MysqlLayerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayer">MysqlLayer</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayerState">MysqlLayerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/opsworks/#MysqlLayer">MysqlLayer</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1429,11 +1429,11 @@ Get an existing MysqlLayer resource's state with the given name, ID, and optiona
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetMysqlLayer<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayerState">MysqlLayerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayer">MysqlLayer</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetMysqlLayer<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayerState">MysqlLayerState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/opsworks?tab=doc#MysqlLayer">MysqlLayer</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayer.html">MysqlLayer</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayerState.html">MysqlLayerState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayer.html">MysqlLayer</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.OpsWorks.MysqlLayerState.html">MysqlLayerState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1545,7 +1545,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -1556,7 +1556,7 @@ The following state arguments are supported:
 <a href="#state_autoassignelasticips_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Elastic<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -1567,7 +1567,7 @@ The following state arguments are supported:
 <a href="#state_autoassignpublicips_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Public<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -1578,7 +1578,7 @@ The following state arguments are supported:
 <a href="#state_autohealing_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -1589,7 +1589,7 @@ The following state arguments are supported:
 <a href="#state_customconfigurerecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Configure<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1599,7 +1599,7 @@ The following state arguments are supported:
 <a href="#state_customdeployrecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Deploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1609,7 +1609,7 @@ The following state arguments are supported:
 <a href="#state_custominstanceprofilearn_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -1620,7 +1620,7 @@ The following state arguments are supported:
 <a href="#state_customjson_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -1631,7 +1631,7 @@ The following state arguments are supported:
 <a href="#state_customsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -1642,7 +1642,7 @@ The following state arguments are supported:
 <a href="#state_customsetuprecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Setup<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1652,7 +1652,7 @@ The following state arguments are supported:
 <a href="#state_customshutdownrecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Shutdown<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1662,7 +1662,7 @@ The following state arguments are supported:
 <a href="#state_customundeployrecipes_csharp" style="color: inherit; text-decoration: inherit;">Custom<wbr>Undeploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1672,7 +1672,7 @@ The following state arguments are supported:
 <a href="#state_drainelbonshutdown_csharp" style="color: inherit; text-decoration: inherit;">Drain<wbr>Elb<wbr>On<wbr>Shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -1694,7 +1694,7 @@ The following state arguments are supported:
 <a href="#state_elasticloadbalancer_csharp" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Load<wbr>Balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -1705,7 +1705,7 @@ The following state arguments are supported:
 <a href="#state_installupdatesonboot_csharp" style="color: inherit; text-decoration: inherit;">Install<wbr>Updates<wbr>On<wbr>Boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -1716,7 +1716,7 @@ The following state arguments are supported:
 <a href="#state_instanceshutdowntimeout_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Shutdown<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -1727,7 +1727,7 @@ The following state arguments are supported:
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -1738,7 +1738,7 @@ The following state arguments are supported:
 <a href="#state_rootpassword_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -1749,7 +1749,7 @@ The following state arguments are supported:
 <a href="#state_rootpasswordonallinstances_csharp" style="color: inherit; text-decoration: inherit;">Root<wbr>Password<wbr>On<wbr>All<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -1760,7 +1760,7 @@ The following state arguments are supported:
 <a href="#state_stackid_csharp" style="color: inherit; text-decoration: inherit;">Stack<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -1771,7 +1771,7 @@ The following state arguments are supported:
 <a href="#state_systempackages_csharp" style="color: inherit; text-decoration: inherit;">System<wbr>Packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -1793,7 +1793,7 @@ The following state arguments are supported:
 <a href="#state_useebsoptimizedinstances_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Ebs<wbr>Optimized<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -1811,7 +1811,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -1822,7 +1822,7 @@ The following state arguments are supported:
 <a href="#state_autoassignelasticips_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Elastic<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -1833,7 +1833,7 @@ The following state arguments are supported:
 <a href="#state_autoassignpublicips_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Assign<wbr>Public<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -1844,7 +1844,7 @@ The following state arguments are supported:
 <a href="#state_autohealing_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -1855,7 +1855,7 @@ The following state arguments are supported:
 <a href="#state_customconfigurerecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Configure<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1865,7 +1865,7 @@ The following state arguments are supported:
 <a href="#state_customdeployrecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Deploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1875,7 +1875,7 @@ The following state arguments are supported:
 <a href="#state_custominstanceprofilearn_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -1886,7 +1886,7 @@ The following state arguments are supported:
 <a href="#state_customjson_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -1897,7 +1897,7 @@ The following state arguments are supported:
 <a href="#state_customsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -1908,7 +1908,7 @@ The following state arguments are supported:
 <a href="#state_customsetuprecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Setup<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1918,7 +1918,7 @@ The following state arguments are supported:
 <a href="#state_customshutdownrecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Shutdown<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1928,7 +1928,7 @@ The following state arguments are supported:
 <a href="#state_customundeployrecipes_go" style="color: inherit; text-decoration: inherit;">Custom<wbr>Undeploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1938,7 +1938,7 @@ The following state arguments are supported:
 <a href="#state_drainelbonshutdown_go" style="color: inherit; text-decoration: inherit;">Drain<wbr>Elb<wbr>On<wbr>Shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -1960,7 +1960,7 @@ The following state arguments are supported:
 <a href="#state_elasticloadbalancer_go" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Load<wbr>Balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -1971,7 +1971,7 @@ The following state arguments are supported:
 <a href="#state_installupdatesonboot_go" style="color: inherit; text-decoration: inherit;">Install<wbr>Updates<wbr>On<wbr>Boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -1982,7 +1982,7 @@ The following state arguments are supported:
 <a href="#state_instanceshutdowntimeout_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Shutdown<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -1993,7 +1993,7 @@ The following state arguments are supported:
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -2004,7 +2004,7 @@ The following state arguments are supported:
 <a href="#state_rootpassword_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -2015,7 +2015,7 @@ The following state arguments are supported:
 <a href="#state_rootpasswordonallinstances_go" style="color: inherit; text-decoration: inherit;">Root<wbr>Password<wbr>On<wbr>All<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -2026,7 +2026,7 @@ The following state arguments are supported:
 <a href="#state_stackid_go" style="color: inherit; text-decoration: inherit;">Stack<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -2037,7 +2037,7 @@ The following state arguments are supported:
 <a href="#state_systempackages_go" style="color: inherit; text-decoration: inherit;">System<wbr>Packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -2059,7 +2059,7 @@ The following state arguments are supported:
 <a href="#state_useebsoptimizedinstances_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Ebs<wbr>Optimized<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -2077,7 +2077,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -2088,7 +2088,7 @@ The following state arguments are supported:
 <a href="#state_autoassignelasticips_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Assign<wbr>Elastic<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -2099,7 +2099,7 @@ The following state arguments are supported:
 <a href="#state_autoassignpublicips_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Assign<wbr>Public<wbr>Ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -2110,7 +2110,7 @@ The following state arguments are supported:
 <a href="#state_autohealing_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -2121,7 +2121,7 @@ The following state arguments are supported:
 <a href="#state_customconfigurerecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Configure<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2131,7 +2131,7 @@ The following state arguments are supported:
 <a href="#state_customdeployrecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Deploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2141,7 +2141,7 @@ The following state arguments are supported:
 <a href="#state_custominstanceprofilearn_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Instance<wbr>Profile<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -2152,7 +2152,7 @@ The following state arguments are supported:
 <a href="#state_customjson_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -2163,7 +2163,7 @@ The following state arguments are supported:
 <a href="#state_customsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -2174,7 +2174,7 @@ The following state arguments are supported:
 <a href="#state_customsetuprecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Setup<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2184,7 +2184,7 @@ The following state arguments are supported:
 <a href="#state_customshutdownrecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Shutdown<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2194,7 +2194,7 @@ The following state arguments are supported:
 <a href="#state_customundeployrecipes_nodejs" style="color: inherit; text-decoration: inherit;">custom<wbr>Undeploy<wbr>Recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2204,7 +2204,7 @@ The following state arguments are supported:
 <a href="#state_drainelbonshutdown_nodejs" style="color: inherit; text-decoration: inherit;">drain<wbr>Elb<wbr>On<wbr>Shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -2226,7 +2226,7 @@ The following state arguments are supported:
 <a href="#state_elasticloadbalancer_nodejs" style="color: inherit; text-decoration: inherit;">elastic<wbr>Load<wbr>Balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -2237,7 +2237,7 @@ The following state arguments are supported:
 <a href="#state_installupdatesonboot_nodejs" style="color: inherit; text-decoration: inherit;">install<wbr>Updates<wbr>On<wbr>Boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -2248,7 +2248,7 @@ The following state arguments are supported:
 <a href="#state_instanceshutdowntimeout_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Shutdown<wbr>Timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -2259,7 +2259,7 @@ The following state arguments are supported:
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -2270,7 +2270,7 @@ The following state arguments are supported:
 <a href="#state_rootpassword_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -2281,7 +2281,7 @@ The following state arguments are supported:
 <a href="#state_rootpasswordonallinstances_nodejs" style="color: inherit; text-decoration: inherit;">root<wbr>Password<wbr>On<wbr>All<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -2292,7 +2292,7 @@ The following state arguments are supported:
 <a href="#state_stackid_nodejs" style="color: inherit; text-decoration: inherit;">stack<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -2303,7 +2303,7 @@ The following state arguments are supported:
 <a href="#state_systempackages_nodejs" style="color: inherit; text-decoration: inherit;">system<wbr>Packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -2325,7 +2325,7 @@ The following state arguments are supported:
 <a href="#state_useebsoptimizedinstances_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Ebs<wbr>Optimized<wbr>Instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -2343,7 +2343,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Resource Name(ARN) of the layer.
 {{% /md %}}</dd>
@@ -2354,7 +2354,7 @@ The following state arguments are supported:
 <a href="#state_auto_assign_elastic_ips_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>assign_<wbr>elastic_<wbr>ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to automatically assign an elastic IP address to the layer's instances.
 {{% /md %}}</dd>
@@ -2365,7 +2365,7 @@ The following state arguments are supported:
 <a href="#state_auto_assign_public_ips_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>assign_<wbr>public_<wbr>ips</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}For stacks belonging to a VPC, whether to automatically assign a public IP address to each of the layer's instances.
 {{% /md %}}</dd>
@@ -2376,7 +2376,7 @@ The following state arguments are supported:
 <a href="#state_auto_healing_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>healing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable auto-healing for the layer.
 {{% /md %}}</dd>
@@ -2387,7 +2387,7 @@ The following state arguments are supported:
 <a href="#state_custom_configure_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>configure_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2397,7 +2397,7 @@ The following state arguments are supported:
 <a href="#state_custom_deploy_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>deploy_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2407,7 +2407,7 @@ The following state arguments are supported:
 <a href="#state_custom_instance_profile_arn_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>instance_<wbr>profile_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of an IAM profile that will be used for the layer's instances.
 {{% /md %}}</dd>
@@ -2418,7 +2418,7 @@ The following state arguments are supported:
 <a href="#state_custom_json_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>json</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Custom JSON attributes to apply to the layer.
 {{% /md %}}</dd>
@@ -2429,7 +2429,7 @@ The following state arguments are supported:
 <a href="#state_custom_security_group_ids_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Ids for a set of security groups to apply to the layer's instances.
 {{% /md %}}</dd>
@@ -2440,7 +2440,7 @@ The following state arguments are supported:
 <a href="#state_custom_setup_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>setup_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2450,7 +2450,7 @@ The following state arguments are supported:
 <a href="#state_custom_shutdown_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>shutdown_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2460,7 +2460,7 @@ The following state arguments are supported:
 <a href="#state_custom_undeploy_recipes_python" style="color: inherit; text-decoration: inherit;">custom_<wbr>undeploy_<wbr>recipes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2470,7 +2470,7 @@ The following state arguments are supported:
 <a href="#state_drain_elb_on_shutdown_python" style="color: inherit; text-decoration: inherit;">drain_<wbr>elb_<wbr>on_<wbr>shutdown</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to enable Elastic Load Balancing connection draining.
 {{% /md %}}</dd>
@@ -2492,7 +2492,7 @@ The following state arguments are supported:
 <a href="#state_elastic_load_balancer_python" style="color: inherit; text-decoration: inherit;">elastic_<wbr>load_<wbr>balancer</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of an Elastic Load Balancer to attach to this layer
 {{% /md %}}</dd>
@@ -2503,7 +2503,7 @@ The following state arguments are supported:
 <a href="#state_install_updates_on_boot_python" style="color: inherit; text-decoration: inherit;">install_<wbr>updates_<wbr>on_<wbr>boot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to install OS and package updates on each instance when it boots.
 {{% /md %}}</dd>
@@ -2514,7 +2514,7 @@ The following state arguments are supported:
 <a href="#state_instance_shutdown_timeout_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>shutdown_<wbr>timeout</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The time, in seconds, that OpsWorks will wait for Chef to complete after triggering the Shutdown event.
 {{% /md %}}</dd>
@@ -2525,7 +2525,7 @@ The following state arguments are supported:
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A human-readable name for the layer.
 {{% /md %}}</dd>
@@ -2536,7 +2536,7 @@ The following state arguments are supported:
 <a href="#state_root_password_python" style="color: inherit; text-decoration: inherit;">root_<wbr>password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Root password to use for MySQL.
 {{% /md %}}</dd>
@@ -2547,7 +2547,7 @@ The following state arguments are supported:
 <a href="#state_root_password_on_all_instances_python" style="color: inherit; text-decoration: inherit;">root_<wbr>password_<wbr>on_<wbr>all_<wbr>instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to set the root user password to all instances in the stack so they can access the instances in this layer.
 {{% /md %}}</dd>
@@ -2558,7 +2558,7 @@ The following state arguments are supported:
 <a href="#state_stack_id_python" style="color: inherit; text-decoration: inherit;">stack_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The id of the stack the layer will belong to.
 {{% /md %}}</dd>
@@ -2569,7 +2569,7 @@ The following state arguments are supported:
 <a href="#state_system_packages_python" style="color: inherit; text-decoration: inherit;">system_<wbr>packages</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Names of a set of system packages to install on the layer's instances.
 {{% /md %}}</dd>
@@ -2591,7 +2591,7 @@ The following state arguments are supported:
 <a href="#state_use_ebs_optimized_instances_python" style="color: inherit; text-decoration: inherit;">use_<wbr>ebs_<wbr>optimized_<wbr>instances</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Whether to use EBS-optimized instances.
 {{% /md %}}</dd>
@@ -2635,7 +2635,7 @@ The following state arguments are supported:
 <a href="#mountpoint_csharp" style="color: inherit; text-decoration: inherit;">Mount<wbr>Point</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to mount the EBS volume on the layer's instances.
 {{% /md %}}</dd>
@@ -2646,7 +2646,7 @@ The following state arguments are supported:
 <a href="#numberofdisks_csharp" style="color: inherit; text-decoration: inherit;">Number<wbr>Of<wbr>Disks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of disks to use for the EBS volume.
 {{% /md %}}</dd>
@@ -2657,7 +2657,7 @@ The following state arguments are supported:
 <a href="#size_csharp" style="color: inherit; text-decoration: inherit;">Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The size of the volume in gigabytes.
 {{% /md %}}</dd>
@@ -2668,7 +2668,7 @@ The following state arguments are supported:
 <a href="#encrypted_csharp" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2678,7 +2678,7 @@ The following state arguments are supported:
 <a href="#iops_csharp" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}For PIOPS volumes, the IOPS per disk.
 {{% /md %}}</dd>
@@ -2689,7 +2689,7 @@ The following state arguments are supported:
 <a href="#raidlevel_csharp" style="color: inherit; text-decoration: inherit;">Raid<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RAID level to use for the volume.
 {{% /md %}}</dd>
@@ -2700,7 +2700,7 @@ The following state arguments are supported:
 <a href="#type_csharp" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of volume to create. This may be `standard` (the default), `io1` or `gp2`.
 {{% /md %}}</dd>
@@ -2718,7 +2718,7 @@ The following state arguments are supported:
 <a href="#mountpoint_go" style="color: inherit; text-decoration: inherit;">Mount<wbr>Point</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to mount the EBS volume on the layer's instances.
 {{% /md %}}</dd>
@@ -2729,7 +2729,7 @@ The following state arguments are supported:
 <a href="#numberofdisks_go" style="color: inherit; text-decoration: inherit;">Number<wbr>Of<wbr>Disks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of disks to use for the EBS volume.
 {{% /md %}}</dd>
@@ -2740,7 +2740,7 @@ The following state arguments are supported:
 <a href="#size_go" style="color: inherit; text-decoration: inherit;">Size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The size of the volume in gigabytes.
 {{% /md %}}</dd>
@@ -2751,7 +2751,7 @@ The following state arguments are supported:
 <a href="#encrypted_go" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2761,7 +2761,7 @@ The following state arguments are supported:
 <a href="#iops_go" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}For PIOPS volumes, the IOPS per disk.
 {{% /md %}}</dd>
@@ -2772,7 +2772,7 @@ The following state arguments are supported:
 <a href="#raidlevel_go" style="color: inherit; text-decoration: inherit;">Raid<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RAID level to use for the volume.
 {{% /md %}}</dd>
@@ -2783,7 +2783,7 @@ The following state arguments are supported:
 <a href="#type_go" style="color: inherit; text-decoration: inherit;">Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of volume to create. This may be `standard` (the default), `io1` or `gp2`.
 {{% /md %}}</dd>
@@ -2801,7 +2801,7 @@ The following state arguments are supported:
 <a href="#mountpoint_nodejs" style="color: inherit; text-decoration: inherit;">mount<wbr>Point</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to mount the EBS volume on the layer's instances.
 {{% /md %}}</dd>
@@ -2812,7 +2812,7 @@ The following state arguments are supported:
 <a href="#numberofdisks_nodejs" style="color: inherit; text-decoration: inherit;">number<wbr>Of<wbr>Disks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of disks to use for the EBS volume.
 {{% /md %}}</dd>
@@ -2823,7 +2823,7 @@ The following state arguments are supported:
 <a href="#size_nodejs" style="color: inherit; text-decoration: inherit;">size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The size of the volume in gigabytes.
 {{% /md %}}</dd>
@@ -2834,7 +2834,7 @@ The following state arguments are supported:
 <a href="#encrypted_nodejs" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2844,7 +2844,7 @@ The following state arguments are supported:
 <a href="#iops_nodejs" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}For PIOPS volumes, the IOPS per disk.
 {{% /md %}}</dd>
@@ -2855,7 +2855,7 @@ The following state arguments are supported:
 <a href="#raidlevel_nodejs" style="color: inherit; text-decoration: inherit;">raid<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RAID level to use for the volume.
 {{% /md %}}</dd>
@@ -2866,7 +2866,7 @@ The following state arguments are supported:
 <a href="#type_nodejs" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of volume to create. This may be `standard` (the default), `io1` or `gp2`.
 {{% /md %}}</dd>
@@ -2884,7 +2884,7 @@ The following state arguments are supported:
 <a href="#mount_point_python" style="color: inherit; text-decoration: inherit;">mount_<wbr>point</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path to mount the EBS volume on the layer's instances.
 {{% /md %}}</dd>
@@ -2895,7 +2895,7 @@ The following state arguments are supported:
 <a href="#number_of_disks_python" style="color: inherit; text-decoration: inherit;">number_<wbr>of_<wbr>disks</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of disks to use for the EBS volume.
 {{% /md %}}</dd>
@@ -2906,7 +2906,7 @@ The following state arguments are supported:
 <a href="#size_python" style="color: inherit; text-decoration: inherit;">size</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The size of the volume in gigabytes.
 {{% /md %}}</dd>
@@ -2917,7 +2917,7 @@ The following state arguments are supported:
 <a href="#encrypted_python" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2927,7 +2927,7 @@ The following state arguments are supported:
 <a href="#iops_python" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}For PIOPS volumes, the IOPS per disk.
 {{% /md %}}</dd>
@@ -2938,7 +2938,7 @@ The following state arguments are supported:
 <a href="#raid_level_python" style="color: inherit; text-decoration: inherit;">raid_<wbr>level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RAID level to use for the volume.
 {{% /md %}}</dd>
@@ -2949,7 +2949,7 @@ The following state arguments are supported:
 <a href="#type_python" style="color: inherit; text-decoration: inherit;">type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of volume to create. This may be `standard` (the default), `io1` or `gp2`.
 {{% /md %}}</dd>

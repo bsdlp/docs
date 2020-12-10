@@ -222,7 +222,7 @@ const example = new aws.rds.Instance("example", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Instance">Instance</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#InstanceArgs">InstanceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Instance">Instance</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#InstanceArgs">InstanceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -230,11 +230,11 @@ const example = new aws.rds.Instance("example", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Instance">NewInstance</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#InstanceArgs">InstanceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Instance">Instance</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Instance">NewInstance</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#InstanceArgs">InstanceArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Instance">Instance</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Instance.html">Instance</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.InstanceArgs.html">InstanceArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Instance.html">Instance</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.InstanceArgs.html">InstanceArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -245,7 +245,7 @@ const example = new aws.rds.Instance("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -314,7 +314,7 @@ const example = new aws.rds.Instance("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -353,7 +353,7 @@ const example = new aws.rds.Instance("example", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -404,7 +404,7 @@ The Instance resource accepts the following [input]({{< relref "/docs/intro/conc
 <a href="#instanceclass_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Instance<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -415,7 +415,7 @@ The Instance resource accepts the following [input]({{< relref "/docs/intro/conc
 <a href="#allocatedstorage_csharp" style="color: inherit; text-decoration: inherit;">Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -426,7 +426,7 @@ The Instance resource accepts the following [input]({{< relref "/docs/intro/conc
 <a href="#allowmajorversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -439,7 +439,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#applyimmediately_csharp" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -453,7 +453,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#autominorversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Minor<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -466,7 +466,7 @@ Defaults to true.
 <a href="#availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -477,7 +477,7 @@ Defaults to true.
 <a href="#backupretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -489,7 +489,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#backupwindow_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -502,7 +502,7 @@ not overlap with `maintenance_window`.
 <a href="#cacertidentifier_csharp" style="color: inherit; text-decoration: inherit;">Ca<wbr>Cert<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -513,7 +513,7 @@ not overlap with `maintenance_window`.
 <a href="#charactersetname_csharp" style="color: inherit; text-decoration: inherit;">Character<wbr>Set<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -527,7 +527,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#copytagstosnapshot_csharp" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -538,7 +538,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#dbsubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -555,7 +555,7 @@ for additional read replica contraints.
 <a href="#deleteautomatedbackups_csharp" style="color: inherit; text-decoration: inherit;">Delete<wbr>Automated<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -566,7 +566,7 @@ for additional read replica contraints.
 <a href="#deletionprotection_csharp" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -577,7 +577,7 @@ for additional read replica contraints.
 <a href="#domain_csharp" style="color: inherit; text-decoration: inherit;">Domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -588,7 +588,7 @@ for additional read replica contraints.
 <a href="#domainiamrolename_csharp" style="color: inherit; text-decoration: inherit;">Domain<wbr>Iam<wbr>Role<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -599,7 +599,7 @@ for additional read replica contraints.
 <a href="#enabledcloudwatchlogsexports_csharp" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -610,7 +610,7 @@ for additional read replica contraints.
 <a href="#engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -626,7 +626,7 @@ in the Amazon RDS User Guide.
 <a href="#engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -641,7 +641,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -654,7 +654,7 @@ set to `false`.
 <a href="#iamdatabaseauthenticationenabled_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -667,7 +667,7 @@ accounts is enabled.
 <a href="#identifier_csharp" style="color: inherit; text-decoration: inherit;">Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -679,7 +679,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#identifierprefix_csharp" style="color: inherit; text-decoration: inherit;">Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -691,7 +691,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#iops_csharp" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -703,7 +703,7 @@ storage_type of "io1".
 <a href="#kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -715,7 +715,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#licensemodel_csharp" style="color: inherit; text-decoration: inherit;">License<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -727,7 +727,7 @@ SE1) License model information for this DB instance.
 <a href="#maintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -742,7 +742,7 @@ for more information.
 <a href="#maxallocatedstorage_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -753,7 +753,7 @@ for more information.
 <a href="#monitoringinterval_csharp" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -767,7 +767,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#monitoringrolearn_csharp" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -782,7 +782,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#multiaz_csharp" style="color: inherit; text-decoration: inherit;">Multi<wbr>Az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -793,7 +793,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -804,7 +804,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#optiongroupname_csharp" style="color: inherit; text-decoration: inherit;">Option<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -815,7 +815,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#parametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -827,7 +827,7 @@ associate.
 <a href="#password_csharp" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -840,7 +840,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightsenabled_csharp" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -851,7 +851,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightskmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -862,7 +862,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightsretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -873,7 +873,7 @@ logs, and it will be stored in the state file.
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -884,7 +884,7 @@ logs, and it will be stored in the state file.
 <a href="#publiclyaccessible_csharp" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -896,7 +896,7 @@ accessible. Default is `false`.
 <a href="#replicatesourcedb_csharp" style="color: inherit; text-decoration: inherit;">Replicate<wbr>Source<wbr>Db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -937,7 +937,7 @@ for more information on using Replication.
 <a href="#securitygroupnames_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -950,7 +950,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -965,7 +965,7 @@ is `false`.
 <a href="#snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -978,7 +978,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -992,7 +992,7 @@ default is `false` if not specified.
 <a href="#storagetype_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Storage<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Storage<wbr>Type</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -1016,7 +1016,7 @@ specified, "gp2" if not.
 <a href="#timezone_csharp" style="color: inherit; text-decoration: inherit;">Timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -1031,7 +1031,7 @@ for more information.
 <a href="#username_csharp" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -1043,7 +1043,7 @@ is provided) Username for the master DB user.
 <a href="#vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -1062,7 +1062,7 @@ associate.
 <a href="#instanceclass_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -1073,7 +1073,7 @@ associate.
 <a href="#allocatedstorage_go" style="color: inherit; text-decoration: inherit;">Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -1084,7 +1084,7 @@ associate.
 <a href="#allowmajorversionupgrade_go" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -1097,7 +1097,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#applyimmediately_go" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -1111,7 +1111,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#autominorversionupgrade_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Minor<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -1124,7 +1124,7 @@ Defaults to true.
 <a href="#availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -1135,7 +1135,7 @@ Defaults to true.
 <a href="#backupretentionperiod_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -1147,7 +1147,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#backupwindow_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -1160,7 +1160,7 @@ not overlap with `maintenance_window`.
 <a href="#cacertidentifier_go" style="color: inherit; text-decoration: inherit;">Ca<wbr>Cert<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -1171,7 +1171,7 @@ not overlap with `maintenance_window`.
 <a href="#charactersetname_go" style="color: inherit; text-decoration: inherit;">Character<wbr>Set<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -1185,7 +1185,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#copytagstosnapshot_go" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -1196,7 +1196,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#dbsubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -1213,7 +1213,7 @@ for additional read replica contraints.
 <a href="#deleteautomatedbackups_go" style="color: inherit; text-decoration: inherit;">Delete<wbr>Automated<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -1224,7 +1224,7 @@ for additional read replica contraints.
 <a href="#deletionprotection_go" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -1235,7 +1235,7 @@ for additional read replica contraints.
 <a href="#domain_go" style="color: inherit; text-decoration: inherit;">Domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -1246,7 +1246,7 @@ for additional read replica contraints.
 <a href="#domainiamrolename_go" style="color: inherit; text-decoration: inherit;">Domain<wbr>Iam<wbr>Role<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -1257,7 +1257,7 @@ for additional read replica contraints.
 <a href="#enabledcloudwatchlogsexports_go" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -1268,7 +1268,7 @@ for additional read replica contraints.
 <a href="#engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -1284,7 +1284,7 @@ in the Amazon RDS User Guide.
 <a href="#engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -1299,7 +1299,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -1312,7 +1312,7 @@ set to `false`.
 <a href="#iamdatabaseauthenticationenabled_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -1325,7 +1325,7 @@ accounts is enabled.
 <a href="#identifier_go" style="color: inherit; text-decoration: inherit;">Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -1337,7 +1337,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#identifierprefix_go" style="color: inherit; text-decoration: inherit;">Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -1349,7 +1349,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#iops_go" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -1361,7 +1361,7 @@ storage_type of "io1".
 <a href="#kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -1373,7 +1373,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#licensemodel_go" style="color: inherit; text-decoration: inherit;">License<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -1385,7 +1385,7 @@ SE1) License model information for this DB instance.
 <a href="#maintenancewindow_go" style="color: inherit; text-decoration: inherit;">Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -1400,7 +1400,7 @@ for more information.
 <a href="#maxallocatedstorage_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -1411,7 +1411,7 @@ for more information.
 <a href="#monitoringinterval_go" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -1425,7 +1425,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#monitoringrolearn_go" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -1440,7 +1440,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#multiaz_go" style="color: inherit; text-decoration: inherit;">Multi<wbr>Az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -1451,7 +1451,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -1462,7 +1462,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#optiongroupname_go" style="color: inherit; text-decoration: inherit;">Option<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -1473,7 +1473,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#parametergroupname_go" style="color: inherit; text-decoration: inherit;">Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -1485,7 +1485,7 @@ associate.
 <a href="#password_go" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -1498,7 +1498,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightsenabled_go" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -1509,7 +1509,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightskmskeyid_go" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -1520,7 +1520,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightsretentionperiod_go" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -1531,7 +1531,7 @@ logs, and it will be stored in the state file.
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -1542,7 +1542,7 @@ logs, and it will be stored in the state file.
 <a href="#publiclyaccessible_go" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -1554,7 +1554,7 @@ accessible. Default is `false`.
 <a href="#replicatesourcedb_go" style="color: inherit; text-decoration: inherit;">Replicate<wbr>Source<wbr>Db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -1595,7 +1595,7 @@ for more information on using Replication.
 <a href="#securitygroupnames_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -1608,7 +1608,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -1623,7 +1623,7 @@ is `false`.
 <a href="#snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -1636,7 +1636,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -1650,7 +1650,7 @@ default is `false` if not specified.
 <a href="#storagetype_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -1674,7 +1674,7 @@ specified, "gp2" if not.
 <a href="#timezone_go" style="color: inherit; text-decoration: inherit;">Timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -1689,7 +1689,7 @@ for more information.
 <a href="#username_go" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -1701,7 +1701,7 @@ is provided) Username for the master DB user.
 <a href="#vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -1720,7 +1720,7 @@ associate.
 <a href="#instanceclass_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Instance<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -1731,7 +1731,7 @@ associate.
 <a href="#allocatedstorage_nodejs" style="color: inherit; text-decoration: inherit;">allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -1742,7 +1742,7 @@ associate.
 <a href="#allowmajorversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -1755,7 +1755,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#applyimmediately_nodejs" style="color: inherit; text-decoration: inherit;">apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -1769,7 +1769,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#autominorversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Minor<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -1782,7 +1782,7 @@ Defaults to true.
 <a href="#availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -1793,7 +1793,7 @@ Defaults to true.
 <a href="#backupretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -1805,7 +1805,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#backupwindow_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -1818,7 +1818,7 @@ not overlap with `maintenance_window`.
 <a href="#cacertidentifier_nodejs" style="color: inherit; text-decoration: inherit;">ca<wbr>Cert<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -1829,7 +1829,7 @@ not overlap with `maintenance_window`.
 <a href="#charactersetname_nodejs" style="color: inherit; text-decoration: inherit;">character<wbr>Set<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -1843,7 +1843,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#copytagstosnapshot_nodejs" style="color: inherit; text-decoration: inherit;">copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -1854,7 +1854,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#dbsubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -1871,7 +1871,7 @@ for additional read replica contraints.
 <a href="#deleteautomatedbackups_nodejs" style="color: inherit; text-decoration: inherit;">delete<wbr>Automated<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -1882,7 +1882,7 @@ for additional read replica contraints.
 <a href="#deletionprotection_nodejs" style="color: inherit; text-decoration: inherit;">deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -1893,7 +1893,7 @@ for additional read replica contraints.
 <a href="#domain_nodejs" style="color: inherit; text-decoration: inherit;">domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -1904,7 +1904,7 @@ for additional read replica contraints.
 <a href="#domainiamrolename_nodejs" style="color: inherit; text-decoration: inherit;">domain<wbr>Iam<wbr>Role<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -1915,7 +1915,7 @@ for additional read replica contraints.
 <a href="#enabledcloudwatchlogsexports_nodejs" style="color: inherit; text-decoration: inherit;">enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -1926,7 +1926,7 @@ for additional read replica contraints.
 <a href="#engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -1942,7 +1942,7 @@ in the Amazon RDS User Guide.
 <a href="#engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -1957,7 +1957,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -1970,7 +1970,7 @@ set to `false`.
 <a href="#iamdatabaseauthenticationenabled_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -1983,7 +1983,7 @@ accounts is enabled.
 <a href="#identifier_nodejs" style="color: inherit; text-decoration: inherit;">identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -1995,7 +1995,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#identifierprefix_nodejs" style="color: inherit; text-decoration: inherit;">identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -2007,7 +2007,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#iops_nodejs" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -2019,7 +2019,7 @@ storage_type of "io1".
 <a href="#kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -2031,7 +2031,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#licensemodel_nodejs" style="color: inherit; text-decoration: inherit;">license<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -2043,7 +2043,7 @@ SE1) License model information for this DB instance.
 <a href="#maintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -2058,7 +2058,7 @@ for more information.
 <a href="#maxallocatedstorage_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -2069,7 +2069,7 @@ for more information.
 <a href="#monitoringinterval_nodejs" style="color: inherit; text-decoration: inherit;">monitoring<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -2083,7 +2083,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#monitoringrolearn_nodejs" style="color: inherit; text-decoration: inherit;">monitoring<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -2098,7 +2098,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#multiaz_nodejs" style="color: inherit; text-decoration: inherit;">multi<wbr>Az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -2109,7 +2109,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -2120,7 +2120,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#optiongroupname_nodejs" style="color: inherit; text-decoration: inherit;">option<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -2131,7 +2131,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#parametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -2143,7 +2143,7 @@ associate.
 <a href="#password_nodejs" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -2156,7 +2156,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightsenabled_nodejs" style="color: inherit; text-decoration: inherit;">performance<wbr>Insights<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -2167,7 +2167,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightskmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">performance<wbr>Insights<wbr>Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -2178,7 +2178,7 @@ logs, and it will be stored in the state file.
 <a href="#performanceinsightsretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">performance<wbr>Insights<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -2189,7 +2189,7 @@ logs, and it will be stored in the state file.
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -2200,7 +2200,7 @@ logs, and it will be stored in the state file.
 <a href="#publiclyaccessible_nodejs" style="color: inherit; text-decoration: inherit;">publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -2212,7 +2212,7 @@ accessible. Default is `false`.
 <a href="#replicatesourcedb_nodejs" style="color: inherit; text-decoration: inherit;">replicate<wbr>Source<wbr>Db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -2253,7 +2253,7 @@ for more information on using Replication.
 <a href="#securitygroupnames_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -2266,7 +2266,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -2281,7 +2281,7 @@ is `false`.
 <a href="#snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -2294,7 +2294,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -2308,7 +2308,7 @@ default is `false` if not specified.
 <a href="#storagetype_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Storage<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Storage<wbr>Type</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -2332,7 +2332,7 @@ specified, "gp2" if not.
 <a href="#timezone_nodejs" style="color: inherit; text-decoration: inherit;">timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -2347,7 +2347,7 @@ for more information.
 <a href="#username_nodejs" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -2359,7 +2359,7 @@ is provided) Username for the master DB user.
 <a href="#vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -2378,7 +2378,7 @@ associate.
 <a href="#instance_class_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Instance<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -2389,7 +2389,7 @@ associate.
 <a href="#allocated_storage_python" style="color: inherit; text-decoration: inherit;">allocated_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -2400,7 +2400,7 @@ associate.
 <a href="#allow_major_version_upgrade_python" style="color: inherit; text-decoration: inherit;">allow_<wbr>major_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -2413,7 +2413,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#apply_immediately_python" style="color: inherit; text-decoration: inherit;">apply_<wbr>immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -2427,7 +2427,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#auto_minor_version_upgrade_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>minor_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -2440,7 +2440,7 @@ Defaults to true.
 <a href="#availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -2451,7 +2451,7 @@ Defaults to true.
 <a href="#backup_retention_period_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -2463,7 +2463,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#backup_window_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -2476,7 +2476,7 @@ not overlap with `maintenance_window`.
 <a href="#ca_cert_identifier_python" style="color: inherit; text-decoration: inherit;">ca_<wbr>cert_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -2487,7 +2487,7 @@ not overlap with `maintenance_window`.
 <a href="#character_set_name_python" style="color: inherit; text-decoration: inherit;">character_<wbr>set_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -2501,7 +2501,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#copy_tags_to_snapshot_python" style="color: inherit; text-decoration: inherit;">copy_<wbr>tags_<wbr>to_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -2512,7 +2512,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#db_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">db_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -2529,7 +2529,7 @@ for additional read replica contraints.
 <a href="#delete_automated_backups_python" style="color: inherit; text-decoration: inherit;">delete_<wbr>automated_<wbr>backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -2540,7 +2540,7 @@ for additional read replica contraints.
 <a href="#deletion_protection_python" style="color: inherit; text-decoration: inherit;">deletion_<wbr>protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -2551,7 +2551,7 @@ for additional read replica contraints.
 <a href="#domain_python" style="color: inherit; text-decoration: inherit;">domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -2562,7 +2562,7 @@ for additional read replica contraints.
 <a href="#domain_iam_role_name_python" style="color: inherit; text-decoration: inherit;">domain_<wbr>iam_<wbr>role_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -2573,7 +2573,7 @@ for additional read replica contraints.
 <a href="#enabled_cloudwatch_logs_exports_python" style="color: inherit; text-decoration: inherit;">enabled_<wbr>cloudwatch_<wbr>logs_<wbr>exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -2584,7 +2584,7 @@ for additional read replica contraints.
 <a href="#engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -2600,7 +2600,7 @@ in the Amazon RDS User Guide.
 <a href="#engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -2615,7 +2615,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -2628,7 +2628,7 @@ set to `false`.
 <a href="#iam_database_authentication_enabled_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>database_<wbr>authentication_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -2641,7 +2641,7 @@ accounts is enabled.
 <a href="#identifier_python" style="color: inherit; text-decoration: inherit;">identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -2653,7 +2653,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#identifier_prefix_python" style="color: inherit; text-decoration: inherit;">identifier_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -2665,7 +2665,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#iops_python" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -2677,7 +2677,7 @@ storage_type of "io1".
 <a href="#kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -2689,7 +2689,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#license_model_python" style="color: inherit; text-decoration: inherit;">license_<wbr>model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -2701,7 +2701,7 @@ SE1) License model information for this DB instance.
 <a href="#maintenance_window_python" style="color: inherit; text-decoration: inherit;">maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -2716,7 +2716,7 @@ for more information.
 <a href="#max_allocated_storage_python" style="color: inherit; text-decoration: inherit;">max_<wbr>allocated_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -2727,7 +2727,7 @@ for more information.
 <a href="#monitoring_interval_python" style="color: inherit; text-decoration: inherit;">monitoring_<wbr>interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -2741,7 +2741,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#monitoring_role_arn_python" style="color: inherit; text-decoration: inherit;">monitoring_<wbr>role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -2756,7 +2756,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#multi_az_python" style="color: inherit; text-decoration: inherit;">multi_<wbr>az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -2767,7 +2767,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -2778,7 +2778,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#option_group_name_python" style="color: inherit; text-decoration: inherit;">option_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -2789,7 +2789,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#parameter_group_name_python" style="color: inherit; text-decoration: inherit;">parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -2801,7 +2801,7 @@ associate.
 <a href="#password_python" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -2814,7 +2814,7 @@ logs, and it will be stored in the state file.
 <a href="#performance_insights_enabled_python" style="color: inherit; text-decoration: inherit;">performance_<wbr>insights_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -2825,7 +2825,7 @@ logs, and it will be stored in the state file.
 <a href="#performance_insights_kms_key_id_python" style="color: inherit; text-decoration: inherit;">performance_<wbr>insights_<wbr>kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -2836,7 +2836,7 @@ logs, and it will be stored in the state file.
 <a href="#performance_insights_retention_period_python" style="color: inherit; text-decoration: inherit;">performance_<wbr>insights_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -2847,7 +2847,7 @@ logs, and it will be stored in the state file.
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -2858,7 +2858,7 @@ logs, and it will be stored in the state file.
 <a href="#publicly_accessible_python" style="color: inherit; text-decoration: inherit;">publicly_<wbr>accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -2870,7 +2870,7 @@ accessible. Default is `false`.
 <a href="#replicate_source_db_python" style="color: inherit; text-decoration: inherit;">replicate_<wbr>source_<wbr>db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -2911,7 +2911,7 @@ for more information on using Replication.
 <a href="#security_group_names_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -2924,7 +2924,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -2939,7 +2939,7 @@ is `false`.
 <a href="#snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -2952,7 +2952,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -2966,7 +2966,7 @@ default is `false` if not specified.
 <a href="#storage_type_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Storage<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Storage<wbr>Type</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -2990,7 +2990,7 @@ specified, "gp2" if not.
 <a href="#timezone_python" style="color: inherit; text-decoration: inherit;">timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -3005,7 +3005,7 @@ for more information.
 <a href="#username_python" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -3017,7 +3017,7 @@ is provided) Username for the master DB user.
 <a href="#vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -3047,7 +3047,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#address_csharp" style="color: inherit; text-decoration: inherit;">Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -3058,7 +3058,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -3069,7 +3069,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -3080,7 +3080,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -3092,7 +3092,7 @@ in a Route 53 Alias record).
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -3102,7 +3102,7 @@ in a Route 53 Alias record).
 <a href="#latestrestorabletime_csharp" style="color: inherit; text-decoration: inherit;">Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -3113,7 +3113,7 @@ in a Route 53 Alias record).
 <a href="#replicas_csharp" style="color: inherit; text-decoration: inherit;">Replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3123,7 +3123,7 @@ in a Route 53 Alias record).
 <a href="#resourceid_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -3134,7 +3134,7 @@ in a Route 53 Alias record).
 <a href="#status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -3152,7 +3152,7 @@ in a Route 53 Alias record).
 <a href="#address_go" style="color: inherit; text-decoration: inherit;">Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -3163,7 +3163,7 @@ in a Route 53 Alias record).
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -3174,7 +3174,7 @@ in a Route 53 Alias record).
 <a href="#endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -3185,7 +3185,7 @@ in a Route 53 Alias record).
 <a href="#hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -3197,7 +3197,7 @@ in a Route 53 Alias record).
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -3207,7 +3207,7 @@ in a Route 53 Alias record).
 <a href="#latestrestorabletime_go" style="color: inherit; text-decoration: inherit;">Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -3218,7 +3218,7 @@ in a Route 53 Alias record).
 <a href="#replicas_go" style="color: inherit; text-decoration: inherit;">Replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3228,7 +3228,7 @@ in a Route 53 Alias record).
 <a href="#resourceid_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -3239,7 +3239,7 @@ in a Route 53 Alias record).
 <a href="#status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -3257,7 +3257,7 @@ in a Route 53 Alias record).
 <a href="#address_nodejs" style="color: inherit; text-decoration: inherit;">address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -3268,7 +3268,7 @@ in a Route 53 Alias record).
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -3279,7 +3279,7 @@ in a Route 53 Alias record).
 <a href="#endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -3290,7 +3290,7 @@ in a Route 53 Alias record).
 <a href="#hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -3302,7 +3302,7 @@ in a Route 53 Alias record).
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -3312,7 +3312,7 @@ in a Route 53 Alias record).
 <a href="#latestrestorabletime_nodejs" style="color: inherit; text-decoration: inherit;">latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -3323,7 +3323,7 @@ in a Route 53 Alias record).
 <a href="#replicas_nodejs" style="color: inherit; text-decoration: inherit;">replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3333,7 +3333,7 @@ in a Route 53 Alias record).
 <a href="#resourceid_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -3344,7 +3344,7 @@ in a Route 53 Alias record).
 <a href="#status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -3362,7 +3362,7 @@ in a Route 53 Alias record).
 <a href="#address_python" style="color: inherit; text-decoration: inherit;">address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -3373,7 +3373,7 @@ in a Route 53 Alias record).
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -3384,7 +3384,7 @@ in a Route 53 Alias record).
 <a href="#endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -3395,7 +3395,7 @@ in a Route 53 Alias record).
 <a href="#hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -3407,7 +3407,7 @@ in a Route 53 Alias record).
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -3417,7 +3417,7 @@ in a Route 53 Alias record).
 <a href="#latest_restorable_time_python" style="color: inherit; text-decoration: inherit;">latest_<wbr>restorable_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -3428,7 +3428,7 @@ in a Route 53 Alias record).
 <a href="#replicas_python" style="color: inherit; text-decoration: inherit;">replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3438,7 +3438,7 @@ in a Route 53 Alias record).
 <a href="#resource_id_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -3449,7 +3449,7 @@ in a Route 53 Alias record).
 <a href="#status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -3469,7 +3469,7 @@ Get an existing Instance resource's state with the given name, ID, and optional 
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#InstanceState">InstanceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Instance">Instance</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#InstanceState">InstanceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/rds/#Instance">Instance</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -3478,11 +3478,11 @@ Get an existing Instance resource's state with the given name, ID, and optional 
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetInstance<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#InstanceState">InstanceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Instance">Instance</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetInstance<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#InstanceState">InstanceState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/rds?tab=doc#Instance">Instance</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Instance.html">Instance</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.InstanceState.html">InstanceState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.Instance.html">Instance</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Rds.InstanceState.html">InstanceState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -3594,7 +3594,7 @@ The following state arguments are supported:
 <a href="#state_address_csharp" style="color: inherit; text-decoration: inherit;">Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -3605,7 +3605,7 @@ The following state arguments are supported:
 <a href="#state_allocatedstorage_csharp" style="color: inherit; text-decoration: inherit;">Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -3616,7 +3616,7 @@ The following state arguments are supported:
 <a href="#state_allowmajorversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -3629,7 +3629,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#state_applyimmediately_csharp" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -3643,7 +3643,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -3654,7 +3654,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_autominorversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Minor<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -3667,7 +3667,7 @@ Defaults to true.
 <a href="#state_availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -3678,7 +3678,7 @@ Defaults to true.
 <a href="#state_backupretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -3690,7 +3690,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#state_backupwindow_csharp" style="color: inherit; text-decoration: inherit;">Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -3703,7 +3703,7 @@ not overlap with `maintenance_window`.
 <a href="#state_cacertidentifier_csharp" style="color: inherit; text-decoration: inherit;">Ca<wbr>Cert<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -3714,7 +3714,7 @@ not overlap with `maintenance_window`.
 <a href="#state_charactersetname_csharp" style="color: inherit; text-decoration: inherit;">Character<wbr>Set<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -3728,7 +3728,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_copytagstosnapshot_csharp" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -3739,7 +3739,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_dbsubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -3756,7 +3756,7 @@ for additional read replica contraints.
 <a href="#state_deleteautomatedbackups_csharp" style="color: inherit; text-decoration: inherit;">Delete<wbr>Automated<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -3767,7 +3767,7 @@ for additional read replica contraints.
 <a href="#state_deletionprotection_csharp" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -3778,7 +3778,7 @@ for additional read replica contraints.
 <a href="#state_domain_csharp" style="color: inherit; text-decoration: inherit;">Domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -3789,7 +3789,7 @@ for additional read replica contraints.
 <a href="#state_domainiamrolename_csharp" style="color: inherit; text-decoration: inherit;">Domain<wbr>Iam<wbr>Role<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -3800,7 +3800,7 @@ for additional read replica contraints.
 <a href="#state_enabledcloudwatchlogsexports_csharp" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -3811,7 +3811,7 @@ for additional read replica contraints.
 <a href="#state_endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -3822,7 +3822,7 @@ for additional read replica contraints.
 <a href="#state_engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -3838,7 +3838,7 @@ in the Amazon RDS User Guide.
 <a href="#state_engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -3853,7 +3853,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#state_finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -3866,7 +3866,7 @@ set to `false`.
 <a href="#state_hostedzoneid_csharp" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -3878,7 +3878,7 @@ in a Route 53 Alias record).
 <a href="#state_iamdatabaseauthenticationenabled_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -3891,7 +3891,7 @@ accounts is enabled.
 <a href="#state_identifier_csharp" style="color: inherit; text-decoration: inherit;">Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -3903,7 +3903,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#state_identifierprefix_csharp" style="color: inherit; text-decoration: inherit;">Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -3915,7 +3915,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_instanceclass_csharp" style="color: inherit; text-decoration: inherit;">Instance<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Instance<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -3926,7 +3926,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_iops_csharp" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -3938,7 +3938,7 @@ storage_type of "io1".
 <a href="#state_kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -3950,7 +3950,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_latestrestorabletime_csharp" style="color: inherit; text-decoration: inherit;">Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -3961,7 +3961,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_licensemodel_csharp" style="color: inherit; text-decoration: inherit;">License<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -3973,7 +3973,7 @@ SE1) License model information for this DB instance.
 <a href="#state_maintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -3988,7 +3988,7 @@ for more information.
 <a href="#state_maxallocatedstorage_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -3999,7 +3999,7 @@ for more information.
 <a href="#state_monitoringinterval_csharp" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -4013,7 +4013,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#state_monitoringrolearn_csharp" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -4028,7 +4028,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_multiaz_csharp" style="color: inherit; text-decoration: inherit;">Multi<wbr>Az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -4039,7 +4039,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -4050,7 +4050,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_optiongroupname_csharp" style="color: inherit; text-decoration: inherit;">Option<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -4061,7 +4061,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_parametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -4073,7 +4073,7 @@ associate.
 <a href="#state_password_csharp" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -4086,7 +4086,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightsenabled_csharp" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -4097,7 +4097,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightskmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -4108,7 +4108,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightsretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -4119,7 +4119,7 @@ logs, and it will be stored in the state file.
 <a href="#state_port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -4130,7 +4130,7 @@ logs, and it will be stored in the state file.
 <a href="#state_publiclyaccessible_csharp" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -4142,7 +4142,7 @@ accessible. Default is `false`.
 <a href="#state_replicas_csharp" style="color: inherit; text-decoration: inherit;">Replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4152,7 +4152,7 @@ accessible. Default is `false`.
 <a href="#state_replicatesourcedb_csharp" style="color: inherit; text-decoration: inherit;">Replicate<wbr>Source<wbr>Db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -4171,7 +4171,7 @@ for more information on using Replication.
 <a href="#state_resourceid_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -4204,7 +4204,7 @@ for more information on using Replication.
 <a href="#state_securitygroupnames_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -4217,7 +4217,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#state_skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -4232,7 +4232,7 @@ is `false`.
 <a href="#state_snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -4245,7 +4245,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -4256,7 +4256,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_storageencrypted_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -4270,7 +4270,7 @@ default is `false` if not specified.
 <a href="#state_storagetype_csharp" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union&lt;string, Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Storage<wbr>Type&gt;</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">Pulumi.<wbr>Aws.<wbr>Rds.<wbr>Storage<wbr>Type</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -4294,7 +4294,7 @@ specified, "gp2" if not.
 <a href="#state_timezone_csharp" style="color: inherit; text-decoration: inherit;">Timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -4309,7 +4309,7 @@ for more information.
 <a href="#state_username_csharp" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -4321,7 +4321,7 @@ is provided) Username for the master DB user.
 <a href="#state_vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -4340,7 +4340,7 @@ associate.
 <a href="#state_address_go" style="color: inherit; text-decoration: inherit;">Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -4351,7 +4351,7 @@ associate.
 <a href="#state_allocatedstorage_go" style="color: inherit; text-decoration: inherit;">Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -4362,7 +4362,7 @@ associate.
 <a href="#state_allowmajorversionupgrade_go" style="color: inherit; text-decoration: inherit;">Allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -4375,7 +4375,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#state_applyimmediately_go" style="color: inherit; text-decoration: inherit;">Apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -4389,7 +4389,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -4400,7 +4400,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_autominorversionupgrade_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Minor<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -4413,7 +4413,7 @@ Defaults to true.
 <a href="#state_availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -4424,7 +4424,7 @@ Defaults to true.
 <a href="#state_backupretentionperiod_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -4436,7 +4436,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#state_backupwindow_go" style="color: inherit; text-decoration: inherit;">Backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -4449,7 +4449,7 @@ not overlap with `maintenance_window`.
 <a href="#state_cacertidentifier_go" style="color: inherit; text-decoration: inherit;">Ca<wbr>Cert<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -4460,7 +4460,7 @@ not overlap with `maintenance_window`.
 <a href="#state_charactersetname_go" style="color: inherit; text-decoration: inherit;">Character<wbr>Set<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -4474,7 +4474,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_copytagstosnapshot_go" style="color: inherit; text-decoration: inherit;">Copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -4485,7 +4485,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_dbsubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -4502,7 +4502,7 @@ for additional read replica contraints.
 <a href="#state_deleteautomatedbackups_go" style="color: inherit; text-decoration: inherit;">Delete<wbr>Automated<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -4513,7 +4513,7 @@ for additional read replica contraints.
 <a href="#state_deletionprotection_go" style="color: inherit; text-decoration: inherit;">Deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -4524,7 +4524,7 @@ for additional read replica contraints.
 <a href="#state_domain_go" style="color: inherit; text-decoration: inherit;">Domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -4535,7 +4535,7 @@ for additional read replica contraints.
 <a href="#state_domainiamrolename_go" style="color: inherit; text-decoration: inherit;">Domain<wbr>Iam<wbr>Role<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -4546,7 +4546,7 @@ for additional read replica contraints.
 <a href="#state_enabledcloudwatchlogsexports_go" style="color: inherit; text-decoration: inherit;">Enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -4557,7 +4557,7 @@ for additional read replica contraints.
 <a href="#state_endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -4568,7 +4568,7 @@ for additional read replica contraints.
 <a href="#state_engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -4584,7 +4584,7 @@ in the Amazon RDS User Guide.
 <a href="#state_engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -4599,7 +4599,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#state_finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -4612,7 +4612,7 @@ set to `false`.
 <a href="#state_hostedzoneid_go" style="color: inherit; text-decoration: inherit;">Hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -4624,7 +4624,7 @@ in a Route 53 Alias record).
 <a href="#state_iamdatabaseauthenticationenabled_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -4637,7 +4637,7 @@ accounts is enabled.
 <a href="#state_identifier_go" style="color: inherit; text-decoration: inherit;">Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -4649,7 +4649,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#state_identifierprefix_go" style="color: inherit; text-decoration: inherit;">Identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -4661,7 +4661,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_instanceclass_go" style="color: inherit; text-decoration: inherit;">Instance<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -4672,7 +4672,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_iops_go" style="color: inherit; text-decoration: inherit;">Iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -4684,7 +4684,7 @@ storage_type of "io1".
 <a href="#state_kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -4696,7 +4696,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_latestrestorabletime_go" style="color: inherit; text-decoration: inherit;">Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -4707,7 +4707,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_licensemodel_go" style="color: inherit; text-decoration: inherit;">License<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -4719,7 +4719,7 @@ SE1) License model information for this DB instance.
 <a href="#state_maintenancewindow_go" style="color: inherit; text-decoration: inherit;">Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -4734,7 +4734,7 @@ for more information.
 <a href="#state_maxallocatedstorage_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -4745,7 +4745,7 @@ for more information.
 <a href="#state_monitoringinterval_go" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -4759,7 +4759,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#state_monitoringrolearn_go" style="color: inherit; text-decoration: inherit;">Monitoring<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -4774,7 +4774,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_multiaz_go" style="color: inherit; text-decoration: inherit;">Multi<wbr>Az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -4785,7 +4785,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -4796,7 +4796,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_optiongroupname_go" style="color: inherit; text-decoration: inherit;">Option<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -4807,7 +4807,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_parametergroupname_go" style="color: inherit; text-decoration: inherit;">Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -4819,7 +4819,7 @@ associate.
 <a href="#state_password_go" style="color: inherit; text-decoration: inherit;">Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -4832,7 +4832,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightsenabled_go" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -4843,7 +4843,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightskmskeyid_go" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -4854,7 +4854,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightsretentionperiod_go" style="color: inherit; text-decoration: inherit;">Performance<wbr>Insights<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -4865,7 +4865,7 @@ logs, and it will be stored in the state file.
 <a href="#state_port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -4876,7 +4876,7 @@ logs, and it will be stored in the state file.
 <a href="#state_publiclyaccessible_go" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -4888,7 +4888,7 @@ accessible. Default is `false`.
 <a href="#state_replicas_go" style="color: inherit; text-decoration: inherit;">Replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4898,7 +4898,7 @@ accessible. Default is `false`.
 <a href="#state_replicatesourcedb_go" style="color: inherit; text-decoration: inherit;">Replicate<wbr>Source<wbr>Db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -4917,7 +4917,7 @@ for more information on using Replication.
 <a href="#state_resourceid_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -4950,7 +4950,7 @@ for more information on using Replication.
 <a href="#state_securitygroupnames_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -4963,7 +4963,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#state_skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -4978,7 +4978,7 @@ is `false`.
 <a href="#state_snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -4991,7 +4991,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -5002,7 +5002,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_storageencrypted_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -5016,7 +5016,7 @@ default is `false` if not specified.
 <a href="#state_storagetype_go" style="color: inherit; text-decoration: inherit;">Storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -5040,7 +5040,7 @@ specified, "gp2" if not.
 <a href="#state_timezone_go" style="color: inherit; text-decoration: inherit;">Timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -5055,7 +5055,7 @@ for more information.
 <a href="#state_username_go" style="color: inherit; text-decoration: inherit;">Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -5067,7 +5067,7 @@ is provided) Username for the master DB user.
 <a href="#state_vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -5086,7 +5086,7 @@ associate.
 <a href="#state_address_nodejs" style="color: inherit; text-decoration: inherit;">address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -5097,7 +5097,7 @@ associate.
 <a href="#state_allocatedstorage_nodejs" style="color: inherit; text-decoration: inherit;">allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -5108,7 +5108,7 @@ associate.
 <a href="#state_allowmajorversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">allow<wbr>Major<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -5121,7 +5121,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#state_applyimmediately_nodejs" style="color: inherit; text-decoration: inherit;">apply<wbr>Immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -5135,7 +5135,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -5146,7 +5146,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_autominorversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Minor<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -5159,7 +5159,7 @@ Defaults to true.
 <a href="#state_availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -5170,7 +5170,7 @@ Defaults to true.
 <a href="#state_backupretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -5182,7 +5182,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#state_backupwindow_nodejs" style="color: inherit; text-decoration: inherit;">backup<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -5195,7 +5195,7 @@ not overlap with `maintenance_window`.
 <a href="#state_cacertidentifier_nodejs" style="color: inherit; text-decoration: inherit;">ca<wbr>Cert<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -5206,7 +5206,7 @@ not overlap with `maintenance_window`.
 <a href="#state_charactersetname_nodejs" style="color: inherit; text-decoration: inherit;">character<wbr>Set<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -5220,7 +5220,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_copytagstosnapshot_nodejs" style="color: inherit; text-decoration: inherit;">copy<wbr>Tags<wbr>To<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -5231,7 +5231,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_dbsubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">db<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -5248,7 +5248,7 @@ for additional read replica contraints.
 <a href="#state_deleteautomatedbackups_nodejs" style="color: inherit; text-decoration: inherit;">delete<wbr>Automated<wbr>Backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -5259,7 +5259,7 @@ for additional read replica contraints.
 <a href="#state_deletionprotection_nodejs" style="color: inherit; text-decoration: inherit;">deletion<wbr>Protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -5270,7 +5270,7 @@ for additional read replica contraints.
 <a href="#state_domain_nodejs" style="color: inherit; text-decoration: inherit;">domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -5281,7 +5281,7 @@ for additional read replica contraints.
 <a href="#state_domainiamrolename_nodejs" style="color: inherit; text-decoration: inherit;">domain<wbr>Iam<wbr>Role<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -5292,7 +5292,7 @@ for additional read replica contraints.
 <a href="#state_enabledcloudwatchlogsexports_nodejs" style="color: inherit; text-decoration: inherit;">enabled<wbr>Cloudwatch<wbr>Logs<wbr>Exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -5303,7 +5303,7 @@ for additional read replica contraints.
 <a href="#state_endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -5314,7 +5314,7 @@ for additional read replica contraints.
 <a href="#state_engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -5330,7 +5330,7 @@ in the Amazon RDS User Guide.
 <a href="#state_engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -5345,7 +5345,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#state_finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -5358,7 +5358,7 @@ set to `false`.
 <a href="#state_hostedzoneid_nodejs" style="color: inherit; text-decoration: inherit;">hosted<wbr>Zone<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -5370,7 +5370,7 @@ in a Route 53 Alias record).
 <a href="#state_iamdatabaseauthenticationenabled_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Database<wbr>Authentication<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -5383,7 +5383,7 @@ accounts is enabled.
 <a href="#state_identifier_nodejs" style="color: inherit; text-decoration: inherit;">identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -5395,7 +5395,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#state_identifierprefix_nodejs" style="color: inherit; text-decoration: inherit;">identifier<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -5407,7 +5407,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_instanceclass_nodejs" style="color: inherit; text-decoration: inherit;">instance<wbr>Class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Instance<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -5418,7 +5418,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_iops_nodejs" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -5430,7 +5430,7 @@ storage_type of "io1".
 <a href="#state_kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -5442,7 +5442,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_latestrestorabletime_nodejs" style="color: inherit; text-decoration: inherit;">latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -5453,7 +5453,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_licensemodel_nodejs" style="color: inherit; text-decoration: inherit;">license<wbr>Model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -5465,7 +5465,7 @@ SE1) License model information for this DB instance.
 <a href="#state_maintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -5480,7 +5480,7 @@ for more information.
 <a href="#state_maxallocatedstorage_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Allocated<wbr>Storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -5491,7 +5491,7 @@ for more information.
 <a href="#state_monitoringinterval_nodejs" style="color: inherit; text-decoration: inherit;">monitoring<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -5505,7 +5505,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#state_monitoringrolearn_nodejs" style="color: inherit; text-decoration: inherit;">monitoring<wbr>Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -5520,7 +5520,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_multiaz_nodejs" style="color: inherit; text-decoration: inherit;">multi<wbr>Az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -5531,7 +5531,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -5542,7 +5542,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_optiongroupname_nodejs" style="color: inherit; text-decoration: inherit;">option<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -5553,7 +5553,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_parametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -5565,7 +5565,7 @@ associate.
 <a href="#state_password_nodejs" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -5578,7 +5578,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightsenabled_nodejs" style="color: inherit; text-decoration: inherit;">performance<wbr>Insights<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -5589,7 +5589,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightskmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">performance<wbr>Insights<wbr>Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -5600,7 +5600,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performanceinsightsretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">performance<wbr>Insights<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -5611,7 +5611,7 @@ logs, and it will be stored in the state file.
 <a href="#state_port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -5622,7 +5622,7 @@ logs, and it will be stored in the state file.
 <a href="#state_publiclyaccessible_nodejs" style="color: inherit; text-decoration: inherit;">publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -5634,7 +5634,7 @@ accessible. Default is `false`.
 <a href="#state_replicas_nodejs" style="color: inherit; text-decoration: inherit;">replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -5644,7 +5644,7 @@ accessible. Default is `false`.
 <a href="#state_replicatesourcedb_nodejs" style="color: inherit; text-decoration: inherit;">replicate<wbr>Source<wbr>Db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -5663,7 +5663,7 @@ for more information on using Replication.
 <a href="#state_resourceid_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -5696,7 +5696,7 @@ for more information on using Replication.
 <a href="#state_securitygroupnames_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -5709,7 +5709,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#state_skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -5724,7 +5724,7 @@ is `false`.
 <a href="#state_snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -5737,7 +5737,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -5748,7 +5748,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_storageencrypted_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -5762,7 +5762,7 @@ default is `false` if not specified.
 <a href="#state_storagetype_nodejs" style="color: inherit; text-decoration: inherit;">storage<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">string | enums.<wbr>Storage<wbr>Type</span>
+        <span class="property-type">string</span><span class="property-type"> | </span><span class="property-type">enums.<wbr>Storage<wbr>Type</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -5786,7 +5786,7 @@ specified, "gp2" if not.
 <a href="#state_timezone_nodejs" style="color: inherit; text-decoration: inherit;">timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -5801,7 +5801,7 @@ for more information.
 <a href="#state_username_nodejs" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -5813,7 +5813,7 @@ is provided) Username for the master DB user.
 <a href="#state_vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -5832,7 +5832,7 @@ associate.
 <a href="#state_address_python" style="color: inherit; text-decoration: inherit;">address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The hostname of the RDS instance. See also `endpoint` and `port`.
 {{% /md %}}</dd>
@@ -5843,7 +5843,7 @@ associate.
 <a href="#state_allocated_storage_python" style="color: inherit; text-decoration: inherit;">allocated_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The allocated storage in gibibytes. If `max_allocated_storage` is configured, this argument represents the initial storage allocation and differences from the configuration will be ignored automatically when Storage Autoscaling occurs.
 {{% /md %}}</dd>
@@ -5854,7 +5854,7 @@ associate.
 <a href="#state_allow_major_version_upgrade_python" style="color: inherit; text-decoration: inherit;">allow_<wbr>major_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that major version
 upgrades are allowed. Changing this parameter does not result in an outage and
@@ -5867,7 +5867,7 @@ the change is asynchronously applied as soon as possible.
 <a href="#state_apply_immediately_python" style="color: inherit; text-decoration: inherit;">apply_<wbr>immediately</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether any database modifications
 are applied immediately, or during the next maintenance window. Default is
@@ -5881,7 +5881,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the RDS instance.
 {{% /md %}}</dd>
@@ -5892,7 +5892,7 @@ information.](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DB
 <a href="#state_auto_minor_version_upgrade_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>minor_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Indicates that minor engine upgrades
 will be applied automatically to the DB instance during the maintenance window.
@@ -5905,7 +5905,7 @@ Defaults to true.
 <a href="#state_availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The AZ for the RDS instance.
 {{% /md %}}</dd>
@@ -5916,7 +5916,7 @@ Defaults to true.
 <a href="#state_backup_retention_period_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The days to retain backups for. Must be
 between `0` and `35`. Must be greater than `0` if the database is used as a source for a Read Replica. [See Read Replica][1].
@@ -5928,7 +5928,7 @@ between `0` and `35`. Must be greater than `0` if the database is used as a sour
 <a href="#state_backup_window_python" style="color: inherit; text-decoration: inherit;">backup_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which
 automated backups are created if they are enabled. Example: "09:46-10:16". Must
@@ -5941,7 +5941,7 @@ not overlap with `maintenance_window`.
 <a href="#state_ca_cert_identifier_python" style="color: inherit; text-decoration: inherit;">ca_<wbr>cert_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The identifier of the CA certificate for the DB instance.
 {{% /md %}}</dd>
@@ -5952,7 +5952,7 @@ not overlap with `maintenance_window`.
 <a href="#state_character_set_name_python" style="color: inherit; text-decoration: inherit;">character_<wbr>set_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The character set name to use for DB
 encoding in Oracle and Microsoft SQL instances (collation). This can't be changed. See [Oracle Character Sets
@@ -5966,7 +5966,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_copy_tags_to_snapshot_python" style="color: inherit; text-decoration: inherit;">copy_<wbr>tags_<wbr>to_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Copy all Instance `tags` to snapshots. Default is `false`.
 {{% /md %}}</dd>
@@ -5977,7 +5977,7 @@ or [Server-Level Collation for Microsoft SQL Server](https://docs.aws.amazon.com
 <a href="#state_db_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">db_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of `DB subnet group`. DB instance will
 be created in the VPC associated with the DB subnet group. If unspecified, will
@@ -5994,7 +5994,7 @@ for additional read replica contraints.
 <a href="#state_delete_automated_backups_python" style="color: inherit; text-decoration: inherit;">delete_<wbr>automated_<wbr>backups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether to remove automated backups immediately after the DB instance is deleted. Default is `true`.
 {{% /md %}}</dd>
@@ -6005,7 +6005,7 @@ for additional read replica contraints.
 <a href="#state_deletion_protection_python" style="color: inherit; text-decoration: inherit;">deletion_<wbr>protection</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to `true`. The default is `false`.
 {{% /md %}}</dd>
@@ -6016,7 +6016,7 @@ for additional read replica contraints.
 <a href="#state_domain_python" style="color: inherit; text-decoration: inherit;">domain</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ID of the Directory Service Active Directory domain to create the instance in.
 {{% /md %}}</dd>
@@ -6027,7 +6027,7 @@ for additional read replica contraints.
 <a href="#state_domain_iam_role_name_python" style="color: inherit; text-decoration: inherit;">domain_<wbr>iam_<wbr>role_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the IAM role to be used when making API calls to the Directory Service.
 {{% /md %}}</dd>
@@ -6038,7 +6038,7 @@ for additional read replica contraints.
 <a href="#state_enabled_cloudwatch_logs_exports_python" style="color: inherit; text-decoration: inherit;">enabled_<wbr>cloudwatch_<wbr>logs_<wbr>exports</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}Set of log types to enable for exporting to CloudWatch logs. If omitted, no logs will be exported. Valid values (depending on `engine`). MySQL and MariaDB: `audit`, `error`, `general`, `slowquery`. PostgreSQL: `postgresql`, `upgrade`. MSSQL: `agent` , `error`. Oracle: `alert`, `audit`, `listener`, `trace`.
 {{% /md %}}</dd>
@@ -6049,7 +6049,7 @@ for additional read replica contraints.
 <a href="#state_endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The connection endpoint in `address:port` format.
 {{% /md %}}</dd>
@@ -6060,7 +6060,7 @@ for additional read replica contraints.
 <a href="#state_engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) The database engine to use.  For supported values, see the Engine parameter in [API action CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html).
@@ -6076,7 +6076,7 @@ in the Amazon RDS User Guide.
 <a href="#state_engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The engine version to use. If `auto_minor_version_upgrade`
 is enabled, you can provide a prefix of the version such as `5.7` (for `5.7.10`) and
@@ -6091,7 +6091,7 @@ Note that for Amazon Aurora instances the engine version must match the `DB clus
 <a href="#state_final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of your final DB snapshot
 when this DB instance is deleted. Must be provided if `skip_final_snapshot` is
@@ -6104,7 +6104,7 @@ set to `false`.
 <a href="#state_hosted_zone_id_python" style="color: inherit; text-decoration: inherit;">hosted_<wbr>zone_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The canonical hosted zone ID of the DB instance (to be used
 in a Route 53 Alias record).
@@ -6116,7 +6116,7 @@ in a Route 53 Alias record).
 <a href="#state_iam_database_authentication_enabled_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>database_<wbr>authentication_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether or
 mappings of AWS Identity and Access Management (IAM) accounts to database
@@ -6129,7 +6129,7 @@ accounts is enabled.
 <a href="#state_identifier_python" style="color: inherit; text-decoration: inherit;">identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the RDS instance,
 if omitted, this provider will assign a random, unique identifier.
@@ -6141,7 +6141,7 @@ if omitted, this provider will assign a random, unique identifier.
 <a href="#state_identifier_prefix_python" style="color: inherit; text-decoration: inherit;">identifier_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Creates a unique
 identifier beginning with the specified prefix. Conflicts with `identifier`.
@@ -6153,7 +6153,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_instance_class_python" style="color: inherit; text-decoration: inherit;">instance_<wbr>class</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Instance<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Instance<wbr>Type</span>
     </dt>
     <dd>{{% md %}}The instance type of the RDS instance.
 {{% /md %}}</dd>
@@ -6164,7 +6164,7 @@ identifier beginning with the specified prefix. Conflicts with `identifier`.
 <a href="#state_iops_python" style="color: inherit; text-decoration: inherit;">iops</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of provisioned IOPS. Setting this implies a
 storage_type of "io1".
@@ -6176,7 +6176,7 @@ storage_type of "io1".
 <a href="#state_kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. If creating an
 encrypted replica, set this to the destination KMS ARN.
@@ -6188,7 +6188,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_latest_restorable_time_python" style="color: inherit; text-decoration: inherit;">latest_<wbr>restorable_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The latest time, in UTC [RFC3339 format](https://tools.ietf.org/html/rfc3339#section-5.8), to which a database can be restored with point-in-time restore.
 {{% /md %}}</dd>
@@ -6199,7 +6199,7 @@ encrypted replica, set this to the destination KMS ARN.
 <a href="#state_license_model_python" style="color: inherit; text-decoration: inherit;">license_<wbr>model</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Optional, but required for some DB engines, i.e. Oracle
 SE1) License model information for this DB instance.
@@ -6211,7 +6211,7 @@ SE1) License model information for this DB instance.
 <a href="#state_maintenance_window_python" style="color: inherit; text-decoration: inherit;">maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The window to perform maintenance in.
 Syntax: "ddd:hh24:mi-ddd:hh24:mi". Eg: "Mon:00:00-Mon:03:00". See [RDS
@@ -6226,7 +6226,7 @@ for more information.
 <a href="#state_max_allocated_storage_python" style="color: inherit; text-decoration: inherit;">max_<wbr>allocated_<wbr>storage</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}When configured, the upper limit to which Amazon RDS can automatically scale the storage of the DB instance. Configuring this will automatically ignore differences to `allocated_storage`. Must be greater than or equal to `allocated_storage` or `0` to disable Storage Autoscaling.
 {{% /md %}}</dd>
@@ -6237,7 +6237,7 @@ for more information.
 <a href="#state_monitoring_interval_python" style="color: inherit; text-decoration: inherit;">monitoring_<wbr>interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The interval, in seconds, between points
 when Enhanced Monitoring metrics are collected for the DB instance. To disable
@@ -6251,7 +6251,7 @@ Values: 0, 1, 5, 10, 15, 30, 60.
 <a href="#state_monitoring_role_arn_python" style="color: inherit; text-decoration: inherit;">monitoring_<wbr>role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the IAM role that permits RDS
 to send enhanced monitoring metrics to CloudWatch Logs. You can find more
@@ -6266,7 +6266,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_multi_az_python" style="color: inherit; text-decoration: inherit;">multi_<wbr>az</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies if the RDS instance is multi-AZ
 {{% /md %}}</dd>
@@ -6277,7 +6277,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. Note that this does not apply for Oracle or SQL Server engines. See the [AWS documentation](http://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html) for more details on what applies for those engines.
 {{% /md %}}</dd>
@@ -6288,7 +6288,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_option_group_name_python" style="color: inherit; text-decoration: inherit;">option_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the DB option group to associate.
 {{% /md %}}</dd>
@@ -6299,7 +6299,7 @@ what IAM permissions are needed to allow Enhanced Monitoring for RDS Instances.
 <a href="#state_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the DB parameter group to
 associate.
@@ -6311,7 +6311,7 @@ associate.
 <a href="#state_password_python" style="color: inherit; text-decoration: inherit;">password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Password for the master DB user. Note that this may show up in
@@ -6324,7 +6324,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performance_insights_enabled_python" style="color: inherit; text-decoration: inherit;">performance_<wbr>insights_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether Performance Insights are enabled. Defaults to false.
 {{% /md %}}</dd>
@@ -6335,7 +6335,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performance_insights_kms_key_id_python" style="color: inherit; text-decoration: inherit;">performance_<wbr>insights_<wbr>kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS key to encrypt Performance Insights data. When specifying `performance_insights_kms_key_id`, `performance_insights_enabled` needs to be set to true. Once KMS key is set, it can never be changed.
 {{% /md %}}</dd>
@@ -6346,7 +6346,7 @@ logs, and it will be stored in the state file.
 <a href="#state_performance_insights_retention_period_python" style="color: inherit; text-decoration: inherit;">performance_<wbr>insights_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The amount of time in days to retain Performance Insights data. Either 7 (7 days) or 731 (2 years). When specifying `performance_insights_retention_period`, `performance_insights_enabled` needs to be set to true. Defaults to '7'.
 {{% /md %}}</dd>
@@ -6357,7 +6357,7 @@ logs, and it will be stored in the state file.
 <a href="#state_port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port on which the DB accepts connections.
 {{% /md %}}</dd>
@@ -6368,7 +6368,7 @@ logs, and it will be stored in the state file.
 <a href="#state_publicly_accessible_python" style="color: inherit; text-decoration: inherit;">publicly_<wbr>accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Bool to control if instance is publicly
 accessible. Default is `false`.
@@ -6380,7 +6380,7 @@ accessible. Default is `false`.
 <a href="#state_replicas_python" style="color: inherit; text-decoration: inherit;">replicas</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6390,7 +6390,7 @@ accessible. Default is `false`.
 <a href="#state_replicate_source_db_python" style="color: inherit; text-decoration: inherit;">replicate_<wbr>source_<wbr>db</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies that this resource is a Replicate
 database, and to use this value as the source database. This correlates to the
@@ -6409,7 +6409,7 @@ for more information on using Replication.
 <a href="#state_resource_id_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RDS Resource ID of this instance.
 {{% /md %}}</dd>
@@ -6442,7 +6442,7 @@ for more information on using Replication.
 <a href="#state_security_group_names_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of DB Security Groups to
 associate. Only used for [DB Instances on the _EC2-Classic_
@@ -6455,7 +6455,7 @@ Platform](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html#U
 <a href="#state_skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final DB snapshot is
 created before the DB instance is deleted. If true is specified, no DBSnapshot
@@ -6470,7 +6470,7 @@ is `false`.
 <a href="#state_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether or not to create this
 database from a snapshot. This correlates to the snapshot ID you'd find in the
@@ -6483,7 +6483,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The RDS instance status.
 {{% /md %}}</dd>
@@ -6494,7 +6494,7 @@ RDS console, e.g: rds:production-2015-06-26-06-05.
 <a href="#state_storage_encrypted_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Specifies whether the DB instance is
 encrypted. Note that if you are creating a cross-region read replica this field
@@ -6508,7 +6508,7 @@ default is `false` if not specified.
 <a href="#state_storage_type_python" style="color: inherit; text-decoration: inherit;">storage_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type">Union[str, Storage<wbr>Type]</span>
+        <span class="property-type">str</span><span class="property-type"> | </span><span class="property-type">Storage<wbr>Type</span>
     </dt>
     <dd>{{% md %}}One of "standard" (magnetic), "gp2" (general
 purpose SSD), or "io1" (provisioned IOPS SSD). The default is "io1" if `iops` is
@@ -6532,7 +6532,7 @@ specified, "gp2" if not.
 <a href="#state_timezone_python" style="color: inherit; text-decoration: inherit;">timezone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Time zone of the DB instance. `timezone` is currently
 only supported by Microsoft SQL Server. The `timezone` can only be set on
@@ -6547,7 +6547,7 @@ for more information.
 <a href="#state_username_python" style="color: inherit; text-decoration: inherit;">username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Required unless a `snapshot_identifier` or `replicate_source_db`
 is provided) Username for the master DB user.
@@ -6559,7 +6559,7 @@ is provided) Username for the master DB user.
 <a href="#state_vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of VPC security groups to
 associate.
@@ -6604,7 +6604,7 @@ associate.
 <a href="#restoretime_csharp" style="color: inherit; text-decoration: inherit;">Restore<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time to restore from. Value must be a time in Universal Coordinated Time (UTC) format and must be before the latest restorable time for the DB instance. Cannot be specified with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -6615,7 +6615,7 @@ associate.
 <a href="#sourcedbinstanceidentifier_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Db<wbr>Instance<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the source DB instance from which to restore. Must match the identifier of an existing DB instance. Required if `source_dbi_resource_id` is not specified.
 {{% /md %}}</dd>
@@ -6626,7 +6626,7 @@ associate.
 <a href="#sourcedbiresourceid_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Dbi<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource ID of the source DB instance from which to restore. Required if `source_db_instance_identifier` is not specified.
 {{% /md %}}</dd>
@@ -6637,7 +6637,7 @@ associate.
 <a href="#uselatestrestorabletime_csharp" style="color: inherit; text-decoration: inherit;">Use<wbr>Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean value that indicates whether the DB instance is restored from the latest backup time. Defaults to `false`. Cannot be specified with `restore_time`.
 {{% /md %}}</dd>
@@ -6655,7 +6655,7 @@ associate.
 <a href="#restoretime_go" style="color: inherit; text-decoration: inherit;">Restore<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time to restore from. Value must be a time in Universal Coordinated Time (UTC) format and must be before the latest restorable time for the DB instance. Cannot be specified with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -6666,7 +6666,7 @@ associate.
 <a href="#sourcedbinstanceidentifier_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Db<wbr>Instance<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the source DB instance from which to restore. Must match the identifier of an existing DB instance. Required if `source_dbi_resource_id` is not specified.
 {{% /md %}}</dd>
@@ -6677,7 +6677,7 @@ associate.
 <a href="#sourcedbiresourceid_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Dbi<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource ID of the source DB instance from which to restore. Required if `source_db_instance_identifier` is not specified.
 {{% /md %}}</dd>
@@ -6688,7 +6688,7 @@ associate.
 <a href="#uselatestrestorabletime_go" style="color: inherit; text-decoration: inherit;">Use<wbr>Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean value that indicates whether the DB instance is restored from the latest backup time. Defaults to `false`. Cannot be specified with `restore_time`.
 {{% /md %}}</dd>
@@ -6706,7 +6706,7 @@ associate.
 <a href="#restoretime_nodejs" style="color: inherit; text-decoration: inherit;">restore<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date and time to restore from. Value must be a time in Universal Coordinated Time (UTC) format and must be before the latest restorable time for the DB instance. Cannot be specified with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -6717,7 +6717,7 @@ associate.
 <a href="#sourcedbinstanceidentifier_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Db<wbr>Instance<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the source DB instance from which to restore. Must match the identifier of an existing DB instance. Required if `source_dbi_resource_id` is not specified.
 {{% /md %}}</dd>
@@ -6728,7 +6728,7 @@ associate.
 <a href="#sourcedbiresourceid_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Dbi<wbr>Resource<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The resource ID of the source DB instance from which to restore. Required if `source_db_instance_identifier` is not specified.
 {{% /md %}}</dd>
@@ -6739,7 +6739,7 @@ associate.
 <a href="#uselatestrestorabletime_nodejs" style="color: inherit; text-decoration: inherit;">use<wbr>Latest<wbr>Restorable<wbr>Time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}A boolean value that indicates whether the DB instance is restored from the latest backup time. Defaults to `false`. Cannot be specified with `restore_time`.
 {{% /md %}}</dd>
@@ -6757,7 +6757,7 @@ associate.
 <a href="#restore_time_python" style="color: inherit; text-decoration: inherit;">restore_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date and time to restore from. Value must be a time in Universal Coordinated Time (UTC) format and must be before the latest restorable time for the DB instance. Cannot be specified with `use_latest_restorable_time`.
 {{% /md %}}</dd>
@@ -6768,7 +6768,7 @@ associate.
 <a href="#source_db_instance_identifier_python" style="color: inherit; text-decoration: inherit;">source_<wbr>db_<wbr>instance_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The identifier of the source DB instance from which to restore. Must match the identifier of an existing DB instance. Required if `source_dbi_resource_id` is not specified.
 {{% /md %}}</dd>
@@ -6779,7 +6779,7 @@ associate.
 <a href="#source_dbi_resource_id_python" style="color: inherit; text-decoration: inherit;">source_<wbr>dbi_<wbr>resource_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The resource ID of the source DB instance from which to restore. Required if `source_db_instance_identifier` is not specified.
 {{% /md %}}</dd>
@@ -6790,7 +6790,7 @@ associate.
 <a href="#use_latest_restorable_time_python" style="color: inherit; text-decoration: inherit;">use_<wbr>latest_<wbr>restorable_<wbr>time</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}A boolean value that indicates whether the DB instance is restored from the latest backup time. Defaults to `false`. Cannot be specified with `restore_time`.
 {{% /md %}}</dd>
@@ -6826,7 +6826,7 @@ associate.
 <a href="#bucketname_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -6837,7 +6837,7 @@ associate.
 <a href="#ingestionrole_csharp" style="color: inherit; text-decoration: inherit;">Ingestion<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -6848,7 +6848,7 @@ associate.
 <a href="#sourceengine_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -6859,7 +6859,7 @@ associate.
 <a href="#sourceengineversion_csharp" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -6870,7 +6870,7 @@ associate.
 <a href="#bucketprefix_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -6888,7 +6888,7 @@ associate.
 <a href="#bucketname_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -6899,7 +6899,7 @@ associate.
 <a href="#ingestionrole_go" style="color: inherit; text-decoration: inherit;">Ingestion<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -6910,7 +6910,7 @@ associate.
 <a href="#sourceengine_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -6921,7 +6921,7 @@ associate.
 <a href="#sourceengineversion_go" style="color: inherit; text-decoration: inherit;">Source<wbr>Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -6932,7 +6932,7 @@ associate.
 <a href="#bucketprefix_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -6950,7 +6950,7 @@ associate.
 <a href="#bucketname_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -6961,7 +6961,7 @@ associate.
 <a href="#ingestionrole_nodejs" style="color: inherit; text-decoration: inherit;">ingestion<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -6972,7 +6972,7 @@ associate.
 <a href="#sourceengine_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -6983,7 +6983,7 @@ associate.
 <a href="#sourceengineversion_nodejs" style="color: inherit; text-decoration: inherit;">source<wbr>Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -6994,7 +6994,7 @@ associate.
 <a href="#bucketprefix_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>
@@ -7012,7 +7012,7 @@ associate.
 <a href="#bucket_name_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The bucket name where your backup is stored
 {{% /md %}}</dd>
@@ -7023,7 +7023,7 @@ associate.
 <a href="#ingestion_role_python" style="color: inherit; text-decoration: inherit;">ingestion_<wbr>role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Role applied to load the data.
 {{% /md %}}</dd>
@@ -7034,7 +7034,7 @@ associate.
 <a href="#source_engine_python" style="color: inherit; text-decoration: inherit;">source_<wbr>engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Source engine for the backup
 {{% /md %}}</dd>
@@ -7045,7 +7045,7 @@ associate.
 <a href="#source_engine_version_python" style="color: inherit; text-decoration: inherit;">source_<wbr>engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Version of the source engine used to make the backup
 {{% /md %}}</dd>
@@ -7056,7 +7056,7 @@ associate.
 <a href="#bucket_prefix_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Can be blank, but is the path to your backup
 {{% /md %}}</dd>

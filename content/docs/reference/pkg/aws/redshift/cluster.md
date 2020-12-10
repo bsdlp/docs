@@ -115,7 +115,7 @@ const defaultCluster = new aws.redshift.Cluster("default", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#Cluster">Cluster</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#Cluster">Cluster</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -123,11 +123,11 @@ const defaultCluster = new aws.redshift.Cluster("default", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#Cluster">NewCluster</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#Cluster">NewCluster</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#ClusterArgs">ClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.Cluster.html">Cluster</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.ClusterArgs.html">ClusterArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.Cluster.html">Cluster</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.ClusterArgs.html">ClusterArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -138,7 +138,7 @@ const defaultCluster = new aws.redshift.Cluster("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -207,7 +207,7 @@ const defaultCluster = new aws.redshift.Cluster("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -246,7 +246,7 @@ const defaultCluster = new aws.redshift.Cluster("default", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -297,7 +297,7 @@ The Cluster resource accepts the following [input]({{< relref "/docs/intro/conce
 <a href="#clusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -309,7 +309,7 @@ string.
 <a href="#nodetype_csharp" style="color: inherit; text-decoration: inherit;">Node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -320,7 +320,7 @@ string.
 <a href="#allowversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Allow<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -331,7 +331,7 @@ string.
 <a href="#automatedsnapshotretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Automated<wbr>Snapshot<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -342,7 +342,7 @@ string.
 <a href="#availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -353,7 +353,7 @@ string.
 <a href="#clusterparametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -364,7 +364,7 @@ string.
 <a href="#clusterpublickey_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Public<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -375,7 +375,7 @@ string.
 <a href="#clusterrevisionnumber_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Revision<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -386,7 +386,7 @@ string.
 <a href="#clustersecuritygroups_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -397,7 +397,7 @@ string.
 <a href="#clustersubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -408,7 +408,7 @@ string.
 <a href="#clustertype_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -419,7 +419,7 @@ string.
 <a href="#clusterversion_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -431,7 +431,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#databasename_csharp" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -443,7 +443,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#elasticip_csharp" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -454,7 +454,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#encrypted_csharp" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -465,7 +465,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -476,7 +476,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#enhancedvpcrouting_csharp" style="color: inherit; text-decoration: inherit;">Enhanced<wbr>Vpc<wbr>Routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -487,7 +487,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -498,7 +498,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#iamroles_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -509,7 +509,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -531,7 +531,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#masterpassword_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -544,7 +544,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#masterusername_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -555,7 +555,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#numberofnodes_csharp" style="color: inherit; text-decoration: inherit;">Number<wbr>Of<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -566,7 +566,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#owneraccount_csharp" style="color: inherit; text-decoration: inherit;">Owner<wbr>Account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -577,7 +577,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -589,7 +589,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#preferredmaintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -601,7 +601,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#publiclyaccessible_csharp" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -612,7 +612,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -623,7 +623,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshotclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -645,7 +645,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -667,7 +667,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -685,7 +685,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#clusteridentifier_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -697,7 +697,7 @@ string.
 <a href="#nodetype_go" style="color: inherit; text-decoration: inherit;">Node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -708,7 +708,7 @@ string.
 <a href="#allowversionupgrade_go" style="color: inherit; text-decoration: inherit;">Allow<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -719,7 +719,7 @@ string.
 <a href="#automatedsnapshotretentionperiod_go" style="color: inherit; text-decoration: inherit;">Automated<wbr>Snapshot<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -730,7 +730,7 @@ string.
 <a href="#availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -741,7 +741,7 @@ string.
 <a href="#clusterparametergroupname_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -752,7 +752,7 @@ string.
 <a href="#clusterpublickey_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Public<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -763,7 +763,7 @@ string.
 <a href="#clusterrevisionnumber_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Revision<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -774,7 +774,7 @@ string.
 <a href="#clustersecuritygroups_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -785,7 +785,7 @@ string.
 <a href="#clustersubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -796,7 +796,7 @@ string.
 <a href="#clustertype_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -807,7 +807,7 @@ string.
 <a href="#clusterversion_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -819,7 +819,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#databasename_go" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -831,7 +831,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#elasticip_go" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -842,7 +842,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#encrypted_go" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -853,7 +853,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -864,7 +864,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#enhancedvpcrouting_go" style="color: inherit; text-decoration: inherit;">Enhanced<wbr>Vpc<wbr>Routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -875,7 +875,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -886,7 +886,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#iamroles_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -897,7 +897,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -919,7 +919,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#masterpassword_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -932,7 +932,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#masterusername_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -943,7 +943,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#numberofnodes_go" style="color: inherit; text-decoration: inherit;">Number<wbr>Of<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -954,7 +954,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#owneraccount_go" style="color: inherit; text-decoration: inherit;">Owner<wbr>Account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -965,7 +965,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -977,7 +977,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#preferredmaintenancewindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -989,7 +989,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#publiclyaccessible_go" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -1000,7 +1000,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -1011,7 +1011,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshotclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -1033,7 +1033,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -1055,7 +1055,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -1073,7 +1073,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#clusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -1085,7 +1085,7 @@ string.
 <a href="#nodetype_nodejs" style="color: inherit; text-decoration: inherit;">node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -1096,7 +1096,7 @@ string.
 <a href="#allowversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">allow<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -1107,7 +1107,7 @@ string.
 <a href="#automatedsnapshotretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">automated<wbr>Snapshot<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -1118,7 +1118,7 @@ string.
 <a href="#availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -1129,7 +1129,7 @@ string.
 <a href="#clusterparametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -1140,7 +1140,7 @@ string.
 <a href="#clusterpublickey_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Public<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -1151,7 +1151,7 @@ string.
 <a href="#clusterrevisionnumber_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Revision<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -1162,7 +1162,7 @@ string.
 <a href="#clustersecuritygroups_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -1173,7 +1173,7 @@ string.
 <a href="#clustersubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -1184,7 +1184,7 @@ string.
 <a href="#clustertype_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -1195,7 +1195,7 @@ string.
 <a href="#clusterversion_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -1207,7 +1207,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#databasename_nodejs" style="color: inherit; text-decoration: inherit;">database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -1219,7 +1219,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#elasticip_nodejs" style="color: inherit; text-decoration: inherit;">elastic<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -1230,7 +1230,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#encrypted_nodejs" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -1241,7 +1241,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -1252,7 +1252,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#enhancedvpcrouting_nodejs" style="color: inherit; text-decoration: inherit;">enhanced<wbr>Vpc<wbr>Routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -1263,7 +1263,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -1274,7 +1274,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#iamroles_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -1285,7 +1285,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -1307,7 +1307,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#masterpassword_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -1320,7 +1320,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#masterusername_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -1331,7 +1331,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#numberofnodes_nodejs" style="color: inherit; text-decoration: inherit;">number<wbr>Of<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -1342,7 +1342,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#owneraccount_nodejs" style="color: inherit; text-decoration: inherit;">owner<wbr>Account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -1353,7 +1353,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -1365,7 +1365,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#preferredmaintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -1377,7 +1377,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#publiclyaccessible_nodejs" style="color: inherit; text-decoration: inherit;">publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -1388,7 +1388,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -1399,7 +1399,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshotclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -1421,7 +1421,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -1443,7 +1443,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -1461,7 +1461,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#cluster_identifier_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -1473,7 +1473,7 @@ string.
 <a href="#node_type_python" style="color: inherit; text-decoration: inherit;">node_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -1484,7 +1484,7 @@ string.
 <a href="#allow_version_upgrade_python" style="color: inherit; text-decoration: inherit;">allow_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -1495,7 +1495,7 @@ string.
 <a href="#automated_snapshot_retention_period_python" style="color: inherit; text-decoration: inherit;">automated_<wbr>snapshot_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -1506,7 +1506,7 @@ string.
 <a href="#availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -1517,7 +1517,7 @@ string.
 <a href="#cluster_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -1528,7 +1528,7 @@ string.
 <a href="#cluster_public_key_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>public_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -1539,7 +1539,7 @@ string.
 <a href="#cluster_revision_number_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>revision_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -1550,7 +1550,7 @@ string.
 <a href="#cluster_security_groups_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -1561,7 +1561,7 @@ string.
 <a href="#cluster_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -1572,7 +1572,7 @@ string.
 <a href="#cluster_type_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -1583,7 +1583,7 @@ string.
 <a href="#cluster_version_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -1595,7 +1595,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#database_name_python" style="color: inherit; text-decoration: inherit;">database_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -1607,7 +1607,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#elastic_ip_python" style="color: inherit; text-decoration: inherit;">elastic_<wbr>ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -1618,7 +1618,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#encrypted_python" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -1629,7 +1629,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -1640,7 +1640,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#enhanced_vpc_routing_python" style="color: inherit; text-decoration: inherit;">enhanced_<wbr>vpc_<wbr>routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -1651,7 +1651,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -1662,7 +1662,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#iam_roles_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -1673,7 +1673,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -1695,7 +1695,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#master_password_python" style="color: inherit; text-decoration: inherit;">master_<wbr>password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -1708,7 +1708,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#master_username_python" style="color: inherit; text-decoration: inherit;">master_<wbr>username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -1719,7 +1719,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#number_of_nodes_python" style="color: inherit; text-decoration: inherit;">number_<wbr>of_<wbr>nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -1730,7 +1730,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#owner_account_python" style="color: inherit; text-decoration: inherit;">owner_<wbr>account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -1741,7 +1741,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -1753,7 +1753,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#preferred_maintenance_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -1765,7 +1765,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#publicly_accessible_python" style="color: inherit; text-decoration: inherit;">publicly_<wbr>accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -1776,7 +1776,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -1787,7 +1787,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshot_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -1809,7 +1809,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -1831,7 +1831,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -1860,7 +1860,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -1871,7 +1871,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -1882,7 +1882,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1899,7 +1899,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -1910,7 +1910,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -1921,7 +1921,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1938,7 +1938,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -1949,7 +1949,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dnsname_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -1960,7 +1960,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1977,7 +1977,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -1988,7 +1988,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#dns_name_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -1999,7 +1999,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -2018,7 +2018,7 @@ Get an existing Cluster resource's state with the given name, ID, and optional e
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#Cluster">Cluster</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/redshift/#Cluster">Cluster</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -2027,11 +2027,11 @@ Get an existing Cluster resource's state with the given name, ID, and optional e
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCluster<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCluster<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#ClusterState">ClusterState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/redshift?tab=doc#Cluster">Cluster</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.Cluster.html">Cluster</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.ClusterState.html">ClusterState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.Cluster.html">Cluster</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.RedShift.ClusterState.html">ClusterState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -2143,7 +2143,7 @@ The following state arguments are supported:
 <a href="#state_allowversionupgrade_csharp" style="color: inherit; text-decoration: inherit;">Allow<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -2154,7 +2154,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2165,7 +2165,7 @@ The following state arguments are supported:
 <a href="#state_automatedsnapshotretentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Automated<wbr>Snapshot<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -2176,7 +2176,7 @@ The following state arguments are supported:
 <a href="#state_availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -2187,7 +2187,7 @@ The following state arguments are supported:
 <a href="#state_clusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -2199,7 +2199,7 @@ string.
 <a href="#state_clusterparametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -2210,7 +2210,7 @@ string.
 <a href="#state_clusterpublickey_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Public<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -2221,7 +2221,7 @@ string.
 <a href="#state_clusterrevisionnumber_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Revision<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -2232,7 +2232,7 @@ string.
 <a href="#state_clustersecuritygroups_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -2243,7 +2243,7 @@ string.
 <a href="#state_clustersubnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -2254,7 +2254,7 @@ string.
 <a href="#state_clustertype_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -2265,7 +2265,7 @@ string.
 <a href="#state_clusterversion_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -2277,7 +2277,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#state_databasename_csharp" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -2289,7 +2289,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_dnsname_csharp" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -2300,7 +2300,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_elasticip_csharp" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -2311,7 +2311,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_encrypted_csharp" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -2322,7 +2322,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_endpoint_csharp" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -2333,7 +2333,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_enhancedvpcrouting_csharp" style="color: inherit; text-decoration: inherit;">Enhanced<wbr>Vpc<wbr>Routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -2344,7 +2344,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_finalsnapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -2355,7 +2355,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_iamroles_csharp" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -2366,7 +2366,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_kmskeyid_csharp" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -2388,7 +2388,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_masterpassword_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -2401,7 +2401,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_masterusername_csharp" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -2412,7 +2412,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_nodetype_csharp" style="color: inherit; text-decoration: inherit;">Node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -2423,7 +2423,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_numberofnodes_csharp" style="color: inherit; text-decoration: inherit;">Number<wbr>Of<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -2434,7 +2434,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_owneraccount_csharp" style="color: inherit; text-decoration: inherit;">Owner<wbr>Account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -2445,7 +2445,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -2457,7 +2457,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#state_preferredmaintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -2469,7 +2469,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_publiclyaccessible_csharp" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -2480,7 +2480,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_skipfinalsnapshot_csharp" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -2491,7 +2491,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshotclusteridentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -2513,7 +2513,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshotidentifier_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -2535,7 +2535,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_vpcsecuritygroupids_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -2553,7 +2553,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_allowversionupgrade_go" style="color: inherit; text-decoration: inherit;">Allow<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -2564,7 +2564,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2575,7 +2575,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_automatedsnapshotretentionperiod_go" style="color: inherit; text-decoration: inherit;">Automated<wbr>Snapshot<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -2586,7 +2586,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -2597,7 +2597,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_clusteridentifier_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -2609,7 +2609,7 @@ string.
 <a href="#state_clusterparametergroupname_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -2620,7 +2620,7 @@ string.
 <a href="#state_clusterpublickey_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Public<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -2631,7 +2631,7 @@ string.
 <a href="#state_clusterrevisionnumber_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Revision<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -2642,7 +2642,7 @@ string.
 <a href="#state_clustersecuritygroups_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -2653,7 +2653,7 @@ string.
 <a href="#state_clustersubnetgroupname_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -2664,7 +2664,7 @@ string.
 <a href="#state_clustertype_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -2675,7 +2675,7 @@ string.
 <a href="#state_clusterversion_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -2687,7 +2687,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#state_databasename_go" style="color: inherit; text-decoration: inherit;">Database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -2699,7 +2699,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_dnsname_go" style="color: inherit; text-decoration: inherit;">Dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -2710,7 +2710,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_elasticip_go" style="color: inherit; text-decoration: inherit;">Elastic<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -2721,7 +2721,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_encrypted_go" style="color: inherit; text-decoration: inherit;">Encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -2732,7 +2732,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_endpoint_go" style="color: inherit; text-decoration: inherit;">Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -2743,7 +2743,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_enhancedvpcrouting_go" style="color: inherit; text-decoration: inherit;">Enhanced<wbr>Vpc<wbr>Routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -2754,7 +2754,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_finalsnapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -2765,7 +2765,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_iamroles_go" style="color: inherit; text-decoration: inherit;">Iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -2776,7 +2776,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_kmskeyid_go" style="color: inherit; text-decoration: inherit;">Kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -2798,7 +2798,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_masterpassword_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -2811,7 +2811,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_masterusername_go" style="color: inherit; text-decoration: inherit;">Master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -2822,7 +2822,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_nodetype_go" style="color: inherit; text-decoration: inherit;">Node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -2833,7 +2833,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_numberofnodes_go" style="color: inherit; text-decoration: inherit;">Number<wbr>Of<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -2844,7 +2844,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_owneraccount_go" style="color: inherit; text-decoration: inherit;">Owner<wbr>Account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -2855,7 +2855,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -2867,7 +2867,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#state_preferredmaintenancewindow_go" style="color: inherit; text-decoration: inherit;">Preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -2879,7 +2879,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_publiclyaccessible_go" style="color: inherit; text-decoration: inherit;">Publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -2890,7 +2890,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_skipfinalsnapshot_go" style="color: inherit; text-decoration: inherit;">Skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -2901,7 +2901,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshotclusteridentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -2923,7 +2923,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshotidentifier_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -2945,7 +2945,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_vpcsecuritygroupids_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -2963,7 +2963,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_allowversionupgrade_nodejs" style="color: inherit; text-decoration: inherit;">allow<wbr>Version<wbr>Upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -2974,7 +2974,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -2985,7 +2985,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_automatedsnapshotretentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">automated<wbr>Snapshot<wbr>Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -2996,7 +2996,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -3007,7 +3007,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_clusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -3019,7 +3019,7 @@ string.
 <a href="#state_clusterparametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -3030,7 +3030,7 @@ string.
 <a href="#state_clusterpublickey_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Public<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -3041,7 +3041,7 @@ string.
 <a href="#state_clusterrevisionnumber_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Revision<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -3052,7 +3052,7 @@ string.
 <a href="#state_clustersecuritygroups_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Security<wbr>Groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -3063,7 +3063,7 @@ string.
 <a href="#state_clustersubnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -3074,7 +3074,7 @@ string.
 <a href="#state_clustertype_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -3085,7 +3085,7 @@ string.
 <a href="#state_clusterversion_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -3097,7 +3097,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#state_databasename_nodejs" style="color: inherit; text-decoration: inherit;">database<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -3109,7 +3109,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_dnsname_nodejs" style="color: inherit; text-decoration: inherit;">dns<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -3120,7 +3120,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_elasticip_nodejs" style="color: inherit; text-decoration: inherit;">elastic<wbr>Ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -3131,7 +3131,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_encrypted_nodejs" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -3142,7 +3142,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_endpoint_nodejs" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -3153,7 +3153,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_enhancedvpcrouting_nodejs" style="color: inherit; text-decoration: inherit;">enhanced<wbr>Vpc<wbr>Routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -3164,7 +3164,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_finalsnapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">final<wbr>Snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -3175,7 +3175,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_iamroles_nodejs" style="color: inherit; text-decoration: inherit;">iam<wbr>Roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -3186,7 +3186,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_kmskeyid_nodejs" style="color: inherit; text-decoration: inherit;">kms<wbr>Key<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -3208,7 +3208,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_masterpassword_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -3221,7 +3221,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_masterusername_nodejs" style="color: inherit; text-decoration: inherit;">master<wbr>Username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -3232,7 +3232,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_nodetype_nodejs" style="color: inherit; text-decoration: inherit;">node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -3243,7 +3243,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_numberofnodes_nodejs" style="color: inherit; text-decoration: inherit;">number<wbr>Of<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -3254,7 +3254,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_owneraccount_nodejs" style="color: inherit; text-decoration: inherit;">owner<wbr>Account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -3265,7 +3265,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -3277,7 +3277,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#state_preferredmaintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">preferred<wbr>Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -3289,7 +3289,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_publiclyaccessible_nodejs" style="color: inherit; text-decoration: inherit;">publicly<wbr>Accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -3300,7 +3300,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_skipfinalsnapshot_nodejs" style="color: inherit; text-decoration: inherit;">skip<wbr>Final<wbr>Snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -3311,7 +3311,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshotclusteridentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Cluster<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -3333,7 +3333,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshotidentifier_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -3355,7 +3355,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_vpcsecuritygroupids_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -3373,7 +3373,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_allow_version_upgrade_python" style="color: inherit; text-decoration: inherit;">allow_<wbr>version_<wbr>upgrade</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , major version upgrades can be applied during the maintenance window to the Amazon Redshift engine that is running on the cluster. Default is true
 {{% /md %}}</dd>
@@ -3384,7 +3384,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Amazon Resource Name (ARN) of cluster
 {{% /md %}}</dd>
@@ -3395,7 +3395,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_automated_snapshot_retention_period_python" style="color: inherit; text-decoration: inherit;">automated_<wbr>snapshot_<wbr>retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days that automated snapshots are retained. If the value is 0, automated snapshots are disabled. Even if automated snapshots are disabled, you can still create manual snapshots when you want with create-cluster-snapshot. Default is 1.
 {{% /md %}}</dd>
@@ -3406,7 +3406,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The EC2 Availability Zone (AZ) in which you want Amazon Redshift to provision the cluster. For example, if you have several EC2 instances running in a specific Availability Zone, then you might want the cluster to be provisioned in the same zone in order to decrease network latency.
 {{% /md %}}</dd>
@@ -3417,7 +3417,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Cluster Identifier. Must be a lower case
 string.
@@ -3429,7 +3429,7 @@ string.
 <a href="#state_cluster_parameter_group_name_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the parameter group to be associated with this cluster.
 {{% /md %}}</dd>
@@ -3440,7 +3440,7 @@ string.
 <a href="#state_cluster_public_key_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>public_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The public key for the cluster
 {{% /md %}}</dd>
@@ -3451,7 +3451,7 @@ string.
 <a href="#state_cluster_revision_number_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>revision_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The specific revision number of the database in the cluster
 {{% /md %}}</dd>
@@ -3462,7 +3462,7 @@ string.
 <a href="#state_cluster_security_groups_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>security_<wbr>groups</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of security groups to be associated with this cluster.
 {{% /md %}}</dd>
@@ -3473,7 +3473,7 @@ string.
 <a href="#state_cluster_subnet_group_name_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of a cluster subnet group to be associated with this cluster. If this parameter is not provided the resulting cluster will be deployed outside virtual private cloud (VPC).
 {{% /md %}}</dd>
@@ -3484,7 +3484,7 @@ string.
 <a href="#state_cluster_type_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster type to use. Either `single-node` or `multi-node`.
 {{% /md %}}</dd>
@@ -3495,7 +3495,7 @@ string.
 <a href="#state_cluster_version_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the Amazon Redshift engine software that you want to deploy on the cluster.
 The version selected runs on all the nodes in the cluster.
@@ -3507,7 +3507,7 @@ The version selected runs on all the nodes in the cluster.
 <a href="#state_database_name_python" style="color: inherit; text-decoration: inherit;">database_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the first database to be created when the cluster is created.
 If you do not provide a name, Amazon Redshift will create a default database called `dev`.
@@ -3519,7 +3519,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_dns_name_python" style="color: inherit; text-decoration: inherit;">dns_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The DNS name of the cluster
 {{% /md %}}</dd>
@@ -3530,7 +3530,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_elastic_ip_python" style="color: inherit; text-decoration: inherit;">elastic_<wbr>ip</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Elastic IP (EIP) address for the cluster.
 {{% /md %}}</dd>
@@ -3541,7 +3541,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_encrypted_python" style="color: inherit; text-decoration: inherit;">encrypted</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , the data in the cluster is encrypted at rest.
 {{% /md %}}</dd>
@@ -3552,7 +3552,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_endpoint_python" style="color: inherit; text-decoration: inherit;">endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The connection endpoint
 {{% /md %}}</dd>
@@ -3563,7 +3563,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_enhanced_vpc_routing_python" style="color: inherit; text-decoration: inherit;">enhanced_<wbr>vpc_<wbr>routing</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true , enhanced VPC routing is enabled.
 {{% /md %}}</dd>
@@ -3574,7 +3574,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_final_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">final_<wbr>snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The identifier of the final snapshot that is to be created immediately before deleting the cluster. If this parameter is provided, `skip_final_snapshot` must be false.
 {{% /md %}}</dd>
@@ -3585,7 +3585,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_iam_roles_python" style="color: inherit; text-decoration: inherit;">iam_<wbr>roles</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of IAM Role ARNs to associate with the cluster. A Maximum of 10 can be associated to the cluster at any time.
 {{% /md %}}</dd>
@@ -3596,7 +3596,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_kms_key_id_python" style="color: inherit; text-decoration: inherit;">kms_<wbr>key_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the KMS encryption key. When specifying `kms_key_id`, `encrypted` needs to be set to true.
 {{% /md %}}</dd>
@@ -3618,7 +3618,7 @@ If you do not provide a name, Amazon Redshift will create a default database cal
 <a href="#state_master_password_python" style="color: inherit; text-decoration: inherit;">master_<wbr>password</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Password for the master DB user.
 Note that this may show up in logs, and it will be stored in the state file. Password must contain at least 8 chars and
@@ -3631,7 +3631,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_master_username_python" style="color: inherit; text-decoration: inherit;">master_<wbr>username</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Username for the master DB user.
 {{% /md %}}</dd>
@@ -3642,7 +3642,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_node_type_python" style="color: inherit; text-decoration: inherit;">node_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The node type to be provisioned for the cluster.
 {{% /md %}}</dd>
@@ -3653,7 +3653,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_number_of_nodes_python" style="color: inherit; text-decoration: inherit;">number_<wbr>of_<wbr>nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of compute nodes in the cluster. This parameter is required when the ClusterType parameter is specified as multi-node. Default is 1.
 {{% /md %}}</dd>
@@ -3664,7 +3664,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_owner_account_python" style="color: inherit; text-decoration: inherit;">owner_<wbr>account</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The AWS customer account used to create or copy the snapshot. Required if you are restoring a snapshot you do not own, optional if you own the snapshot.
 {{% /md %}}</dd>
@@ -3675,7 +3675,7 @@ contain at least one uppercase letter, one lowercase letter, and one number.
 <a href="#state_port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which the cluster accepts incoming connections.
 The cluster is accessible only via the JDBC and ODBC connection strings. Part of the connection string requires the port on which the cluster will listen for incoming connections. Default port is 5439.
@@ -3687,7 +3687,7 @@ The cluster is accessible only via the JDBC and ODBC connection strings. Part of
 <a href="#state_preferred_maintenance_window_python" style="color: inherit; text-decoration: inherit;">preferred_<wbr>maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The weekly time range (in UTC) during which automated cluster maintenance can occur.
 Format: ddd:hh24:mi-ddd:hh24:mi
@@ -3699,7 +3699,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_publicly_accessible_python" style="color: inherit; text-decoration: inherit;">publicly_<wbr>accessible</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}If true, the cluster can be accessed from a public network. Default is `true`.
 {{% /md %}}</dd>
@@ -3710,7 +3710,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_skip_final_snapshot_python" style="color: inherit; text-decoration: inherit;">skip_<wbr>final_<wbr>snapshot</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines whether a final snapshot of the cluster is created before Amazon Redshift deletes the cluster. If true , a final cluster snapshot is not created. If false , a final cluster snapshot is created before the cluster is deleted. Default is false.
 {{% /md %}}</dd>
@@ -3721,7 +3721,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshot_cluster_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>cluster_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the cluster the source snapshot was created from.
 {{% /md %}}</dd>
@@ -3743,7 +3743,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_snapshot_identifier_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>identifier</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot from which to create the new cluster.
 {{% /md %}}</dd>
@@ -3765,7 +3765,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#state_vpc_security_group_ids_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}A list of Virtual Private Cloud (VPC) security groups to be associated with the cluster.
 {{% /md %}}</dd>
@@ -3809,7 +3809,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#enable_csharp" style="color: inherit; text-decoration: inherit;">Enable</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enables logging information such as queries and connection attempts, for the specified Amazon Redshift cluster.
 {{% /md %}}</dd>
@@ -3820,7 +3820,7 @@ Format: ddd:hh24:mi-ddd:hh24:mi
 <a href="#bucketname_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of an existing S3 bucket where the log files are to be stored. Must be in the same region as the cluster and the cluster must have read bucket and put object permissions.
 For more information on the permissions required for the bucket, please read the AWS [documentation](http://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html#db-auditing-enable-logging)
@@ -3832,7 +3832,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#s3keyprefix_csharp" style="color: inherit; text-decoration: inherit;">S3Key<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix applied to the log file names.
 {{% /md %}}</dd>
@@ -3850,7 +3850,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#enable_go" style="color: inherit; text-decoration: inherit;">Enable</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enables logging information such as queries and connection attempts, for the specified Amazon Redshift cluster.
 {{% /md %}}</dd>
@@ -3861,7 +3861,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#bucketname_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of an existing S3 bucket where the log files are to be stored. Must be in the same region as the cluster and the cluster must have read bucket and put object permissions.
 For more information on the permissions required for the bucket, please read the AWS [documentation](http://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html#db-auditing-enable-logging)
@@ -3873,7 +3873,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#s3keyprefix_go" style="color: inherit; text-decoration: inherit;">S3Key<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix applied to the log file names.
 {{% /md %}}</dd>
@@ -3891,7 +3891,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#enable_nodejs" style="color: inherit; text-decoration: inherit;">enable</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Enables logging information such as queries and connection attempts, for the specified Amazon Redshift cluster.
 {{% /md %}}</dd>
@@ -3902,7 +3902,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#bucketname_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of an existing S3 bucket where the log files are to be stored. Must be in the same region as the cluster and the cluster must have read bucket and put object permissions.
 For more information on the permissions required for the bucket, please read the AWS [documentation](http://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html#db-auditing-enable-logging)
@@ -3914,7 +3914,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#s3keyprefix_nodejs" style="color: inherit; text-decoration: inherit;">s3Key<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The prefix applied to the log file names.
 {{% /md %}}</dd>
@@ -3932,7 +3932,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#enable_python" style="color: inherit; text-decoration: inherit;">enable</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Enables logging information such as queries and connection attempts, for the specified Amazon Redshift cluster.
 {{% /md %}}</dd>
@@ -3943,7 +3943,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#bucket_name_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of an existing S3 bucket where the log files are to be stored. Must be in the same region as the cluster and the cluster must have read bucket and put object permissions.
 For more information on the permissions required for the bucket, please read the AWS [documentation](http://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html#db-auditing-enable-logging)
@@ -3955,7 +3955,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#s3_key_prefix_python" style="color: inherit; text-decoration: inherit;">s3_<wbr>key_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The prefix applied to the log file names.
 {{% /md %}}</dd>
@@ -3991,7 +3991,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#destinationregion_csharp" style="color: inherit; text-decoration: inherit;">Destination<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The destination region that you want to copy snapshots to.
 {{% /md %}}</dd>
@@ -4002,7 +4002,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#grantname_csharp" style="color: inherit; text-decoration: inherit;">Grant<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot copy grant to use when snapshots of an AWS KMS-encrypted cluster are copied to the destination region.
 {{% /md %}}</dd>
@@ -4013,7 +4013,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#retentionperiod_csharp" style="color: inherit; text-decoration: inherit;">Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automated snapshots in the destination region after they are copied from the source region. Defaults to `7`.
 {{% /md %}}</dd>
@@ -4031,7 +4031,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#destinationregion_go" style="color: inherit; text-decoration: inherit;">Destination<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The destination region that you want to copy snapshots to.
 {{% /md %}}</dd>
@@ -4042,7 +4042,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#grantname_go" style="color: inherit; text-decoration: inherit;">Grant<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot copy grant to use when snapshots of an AWS KMS-encrypted cluster are copied to the destination region.
 {{% /md %}}</dd>
@@ -4053,7 +4053,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#retentionperiod_go" style="color: inherit; text-decoration: inherit;">Retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automated snapshots in the destination region after they are copied from the source region. Defaults to `7`.
 {{% /md %}}</dd>
@@ -4071,7 +4071,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#destinationregion_nodejs" style="color: inherit; text-decoration: inherit;">destination<wbr>Region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The destination region that you want to copy snapshots to.
 {{% /md %}}</dd>
@@ -4082,7 +4082,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#grantname_nodejs" style="color: inherit; text-decoration: inherit;">grant<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot copy grant to use when snapshots of an AWS KMS-encrypted cluster are copied to the destination region.
 {{% /md %}}</dd>
@@ -4093,7 +4093,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#retentionperiod_nodejs" style="color: inherit; text-decoration: inherit;">retention<wbr>Period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automated snapshots in the destination region after they are copied from the source region. Defaults to `7`.
 {{% /md %}}</dd>
@@ -4111,7 +4111,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#destination_region_python" style="color: inherit; text-decoration: inherit;">destination_<wbr>region</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The destination region that you want to copy snapshots to.
 {{% /md %}}</dd>
@@ -4122,7 +4122,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#grant_name_python" style="color: inherit; text-decoration: inherit;">grant_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the snapshot copy grant to use when snapshots of an AWS KMS-encrypted cluster are copied to the destination region.
 {{% /md %}}</dd>
@@ -4133,7 +4133,7 @@ For more information on the permissions required for the bucket, please read the
 <a href="#retention_period_python" style="color: inherit; text-decoration: inherit;">retention_<wbr>period</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days to retain automated snapshots in the destination region after they are copied from the source region. Defaults to `7`.
 {{% /md %}}</dd>

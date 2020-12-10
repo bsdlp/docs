@@ -218,7 +218,7 @@ const testApplication = new aws.kinesis.AnalyticsApplication("testApplication", 
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplication">AnalyticsApplication</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplicationArgs">AnalyticsApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplication">AnalyticsApplication</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplicationArgs">AnalyticsApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -226,11 +226,11 @@ const testApplication = new aws.kinesis.AnalyticsApplication("testApplication", 
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplication">NewAnalyticsApplication</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplicationArgs">AnalyticsApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplication">AnalyticsApplication</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplication">NewAnalyticsApplication</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplicationArgs">AnalyticsApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplication">AnalyticsApplication</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplication.html">AnalyticsApplication</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplicationArgs.html">AnalyticsApplicationArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplication.html">AnalyticsApplication</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplicationArgs.html">AnalyticsApplicationArgs</a></span><span class="p">? </span><span class="nx">args = null<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -241,7 +241,7 @@ const testApplication = new aws.kinesis.AnalyticsApplication("testApplication", 
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -310,7 +310,7 @@ const testApplication = new aws.kinesis.AnalyticsApplication("testApplication", 
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -349,7 +349,7 @@ const testApplication = new aws.kinesis.AnalyticsApplication("testApplication", 
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -412,7 +412,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#code_csharp" style="color: inherit; text-decoration: inherit;">Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -423,7 +423,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -445,7 +445,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -509,7 +509,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#code_go" style="color: inherit; text-decoration: inherit;">Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -520,7 +520,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -542,7 +542,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -606,7 +606,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#code_nodejs" style="color: inherit; text-decoration: inherit;">code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -617,7 +617,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -639,7 +639,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -703,7 +703,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#code_python" style="color: inherit; text-decoration: inherit;">code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -714,7 +714,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -736,7 +736,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -810,7 +810,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createtimestamp_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -821,7 +821,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -831,7 +831,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdatetimestamp_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -842,7 +842,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -853,7 +853,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -882,7 +882,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createtimestamp_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -893,7 +893,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -903,7 +903,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdatetimestamp_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -914,7 +914,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -925,7 +925,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -954,7 +954,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createtimestamp_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -965,7 +965,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -975,7 +975,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdatetimestamp_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -986,7 +986,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -997,7 +997,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -1026,7 +1026,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#create_timestamp_python" style="color: inherit; text-decoration: inherit;">create_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -1037,7 +1037,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1047,7 +1047,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#last_update_timestamp_python" style="color: inherit; text-decoration: inherit;">last_<wbr>update_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1058,7 +1058,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -1069,7 +1069,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -1089,7 +1089,7 @@ Get an existing AnalyticsApplication resource's state with the given name, ID, a
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplicationState">AnalyticsApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplication">AnalyticsApplication</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplicationState">AnalyticsApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesis/#AnalyticsApplication">AnalyticsApplication</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1098,11 +1098,11 @@ Get an existing AnalyticsApplication resource's state with the given name, ID, a
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAnalyticsApplication<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplicationState">AnalyticsApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplication">AnalyticsApplication</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAnalyticsApplication<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplicationState">AnalyticsApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesis?tab=doc#AnalyticsApplication">AnalyticsApplication</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplication.html">AnalyticsApplication</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplicationState.html">AnalyticsApplicationState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplication.html">AnalyticsApplication</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Kinesis.AnalyticsApplicationState.html">AnalyticsApplicationState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1237,7 +1237,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_code_csharp" style="color: inherit; text-decoration: inherit;">Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -1248,7 +1248,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_createtimestamp_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -1259,7 +1259,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -1281,7 +1281,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_lastupdatetimestamp_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1292,7 +1292,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1326,7 +1326,7 @@ See Reference Data Sources below for more details.
 <a href="#state_status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -1348,7 +1348,7 @@ See Reference Data Sources below for more details.
 <a href="#state_version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -1389,7 +1389,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_code_go" style="color: inherit; text-decoration: inherit;">Code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -1400,7 +1400,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_createtimestamp_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -1411,7 +1411,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -1433,7 +1433,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_lastupdatetimestamp_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1444,7 +1444,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1478,7 +1478,7 @@ See Reference Data Sources below for more details.
 <a href="#state_status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -1500,7 +1500,7 @@ See Reference Data Sources below for more details.
 <a href="#state_version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -1541,7 +1541,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_code_nodejs" style="color: inherit; text-decoration: inherit;">code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -1552,7 +1552,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_createtimestamp_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -1563,7 +1563,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -1585,7 +1585,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_lastupdatetimestamp_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1596,7 +1596,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1630,7 +1630,7 @@ See Reference Data Sources below for more details.
 <a href="#state_status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -1652,7 +1652,7 @@ See Reference Data Sources below for more details.
 <a href="#state_version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -1693,7 +1693,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_code_python" style="color: inherit; text-decoration: inherit;">code</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}SQL Code to transform input data, and generate output.
 {{% /md %}}</dd>
@@ -1704,7 +1704,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_create_timestamp_python" style="color: inherit; text-decoration: inherit;">create_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application version was created.
 {{% /md %}}</dd>
@@ -1715,7 +1715,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Description of the application.
 {{% /md %}}</dd>
@@ -1737,7 +1737,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_last_update_timestamp_python" style="color: inherit; text-decoration: inherit;">last_<wbr>update_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1748,7 +1748,7 @@ See CloudWatch Logging Options below for more details.
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1782,7 +1782,7 @@ See Reference Data Sources below for more details.
 <a href="#state_status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Status of the application.
 {{% /md %}}</dd>
@@ -1804,7 +1804,7 @@ See Reference Data Sources below for more details.
 <a href="#state_version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Version of the application.
 {{% /md %}}</dd>
@@ -1848,7 +1848,7 @@ See Reference Data Sources below for more details.
 <a href="#logstreamarn_csharp" style="color: inherit; text-decoration: inherit;">Log<wbr>Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch Log Stream.
 {{% /md %}}</dd>
@@ -1859,7 +1859,7 @@ See Reference Data Sources below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -1870,7 +1870,7 @@ See Reference Data Sources below for more details.
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1888,7 +1888,7 @@ See Reference Data Sources below for more details.
 <a href="#logstreamarn_go" style="color: inherit; text-decoration: inherit;">Log<wbr>Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch Log Stream.
 {{% /md %}}</dd>
@@ -1899,7 +1899,7 @@ See Reference Data Sources below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -1910,7 +1910,7 @@ See Reference Data Sources below for more details.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1928,7 +1928,7 @@ See Reference Data Sources below for more details.
 <a href="#logstreamarn_nodejs" style="color: inherit; text-decoration: inherit;">log<wbr>Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch Log Stream.
 {{% /md %}}</dd>
@@ -1939,7 +1939,7 @@ See Reference Data Sources below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -1950,7 +1950,7 @@ See Reference Data Sources below for more details.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -1968,7 +1968,7 @@ See Reference Data Sources below for more details.
 <a href="#log_stream_arn_python" style="color: inherit; text-decoration: inherit;">log_<wbr>stream_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch Log Stream.
 {{% /md %}}</dd>
@@ -1979,7 +1979,7 @@ See Reference Data Sources below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -1990,7 +1990,7 @@ See Reference Data Sources below for more details.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -2026,7 +2026,7 @@ See Reference Data Sources below for more details.
 <a href="#nameprefix_csharp" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Name Prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -2048,7 +2048,7 @@ See Reference Data Sources below for more details.
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -2117,7 +2117,7 @@ See Processing Configuration below for more details.
 <a href="#streamnames_csharp" style="color: inherit; text-decoration: inherit;">Stream<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2134,7 +2134,7 @@ See Processing Configuration below for more details.
 <a href="#nameprefix_go" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Name Prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -2156,7 +2156,7 @@ See Processing Configuration below for more details.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -2225,7 +2225,7 @@ See Processing Configuration below for more details.
 <a href="#streamnames_go" style="color: inherit; text-decoration: inherit;">Stream<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2242,7 +2242,7 @@ See Processing Configuration below for more details.
 <a href="#nameprefix_nodejs" style="color: inherit; text-decoration: inherit;">name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Name Prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -2264,7 +2264,7 @@ See Processing Configuration below for more details.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -2333,7 +2333,7 @@ See Processing Configuration below for more details.
 <a href="#streamnames_nodejs" style="color: inherit; text-decoration: inherit;">stream<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2350,7 +2350,7 @@ See Processing Configuration below for more details.
 <a href="#name_prefix_python" style="color: inherit; text-decoration: inherit;">name_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Name Prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -2372,7 +2372,7 @@ See Processing Configuration below for more details.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -2441,7 +2441,7 @@ See Processing Configuration below for more details.
 <a href="#stream_names_python" style="color: inherit; text-decoration: inherit;">stream_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2476,7 +2476,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -2487,7 +2487,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2505,7 +2505,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -2516,7 +2516,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2534,7 +2534,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -2545,7 +2545,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2563,7 +2563,7 @@ See Processing Configuration below for more details.
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -2574,7 +2574,7 @@ See Processing Configuration below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2610,7 +2610,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -2621,7 +2621,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2639,7 +2639,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -2650,7 +2650,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2668,7 +2668,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -2679,7 +2679,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2697,7 +2697,7 @@ See Processing Configuration below for more details.
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -2708,7 +2708,7 @@ See Processing Configuration below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -2744,7 +2744,7 @@ See Processing Configuration below for more details.
 <a href="#count_csharp" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Count of streams.
 {{% /md %}}</dd>
@@ -2762,7 +2762,7 @@ See Processing Configuration below for more details.
 <a href="#count_go" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Count of streams.
 {{% /md %}}</dd>
@@ -2780,7 +2780,7 @@ See Processing Configuration below for more details.
 <a href="#count_nodejs" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The Count of streams.
 {{% /md %}}</dd>
@@ -2798,7 +2798,7 @@ See Processing Configuration below for more details.
 <a href="#count_python" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The Count of streams.
 {{% /md %}}</dd>
@@ -2924,7 +2924,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -2935,7 +2935,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -2953,7 +2953,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -2964,7 +2964,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -2982,7 +2982,7 @@ See Processing Configuration below for more details.
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -2993,7 +2993,7 @@ See Processing Configuration below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -3011,7 +3011,7 @@ See Processing Configuration below for more details.
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -3022,7 +3022,7 @@ See Processing Configuration below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -3082,7 +3082,7 @@ See Record Format below for more details.
 <a href="#recordencoding_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -3124,7 +3124,7 @@ See Record Format below for more details.
 <a href="#recordencoding_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -3166,7 +3166,7 @@ See Record Format below for more details.
 <a href="#recordencoding_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -3208,7 +3208,7 @@ See Record Format below for more details.
 <a href="#record_encoding_python" style="color: inherit; text-decoration: inherit;">record_<wbr>encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -3244,7 +3244,7 @@ See Record Format below for more details.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -3255,7 +3255,7 @@ See Record Format below for more details.
 <a href="#sqltype_csharp" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -3266,7 +3266,7 @@ See Record Format below for more details.
 <a href="#mapping_csharp" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -3284,7 +3284,7 @@ See Record Format below for more details.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -3295,7 +3295,7 @@ See Record Format below for more details.
 <a href="#sqltype_go" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -3306,7 +3306,7 @@ See Record Format below for more details.
 <a href="#mapping_go" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -3324,7 +3324,7 @@ See Record Format below for more details.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -3335,7 +3335,7 @@ See Record Format below for more details.
 <a href="#sqltype_nodejs" style="color: inherit; text-decoration: inherit;">sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -3346,7 +3346,7 @@ See Record Format below for more details.
 <a href="#mapping_nodejs" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -3364,7 +3364,7 @@ See Record Format below for more details.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -3375,7 +3375,7 @@ See Record Format below for more details.
 <a href="#sql_type_python" style="color: inherit; text-decoration: inherit;">sql_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -3386,7 +3386,7 @@ See Record Format below for more details.
 <a href="#mapping_python" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -3434,7 +3434,7 @@ See Mapping Parameters below for more details.
 <a href="#recordformattype_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -3464,7 +3464,7 @@ See Mapping Parameters below for more details.
 <a href="#recordformattype_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -3494,7 +3494,7 @@ See Mapping Parameters below for more details.
 <a href="#recordformattype_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -3524,7 +3524,7 @@ See Mapping Parameters below for more details.
 <a href="#record_format_type_python" style="color: inherit; text-decoration: inherit;">record_<wbr>format_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -3702,7 +3702,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordcolumndelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -3713,7 +3713,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowdelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -3731,7 +3731,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordcolumndelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -3742,7 +3742,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowdelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -3760,7 +3760,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordcolumndelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -3771,7 +3771,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowdelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -3789,7 +3789,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#record_column_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>column_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -3800,7 +3800,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#record_row_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -3836,7 +3836,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowpath_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -3854,7 +3854,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowpath_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -3872,7 +3872,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowpath_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -3890,7 +3890,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#record_row_path_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -3926,7 +3926,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#startingposition_csharp" style="color: inherit; text-decoration: inherit;">Starting<wbr>Position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3943,7 +3943,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#startingposition_go" style="color: inherit; text-decoration: inherit;">Starting<wbr>Position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3960,7 +3960,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#startingposition_nodejs" style="color: inherit; text-decoration: inherit;">starting<wbr>Position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -3977,7 +3977,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#starting_position_python" style="color: inherit; text-decoration: inherit;">starting_<wbr>position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4012,7 +4012,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Name of the in-application stream.
 {{% /md %}}</dd>
@@ -4034,7 +4034,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4087,7 +4087,7 @@ See Kinesis Stream below for more details.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Name of the in-application stream.
 {{% /md %}}</dd>
@@ -4109,7 +4109,7 @@ See Kinesis Stream below for more details.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4162,7 +4162,7 @@ See Kinesis Stream below for more details.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Name of the in-application stream.
 {{% /md %}}</dd>
@@ -4184,7 +4184,7 @@ See Kinesis Stream below for more details.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4237,7 +4237,7 @@ See Kinesis Stream below for more details.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Name of the in-application stream.
 {{% /md %}}</dd>
@@ -4259,7 +4259,7 @@ See Kinesis Stream below for more details.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4330,7 +4330,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -4341,7 +4341,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4359,7 +4359,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -4370,7 +4370,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4388,7 +4388,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -4399,7 +4399,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4417,7 +4417,7 @@ See Kinesis Stream below for more details.
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Firehose delivery stream.
 {{% /md %}}</dd>
@@ -4428,7 +4428,7 @@ See Kinesis Stream below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4464,7 +4464,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -4475,7 +4475,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4493,7 +4493,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -4504,7 +4504,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4522,7 +4522,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -4533,7 +4533,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4551,7 +4551,7 @@ See Kinesis Stream below for more details.
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Stream.
 {{% /md %}}</dd>
@@ -4562,7 +4562,7 @@ See Kinesis Stream below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the stream.
 {{% /md %}}</dd>
@@ -4598,7 +4598,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -4609,7 +4609,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -4627,7 +4627,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -4638,7 +4638,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -4656,7 +4656,7 @@ See Kinesis Stream below for more details.
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -4667,7 +4667,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -4685,7 +4685,7 @@ See Kinesis Stream below for more details.
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function.
 {{% /md %}}</dd>
@@ -4696,7 +4696,7 @@ See Kinesis Stream below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to access the Lambda function.
 {{% /md %}}</dd>
@@ -4732,7 +4732,7 @@ See Kinesis Stream below for more details.
 <a href="#recordformattype_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Format Type of the records on the output stream. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -4750,7 +4750,7 @@ See Kinesis Stream below for more details.
 <a href="#recordformattype_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Format Type of the records on the output stream. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -4768,7 +4768,7 @@ See Kinesis Stream below for more details.
 <a href="#recordformattype_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Format Type of the records on the output stream. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -4786,7 +4786,7 @@ See Kinesis Stream below for more details.
 <a href="#record_format_type_python" style="color: inherit; text-decoration: inherit;">record_<wbr>format_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Format Type of the records on the output stream. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -4844,7 +4844,7 @@ See Kinesis Stream below for more details.
 <a href="#tablename_csharp" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The in-application Table Name.
 {{% /md %}}</dd>
@@ -4855,7 +4855,7 @@ See Kinesis Stream below for more details.
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4895,7 +4895,7 @@ See Kinesis Stream below for more details.
 <a href="#tablename_go" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The in-application Table Name.
 {{% /md %}}</dd>
@@ -4906,7 +4906,7 @@ See Kinesis Stream below for more details.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4946,7 +4946,7 @@ See Kinesis Stream below for more details.
 <a href="#tablename_nodejs" style="color: inherit; text-decoration: inherit;">table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The in-application Table Name.
 {{% /md %}}</dd>
@@ -4957,7 +4957,7 @@ See Kinesis Stream below for more details.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -4997,7 +4997,7 @@ See Kinesis Stream below for more details.
 <a href="#table_name_python" style="color: inherit; text-decoration: inherit;">table_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The in-application Table Name.
 {{% /md %}}</dd>
@@ -5008,7 +5008,7 @@ See Kinesis Stream below for more details.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Kinesis Analytics Application.
 {{% /md %}}</dd>
@@ -5044,7 +5044,7 @@ See Kinesis Stream below for more details.
 <a href="#bucketarn_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 Bucket ARN.
 {{% /md %}}</dd>
@@ -5055,7 +5055,7 @@ See Kinesis Stream below for more details.
 <a href="#filekey_csharp" style="color: inherit; text-decoration: inherit;">File<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The File Key name containing reference data.
 {{% /md %}}</dd>
@@ -5066,7 +5066,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_csharp" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -5084,7 +5084,7 @@ See Kinesis Stream below for more details.
 <a href="#bucketarn_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 Bucket ARN.
 {{% /md %}}</dd>
@@ -5095,7 +5095,7 @@ See Kinesis Stream below for more details.
 <a href="#filekey_go" style="color: inherit; text-decoration: inherit;">File<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The File Key name containing reference data.
 {{% /md %}}</dd>
@@ -5106,7 +5106,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_go" style="color: inherit; text-decoration: inherit;">Role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -5124,7 +5124,7 @@ See Kinesis Stream below for more details.
 <a href="#bucketarn_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The S3 Bucket ARN.
 {{% /md %}}</dd>
@@ -5135,7 +5135,7 @@ See Kinesis Stream below for more details.
 <a href="#filekey_nodejs" style="color: inherit; text-decoration: inherit;">file<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The File Key name containing reference data.
 {{% /md %}}</dd>
@@ -5146,7 +5146,7 @@ See Kinesis Stream below for more details.
 <a href="#rolearn_nodejs" style="color: inherit; text-decoration: inherit;">role<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -5164,7 +5164,7 @@ See Kinesis Stream below for more details.
 <a href="#bucket_arn_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The S3 Bucket ARN.
 {{% /md %}}</dd>
@@ -5175,7 +5175,7 @@ See Kinesis Stream below for more details.
 <a href="#file_key_python" style="color: inherit; text-decoration: inherit;">file_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The File Key name containing reference data.
 {{% /md %}}</dd>
@@ -5186,7 +5186,7 @@ See Kinesis Stream below for more details.
 <a href="#role_arn_python" style="color: inherit; text-decoration: inherit;">role_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the IAM Role used to send application messages.
 {{% /md %}}</dd>
@@ -5246,7 +5246,7 @@ See Record Format below for more details.
 <a href="#recordencoding_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -5288,7 +5288,7 @@ See Record Format below for more details.
 <a href="#recordencoding_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -5330,7 +5330,7 @@ See Record Format below for more details.
 <a href="#recordencoding_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -5372,7 +5372,7 @@ See Record Format below for more details.
 <a href="#record_encoding_python" style="color: inherit; text-decoration: inherit;">record_<wbr>encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Encoding of the record in the streaming source.
 {{% /md %}}</dd>
@@ -5408,7 +5408,7 @@ See Record Format below for more details.
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -5419,7 +5419,7 @@ See Record Format below for more details.
 <a href="#sqltype_csharp" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -5430,7 +5430,7 @@ See Record Format below for more details.
 <a href="#mapping_csharp" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -5448,7 +5448,7 @@ See Record Format below for more details.
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -5459,7 +5459,7 @@ See Record Format below for more details.
 <a href="#sqltype_go" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -5470,7 +5470,7 @@ See Record Format below for more details.
 <a href="#mapping_go" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -5488,7 +5488,7 @@ See Record Format below for more details.
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -5499,7 +5499,7 @@ See Record Format below for more details.
 <a href="#sqltype_nodejs" style="color: inherit; text-decoration: inherit;">sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -5510,7 +5510,7 @@ See Record Format below for more details.
 <a href="#mapping_nodejs" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -5528,7 +5528,7 @@ See Record Format below for more details.
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the column.
 {{% /md %}}</dd>
@@ -5539,7 +5539,7 @@ See Record Format below for more details.
 <a href="#sql_type_python" style="color: inherit; text-decoration: inherit;">sql_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The SQL Type of the column.
 {{% /md %}}</dd>
@@ -5550,7 +5550,7 @@ See Record Format below for more details.
 <a href="#mapping_python" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Mapping reference to the data element.
 {{% /md %}}</dd>
@@ -5598,7 +5598,7 @@ See Mapping Parameters below for more details.
 <a href="#recordformattype_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -5628,7 +5628,7 @@ See Mapping Parameters below for more details.
 <a href="#recordformattype_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -5658,7 +5658,7 @@ See Mapping Parameters below for more details.
 <a href="#recordformattype_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -5688,7 +5688,7 @@ See Mapping Parameters below for more details.
 <a href="#record_format_type_python" style="color: inherit; text-decoration: inherit;">record_<wbr>format_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of Record Format. Can be `CSV` or `JSON`.
 {{% /md %}}</dd>
@@ -5866,7 +5866,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordcolumndelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -5877,7 +5877,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowdelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -5895,7 +5895,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordcolumndelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -5906,7 +5906,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowdelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -5924,7 +5924,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordcolumndelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -5935,7 +5935,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowdelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -5953,7 +5953,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#record_column_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>column_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Column Delimiter.
 {{% /md %}}</dd>
@@ -5964,7 +5964,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#record_row_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Row Delimiter.
 {{% /md %}}</dd>
@@ -6000,7 +6000,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowpath_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6018,7 +6018,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowpath_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6036,7 +6036,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#recordrowpath_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6054,7 +6054,7 @@ See JSON Mapping Parameters below for more details.
 <a href="#record_row_path_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Path to the top-level parent that contains the records.
 {{% /md %}}</dd>

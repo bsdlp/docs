@@ -946,7 +946,7 @@ const exampleApplication = new aws.kinesisanalyticsv2.Application("exampleApplic
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#Application">Application</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#ApplicationArgs">ApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#Application">Application</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#ApplicationArgs">ApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -954,11 +954,11 @@ const exampleApplication = new aws.kinesisanalyticsv2.Application("exampleApplic
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#Application">NewApplication</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#ApplicationArgs">ApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#Application">Application</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#Application">NewApplication</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#ApplicationArgs">ApplicationArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#Application">Application</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.Application.html">Application</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.ApplicationArgs.html">ApplicationArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.Application.html">Application</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.ApplicationArgs.html">ApplicationArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -969,7 +969,7 @@ const exampleApplication = new aws.kinesisanalyticsv2.Application("exampleApplic
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -1038,7 +1038,7 @@ const exampleApplication = new aws.kinesisanalyticsv2.Application("exampleApplic
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -1077,7 +1077,7 @@ const exampleApplication = new aws.kinesisanalyticsv2.Application("exampleApplic
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -1128,7 +1128,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#runtimeenvironment_csharp" style="color: inherit; text-decoration: inherit;">Runtime<wbr>Environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -1139,7 +1139,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#serviceexecutionrole_csharp" style="color: inherit; text-decoration: inherit;">Service<wbr>Execution<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -1172,7 +1172,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -1183,7 +1183,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -1212,7 +1212,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#runtimeenvironment_go" style="color: inherit; text-decoration: inherit;">Runtime<wbr>Environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -1223,7 +1223,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#serviceexecutionrole_go" style="color: inherit; text-decoration: inherit;">Service<wbr>Execution<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -1256,7 +1256,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -1267,7 +1267,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -1296,7 +1296,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#runtimeenvironment_nodejs" style="color: inherit; text-decoration: inherit;">runtime<wbr>Environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -1307,7 +1307,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#serviceexecutionrole_nodejs" style="color: inherit; text-decoration: inherit;">service<wbr>Execution<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -1340,7 +1340,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -1351,7 +1351,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -1380,7 +1380,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#runtime_environment_python" style="color: inherit; text-decoration: inherit;">runtime_<wbr>environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -1391,7 +1391,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#service_execution_role_python" style="color: inherit; text-decoration: inherit;">service_<wbr>execution_<wbr>role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -1424,7 +1424,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -1435,7 +1435,7 @@ The Application resource accepts the following [input]({{< relref "/docs/intro/c
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -1475,7 +1475,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -1486,7 +1486,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createtimestamp_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -1497,7 +1497,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1507,7 +1507,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdatetimestamp_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1518,7 +1518,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -1529,7 +1529,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#versionid_csharp" style="color: inherit; text-decoration: inherit;">Version<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -1547,7 +1547,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -1558,7 +1558,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createtimestamp_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -1569,7 +1569,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1579,7 +1579,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdatetimestamp_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1590,7 +1590,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -1601,7 +1601,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#versionid_go" style="color: inherit; text-decoration: inherit;">Version<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -1619,7 +1619,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -1630,7 +1630,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#createtimestamp_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -1641,7 +1641,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1651,7 +1651,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#lastupdatetimestamp_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1662,7 +1662,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -1673,7 +1673,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#versionid_nodejs" style="color: inherit; text-decoration: inherit;">version<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -1691,7 +1691,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -1702,7 +1702,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#create_timestamp_python" style="color: inherit; text-decoration: inherit;">create_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -1713,7 +1713,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1723,7 +1723,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#last_update_timestamp_python" style="color: inherit; text-decoration: inherit;">last_<wbr>update_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1734,7 +1734,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -1745,7 +1745,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#version_id_python" style="color: inherit; text-decoration: inherit;">version_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -1765,7 +1765,7 @@ Get an existing Application resource's state with the given name, ID, and option
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#ApplicationState">ApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#Application">Application</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#ApplicationState">ApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/kinesisanalyticsv2/#Application">Application</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1774,11 +1774,11 @@ Get an existing Application resource's state with the given name, ID, and option
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetApplication<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#ApplicationState">ApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#Application">Application</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetApplication<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#ApplicationState">ApplicationState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/kinesisanalyticsv2?tab=doc#Application">Application</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.Application.html">Application</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.ApplicationState.html">ApplicationState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.Application.html">Application</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.KinesisAnalyticsV2.ApplicationState.html">ApplicationState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1901,7 +1901,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -1923,7 +1923,7 @@ The following state arguments are supported:
 <a href="#state_createtimestamp_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -1934,7 +1934,7 @@ The following state arguments are supported:
 <a href="#state_description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -1945,7 +1945,7 @@ The following state arguments are supported:
 <a href="#state_lastupdatetimestamp_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -1956,7 +1956,7 @@ The following state arguments are supported:
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -1967,7 +1967,7 @@ The following state arguments are supported:
 <a href="#state_runtimeenvironment_csharp" style="color: inherit; text-decoration: inherit;">Runtime<wbr>Environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -1978,7 +1978,7 @@ The following state arguments are supported:
 <a href="#state_serviceexecutionrole_csharp" style="color: inherit; text-decoration: inherit;">Service<wbr>Execution<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -1989,7 +1989,7 @@ The following state arguments are supported:
 <a href="#state_status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -2011,7 +2011,7 @@ The following state arguments are supported:
 <a href="#state_versionid_csharp" style="color: inherit; text-decoration: inherit;">Version<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -2040,7 +2040,7 @@ The following state arguments are supported:
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -2062,7 +2062,7 @@ The following state arguments are supported:
 <a href="#state_createtimestamp_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -2073,7 +2073,7 @@ The following state arguments are supported:
 <a href="#state_description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -2084,7 +2084,7 @@ The following state arguments are supported:
 <a href="#state_lastupdatetimestamp_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -2095,7 +2095,7 @@ The following state arguments are supported:
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -2106,7 +2106,7 @@ The following state arguments are supported:
 <a href="#state_runtimeenvironment_go" style="color: inherit; text-decoration: inherit;">Runtime<wbr>Environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -2117,7 +2117,7 @@ The following state arguments are supported:
 <a href="#state_serviceexecutionrole_go" style="color: inherit; text-decoration: inherit;">Service<wbr>Execution<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -2128,7 +2128,7 @@ The following state arguments are supported:
 <a href="#state_status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -2150,7 +2150,7 @@ The following state arguments are supported:
 <a href="#state_versionid_go" style="color: inherit; text-decoration: inherit;">Version<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -2179,7 +2179,7 @@ The following state arguments are supported:
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -2201,7 +2201,7 @@ The following state arguments are supported:
 <a href="#state_createtimestamp_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -2212,7 +2212,7 @@ The following state arguments are supported:
 <a href="#state_description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -2223,7 +2223,7 @@ The following state arguments are supported:
 <a href="#state_lastupdatetimestamp_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Update<wbr>Timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -2234,7 +2234,7 @@ The following state arguments are supported:
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -2245,7 +2245,7 @@ The following state arguments are supported:
 <a href="#state_runtimeenvironment_nodejs" style="color: inherit; text-decoration: inherit;">runtime<wbr>Environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -2256,7 +2256,7 @@ The following state arguments are supported:
 <a href="#state_serviceexecutionrole_nodejs" style="color: inherit; text-decoration: inherit;">service<wbr>Execution<wbr>Role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -2267,7 +2267,7 @@ The following state arguments are supported:
 <a href="#state_status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -2289,7 +2289,7 @@ The following state arguments are supported:
 <a href="#state_versionid_nodejs" style="color: inherit; text-decoration: inherit;">version<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -2318,7 +2318,7 @@ The following state arguments are supported:
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the application.
 {{% /md %}}</dd>
@@ -2340,7 +2340,7 @@ The following state arguments are supported:
 <a href="#state_create_timestamp_python" style="color: inherit; text-decoration: inherit;">create_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was created.
 {{% /md %}}</dd>
@@ -2351,7 +2351,7 @@ The following state arguments are supported:
 <a href="#state_description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A summary description of the application.
 {{% /md %}}</dd>
@@ -2362,7 +2362,7 @@ The following state arguments are supported:
 <a href="#state_last_update_timestamp_python" style="color: inherit; text-decoration: inherit;">last_<wbr>update_<wbr>timestamp</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The current timestamp when the application was last updated.
 {{% /md %}}</dd>
@@ -2373,7 +2373,7 @@ The following state arguments are supported:
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the application.
 {{% /md %}}</dd>
@@ -2384,7 +2384,7 @@ The following state arguments are supported:
 <a href="#state_runtime_environment_python" style="color: inherit; text-decoration: inherit;">runtime_<wbr>environment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The runtime environment for the application. Valid values: `SQL-1_0`, `FLINK-1_6`, `FLINK-1_8`, `FLINK-1_11`.
 {{% /md %}}</dd>
@@ -2395,7 +2395,7 @@ The following state arguments are supported:
 <a href="#state_service_execution_role_python" style="color: inherit; text-decoration: inherit;">service_<wbr>execution_<wbr>role</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the [IAM role](https://www.terraform.io/docs/providers/aws/r/iam_role.html) used by the application to access Kinesis data streams, Kinesis Data Firehose delivery streams, Amazon S3 objects, and other external resources.
 {{% /md %}}</dd>
@@ -2406,7 +2406,7 @@ The following state arguments are supported:
 <a href="#state_status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The status of the application.
 {{% /md %}}</dd>
@@ -2428,7 +2428,7 @@ The following state arguments are supported:
 <a href="#state_version_id_python" style="color: inherit; text-decoration: inherit;">version_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The current application version. Kinesis Data Analytics updates the `version_id` each time the application is updated.
 {{% /md %}}</dd>
@@ -2782,7 +2782,7 @@ The following state arguments are supported:
 <a href="#codecontenttype_csharp" style="color: inherit; text-decoration: inherit;">Code<wbr>Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether the code content is in text or zip format. Valid values: `PLAINTEXT`, `ZIPFILE`.
 {{% /md %}}</dd>
@@ -2811,7 +2811,7 @@ The following state arguments are supported:
 <a href="#codecontenttype_go" style="color: inherit; text-decoration: inherit;">Code<wbr>Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether the code content is in text or zip format. Valid values: `PLAINTEXT`, `ZIPFILE`.
 {{% /md %}}</dd>
@@ -2840,7 +2840,7 @@ The following state arguments are supported:
 <a href="#codecontenttype_nodejs" style="color: inherit; text-decoration: inherit;">code<wbr>Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies whether the code content is in text or zip format. Valid values: `PLAINTEXT`, `ZIPFILE`.
 {{% /md %}}</dd>
@@ -2869,7 +2869,7 @@ The following state arguments are supported:
 <a href="#code_content_type_python" style="color: inherit; text-decoration: inherit;">code_<wbr>content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies whether the code content is in text or zip format. Valid values: `PLAINTEXT`, `ZIPFILE`.
 {{% /md %}}</dd>
@@ -2927,7 +2927,7 @@ The following state arguments are supported:
 <a href="#textcontent_csharp" style="color: inherit; text-decoration: inherit;">Text<wbr>Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text-format code for the application.
 {{% /md %}}</dd>
@@ -2956,7 +2956,7 @@ The following state arguments are supported:
 <a href="#textcontent_go" style="color: inherit; text-decoration: inherit;">Text<wbr>Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text-format code for the application.
 {{% /md %}}</dd>
@@ -2985,7 +2985,7 @@ The following state arguments are supported:
 <a href="#textcontent_nodejs" style="color: inherit; text-decoration: inherit;">text<wbr>Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text-format code for the application.
 {{% /md %}}</dd>
@@ -3014,7 +3014,7 @@ The following state arguments are supported:
 <a href="#text_content_python" style="color: inherit; text-decoration: inherit;">text_<wbr>content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text-format code for the application.
 {{% /md %}}</dd>
@@ -3050,7 +3050,7 @@ The following state arguments are supported:
 <a href="#bucketarn_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -3061,7 +3061,7 @@ The following state arguments are supported:
 <a href="#filekey_csharp" style="color: inherit; text-decoration: inherit;">File<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -3072,7 +3072,7 @@ The following state arguments are supported:
 <a href="#objectversion_csharp" style="color: inherit; text-decoration: inherit;">Object<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the object containing the application code.
 {{% /md %}}</dd>
@@ -3090,7 +3090,7 @@ The following state arguments are supported:
 <a href="#bucketarn_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -3101,7 +3101,7 @@ The following state arguments are supported:
 <a href="#filekey_go" style="color: inherit; text-decoration: inherit;">File<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -3112,7 +3112,7 @@ The following state arguments are supported:
 <a href="#objectversion_go" style="color: inherit; text-decoration: inherit;">Object<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the object containing the application code.
 {{% /md %}}</dd>
@@ -3130,7 +3130,7 @@ The following state arguments are supported:
 <a href="#bucketarn_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -3141,7 +3141,7 @@ The following state arguments are supported:
 <a href="#filekey_nodejs" style="color: inherit; text-decoration: inherit;">file<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -3152,7 +3152,7 @@ The following state arguments are supported:
 <a href="#objectversion_nodejs" style="color: inherit; text-decoration: inherit;">object<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the object containing the application code.
 {{% /md %}}</dd>
@@ -3170,7 +3170,7 @@ The following state arguments are supported:
 <a href="#bucket_arn_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -3181,7 +3181,7 @@ The following state arguments are supported:
 <a href="#file_key_python" style="color: inherit; text-decoration: inherit;">file_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -3192,7 +3192,7 @@ The following state arguments are supported:
 <a href="#object_version_python" style="color: inherit; text-decoration: inherit;">object_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the object containing the application code.
 {{% /md %}}</dd>
@@ -3228,7 +3228,7 @@ The following state arguments are supported:
 <a href="#snapshotsenabled_csharp" style="color: inherit; text-decoration: inherit;">Snapshots<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether snapshots are enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3246,7 +3246,7 @@ The following state arguments are supported:
 <a href="#snapshotsenabled_go" style="color: inherit; text-decoration: inherit;">Snapshots<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether snapshots are enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3264,7 +3264,7 @@ The following state arguments are supported:
 <a href="#snapshotsenabled_nodejs" style="color: inherit; text-decoration: inherit;">snapshots<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Describes whether snapshots are enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3282,7 +3282,7 @@ The following state arguments are supported:
 <a href="#snapshots_enabled_python" style="color: inherit; text-decoration: inherit;">snapshots_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether snapshots are enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3408,7 +3408,7 @@ The following state arguments are supported:
 <a href="#propertygroupid_csharp" style="color: inherit; text-decoration: inherit;">Property<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The key of the application execution property key-value map.
 {{% /md %}}</dd>
@@ -3437,7 +3437,7 @@ The following state arguments are supported:
 <a href="#propertygroupid_go" style="color: inherit; text-decoration: inherit;">Property<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The key of the application execution property key-value map.
 {{% /md %}}</dd>
@@ -3466,7 +3466,7 @@ The following state arguments are supported:
 <a href="#propertygroupid_nodejs" style="color: inherit; text-decoration: inherit;">property<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The key of the application execution property key-value map.
 {{% /md %}}</dd>
@@ -3495,7 +3495,7 @@ The following state arguments are supported:
 <a href="#property_group_id_python" style="color: inherit; text-decoration: inherit;">property_<wbr>group_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The key of the application execution property key-value map.
 {{% /md %}}</dd>
@@ -3720,7 +3720,7 @@ The following state arguments are supported:
 <a href="#configurationtype_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses Kinesis Data Analytics' default checkpointing behavior. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `checkpointing_enabled`, `checkpoint_interval`, or `min_pause_between_checkpoints` attribute values to be effective. If this attribute is set to `DEFAULT`, the application will always use the following values:
 * `checkpointing_enabled = true`
@@ -3734,7 +3734,7 @@ The following state arguments are supported:
 <a href="#checkpointinterval_csharp" style="color: inherit; text-decoration: inherit;">Checkpoint<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the interval in milliseconds between checkpoint operations.
 {{% /md %}}</dd>
@@ -3745,7 +3745,7 @@ The following state arguments are supported:
 <a href="#checkpointingenabled_csharp" style="color: inherit; text-decoration: inherit;">Checkpointing<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether checkpointing is enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3756,7 +3756,7 @@ The following state arguments are supported:
 <a href="#minpausebetweencheckpoints_csharp" style="color: inherit; text-decoration: inherit;">Min<wbr>Pause<wbr>Between<wbr>Checkpoints</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the minimum time in milliseconds after a checkpoint operation completes that a new checkpoint operation can start.
 {{% /md %}}</dd>
@@ -3774,7 +3774,7 @@ The following state arguments are supported:
 <a href="#configurationtype_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses Kinesis Data Analytics' default checkpointing behavior. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `checkpointing_enabled`, `checkpoint_interval`, or `min_pause_between_checkpoints` attribute values to be effective. If this attribute is set to `DEFAULT`, the application will always use the following values:
 * `checkpointing_enabled = true`
@@ -3788,7 +3788,7 @@ The following state arguments are supported:
 <a href="#checkpointinterval_go" style="color: inherit; text-decoration: inherit;">Checkpoint<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the interval in milliseconds between checkpoint operations.
 {{% /md %}}</dd>
@@ -3799,7 +3799,7 @@ The following state arguments are supported:
 <a href="#checkpointingenabled_go" style="color: inherit; text-decoration: inherit;">Checkpointing<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether checkpointing is enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3810,7 +3810,7 @@ The following state arguments are supported:
 <a href="#minpausebetweencheckpoints_go" style="color: inherit; text-decoration: inherit;">Min<wbr>Pause<wbr>Between<wbr>Checkpoints</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the minimum time in milliseconds after a checkpoint operation completes that a new checkpoint operation can start.
 {{% /md %}}</dd>
@@ -3828,7 +3828,7 @@ The following state arguments are supported:
 <a href="#configurationtype_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses Kinesis Data Analytics' default checkpointing behavior. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `checkpointing_enabled`, `checkpoint_interval`, or `min_pause_between_checkpoints` attribute values to be effective. If this attribute is set to `DEFAULT`, the application will always use the following values:
 * `checkpointing_enabled = true`
@@ -3842,7 +3842,7 @@ The following state arguments are supported:
 <a href="#checkpointinterval_nodejs" style="color: inherit; text-decoration: inherit;">checkpoint<wbr>Interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Describes the interval in milliseconds between checkpoint operations.
 {{% /md %}}</dd>
@@ -3853,7 +3853,7 @@ The following state arguments are supported:
 <a href="#checkpointingenabled_nodejs" style="color: inherit; text-decoration: inherit;">checkpointing<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Describes whether checkpointing is enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3864,7 +3864,7 @@ The following state arguments are supported:
 <a href="#minpausebetweencheckpoints_nodejs" style="color: inherit; text-decoration: inherit;">min<wbr>Pause<wbr>Between<wbr>Checkpoints</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Describes the minimum time in milliseconds after a checkpoint operation completes that a new checkpoint operation can start.
 {{% /md %}}</dd>
@@ -3882,7 +3882,7 @@ The following state arguments are supported:
 <a href="#configuration_type_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses Kinesis Data Analytics' default checkpointing behavior. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `checkpointing_enabled`, `checkpoint_interval`, or `min_pause_between_checkpoints` attribute values to be effective. If this attribute is set to `DEFAULT`, the application will always use the following values:
 * `checkpointing_enabled = true`
@@ -3896,7 +3896,7 @@ The following state arguments are supported:
 <a href="#checkpoint_interval_python" style="color: inherit; text-decoration: inherit;">checkpoint_<wbr>interval</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the interval in milliseconds between checkpoint operations.
 {{% /md %}}</dd>
@@ -3907,7 +3907,7 @@ The following state arguments are supported:
 <a href="#checkpointing_enabled_python" style="color: inherit; text-decoration: inherit;">checkpointing_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether checkpointing is enabled for a Flink-based Kinesis Data Analytics application.
 {{% /md %}}</dd>
@@ -3918,7 +3918,7 @@ The following state arguments are supported:
 <a href="#min_pause_between_checkpoints_python" style="color: inherit; text-decoration: inherit;">min_<wbr>pause_<wbr>between_<wbr>checkpoints</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the minimum time in milliseconds after a checkpoint operation completes that a new checkpoint operation can start.
 {{% /md %}}</dd>
@@ -3954,7 +3954,7 @@ The following state arguments are supported:
 <a href="#configurationtype_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether to use the default CloudWatch logging configuration for an application. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `log_level` or `metrics_level` attribute values to be effective.
 {{% /md %}}</dd>
@@ -3965,7 +3965,7 @@ The following state arguments are supported:
 <a href="#loglevel_csharp" style="color: inherit; text-decoration: inherit;">Log<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the verbosity of the CloudWatch Logs for an application. Valid values: `DEBUG`, `ERROR`, `INFO`, `WARN`.
 {{% /md %}}</dd>
@@ -3976,7 +3976,7 @@ The following state arguments are supported:
 <a href="#metricslevel_csharp" style="color: inherit; text-decoration: inherit;">Metrics<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the granularity of the CloudWatch Logs for an application. Valid values: `APPLICATION`, `OPERATOR`, `PARALLELISM`, `TASK`.
 {{% /md %}}</dd>
@@ -3994,7 +3994,7 @@ The following state arguments are supported:
 <a href="#configurationtype_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether to use the default CloudWatch logging configuration for an application. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `log_level` or `metrics_level` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4005,7 +4005,7 @@ The following state arguments are supported:
 <a href="#loglevel_go" style="color: inherit; text-decoration: inherit;">Log<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the verbosity of the CloudWatch Logs for an application. Valid values: `DEBUG`, `ERROR`, `INFO`, `WARN`.
 {{% /md %}}</dd>
@@ -4016,7 +4016,7 @@ The following state arguments are supported:
 <a href="#metricslevel_go" style="color: inherit; text-decoration: inherit;">Metrics<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the granularity of the CloudWatch Logs for an application. Valid values: `APPLICATION`, `OPERATOR`, `PARALLELISM`, `TASK`.
 {{% /md %}}</dd>
@@ -4034,7 +4034,7 @@ The following state arguments are supported:
 <a href="#configurationtype_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether to use the default CloudWatch logging configuration for an application. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `log_level` or `metrics_level` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4045,7 +4045,7 @@ The following state arguments are supported:
 <a href="#loglevel_nodejs" style="color: inherit; text-decoration: inherit;">log<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the verbosity of the CloudWatch Logs for an application. Valid values: `DEBUG`, `ERROR`, `INFO`, `WARN`.
 {{% /md %}}</dd>
@@ -4056,7 +4056,7 @@ The following state arguments are supported:
 <a href="#metricslevel_nodejs" style="color: inherit; text-decoration: inherit;">metrics<wbr>Level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes the granularity of the CloudWatch Logs for an application. Valid values: `APPLICATION`, `OPERATOR`, `PARALLELISM`, `TASK`.
 {{% /md %}}</dd>
@@ -4074,7 +4074,7 @@ The following state arguments are supported:
 <a href="#configuration_type_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Describes whether to use the default CloudWatch logging configuration for an application. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `log_level` or `metrics_level` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4085,7 +4085,7 @@ The following state arguments are supported:
 <a href="#log_level_python" style="color: inherit; text-decoration: inherit;">log_<wbr>level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Describes the verbosity of the CloudWatch Logs for an application. Valid values: `DEBUG`, `ERROR`, `INFO`, `WARN`.
 {{% /md %}}</dd>
@@ -4096,7 +4096,7 @@ The following state arguments are supported:
 <a href="#metrics_level_python" style="color: inherit; text-decoration: inherit;">metrics_<wbr>level</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Describes the granularity of the CloudWatch Logs for an application. Valid values: `APPLICATION`, `OPERATOR`, `PARALLELISM`, `TASK`.
 {{% /md %}}</dd>
@@ -4132,7 +4132,7 @@ The following state arguments are supported:
 <a href="#configurationtype_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses the default parallelism for the Kinesis Data Analytics service. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `auto_scaling_enabled`, `parallelism`, or `parallelism_per_kpu` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4143,7 +4143,7 @@ The following state arguments are supported:
 <a href="#autoscalingenabled_csharp" style="color: inherit; text-decoration: inherit;">Auto<wbr>Scaling<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether the Kinesis Data Analytics service can increase the parallelism of the application in response to increased throughput.
 {{% /md %}}</dd>
@@ -4154,7 +4154,7 @@ The following state arguments are supported:
 <a href="#parallelism_csharp" style="color: inherit; text-decoration: inherit;">Parallelism</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the initial number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform.
 {{% /md %}}</dd>
@@ -4165,7 +4165,7 @@ The following state arguments are supported:
 <a href="#parallelismperkpu_csharp" style="color: inherit; text-decoration: inherit;">Parallelism<wbr>Per<wbr>Kpu</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform per Kinesis Processing Unit (KPU) used by the application.
 {{% /md %}}</dd>
@@ -4183,7 +4183,7 @@ The following state arguments are supported:
 <a href="#configurationtype_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses the default parallelism for the Kinesis Data Analytics service. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `auto_scaling_enabled`, `parallelism`, or `parallelism_per_kpu` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4194,7 +4194,7 @@ The following state arguments are supported:
 <a href="#autoscalingenabled_go" style="color: inherit; text-decoration: inherit;">Auto<wbr>Scaling<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether the Kinesis Data Analytics service can increase the parallelism of the application in response to increased throughput.
 {{% /md %}}</dd>
@@ -4205,7 +4205,7 @@ The following state arguments are supported:
 <a href="#parallelism_go" style="color: inherit; text-decoration: inherit;">Parallelism</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the initial number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform.
 {{% /md %}}</dd>
@@ -4216,7 +4216,7 @@ The following state arguments are supported:
 <a href="#parallelismperkpu_go" style="color: inherit; text-decoration: inherit;">Parallelism<wbr>Per<wbr>Kpu</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform per Kinesis Processing Unit (KPU) used by the application.
 {{% /md %}}</dd>
@@ -4234,7 +4234,7 @@ The following state arguments are supported:
 <a href="#configurationtype_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses the default parallelism for the Kinesis Data Analytics service. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `auto_scaling_enabled`, `parallelism`, or `parallelism_per_kpu` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4245,7 +4245,7 @@ The following state arguments are supported:
 <a href="#autoscalingenabled_nodejs" style="color: inherit; text-decoration: inherit;">auto<wbr>Scaling<wbr>Enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Describes whether the Kinesis Data Analytics service can increase the parallelism of the application in response to increased throughput.
 {{% /md %}}</dd>
@@ -4256,7 +4256,7 @@ The following state arguments are supported:
 <a href="#parallelism_nodejs" style="color: inherit; text-decoration: inherit;">parallelism</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Describes the initial number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform.
 {{% /md %}}</dd>
@@ -4267,7 +4267,7 @@ The following state arguments are supported:
 <a href="#parallelismperkpu_nodejs" style="color: inherit; text-decoration: inherit;">parallelism<wbr>Per<wbr>Kpu</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Describes the number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform per Kinesis Processing Unit (KPU) used by the application.
 {{% /md %}}</dd>
@@ -4285,7 +4285,7 @@ The following state arguments are supported:
 <a href="#configuration_type_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Describes whether the application uses the default parallelism for the Kinesis Data Analytics service. Valid values: `CUSTOM`, `DEFAULT`. Set this attribute to `CUSTOM` in order for any specified `auto_scaling_enabled`, `parallelism`, or `parallelism_per_kpu` attribute values to be effective.
 {{% /md %}}</dd>
@@ -4296,7 +4296,7 @@ The following state arguments are supported:
 <a href="#auto_scaling_enabled_python" style="color: inherit; text-decoration: inherit;">auto_<wbr>scaling_<wbr>enabled</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Describes whether the Kinesis Data Analytics service can increase the parallelism of the application in response to increased throughput.
 {{% /md %}}</dd>
@@ -4307,7 +4307,7 @@ The following state arguments are supported:
 <a href="#parallelism_python" style="color: inherit; text-decoration: inherit;">parallelism</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the initial number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform.
 {{% /md %}}</dd>
@@ -4318,7 +4318,7 @@ The following state arguments are supported:
 <a href="#parallelism_per_kpu_python" style="color: inherit; text-decoration: inherit;">parallelism_<wbr>per_<wbr>kpu</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Describes the number of parallel tasks that a Flink-based Kinesis Data Analytics application can perform per Kinesis Processing Unit (KPU) used by the application.
 {{% /md %}}</dd>
@@ -4543,7 +4543,7 @@ The following state arguments are supported:
 <a href="#nameprefix_csharp" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -4554,7 +4554,7 @@ The following state arguments are supported:
 <a href="#inappstreamnames_csharp" style="color: inherit; text-decoration: inherit;">In<wbr>App<wbr>Stream<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4564,7 +4564,7 @@ The following state arguments are supported:
 <a href="#inputid_csharp" style="color: inherit; text-decoration: inherit;">Input<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4647,7 +4647,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#nameprefix_go" style="color: inherit; text-decoration: inherit;">Name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -4658,7 +4658,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inappstreamnames_go" style="color: inherit; text-decoration: inherit;">In<wbr>App<wbr>Stream<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4668,7 +4668,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inputid_go" style="color: inherit; text-decoration: inherit;">Input<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4751,7 +4751,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#nameprefix_nodejs" style="color: inherit; text-decoration: inherit;">name<wbr>Prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -4762,7 +4762,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inappstreamnames_nodejs" style="color: inherit; text-decoration: inherit;">in<wbr>App<wbr>Stream<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4772,7 +4772,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inputid_nodejs" style="color: inherit; text-decoration: inherit;">input<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4855,7 +4855,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_prefix_python" style="color: inherit; text-decoration: inherit;">name_<wbr>prefix</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name prefix to use when creating an in-application stream.
 {{% /md %}}</dd>
@@ -4866,7 +4866,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#in_app_stream_names_python" style="color: inherit; text-decoration: inherit;">in_<wbr>app_<wbr>stream_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4876,7 +4876,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#input_id_python" style="color: inherit; text-decoration: inherit;">input_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -4966,7 +4966,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#count_csharp" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of in-application streams to create.
 {{% /md %}}</dd>
@@ -4984,7 +4984,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#count_go" style="color: inherit; text-decoration: inherit;">Count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of in-application streams to create.
 {{% /md %}}</dd>
@@ -5002,7 +5002,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#count_nodejs" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of in-application streams to create.
 {{% /md %}}</dd>
@@ -5020,7 +5020,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#count_python" style="color: inherit; text-decoration: inherit;">count</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of in-application streams to create.
 {{% /md %}}</dd>
@@ -5146,7 +5146,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function that operates on records in the stream.
 {{% /md %}}</dd>
@@ -5164,7 +5164,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function that operates on records in the stream.
 {{% /md %}}</dd>
@@ -5182,7 +5182,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function that operates on records in the stream.
 {{% /md %}}</dd>
@@ -5200,7 +5200,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the Lambda function that operates on records in the stream.
 {{% /md %}}</dd>
@@ -5258,7 +5258,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordencoding_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -5298,7 +5298,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordencoding_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -5338,7 +5338,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordencoding_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -5378,7 +5378,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_encoding_python" style="color: inherit; text-decoration: inherit;">record_<wbr>encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -5414,7 +5414,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5425,7 +5425,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sqltype_csharp" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5436,7 +5436,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_csharp" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -5454,7 +5454,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5465,7 +5465,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sqltype_go" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5476,7 +5476,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_go" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -5494,7 +5494,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5505,7 +5505,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sqltype_nodejs" style="color: inherit; text-decoration: inherit;">sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5516,7 +5516,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_nodejs" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -5534,7 +5534,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5545,7 +5545,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sql_type_python" style="color: inherit; text-decoration: inherit;">sql_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -5556,7 +5556,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_python" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -5603,7 +5603,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -5632,7 +5632,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -5661,7 +5661,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -5690,7 +5690,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_format_type_python" style="color: inherit; text-decoration: inherit;">record_<wbr>format_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -5860,7 +5860,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordcolumndelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -5871,7 +5871,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowdelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -5889,7 +5889,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordcolumndelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -5900,7 +5900,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowdelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -5918,7 +5918,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordcolumndelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -5929,7 +5929,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowdelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -5947,7 +5947,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_column_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>column_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -5958,7 +5958,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_row_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -5994,7 +5994,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowpath_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6012,7 +6012,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowpath_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6030,7 +6030,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowpath_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6048,7 +6048,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_row_path_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -6084,7 +6084,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inputstartingposition_csharp" style="color: inherit; text-decoration: inherit;">Input<wbr>Starting<wbr>Position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6101,7 +6101,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inputstartingposition_go" style="color: inherit; text-decoration: inherit;">Input<wbr>Starting<wbr>Position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6118,7 +6118,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#inputstartingposition_nodejs" style="color: inherit; text-decoration: inherit;">input<wbr>Starting<wbr>Position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6135,7 +6135,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#input_starting_position_python" style="color: inherit; text-decoration: inherit;">input_<wbr>starting_<wbr>position</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6170,7 +6170,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the delivery stream.
 {{% /md %}}</dd>
@@ -6188,7 +6188,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the delivery stream.
 {{% /md %}}</dd>
@@ -6206,7 +6206,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the delivery stream.
 {{% /md %}}</dd>
@@ -6224,7 +6224,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the delivery stream.
 {{% /md %}}</dd>
@@ -6260,7 +6260,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the input Kinesis data stream to read.
 {{% /md %}}</dd>
@@ -6278,7 +6278,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the input Kinesis data stream to read.
 {{% /md %}}</dd>
@@ -6296,7 +6296,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the input Kinesis data stream to read.
 {{% /md %}}</dd>
@@ -6314,7 +6314,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the input Kinesis data stream to read.
 {{% /md %}}</dd>
@@ -6361,7 +6361,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the in-application stream.
 {{% /md %}}</dd>
@@ -6405,7 +6405,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#outputid_csharp" style="color: inherit; text-decoration: inherit;">Output<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6433,7 +6433,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the in-application stream.
 {{% /md %}}</dd>
@@ -6477,7 +6477,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#outputid_go" style="color: inherit; text-decoration: inherit;">Output<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6505,7 +6505,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the in-application stream.
 {{% /md %}}</dd>
@@ -6549,7 +6549,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#outputid_nodejs" style="color: inherit; text-decoration: inherit;">output<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6577,7 +6577,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the in-application stream.
 {{% /md %}}</dd>
@@ -6621,7 +6621,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#output_id_python" style="color: inherit; text-decoration: inherit;">output_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -6656,7 +6656,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the format of the records on the output stream. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -6674,7 +6674,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the format of the records on the output stream. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -6692,7 +6692,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the format of the records on the output stream. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -6710,7 +6710,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_format_type_python" style="color: inherit; text-decoration: inherit;">record_<wbr>format_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the format of the records on the output stream. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -6746,7 +6746,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination delivery stream to write to.
 {{% /md %}}</dd>
@@ -6764,7 +6764,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination delivery stream to write to.
 {{% /md %}}</dd>
@@ -6782,7 +6782,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination delivery stream to write to.
 {{% /md %}}</dd>
@@ -6800,7 +6800,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination delivery stream to write to.
 {{% /md %}}</dd>
@@ -6836,7 +6836,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Kinesis data stream to write to.
 {{% /md %}}</dd>
@@ -6854,7 +6854,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Kinesis data stream to write to.
 {{% /md %}}</dd>
@@ -6872,7 +6872,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Kinesis data stream to write to.
 {{% /md %}}</dd>
@@ -6890,7 +6890,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Kinesis data stream to write to.
 {{% /md %}}</dd>
@@ -6926,7 +6926,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_csharp" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Lambda function to write to.
 {{% /md %}}</dd>
@@ -6944,7 +6944,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_go" style="color: inherit; text-decoration: inherit;">Resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Lambda function to write to.
 {{% /md %}}</dd>
@@ -6962,7 +6962,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resourcearn_nodejs" style="color: inherit; text-decoration: inherit;">resource<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Lambda function to write to.
 {{% /md %}}</dd>
@@ -6980,7 +6980,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#resource_arn_python" style="color: inherit; text-decoration: inherit;">resource_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the destination Lambda function to write to.
 {{% /md %}}</dd>
@@ -7038,7 +7038,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#tablename_csharp" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the in-application table to create.
 {{% /md %}}</dd>
@@ -7049,7 +7049,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#referenceid_csharp" style="color: inherit; text-decoration: inherit;">Reference<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7088,7 +7088,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#tablename_go" style="color: inherit; text-decoration: inherit;">Table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the in-application table to create.
 {{% /md %}}</dd>
@@ -7099,7 +7099,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#referenceid_go" style="color: inherit; text-decoration: inherit;">Reference<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7138,7 +7138,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#tablename_nodejs" style="color: inherit; text-decoration: inherit;">table<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the in-application table to create.
 {{% /md %}}</dd>
@@ -7149,7 +7149,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#referenceid_nodejs" style="color: inherit; text-decoration: inherit;">reference<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7188,7 +7188,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#table_name_python" style="color: inherit; text-decoration: inherit;">table_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the in-application table to create.
 {{% /md %}}</dd>
@@ -7199,7 +7199,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#reference_id_python" style="color: inherit; text-decoration: inherit;">reference_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -7256,7 +7256,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordencoding_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -7296,7 +7296,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordencoding_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -7336,7 +7336,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordencoding_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -7376,7 +7376,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_encoding_python" style="color: inherit; text-decoration: inherit;">record_<wbr>encoding</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the encoding of the records in the streaming source. For example, `UTF-8`.
 {{% /md %}}</dd>
@@ -7412,7 +7412,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7423,7 +7423,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sqltype_csharp" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7434,7 +7434,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_csharp" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -7452,7 +7452,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7463,7 +7463,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sqltype_go" style="color: inherit; text-decoration: inherit;">Sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7474,7 +7474,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_go" style="color: inherit; text-decoration: inherit;">Mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -7492,7 +7492,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7503,7 +7503,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sqltype_nodejs" style="color: inherit; text-decoration: inherit;">sql<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7514,7 +7514,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_nodejs" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -7532,7 +7532,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the column that is created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7543,7 +7543,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#sql_type_python" style="color: inherit; text-decoration: inherit;">sql_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of column created in the in-application input stream or reference table.
 {{% /md %}}</dd>
@@ -7554,7 +7554,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#mapping_python" style="color: inherit; text-decoration: inherit;">mapping</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A reference to the data element in the streaming input or the reference data source.
 {{% /md %}}</dd>
@@ -7601,7 +7601,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -7630,7 +7630,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -7659,7 +7659,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordformattype_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Format<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -7688,7 +7688,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_format_type_python" style="color: inherit; text-decoration: inherit;">record_<wbr>format_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The type of record format. Valid values: `CSV`, `JSON`.
 {{% /md %}}</dd>
@@ -7858,7 +7858,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordcolumndelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -7869,7 +7869,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowdelimiter_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -7887,7 +7887,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordcolumndelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -7898,7 +7898,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowdelimiter_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -7916,7 +7916,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordcolumndelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Column<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -7927,7 +7927,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowdelimiter_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -7945,7 +7945,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_column_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>column_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The column delimiter. For example, in a CSV format, a comma (`,`) is the typical column delimiter.
 {{% /md %}}</dd>
@@ -7956,7 +7956,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_row_delimiter_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>delimiter</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The row delimiter. For example, in a CSV format, `\n` is the typical row delimiter.
 {{% /md %}}</dd>
@@ -7992,7 +7992,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowpath_csharp" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -8010,7 +8010,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowpath_go" style="color: inherit; text-decoration: inherit;">Record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -8028,7 +8028,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#recordrowpath_nodejs" style="color: inherit; text-decoration: inherit;">record<wbr>Row<wbr>Path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -8046,7 +8046,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#record_row_path_python" style="color: inherit; text-decoration: inherit;">record_<wbr>row_<wbr>path</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The path to the top-level parent that contains the records.
 {{% /md %}}</dd>
@@ -8082,7 +8082,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#bucketarn_csharp" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -8093,7 +8093,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#filekey_csharp" style="color: inherit; text-decoration: inherit;">File<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -8111,7 +8111,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#bucketarn_go" style="color: inherit; text-decoration: inherit;">Bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -8122,7 +8122,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#filekey_go" style="color: inherit; text-decoration: inherit;">File<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -8140,7 +8140,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#bucketarn_nodejs" style="color: inherit; text-decoration: inherit;">bucket<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -8151,7 +8151,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#filekey_nodejs" style="color: inherit; text-decoration: inherit;">file<wbr>Key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -8169,7 +8169,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#bucket_arn_python" style="color: inherit; text-decoration: inherit;">bucket_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN for the S3 bucket containing the application code.
 {{% /md %}}</dd>
@@ -8180,7 +8180,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#file_key_python" style="color: inherit; text-decoration: inherit;">file_<wbr>key</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The file key for the object containing the application code.
 {{% /md %}}</dd>
@@ -8216,7 +8216,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#securitygroupids_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The [Security Group](https://www.terraform.io/docs/providers/aws/r/security_group.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8227,7 +8227,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#subnetids_csharp" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}The [Subnet](https://www.terraform.io/docs/providers/aws/r/subnet.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8238,7 +8238,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpcconfigurationid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Configuration<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8248,7 +8248,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpcid_csharp" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8265,7 +8265,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#securitygroupids_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The [Security Group](https://www.terraform.io/docs/providers/aws/r/security_group.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8276,7 +8276,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#subnetids_go" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}The [Subnet](https://www.terraform.io/docs/providers/aws/r/subnet.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8287,7 +8287,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpcconfigurationid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Configuration<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8297,7 +8297,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpcid_go" style="color: inherit; text-decoration: inherit;">Vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8314,7 +8314,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#securitygroupids_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The [Security Group](https://www.terraform.io/docs/providers/aws/r/security_group.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8325,7 +8325,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#subnetids_nodejs" style="color: inherit; text-decoration: inherit;">subnet<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}The [Subnet](https://www.terraform.io/docs/providers/aws/r/subnet.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8336,7 +8336,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpcconfigurationid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Configuration<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8346,7 +8346,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpcid_nodejs" style="color: inherit; text-decoration: inherit;">vpc<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8363,7 +8363,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#security_group_ids_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The [Security Group](https://www.terraform.io/docs/providers/aws/r/security_group.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8374,7 +8374,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#subnet_ids_python" style="color: inherit; text-decoration: inherit;">subnet_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}The [Subnet](https://www.terraform.io/docs/providers/aws/r/subnet.html) IDs used by the VPC configuration.
 {{% /md %}}</dd>
@@ -8385,7 +8385,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpc_configuration_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>configuration_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8395,7 +8395,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#vpc_id_python" style="color: inherit; text-decoration: inherit;">vpc_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8430,7 +8430,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#logstreamarn_csharp" style="color: inherit; text-decoration: inherit;">Log<wbr>Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch log stream to receive application messages.
 {{% /md %}}</dd>
@@ -8441,7 +8441,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#cloudwatchloggingoptionid_csharp" style="color: inherit; text-decoration: inherit;">Cloudwatch<wbr>Logging<wbr>Option<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8458,7 +8458,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#logstreamarn_go" style="color: inherit; text-decoration: inherit;">Log<wbr>Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch log stream to receive application messages.
 {{% /md %}}</dd>
@@ -8469,7 +8469,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#cloudwatchloggingoptionid_go" style="color: inherit; text-decoration: inherit;">Cloudwatch<wbr>Logging<wbr>Option<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8486,7 +8486,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#logstreamarn_nodejs" style="color: inherit; text-decoration: inherit;">log<wbr>Stream<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch log stream to receive application messages.
 {{% /md %}}</dd>
@@ -8497,7 +8497,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#cloudwatchloggingoptionid_nodejs" style="color: inherit; text-decoration: inherit;">cloudwatch<wbr>Logging<wbr>Option<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -8514,7 +8514,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#log_stream_arn_python" style="color: inherit; text-decoration: inherit;">log_<wbr>stream_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The ARN of the CloudWatch log stream to receive application messages.
 {{% /md %}}</dd>
@@ -8525,7 +8525,7 @@ An input processor transforms records as they are received from the stream, befo
 <a href="#cloudwatch_logging_option_id_python" style="color: inherit; text-decoration: inherit;">cloudwatch_<wbr>logging_<wbr>option_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 

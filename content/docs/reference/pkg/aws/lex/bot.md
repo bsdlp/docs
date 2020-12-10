@@ -210,7 +210,7 @@ const orderFlowersBot = new aws.lex.Bot("order_flowers_bot", {
 
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Bot">Bot</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#BotArgs">BotArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">new </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Bot">Bot</a></span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#BotArgs">BotArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -218,11 +218,11 @@ const orderFlowersBot = new aws.lex.Bot("order_flowers_bot", {
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Bot">NewBot</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#BotArgs">BotArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Bot">Bot</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Bot">NewBot</a></span><span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">args</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#BotArgs">BotArgs</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Bot">Bot</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Bot.html">Bot</a></span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.BotArgs.html">BotArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Bot.html">Bot</a></span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.BotArgs.html">BotArgs</a></span><span class="p"> </span><span class="nx">args<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -233,7 +233,7 @@ const orderFlowersBot = new aws.lex.Bot("order_flowers_bot", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -302,7 +302,7 @@ const orderFlowersBot = new aws.lex.Bot("order_flowers_bot", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -341,7 +341,7 @@ const orderFlowersBot = new aws.lex.Bot("order_flowers_bot", {
         class="property-required" title="Required">
         <span>name</span>
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>
       The unique name of the resource.
@@ -403,7 +403,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#childdirected_csharp" style="color: inherit; text-decoration: inherit;">Child<wbr>Directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -436,7 +436,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#createversion_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -447,7 +447,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -458,7 +458,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#detectsentiment_csharp" style="color: inherit; text-decoration: inherit;">Detect<wbr>Sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -469,7 +469,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#enablemodelimprovements_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Model<wbr>Improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -480,7 +480,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#idlesessionttlinseconds_csharp" style="color: inherit; text-decoration: inherit;">Idle<wbr>Session<wbr>Ttl<wbr>In<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -491,7 +491,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#locale_csharp" style="color: inherit; text-decoration: inherit;">Locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -502,7 +502,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -513,7 +513,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#nluintentconfidencethreshold_csharp" style="color: inherit; text-decoration: inherit;">Nlu<wbr>Intent<wbr>Confidence<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">double</a></span>
+        <span class="property-type">double</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -524,7 +524,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#processbehavior_csharp" style="color: inherit; text-decoration: inherit;">Process<wbr>Behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -535,7 +535,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#voiceid_csharp" style="color: inherit; text-decoration: inherit;">Voice<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -564,7 +564,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#childdirected_go" style="color: inherit; text-decoration: inherit;">Child<wbr>Directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -597,7 +597,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#createversion_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -608,7 +608,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -619,7 +619,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#detectsentiment_go" style="color: inherit; text-decoration: inherit;">Detect<wbr>Sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -630,7 +630,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#enablemodelimprovements_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Model<wbr>Improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -641,7 +641,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#idlesessionttlinseconds_go" style="color: inherit; text-decoration: inherit;">Idle<wbr>Session<wbr>Ttl<wbr>In<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -652,7 +652,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#locale_go" style="color: inherit; text-decoration: inherit;">Locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -663,7 +663,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -674,7 +674,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#nluintentconfidencethreshold_go" style="color: inherit; text-decoration: inherit;">Nlu<wbr>Intent<wbr>Confidence<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#number">float64</a></span>
+        <span class="property-type">float64</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -685,7 +685,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#processbehavior_go" style="color: inherit; text-decoration: inherit;">Process<wbr>Behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -696,7 +696,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#voiceid_go" style="color: inherit; text-decoration: inherit;">Voice<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -725,7 +725,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#childdirected_nodejs" style="color: inherit; text-decoration: inherit;">child<wbr>Directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -758,7 +758,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#createversion_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -769,7 +769,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -780,7 +780,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#detectsentiment_nodejs" style="color: inherit; text-decoration: inherit;">detect<wbr>Sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -791,7 +791,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#enablemodelimprovements_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Model<wbr>Improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -802,7 +802,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#idlesessionttlinseconds_nodejs" style="color: inherit; text-decoration: inherit;">idle<wbr>Session<wbr>Ttl<wbr>In<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -813,7 +813,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#locale_nodejs" style="color: inherit; text-decoration: inherit;">locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -824,7 +824,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -835,7 +835,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#nluintentconfidencethreshold_nodejs" style="color: inherit; text-decoration: inherit;">nlu<wbr>Intent<wbr>Confidence<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -846,7 +846,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#processbehavior_nodejs" style="color: inherit; text-decoration: inherit;">process<wbr>Behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -857,7 +857,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#voiceid_nodejs" style="color: inherit; text-decoration: inherit;">voice<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -886,7 +886,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#child_directed_python" style="color: inherit; text-decoration: inherit;">child_<wbr>directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -919,7 +919,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#create_version_python" style="color: inherit; text-decoration: inherit;">create_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -930,7 +930,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -941,7 +941,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#detect_sentiment_python" style="color: inherit; text-decoration: inherit;">detect_<wbr>sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -952,7 +952,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#enable_model_improvements_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>model_<wbr>improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -963,7 +963,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#idle_session_ttl_in_seconds_python" style="color: inherit; text-decoration: inherit;">idle_<wbr>session_<wbr>ttl_<wbr>in_<wbr>seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -974,7 +974,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#locale_python" style="color: inherit; text-decoration: inherit;">locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -985,7 +985,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -996,7 +996,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#nlu_intent_confidence_threshold_python" style="color: inherit; text-decoration: inherit;">nlu_<wbr>intent_<wbr>confidence_<wbr>threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
+        <span class="property-type">float</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -1007,7 +1007,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#process_behavior_python" style="color: inherit; text-decoration: inherit;">process_<wbr>behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -1018,7 +1018,7 @@ The Bot resource accepts the following [input]({{< relref "/docs/intro/concepts/
 <a href="#voice_id_python" style="color: inherit; text-decoration: inherit;">voice_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -1047,7 +1047,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1057,7 +1057,7 @@ All [input](#inputs) properties are implicitly available as output properties. A
 <a href="#checksum_csharp" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -1069,7 +1069,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#createddate_csharp" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -1080,7 +1080,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#failurereason_csharp" style="color: inherit; text-decoration: inherit;">Failure<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -1091,7 +1091,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1101,7 +1101,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#lastupdateddate_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -1112,7 +1112,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -1126,7 +1126,7 @@ failure_reason response element.
 <a href="#version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1144,7 +1144,7 @@ failure_reason response element.
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1154,7 +1154,7 @@ failure_reason response element.
 <a href="#checksum_go" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -1166,7 +1166,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#createddate_go" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -1177,7 +1177,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#failurereason_go" style="color: inherit; text-decoration: inherit;">Failure<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -1188,7 +1188,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1198,7 +1198,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#lastupdateddate_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -1209,7 +1209,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -1223,7 +1223,7 @@ failure_reason response element.
 <a href="#version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1241,7 +1241,7 @@ failure_reason response element.
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1251,7 +1251,7 @@ failure_reason response element.
 <a href="#checksum_nodejs" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -1263,7 +1263,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#createddate_nodejs" style="color: inherit; text-decoration: inherit;">created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -1274,7 +1274,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#failurereason_nodejs" style="color: inherit; text-decoration: inherit;">failure<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -1285,7 +1285,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1295,7 +1295,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#lastupdateddate_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -1306,7 +1306,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -1320,7 +1320,7 @@ failure_reason response element.
 <a href="#version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1338,7 +1338,7 @@ failure_reason response element.
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1348,7 +1348,7 @@ failure_reason response element.
 <a href="#checksum_python" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -1360,7 +1360,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#created_date_python" style="color: inherit; text-decoration: inherit;">created_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -1371,7 +1371,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#failure_reason_python" style="color: inherit; text-decoration: inherit;">failure_<wbr>reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -1382,7 +1382,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.{{% /md %}}</dd>
 
@@ -1392,7 +1392,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#last_updated_date_python" style="color: inherit; text-decoration: inherit;">last_<wbr>updated_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -1403,7 +1403,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -1417,7 +1417,7 @@ failure_reason response element.
 <a href="#version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1437,7 +1437,7 @@ Get an existing Bot resource's state with the given name, ID, and optional extra
 {{< chooser language "typescript,python,go,csharp" / >}}
 
 {{% choosable language nodejs %}}
-<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#BotState">BotState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Bot">Bot</a></span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">public static </span><span class="nf">get</span><span class="p">(</span><span class="nx">name</span><span class="p">:</span> <span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p">:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#ID">Input&lt;ID&gt;</a></span><span class="p">, </span><span class="nx">state</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#BotState">BotState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p">?:</span> <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#CustomResourceOptions">CustomResourceOptions</a></span><span class="p">): </span><span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/lex/#Bot">Bot</a></span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language python %}}
@@ -1446,11 +1446,11 @@ Get an existing Bot resource's state with the given name, ID, and optional extra
 {{% /choosable %}}
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetBot<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx"><a href="https://golang.org/pkg/builtin/#string">string</a></span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#BotState">BotState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Bot">Bot</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetBot<span class="p">(</span><span class="nx">ctx</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">name</span><span class="p"> </span><span class="nx">string</span><span class="p">, </span><span class="nx">id</span><span class="p"> </span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#IDInput">IDInput</a></span><span class="p">, </span><span class="nx">state</span><span class="p"> *</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#BotState">BotState</a></span><span class="p">, </span><span class="nx">opts</span><span class="p"> ...</span><span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v3/go/pulumi?tab=doc#ResourceOption">ResourceOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v3/go/aws/lex?tab=doc#Bot">Bot</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language csharp %}}
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Bot.html">Bot</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.BotState.html">BotState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">public static </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.Bot.html">Bot</a></span><span class="nf"> Get</span><span class="p">(</span><span class="nx">string</span><span class="p"> </span><span class="nx">name<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.Input-1.html">Input&lt;string&gt;</a></span><span class="p"> </span><span class="nx">id<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi.Aws/Pulumi.Aws.Lex.BotState.html">BotState</a></span><span class="p">? </span><span class="nx">state<span class="p">, </span><span class="nx"><a href="/docs/reference/pkg/dotnet/Pulumi/Pulumi.CustomResourceOptions.html">CustomResourceOptions</a></span><span class="p">? </span><span class="nx">opts = null<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language nodejs %}}
@@ -1573,7 +1573,7 @@ The following state arguments are supported:
 <a href="#state_arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1583,7 +1583,7 @@ The following state arguments are supported:
 <a href="#state_checksum_csharp" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -1595,7 +1595,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_childdirected_csharp" style="color: inherit; text-decoration: inherit;">Child<wbr>Directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -1617,7 +1617,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_createversion_csharp" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1628,7 +1628,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_createddate_csharp" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -1639,7 +1639,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_description_csharp" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -1650,7 +1650,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_detectsentiment_csharp" style="color: inherit; text-decoration: inherit;">Detect<wbr>Sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -1661,7 +1661,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_enablemodelimprovements_csharp" style="color: inherit; text-decoration: inherit;">Enable<wbr>Model<wbr>Improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -1672,7 +1672,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_failurereason_csharp" style="color: inherit; text-decoration: inherit;">Failure<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -1683,7 +1683,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_idlesessionttlinseconds_csharp" style="color: inherit; text-decoration: inherit;">Idle<wbr>Session<wbr>Ttl<wbr>In<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -1705,7 +1705,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_lastupdateddate_csharp" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -1716,7 +1716,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_locale_csharp" style="color: inherit; text-decoration: inherit;">Locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -1727,7 +1727,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_name_csharp" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -1738,7 +1738,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_nluintentconfidencethreshold_csharp" style="color: inherit; text-decoration: inherit;">Nlu<wbr>Intent<wbr>Confidence<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">double</a></span>
+        <span class="property-type">double</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -1749,7 +1749,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_processbehavior_csharp" style="color: inherit; text-decoration: inherit;">Process<wbr>Behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -1760,7 +1760,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_status_csharp" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -1774,7 +1774,7 @@ failure_reason response element.
 <a href="#state_version_csharp" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -1785,7 +1785,7 @@ failure_reason response element.
 <a href="#state_voiceid_csharp" style="color: inherit; text-decoration: inherit;">Voice<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -1814,7 +1814,7 @@ failure_reason response element.
 <a href="#state_arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1824,7 +1824,7 @@ failure_reason response element.
 <a href="#state_checksum_go" style="color: inherit; text-decoration: inherit;">Checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -1836,7 +1836,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_childdirected_go" style="color: inherit; text-decoration: inherit;">Child<wbr>Directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -1858,7 +1858,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_createversion_go" style="color: inherit; text-decoration: inherit;">Create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -1869,7 +1869,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_createddate_go" style="color: inherit; text-decoration: inherit;">Created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -1880,7 +1880,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_description_go" style="color: inherit; text-decoration: inherit;">Description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -1891,7 +1891,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_detectsentiment_go" style="color: inherit; text-decoration: inherit;">Detect<wbr>Sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -1902,7 +1902,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_enablemodelimprovements_go" style="color: inherit; text-decoration: inherit;">Enable<wbr>Model<wbr>Improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -1913,7 +1913,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_failurereason_go" style="color: inherit; text-decoration: inherit;">Failure<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -1924,7 +1924,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_idlesessionttlinseconds_go" style="color: inherit; text-decoration: inherit;">Idle<wbr>Session<wbr>Ttl<wbr>In<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -1946,7 +1946,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_lastupdateddate_go" style="color: inherit; text-decoration: inherit;">Last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -1957,7 +1957,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_locale_go" style="color: inherit; text-decoration: inherit;">Locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -1968,7 +1968,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_name_go" style="color: inherit; text-decoration: inherit;">Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -1979,7 +1979,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_nluintentconfidencethreshold_go" style="color: inherit; text-decoration: inherit;">Nlu<wbr>Intent<wbr>Confidence<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#number">float64</a></span>
+        <span class="property-type">float64</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -1990,7 +1990,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_processbehavior_go" style="color: inherit; text-decoration: inherit;">Process<wbr>Behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -2001,7 +2001,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_status_go" style="color: inherit; text-decoration: inherit;">Status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -2015,7 +2015,7 @@ failure_reason response element.
 <a href="#state_version_go" style="color: inherit; text-decoration: inherit;">Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -2026,7 +2026,7 @@ failure_reason response element.
 <a href="#state_voiceid_go" style="color: inherit; text-decoration: inherit;">Voice<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -2055,7 +2055,7 @@ failure_reason response element.
 <a href="#state_arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2065,7 +2065,7 @@ failure_reason response element.
 <a href="#state_checksum_nodejs" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -2077,7 +2077,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_childdirected_nodejs" style="color: inherit; text-decoration: inherit;">child<wbr>Directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -2099,7 +2099,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_createversion_nodejs" style="color: inherit; text-decoration: inherit;">create<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2110,7 +2110,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_createddate_nodejs" style="color: inherit; text-decoration: inherit;">created<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -2121,7 +2121,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_description_nodejs" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -2132,7 +2132,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_detectsentiment_nodejs" style="color: inherit; text-decoration: inherit;">detect<wbr>Sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -2143,7 +2143,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_enablemodelimprovements_nodejs" style="color: inherit; text-decoration: inherit;">enable<wbr>Model<wbr>Improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+        <span class="property-type">boolean</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -2154,7 +2154,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_failurereason_nodejs" style="color: inherit; text-decoration: inherit;">failure<wbr>Reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -2165,7 +2165,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_idlesessionttlinseconds_nodejs" style="color: inherit; text-decoration: inherit;">idle<wbr>Session<wbr>Ttl<wbr>In<wbr>Seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -2187,7 +2187,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_lastupdateddate_nodejs" style="color: inherit; text-decoration: inherit;">last<wbr>Updated<wbr>Date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -2198,7 +2198,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_locale_nodejs" style="color: inherit; text-decoration: inherit;">locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -2209,7 +2209,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_name_nodejs" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -2220,7 +2220,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_nluintentconfidencethreshold_nodejs" style="color: inherit; text-decoration: inherit;">nlu<wbr>Intent<wbr>Confidence<wbr>Threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -2231,7 +2231,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_processbehavior_nodejs" style="color: inherit; text-decoration: inherit;">process<wbr>Behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -2242,7 +2242,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_status_nodejs" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -2256,7 +2256,7 @@ failure_reason response element.
 <a href="#state_version_nodejs" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -2267,7 +2267,7 @@ failure_reason response element.
 <a href="#state_voiceid_nodejs" style="color: inherit; text-decoration: inherit;">voice<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -2296,7 +2296,7 @@ failure_reason response element.
 <a href="#state_arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -2306,7 +2306,7 @@ failure_reason response element.
 <a href="#state_checksum_python" style="color: inherit; text-decoration: inherit;">checksum</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Checksum identifying the version of the bot that was created. The checksum is not
 included as an argument because the resource will add it automatically when updating the bot.
@@ -2318,7 +2318,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_child_directed_python" style="color: inherit; text-decoration: inherit;">child_<wbr>directed</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}By specifying true, you confirm that your use of Amazon Lex is related to a website, program, or other application that is directed or targeted, in whole or in part, to children under age 13 and subject to COPPA. For more information see the [Amazon Lex FAQ](https://aws.amazon.com/lex/faqs#data-security) and the [Amazon Lex PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-childDirected).
 {{% /md %}}</dd>
@@ -2340,7 +2340,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_create_version_python" style="color: inherit; text-decoration: inherit;">create_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Determines if a new bot version is created when the initial resource is created and on each update. Defaults to `false`.
 {{% /md %}}</dd>
@@ -2351,7 +2351,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_created_date_python" style="color: inherit; text-decoration: inherit;">created_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the bot version was created.
 {{% /md %}}</dd>
@@ -2362,7 +2362,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_description_python" style="color: inherit; text-decoration: inherit;">description</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}A description of the bot. Must be less than or equal to 200 characters in length.
 {{% /md %}}</dd>
@@ -2373,7 +2373,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_detect_sentiment_python" style="color: inherit; text-decoration: inherit;">detect_<wbr>sentiment</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}When set to true user utterances are sent to Amazon Comprehend for sentiment analysis. If you don't specify detectSentiment, the default is `false`.
 {{% /md %}}</dd>
@@ -2384,7 +2384,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_enable_model_improvements_python" style="color: inherit; text-decoration: inherit;">enable_<wbr>model_<wbr>improvements</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+        <span class="property-type">bool</span>
     </dt>
     <dd>{{% md %}}Set to `true` to enable access to natural language understanding improvements. When you set the `enable_model_improvements` parameter to true you can use the `nlu_intent_confidence_threshold` parameter to configure confidence scores. For more information, see [Confidence Scores](https://docs.aws.amazon.com/lex/latest/dg/confidence-scores.html). You can only set the `enable_model_improvements` parameter in certain Regions. If you set the parameter to true, your bot has access to accuracy improvements. For more information see the [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-enableModelImprovements).
 {{% /md %}}</dd>
@@ -2395,7 +2395,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_failure_reason_python" style="color: inherit; text-decoration: inherit;">failure_<wbr>reason</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If status is FAILED, Amazon Lex provides the reason that it failed to build the bot.
 {{% /md %}}</dd>
@@ -2406,7 +2406,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_idle_session_ttl_in_seconds_python" style="color: inherit; text-decoration: inherit;">idle_<wbr>session_<wbr>ttl_<wbr>in_<wbr>seconds</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The maximum time in seconds that Amazon Lex retains the data gathered in a conversation. Default is `300`. Must be a number between 60 and 86400 (inclusive).
 {{% /md %}}</dd>
@@ -2428,7 +2428,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_last_updated_date_python" style="color: inherit; text-decoration: inherit;">last_<wbr>updated_<wbr>date</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The date when the $LATEST version of this bot was updated.
 {{% /md %}}</dd>
@@ -2439,7 +2439,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_locale_python" style="color: inherit; text-decoration: inherit;">locale</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the target locale for the bot. Any intent used in the bot must be compatible with the locale of the bot. For available locales, see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-locale). Default is `en-US`.
 {{% /md %}}</dd>
@@ -2450,7 +2450,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_name_python" style="color: inherit; text-decoration: inherit;">name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the bot that you want to create, case sensitive. Must be between 2 and 50 characters in length.
 {{% /md %}}</dd>
@@ -2461,7 +2461,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_nlu_intent_confidence_threshold_python" style="color: inherit; text-decoration: inherit;">nlu_<wbr>intent_<wbr>confidence_<wbr>threshold</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
+        <span class="property-type">float</span>
     </dt>
     <dd>{{% md %}}Determines the threshold where Amazon Lex will insert the AMAZON.FallbackIntent, AMAZON.KendraSearchIntent, or both when returning alternative intents in a PostContent or PostText response. AMAZON.FallbackIntent and AMAZON.KendraSearchIntent are only inserted if they are configured for the bot. For more information see [Amazon Lex Bot PutBot API Docs](https://docs.aws.amazon.com/lex/latest/dg/API_PutBot.html#lex-PutBot-request-nluIntentConfidenceThreshold) This value requires `enable_model_improvements` to be set to `true` and the default is `0`. Must be a float between 0 and 1.
 {{% /md %}}</dd>
@@ -2472,7 +2472,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_process_behavior_python" style="color: inherit; text-decoration: inherit;">process_<wbr>behavior</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}If you set the `process_behavior` element to `BUILD`, Amazon Lex builds the bot so that it can be run. If you set the element to `SAVE` Amazon Lex saves the bot, but doesn't build it. Default is `SAVE`.
 {{% /md %}}</dd>
@@ -2483,7 +2483,7 @@ included as an argument because the resource will add it automatically when upda
 <a href="#state_status_python" style="color: inherit; text-decoration: inherit;">status</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}When you send a request to create or update a bot, Amazon Lex sets the status response
 element to BUILDING. After Amazon Lex builds the bot, it sets status to READY. If Amazon Lex can't
@@ -2497,7 +2497,7 @@ failure_reason response element.
 <a href="#state_version_python" style="color: inherit; text-decoration: inherit;">version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the bot.
 {{% /md %}}</dd>
@@ -2508,7 +2508,7 @@ failure_reason response element.
 <a href="#state_voice_id_python" style="color: inherit; text-decoration: inherit;">voice_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Amazon Polly voice ID that you want Amazon Lex to use for voice interactions with the user. The locale configured for the voice must match the locale of the bot. For more information, see [Available Voices](http://docs.aws.amazon.com/polly/latest/dg/voicelist.html) in the Amazon Polly Developer Guide.
 {{% /md %}}</dd>
@@ -2565,7 +2565,7 @@ are documented under message.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2598,7 +2598,7 @@ are documented under message.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2631,7 +2631,7 @@ are documented under message.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2664,7 +2664,7 @@ are documented under message.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2702,7 +2702,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -2713,7 +2713,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2724,7 +2724,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -2743,7 +2743,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -2754,7 +2754,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2765,7 +2765,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -2784,7 +2784,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -2795,7 +2795,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2806,7 +2806,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -2825,7 +2825,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -2836,7 +2836,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -2847,7 +2847,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -2884,7 +2884,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#maxattempts_csharp" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information.
 {{% /md %}}</dd>
@@ -2908,7 +2908,7 @@ are documented under message.
 <a href="#responsecard_csharp" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2928,7 +2928,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_go" style="color: inherit; text-decoration: inherit;">Max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information.
 {{% /md %}}</dd>
@@ -2952,7 +2952,7 @@ are documented under message.
 <a href="#responsecard_go" style="color: inherit; text-decoration: inherit;">Response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -2972,7 +2972,7 @@ slot values into the response card. For more information, see
 <a href="#maxattempts_nodejs" style="color: inherit; text-decoration: inherit;">max<wbr>Attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information.
 {{% /md %}}</dd>
@@ -2996,7 +2996,7 @@ are documented under message.
 <a href="#responsecard_nodejs" style="color: inherit; text-decoration: inherit;">response<wbr>Card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3016,7 +3016,7 @@ slot values into the response card. For more information, see
 <a href="#max_attempts_python" style="color: inherit; text-decoration: inherit;">max_<wbr>attempts</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of times to prompt the user for information.
 {{% /md %}}</dd>
@@ -3040,7 +3040,7 @@ are documented under message.
 <a href="#response_card_python" style="color: inherit; text-decoration: inherit;">response_<wbr>card</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The response card. Amazon Lex will substitute session attributes and
 slot values into the response card. For more information, see
@@ -3078,7 +3078,7 @@ slot values into the response card. For more information, see
 <a href="#content_csharp" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -3089,7 +3089,7 @@ slot values into the response card. For more information, see
 <a href="#contenttype_csharp" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3100,7 +3100,7 @@ slot values into the response card. For more information, see
 <a href="#groupnumber_csharp" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -3119,7 +3119,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_go" style="color: inherit; text-decoration: inherit;">Content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -3130,7 +3130,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_go" style="color: inherit; text-decoration: inherit;">Content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3141,7 +3141,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_go" style="color: inherit; text-decoration: inherit;">Group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -3160,7 +3160,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_nodejs" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -3171,7 +3171,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#contenttype_nodejs" style="color: inherit; text-decoration: inherit;">content<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3182,7 +3182,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#groupnumber_nodejs" style="color: inherit; text-decoration: inherit;">group<wbr>Number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -3201,7 +3201,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_python" style="color: inherit; text-decoration: inherit;">content</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The text of the message.
 {{% /md %}}</dd>
@@ -3212,7 +3212,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#content_type_python" style="color: inherit; text-decoration: inherit;">content_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The content type of the message string.
 {{% /md %}}</dd>
@@ -3223,7 +3223,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#group_number_python" style="color: inherit; text-decoration: inherit;">group_<wbr>number</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}Identifies the message group that the message belongs to. When a group
 is assigned to a message, Amazon Lex returns one message from each group in the response.
@@ -3260,7 +3260,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intentname_csharp" style="color: inherit; text-decoration: inherit;">Intent<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -3271,7 +3271,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intentversion_csharp" style="color: inherit; text-decoration: inherit;">Intent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the intent. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -3289,7 +3289,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intentname_go" style="color: inherit; text-decoration: inherit;">Intent<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -3300,7 +3300,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intentversion_go" style="color: inherit; text-decoration: inherit;">Intent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the intent. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -3318,7 +3318,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intentname_nodejs" style="color: inherit; text-decoration: inherit;">intent<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The name of the intent. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -3329,7 +3329,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intentversion_nodejs" style="color: inherit; text-decoration: inherit;">intent<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The version of the intent. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>
@@ -3347,7 +3347,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intent_name_python" style="color: inherit; text-decoration: inherit;">intent_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The name of the intent. Must be less than or equal to 100 characters in length.
 {{% /md %}}</dd>
@@ -3358,7 +3358,7 @@ is assigned to a message, Amazon Lex returns one message from each group in the 
 <a href="#intent_version_python" style="color: inherit; text-decoration: inherit;">intent_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The version of the intent. Must be less than or equal to 64 characters in length.
 {{% /md %}}</dd>

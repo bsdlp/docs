@@ -132,7 +132,7 @@ The following arguments are supported:
 <a href="#clusterid_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Group identifier.
 {{% /md %}}</dd>
@@ -161,7 +161,7 @@ The following arguments are supported:
 <a href="#clusterid_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Group identifier.
 {{% /md %}}</dd>
@@ -190,7 +190,7 @@ The following arguments are supported:
 <a href="#clusterid_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Group identifier.
 {{% /md %}}</dd>
@@ -219,7 +219,7 @@ The following arguments are supported:
 <a href="#cluster_id_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Group identifier.
 {{% /md %}}</dd>
@@ -261,7 +261,7 @@ The following output properties are available:
 <a href="#arn_csharp" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -271,7 +271,7 @@ The following output properties are available:
 <a href="#availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -294,7 +294,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#clusteraddress_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The DNS name of the cache cluster without the port appended.
 {{% /md %}}</dd>
@@ -305,7 +305,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#clusterid_csharp" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -315,7 +315,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#configurationendpoint_csharp" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The configuration endpoint to allow host discovery.
 {{% /md %}}</dd>
@@ -326,7 +326,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engine_csharp" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the cache engine.
 {{% /md %}}</dd>
@@ -337,7 +337,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engineversion_csharp" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version number of the cache engine.
 {{% /md %}}</dd>
@@ -348,7 +348,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -359,7 +359,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#maintenancewindow_csharp" style="color: inherit; text-decoration: inherit;">Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the weekly time range for when maintenance
 on the cache cluster is performed.
@@ -371,7 +371,7 @@ on the cache cluster is performed.
 <a href="#nodetype_csharp" style="color: inherit; text-decoration: inherit;">Node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster node type.
 {{% /md %}}</dd>
@@ -382,7 +382,7 @@ on the cache cluster is performed.
 <a href="#notificationtopicarn_csharp" style="color: inherit; text-decoration: inherit;">Notification<wbr>Topic<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An Amazon Resource Name (ARN) of an
 SNS topic that ElastiCache notifications get sent to.
@@ -394,7 +394,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#numcachenodes_csharp" style="color: inherit; text-decoration: inherit;">Num<wbr>Cache<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of cache nodes that the cache cluster has.
 {{% /md %}}</dd>
@@ -405,7 +405,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#parametergroupname_csharp" style="color: inherit; text-decoration: inherit;">Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the parameter group associated with this cache cluster.
 {{% /md %}}</dd>
@@ -416,7 +416,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -428,7 +428,7 @@ accept connections.
 <a href="#replicationgroupid_csharp" style="color: inherit; text-decoration: inherit;">Replication<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The replication group to which this cache cluster belongs.
 {{% /md %}}</dd>
@@ -439,7 +439,7 @@ accept connections.
 <a href="#securitygroupids_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List VPC security groups associated with the cache cluster.
 {{% /md %}}</dd>
@@ -450,7 +450,7 @@ accept connections.
 <a href="#securitygroupnames_csharp" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">List&lt;string&gt;</a></span>
+        <span class="property-type">List&lt;string&gt;</span>
     </dt>
     <dd>{{% md %}}List of security group names associated with this cache cluster.
 {{% /md %}}</dd>
@@ -461,7 +461,7 @@ accept connections.
 <a href="#snapshotretentionlimit_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Retention<wbr>Limit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days for which ElastiCache will
 retain automatic cache cluster snapshots before deleting them.
@@ -473,7 +473,7 @@ retain automatic cache cluster snapshots before deleting them.
 <a href="#snapshotwindow_csharp" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which ElastiCache will
 begin taking a daily snapshot of the cache cluster.
@@ -485,7 +485,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#subnetgroupname_csharp" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the subnet group associated to the cache cluster.
 {{% /md %}}</dd>
@@ -514,7 +514,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#arn_go" style="color: inherit; text-decoration: inherit;">Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -524,7 +524,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -547,7 +547,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#clusteraddress_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The DNS name of the cache cluster without the port appended.
 {{% /md %}}</dd>
@@ -558,7 +558,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#clusterid_go" style="color: inherit; text-decoration: inherit;">Cluster<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -568,7 +568,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#configurationendpoint_go" style="color: inherit; text-decoration: inherit;">Configuration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The configuration endpoint to allow host discovery.
 {{% /md %}}</dd>
@@ -579,7 +579,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engine_go" style="color: inherit; text-decoration: inherit;">Engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the cache engine.
 {{% /md %}}</dd>
@@ -590,7 +590,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engineversion_go" style="color: inherit; text-decoration: inherit;">Engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version number of the cache engine.
 {{% /md %}}</dd>
@@ -601,7 +601,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -612,7 +612,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#maintenancewindow_go" style="color: inherit; text-decoration: inherit;">Maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the weekly time range for when maintenance
 on the cache cluster is performed.
@@ -624,7 +624,7 @@ on the cache cluster is performed.
 <a href="#nodetype_go" style="color: inherit; text-decoration: inherit;">Node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster node type.
 {{% /md %}}</dd>
@@ -635,7 +635,7 @@ on the cache cluster is performed.
 <a href="#notificationtopicarn_go" style="color: inherit; text-decoration: inherit;">Notification<wbr>Topic<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An Amazon Resource Name (ARN) of an
 SNS topic that ElastiCache notifications get sent to.
@@ -647,7 +647,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#numcachenodes_go" style="color: inherit; text-decoration: inherit;">Num<wbr>Cache<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of cache nodes that the cache cluster has.
 {{% /md %}}</dd>
@@ -658,7 +658,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#parametergroupname_go" style="color: inherit; text-decoration: inherit;">Parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the parameter group associated with this cache cluster.
 {{% /md %}}</dd>
@@ -669,7 +669,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -681,7 +681,7 @@ accept connections.
 <a href="#replicationgroupid_go" style="color: inherit; text-decoration: inherit;">Replication<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The replication group to which this cache cluster belongs.
 {{% /md %}}</dd>
@@ -692,7 +692,7 @@ accept connections.
 <a href="#securitygroupids_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List VPC security groups associated with the cache cluster.
 {{% /md %}}</dd>
@@ -703,7 +703,7 @@ accept connections.
 <a href="#securitygroupnames_go" style="color: inherit; text-decoration: inherit;">Security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">[]string</a></span>
+        <span class="property-type">[]string</span>
     </dt>
     <dd>{{% md %}}List of security group names associated with this cache cluster.
 {{% /md %}}</dd>
@@ -714,7 +714,7 @@ accept connections.
 <a href="#snapshotretentionlimit_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Retention<wbr>Limit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days for which ElastiCache will
 retain automatic cache cluster snapshots before deleting them.
@@ -726,7 +726,7 @@ retain automatic cache cluster snapshots before deleting them.
 <a href="#snapshotwindow_go" style="color: inherit; text-decoration: inherit;">Snapshot<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which ElastiCache will
 begin taking a daily snapshot of the cache cluster.
@@ -738,7 +738,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#subnetgroupname_go" style="color: inherit; text-decoration: inherit;">Subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the subnet group associated to the cache cluster.
 {{% /md %}}</dd>
@@ -767,7 +767,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#arn_nodejs" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -777,7 +777,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -800,7 +800,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#clusteraddress_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The DNS name of the cache cluster without the port appended.
 {{% /md %}}</dd>
@@ -811,7 +811,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#clusterid_nodejs" style="color: inherit; text-decoration: inherit;">cluster<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -821,7 +821,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#configurationendpoint_nodejs" style="color: inherit; text-decoration: inherit;">configuration<wbr>Endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The configuration endpoint to allow host discovery.
 {{% /md %}}</dd>
@@ -832,7 +832,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engine_nodejs" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the cache engine.
 {{% /md %}}</dd>
@@ -843,7 +843,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engineversion_nodejs" style="color: inherit; text-decoration: inherit;">engine<wbr>Version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Version number of the cache engine.
 {{% /md %}}</dd>
@@ -854,7 +854,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -865,7 +865,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#maintenancewindow_nodejs" style="color: inherit; text-decoration: inherit;">maintenance<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Specifies the weekly time range for when maintenance
 on the cache cluster is performed.
@@ -877,7 +877,7 @@ on the cache cluster is performed.
 <a href="#nodetype_nodejs" style="color: inherit; text-decoration: inherit;">node<wbr>Type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The cluster node type.
 {{% /md %}}</dd>
@@ -888,7 +888,7 @@ on the cache cluster is performed.
 <a href="#notificationtopicarn_nodejs" style="color: inherit; text-decoration: inherit;">notification<wbr>Topic<wbr>Arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}An Amazon Resource Name (ARN) of an
 SNS topic that ElastiCache notifications get sent to.
@@ -900,7 +900,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#numcachenodes_nodejs" style="color: inherit; text-decoration: inherit;">num<wbr>Cache<wbr>Nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of cache nodes that the cache cluster has.
 {{% /md %}}</dd>
@@ -911,7 +911,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#parametergroupname_nodejs" style="color: inherit; text-decoration: inherit;">parameter<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the parameter group associated with this cache cluster.
 {{% /md %}}</dd>
@@ -922,7 +922,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -934,7 +934,7 @@ accept connections.
 <a href="#replicationgroupid_nodejs" style="color: inherit; text-decoration: inherit;">replication<wbr>Group<wbr>Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The replication group to which this cache cluster belongs.
 {{% /md %}}</dd>
@@ -945,7 +945,7 @@ accept connections.
 <a href="#securitygroupids_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List VPC security groups associated with the cache cluster.
 {{% /md %}}</dd>
@@ -956,7 +956,7 @@ accept connections.
 <a href="#securitygroupnames_nodejs" style="color: inherit; text-decoration: inherit;">security<wbr>Group<wbr>Names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string[]</a></span>
+        <span class="property-type">string[]</span>
     </dt>
     <dd>{{% md %}}List of security group names associated with this cache cluster.
 {{% /md %}}</dd>
@@ -967,7 +967,7 @@ accept connections.
 <a href="#snapshotretentionlimit_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Retention<wbr>Limit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The number of days for which ElastiCache will
 retain automatic cache cluster snapshots before deleting them.
@@ -979,7 +979,7 @@ retain automatic cache cluster snapshots before deleting them.
 <a href="#snapshotwindow_nodejs" style="color: inherit; text-decoration: inherit;">snapshot<wbr>Window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which ElastiCache will
 begin taking a daily snapshot of the cache cluster.
@@ -991,7 +991,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#subnetgroupname_nodejs" style="color: inherit; text-decoration: inherit;">subnet<wbr>Group<wbr>Name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}Name of the subnet group associated to the cache cluster.
 {{% /md %}}</dd>
@@ -1020,7 +1020,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#arn_python" style="color: inherit; text-decoration: inherit;">arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1030,7 +1030,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -1053,7 +1053,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#cluster_address_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The DNS name of the cache cluster without the port appended.
 {{% /md %}}</dd>
@@ -1064,7 +1064,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#cluster_id_python" style="color: inherit; text-decoration: inherit;">cluster_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1074,7 +1074,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#configuration_endpoint_python" style="color: inherit; text-decoration: inherit;">configuration_<wbr>endpoint</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}(Memcached only) The configuration endpoint to allow host discovery.
 {{% /md %}}</dd>
@@ -1085,7 +1085,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engine_python" style="color: inherit; text-decoration: inherit;">engine</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the cache engine.
 {{% /md %}}</dd>
@@ -1096,7 +1096,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#engine_version_python" style="color: inherit; text-decoration: inherit;">engine_<wbr>version</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Version number of the cache engine.
 {{% /md %}}</dd>
@@ -1107,7 +1107,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The provider-assigned unique ID for this managed resource.
 {{% /md %}}</dd>
@@ -1118,7 +1118,7 @@ Referenceable e.g. as `${data.aws_elasticache_cluster.bar.cache_nodes.0.address}
 <a href="#maintenance_window_python" style="color: inherit; text-decoration: inherit;">maintenance_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Specifies the weekly time range for when maintenance
 on the cache cluster is performed.
@@ -1130,7 +1130,7 @@ on the cache cluster is performed.
 <a href="#node_type_python" style="color: inherit; text-decoration: inherit;">node_<wbr>type</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The cluster node type.
 {{% /md %}}</dd>
@@ -1141,7 +1141,7 @@ on the cache cluster is performed.
 <a href="#notification_topic_arn_python" style="color: inherit; text-decoration: inherit;">notification_<wbr>topic_<wbr>arn</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}An Amazon Resource Name (ARN) of an
 SNS topic that ElastiCache notifications get sent to.
@@ -1153,7 +1153,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#num_cache_nodes_python" style="color: inherit; text-decoration: inherit;">num_<wbr>cache_<wbr>nodes</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of cache nodes that the cache cluster has.
 {{% /md %}}</dd>
@@ -1164,7 +1164,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#parameter_group_name_python" style="color: inherit; text-decoration: inherit;">parameter_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the parameter group associated with this cache cluster.
 {{% /md %}}</dd>
@@ -1175,7 +1175,7 @@ SNS topic that ElastiCache notifications get sent to.
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -1187,7 +1187,7 @@ accept connections.
 <a href="#replication_group_id_python" style="color: inherit; text-decoration: inherit;">replication_<wbr>group_<wbr>id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The replication group to which this cache cluster belongs.
 {{% /md %}}</dd>
@@ -1198,7 +1198,7 @@ accept connections.
 <a href="#security_group_ids_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>ids</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List VPC security groups associated with the cache cluster.
 {{% /md %}}</dd>
@@ -1209,7 +1209,7 @@ accept connections.
 <a href="#security_group_names_python" style="color: inherit; text-decoration: inherit;">security_<wbr>group_<wbr>names</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">Sequence[str]</a></span>
+        <span class="property-type">Sequence[str]</span>
     </dt>
     <dd>{{% md %}}List of security group names associated with this cache cluster.
 {{% /md %}}</dd>
@@ -1220,7 +1220,7 @@ accept connections.
 <a href="#snapshot_retention_limit_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>retention_<wbr>limit</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The number of days for which ElastiCache will
 retain automatic cache cluster snapshots before deleting them.
@@ -1232,7 +1232,7 @@ retain automatic cache cluster snapshots before deleting them.
 <a href="#snapshot_window_python" style="color: inherit; text-decoration: inherit;">snapshot_<wbr>window</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The daily time range (in UTC) during which ElastiCache will
 begin taking a daily snapshot of the cache cluster.
@@ -1244,7 +1244,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#subnet_group_name_python" style="color: inherit; text-decoration: inherit;">subnet_<wbr>group_<wbr>name</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}Name of the subnet group associated to the cache cluster.
 {{% /md %}}</dd>
@@ -1297,7 +1297,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#address_csharp" style="color: inherit; text-decoration: inherit;">Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1307,7 +1307,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#availabilityzone_csharp" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -1318,7 +1318,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#id_csharp" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1328,7 +1328,7 @@ begin taking a daily snapshot of the cache cluster.
 <a href="#port_csharp" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -1347,7 +1347,7 @@ accept connections.
 <a href="#address_go" style="color: inherit; text-decoration: inherit;">Address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1357,7 +1357,7 @@ accept connections.
 <a href="#availabilityzone_go" style="color: inherit; text-decoration: inherit;">Availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -1368,7 +1368,7 @@ accept connections.
 <a href="#id_go" style="color: inherit; text-decoration: inherit;">Id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1378,7 +1378,7 @@ accept connections.
 <a href="#port_go" style="color: inherit; text-decoration: inherit;">Port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://golang.org/pkg/builtin/#integer">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -1397,7 +1397,7 @@ accept connections.
 <a href="#address_nodejs" style="color: inherit; text-decoration: inherit;">address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1407,7 +1407,7 @@ accept connections.
 <a href="#availabilityzone_nodejs" style="color: inherit; text-decoration: inherit;">availability<wbr>Zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -1418,7 +1418,7 @@ accept connections.
 <a href="#id_nodejs" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+        <span class="property-type">string</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1428,7 +1428,7 @@ accept connections.
 <a href="#port_nodejs" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/integer">number</a></span>
+        <span class="property-type">number</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
@@ -1447,7 +1447,7 @@ accept connections.
 <a href="#address_python" style="color: inherit; text-decoration: inherit;">address</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1457,7 +1457,7 @@ accept connections.
 <a href="#availability_zone_python" style="color: inherit; text-decoration: inherit;">availability_<wbr>zone</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}The Availability Zone for the cache cluster.
 {{% /md %}}</dd>
@@ -1468,7 +1468,7 @@ accept connections.
 <a href="#id_python" style="color: inherit; text-decoration: inherit;">id</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+        <span class="property-type">str</span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
 
@@ -1478,7 +1478,7 @@ accept connections.
 <a href="#port_python" style="color: inherit; text-decoration: inherit;">port</a>
 </span> 
         <span class="property-indicator"></span>
-        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">int</a></span>
+        <span class="property-type">int</span>
     </dt>
     <dd>{{% md %}}The port number on which each of the cache nodes will
 accept connections.
